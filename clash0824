@@ -5,57 +5,80 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 香港 01, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: 23bcde0f-3023-4760-ad8d-9957e3be9b5b, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: 7f637a26-f0eb-4ef9-b6a0-b712017e23b6, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约, server: xiaozhu.kkieo555.cn, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: 248ca52e-9ff7-4611-af43-9425a1984b05}
-  - {name: 日本01, server: xiaozhu.kkieo555.cn, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 00b66030-1777-445c-95aa-75bd36334e1e}
-  - {name: 日本02, server: xiaozhu.kkieo555.cn, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 4ceb6aff-74a8-48e3-bbe6-dcc8c0aa214e}
-  - {name: 台湾, server: xiaozhu.kkieo555.cn, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: af418ef4-a0a3-4510-9550-7b241f6d0022}
-  - {name: 美国西雅图, server: xiaozhu.kkieo555.cn, port: 30209, type: ss, cipher: chacha20-ietf-poly1305, password: c6102902-a60f-46cd-bada-902e85042d98}
-  - {name: 美国洛杉矶, server: xiaozhu.kkieo555.cn, port: 30210, type: ss, cipher: chacha20-ietf-poly1305, password: 5a98940a-7c24-4e40-ab8a-f431dc6c956f}
-  - {name: 香港 01 2, server: xiaozhu.kkieo555.cn, port: 49213, type: trojan, password: 91764361-a026-417b-862c-1b9c62d36641, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 2, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: c0450620-51db-4554-8c1a-90c69a910c90, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 2, server: xiaozhu.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: 09dababa-ac29-411a-8328-4fc45421449e}
-  - {name: 日本01 2, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 989f2b5e-9372-4f54-9ac8-1682a57ea5a3}
-  - {name: ⚡️香港 - 05  | Disney, server: cc.0000088888.cc, port: 10228, type: ss, cipher: chacha20-ietf-poly1305, password: b1e4e7a1-a8b4-4d89-a011-284864a163be}
-  - {name: ⚡️香港 - 06  | Disney, server: cc.0000088888.cc, port: 22191, type: ss, cipher: chacha20-ietf-poly1305, password: b1e4e7a1-a8b4-4d89-a011-284864a163be}
-  - {name: ⚡️香港 - 08  | Disney, server: cc.0000088888.cc, port: 10518, type: ss, cipher: chacha20-ietf-poly1305, password: b1e4e7a1-a8b4-4d89-a011-284864a163be}
-  - {name: ⚡️美国 - 01   | ChatGPT, server: cc.0000088888.cc, port: 16171, type: ss, cipher: chacha20-ietf-poly1305, password: b1e4e7a1-a8b4-4d89-a011-284864a163be}
-  - {name: ⚡️韩国 - 01   | ChatGPT, server: cc.0000088888.cc, port: 40904, type: ss, cipher: chacha20-ietf-poly1305, password: b1e4e7a1-a8b4-4d89-a011-284864a163be}
-  - {name: ⚡️香港 - 08  | Disney 2, server: cc.0000088888.cc, port: 10518, type: ss, cipher: chacha20-ietf-poly1305, password: 6cee1fee-44d4-4332-8c6c-1b8edc247a13}
-  - {name: ⚡️香港 - 07  | HBO Max, server: cc.0000088888.cc, port: 23834, type: ss, cipher: chacha20-ietf-poly1305, password: 6cee1fee-44d4-4332-8c6c-1b8edc247a13}
-  - {name: ⚡️日本 - 01   | Disney, server: cc.0000088888.cc, port: 45983, type: ss, cipher: chacha20-ietf-poly1305, password: 6cee1fee-44d4-4332-8c6c-1b8edc247a13}
-  - {name: ⚡️美国 - 04  | ChatGPT, server: cc.0000088888.cc, port: 22440, type: ss, cipher: chacha20-ietf-poly1305, password: 6cee1fee-44d4-4332-8c6c-1b8edc247a13}
-  - {name: 台湾 2, server: xiaozhu.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: 1c0c39ae-6d6a-4355-bea9-22ab02ae8a07}
-  - {name: 美国西雅图原生, server: xiaozhu.dadakkk2088.com, port: 30210, type: trojan, password: a2f40782-74ea-40c2-ac9f-9d9eedc6c2e5, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生, server: xiaozhu.dadakkk2088.com, port: 19216, type: trojan, password: a8aae536-7d1e-4a64-9381-4a7661d2f7e1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 3, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: 08194f0f-831d-4e26-80dc-6ef4308dc743, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 3, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: f5db742e-78dd-4401-bdd2-08c2cd4cdaf6, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 3, server: xiaozhu.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: 445bf0a6-ca6f-467f-988e-d28220a717b1}
-  - {name: 日本01 3, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 3636658d-d6bd-4a31-8416-d890f49a40ed}
-  - {name: 日本02 2, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: af4afaf8-d403-4085-9358-09b0e27f2f20}
-  - {name: 台湾 3, server: xiaozhu.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: 5b7aec71-c341-4871-a3be-ba0c1b2a5c45}
-  - {name: 台湾 4, server: xiaozhu.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: b76994d2-4a87-4210-968d-1773849e0adc}
-  - {name: 美国西雅图原生 2, server: xiaozhu.dadakkk2088.com, port: 30210, type: trojan, password: 1f4dd256-edf8-45dd-860f-bb9e1bd2b854, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 2, server: xiaozhu.dadakkk2088.com, port: 19216, type: trojan, password: 933b740f-4947-4422-8f44-1de26ff5c669, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: ⚡️韩国 - 03  | ChatGPT, server: cc.0000088888.cc, port: 35230, type: ss, cipher: chacha20-ietf-poly1305, password: c035480a-5a78-45ab-bf5c-ea4a402b71f5}
-  - {name: ⚡️美国 - 03  | ChatGPT, server: cc.0000088888.cc, port: 28107, type: ss, cipher: chacha20-ietf-poly1305, password: c035480a-5a78-45ab-bf5c-ea4a402b71f5}
-  - {name: ⚡️日本 - 03  | HBO Max, server: cc.0000088888.cc, port: 13675, type: ss, cipher: chacha20-ietf-poly1305, password: c035480a-5a78-45ab-bf5c-ea4a402b71f5}
-  - {name: ⚡️香港 - 03  | Netflix, server: cc.0000088888.cc, port: 39648, type: ss, cipher: chacha20-ietf-poly1305, password: c035480a-5a78-45ab-bf5c-ea4a402b71f5}
-  - {name: ⚡️香港 - 06  | Disney 2, server: cc.0000088888.cc, port: 22191, type: ss, cipher: chacha20-ietf-poly1305, password: c035480a-5a78-45ab-bf5c-ea4a402b71f5}
-  - {name: 香港 01 4, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: 6c72f4ba-69be-4cb1-95e8-b818faceec50, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 4, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: 69c719cc-6db7-4582-83a3-1eb462e677b6, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 4, server: xiaozhu.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: 9b00f7ca-61ae-45cb-876e-3647ff73dc04}
-  - {name: 日本01 4, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: ca752f5d-1d1b-4bda-8e38-ebb9a33c954b}
-  - {name: 日本02 3, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 2b2f4042-0630-45dd-b5c2-d06808d7706e}
-  - {name: 台湾 5, server: xiaozhu.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: cea9cdc0-d736-4e04-b5f6-a9a3ae02b9c5}
-  - {name: 美国西雅图原生 3, server: xiaozhu.dadakkk2088.com, port: 30210, type: trojan, password: ea913a9d-c63a-4604-b206-5c8734e6073c, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 3, server: xiaozhu.dadakkk2088.com, port: 19216, type: trojan, password: b74d4d58-177e-4dea-94f6-8fd5fa737cf7, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 5, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: 88d2327f-35ee-4553-a5f7-a5741604beae, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 5, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: a351ce59-5253-4c20-bf90-efa77b53f0d8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 5, server: xiaozhu.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: f35194c5-a120-4647-b9ae-e8ee70a4c20f}
-  - {name: 日本01 5, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 64ee8c04-3638-42f8-bbd4-69fa8f967b04}
-  - {name: 日本02 4, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 17ad0d84-995e-426a-a2fd-bcf402ed177b}
+  - {name: 香港 01, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: f48ba0ef-69f8-426b-9f41-71a6eb702aa6, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: e61757d6-7c08-4f20-a116-928988596c06, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约, server: xxz.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: 921b215c-1462-47a5-b988-c0f874d640d9}
+  - {name: 日本01, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 764a6cf3-c5c6-47c1-8ac9-180337b3a693}
+  - {name: 日本02, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 2a6e3408-fe0d-405c-b207-e5d7527bd29f}
+  - {name: 台湾, server: xxz.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: 201cc404-3efe-4de5-98af-eeefce04676d}
+  - {name: 韩国01, server: xxz.dadakkk2088.com, port: 49214, type: trojan, password: 3045f893-977f-483f-a68a-a601f36bfb2e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡, server: xxz.dadakkk2088.com, port: 34246, type: ss, cipher: chacha20-ietf-poly1305, password: e94d320a-ffb9-4a06-9f24-a5ad5c262745}
+  - {name: 美国西雅图原生, server: xiaozhu.dadakkk2088.com, port: 30210, type: trojan, password: adddd167-b66d-49ff-a7f0-14d74e2bd0fc, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生, server: xxz.dadakkk2088.com, port: 19216, type: trojan, password: 42a861b7-7667-478e-9375-5962766110b9, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 2, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: 5a308a71-2059-4f21-a3c7-286bcc781ece, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 2, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: ca17e781-743a-463d-b98d-e652a99fd397, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 2, server: xxz.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: 581f8604-da53-4638-b979-402173cc2347}
+  - {name: 日本01 2, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: e95ddec9-da0b-4b4c-8319-9b58c42f0042}
+  - {name: 日本02 2, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 7f4f2278-d546-4172-8c6d-bc3ef1a5e04a}
+  - {name: 台湾 2, server: xxz.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: 0b1e055d-f5d4-4188-a017-b271b7afb4a4}
+  - {name: 新加坡 2, server: xxz.dadakkk2088.com, port: 34246, type: ss, cipher: chacha20-ietf-poly1305, password: 7c429280-e6f5-4843-852a-d7b70c4fb3c7}
+  - {name: 美国西雅图原生 2, server: xxz.dadakkk2088.com, port: 30210, type: trojan, password: 3d06e621-f177-4634-956f-31782aaaadcf, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 2, server: xiaozhu.dadakkk2088.com, port: 19216, type: trojan, password: 7077ec98-ea49-44c4-b63b-eae109a8b2f0, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: ⚡️香港 - 02  | HBO Max, server: cc.0000088888.cc, port: 41223, type: ss, cipher: chacha20-ietf-poly1305, password: c9ee3f17-9a12-493e-9555-f0a87762d866}
+  - {name: ⚡️香港 - 03  | Netflix, server: cc.0000088888.cc, port: 39648, type: ss, cipher: chacha20-ietf-poly1305, password: c9ee3f17-9a12-493e-9555-f0a87762d866}
+  - {name: ⚡️香港 - 06  | Disney, server: cc.0000088888.cc, port: 22191, type: ss, cipher: chacha20-ietf-poly1305, password: c9ee3f17-9a12-493e-9555-f0a87762d866}
+  - {name: ⚡️香港 - 07  | HBO Max, server: cc.0000088888.cc, port: 23834, type: ss, cipher: chacha20-ietf-poly1305, password: c9ee3f17-9a12-493e-9555-f0a87762d866}
+  - {name: ⚡️香港 - 08  | Disney, server: cc.0000088888.cc, port: 10518, type: ss, cipher: chacha20-ietf-poly1305, password: c9ee3f17-9a12-493e-9555-f0a87762d866}
+  - {name: ⚡️台湾 - 02  | Netflix, server: cc.0000088888.cc, port: 56749, type: ss, cipher: chacha20-ietf-poly1305, password: b6788cb9-21ab-4f17-b3ac-d26bd635ef2e}
+  - {name: ⚡️台湾 - 03  | Netflix, server: cc.0000088888.cc, port: 25417, type: ss, cipher: chacha20-ietf-poly1305, password: b6788cb9-21ab-4f17-b3ac-d26bd635ef2e}
+  - {name: ⚡️台湾 - 04  | Netflix, server: cc.0000088888.cc, port: 24521, type: ss, cipher: chacha20-ietf-poly1305, password: b6788cb9-21ab-4f17-b3ac-d26bd635ef2e}
+  - {name: ⚡️澳门 - 01  | YouTube免广告, server: cc.0000088888.cc, port: 47165, type: ss, cipher: chacha20-ietf-poly1305, password: b6788cb9-21ab-4f17-b3ac-d26bd635ef2e}
+  - {name: ⚡️日本 - 01   | Disney, server: cc.0000088888.cc, port: 45983, type: ss, cipher: chacha20-ietf-poly1305, password: b6788cb9-21ab-4f17-b3ac-d26bd635ef2e}
+  - {name: 美国纽约 3, server: xxz.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: 60589ac8-d4af-4e88-9a53-312224e67eea}
+  - {name: 日本01 3, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: bb26b846-d093-4f69-820a-c8f0dfa4c7a8}
+  - {name: 日本02 3, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 9ee2c40e-3b8d-490b-a2a3-17b2d55e7203}
+  - {name: 台湾 3, server: xxz.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: c585874b-b8df-4d7f-9293-41730983419e}
+  - {name: 美国西雅图原生 3, server: xxz.dadakkk2088.com, port: 30210, type: trojan, password: 48c746f9-8baf-4b64-b729-d82f98072c5d, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 3, server: xxz.dadakkk2088.com, port: 19216, type: trojan, password: 1bf317b1-6dee-4746-8806-7d8bc708b883, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 3, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: 3e365770-1a85-4ae2-9486-59f13b92c69d, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 3, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: 4cd347a0-5493-490d-b8bd-eccc2d1c22c1, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 4, server: xiaozhu.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: 4bae9072-3de2-4c0f-b52a-260af88e8ffb}
+  - {name: 日本01 4, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 72b580e3-cf97-409a-956e-cb7dc104b985}
+  - {name: 日本02 4, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 07cbac1d-f498-4481-8066-9c231b46d820}
+  - {name: 台湾 4, server: xxz.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: 5fc1a179-11e5-443d-a44b-7566fea9dddb}
+  - {name: 新加坡 3, server: xxz.dadakkk2088.com, port: 34246, type: ss, cipher: chacha20-ietf-poly1305, password: 56eb512d-68a2-4e5c-84db-d8ddde7151ea}
+  - {name: 新加坡 4, server: xxz.dadakkk2088.com, port: 34246, type: ss, cipher: chacha20-ietf-poly1305, password: 3ff64756-5c93-4e6b-ad98-7ffb7b9d1fd4}
+  - {name: 台湾 5, server: xxz.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: 668ccd8b-cebf-4086-919c-7e89567e7315}
+  - {name: 日本01 5, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: c55609ae-29ac-4983-abd5-338b22882eab}
+  - {name: 日本02 5, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 499455b0-fd47-4737-8085-38bd119e218d}
+  - {name: 美国西雅图原生 4, server: xxz.dadakkk2088.com, port: 30210, type: trojan, password: 51dbfe78-d2b7-4a87-abaa-4bd7a26b385c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 4, server: xxz.dadakkk2088.com, port: 19216, type: trojan, password: 96f38708-df65-4763-a026-001bd46bec7c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: ⚡️韩国 - 02  | ChatGPT, server: cc.0000088888.cc, port: 50401, type: ss, cipher: chacha20-ietf-poly1305, password: 4efe12fb-0e0f-4236-8080-34dc41888f25}
+  - {name: ⚡️韩国 - 01   | ChatGPT, server: cc.0000088888.cc, port: 40904, type: ss, cipher: chacha20-ietf-poly1305, password: 4efe12fb-0e0f-4236-8080-34dc41888f25}
+  - {name: ⚡️美国 - 04  | ChatGPT, server: cc.0000088888.cc, port: 22440, type: ss, cipher: chacha20-ietf-poly1305, password: 4efe12fb-0e0f-4236-8080-34dc41888f25}
+  - {name: ⚡️美国 - 03  | ChatGPT, server: cc.0000088888.cc, port: 28107, type: ss, cipher: chacha20-ietf-poly1305, password: 4efe12fb-0e0f-4236-8080-34dc41888f25}
+  - {name: ⚡️美国 - 02  | ChatGPT, server: cc.0000088888.cc, port: 23266, type: ss, cipher: chacha20-ietf-poly1305, password: 4efe12fb-0e0f-4236-8080-34dc41888f25}
+  - {name: ⚡️美国 - 01   | ChatGPT, server: cc.0000088888.cc, port: 16171, type: ss, cipher: chacha20-ietf-poly1305, password: 4efe12fb-0e0f-4236-8080-34dc41888f25}
+  - {name: ⚡️日本 - 01   | Disney 2, server: cc.0000088888.cc, port: 45983, type: ss, cipher: chacha20-ietf-poly1305, password: 4efe12fb-0e0f-4236-8080-34dc41888f25}
+  - {name: 香港 01 4, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: dff5430a-73bb-4f60-a339-b6c74eb7d8fc, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 4, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: 76fc209f-1d0c-4038-8f17-487cfac688f5, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 5, server: xiaozhu.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: f4692a26-6046-42eb-9840-31e19b822f61}
+  - {name: 日本01 6, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 9fc6acad-806a-4364-a672-e0f2bab601c6}
+  - {name: 日本02 6, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 858fad5c-418a-4f7f-9a1b-3956062a76db}
+  - {name: 台湾 6, server: xiaozhu.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: 9fe3fd81-8759-4d37-a031-e99d8344f02a}
+  - {name: 新加坡 5, server: xiaozhu.dadakkk2088.com, port: 34246, type: ss, cipher: chacha20-ietf-poly1305, password: 3b8994d9-9c61-498a-a3cf-6c22cb23d606}
+  - {name: 美国西雅图原生 5, server: xiaozhu.dadakkk2088.com, port: 30210, type: trojan, password: 33b1d6dd-3502-4ee4-ba4d-a6a952261eb4, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 5, server: xiaozhu.dadakkk2088.com, port: 19216, type: trojan, password: f1dce89f-c300-43ca-beba-7f781c6cbdcd, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 5, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: 9b5953ef-b49f-44be-8f68-4c071633ff3f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 5, server: xiaozhu.dadakkk2088.com, port: 49213, type: trojan, password: 9707d2a6-b276-4ea7-b0b1-a2baa505cf74, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 6, server: xiaozhu.dadakkk2088.com, port: 30202, type: ss, cipher: chacha20-ietf-poly1305, password: 2fe0a3ac-64ec-486a-9481-910e5516ebb9}
+  - {name: 日本01 7, server: xiaozhu.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: c005efad-b522-4753-98b8-a32bcb849392}
+  - {name: 日本02 7, server: xxz.dadakkk2088.com, port: 39213, type: ss, cipher: chacha20-ietf-poly1305, password: 15374e64-ea2b-4b0a-b517-d40b118ecbd8}
+  - {name: 台湾 7, server: xiaozhu.dadakkk2088.com, port: 30204, type: ss, cipher: chacha20-ietf-poly1305, password: 07741c11-7d75-4b6d-b370-243268ed447b}
+  - {name: 美国西雅图原生 6, server: xiaozhu.dadakkk2088.com, port: 30210, type: trojan, password: c43cd2e2-af27-4e51-9e67-3ff8074ded2c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 6, server: xxz.dadakkk2088.com, port: 19216, type: trojan, password: f6b09495-ec0b-4e34-91c4-0e0765401a29, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 6, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: 53c3946c-0307-4600-bb33-823f65fc443b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 6, server: xxz.dadakkk2088.com, port: 49213, type: trojan, password: 04f3d378-a359-4dd0-af38-2a67b576dcee, sni: douyin.com, skip-cert-verify: true, tfo: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -68,51 +91,74 @@ proxy-groups:
       - 日本01
       - 日本02
       - 台湾
-      - 美国西雅图
-      - 美国洛杉矶
+      - 韩国01
+      - 新加坡
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
       - 香港 02 2
       - 美国纽约 2
       - 日本01 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️美国 - 01   | ChatGPT
-      - ⚡️韩国 - 01   | ChatGPT
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
-      - ⚡️日本 - 01   | Disney
-      - ⚡️美国 - 04  | ChatGPT
-      - 台湾 2
-      - 美国西雅图原生
-      - 美国洛杉矶原生
-      - 香港 01 3
-      - 香港 02 3
-      - 美国纽约 3
-      - 日本01 3
       - 日本02 2
-      - 台湾 3
-      - 台湾 4
+      - 台湾 2
+      - 新加坡 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - ⚡️韩国 - 03  | ChatGPT
-      - ⚡️美国 - 03  | ChatGPT
-      - ⚡️日本 - 03  | HBO Max
+      - ⚡️香港 - 02  | HBO Max
       - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
-      - 香港 01 4
-      - 香港 02 4
-      - 美国纽约 4
-      - 日本01 4
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - ⚡️澳门 - 01  | YouTube免广告
+      - ⚡️日本 - 01   | Disney
+      - 美国纽约 3
+      - 日本01 3
       - 日本02 3
-      - 台湾 5
+      - 台湾 3
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
+      - 香港 01 3
+      - 香港 02 3
+      - 美国纽约 4
+      - 日本01 4
+      - 日本02 4
+      - 台湾 4
+      - 新加坡 3
+      - 新加坡 4
+      - 台湾 5
+      - 日本01 5
+      - 日本02 5
+      - 美国西雅图原生 4
+      - 美国洛杉矶原生 4
+      - ⚡️韩国 - 02  | ChatGPT
+      - ⚡️韩国 - 01   | ChatGPT
+      - ⚡️美国 - 04  | ChatGPT
+      - ⚡️美国 - 03  | ChatGPT
+      - ⚡️美国 - 02  | ChatGPT
+      - ⚡️美国 - 01   | ChatGPT
+      - ⚡️日本 - 01   | Disney 2
+      - 香港 01 4
+      - 香港 02 4
+      - 美国纽约 5
+      - 日本01 6
+      - 日本02 6
+      - 台湾 6
+      - 新加坡 5
+      - 美国西雅图原生 5
+      - 美国洛杉矶原生 5
       - 香港 01 5
       - 香港 02 5
-      - 美国纽约 5
-      - 日本01 5
-      - 日本02 4
+      - 美国纽约 6
+      - 日本01 7
+      - 日本02 7
+      - 台湾 7
+      - 美国西雅图原生 6
+      - 美国洛杉矶原生 6
+      - 香港 01 6
+      - 香港 02 6
   - name: Domestic
     type: select
     proxies:
@@ -129,51 +175,74 @@ proxy-groups:
       - 日本01
       - 日本02
       - 台湾
-      - 美国西雅图
-      - 美国洛杉矶
+      - 韩国01
+      - 新加坡
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
       - 香港 02 2
       - 美国纽约 2
       - 日本01 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️美国 - 01   | ChatGPT
-      - ⚡️韩国 - 01   | ChatGPT
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
-      - ⚡️日本 - 01   | Disney
-      - ⚡️美国 - 04  | ChatGPT
-      - 台湾 2
-      - 美国西雅图原生
-      - 美国洛杉矶原生
-      - 香港 01 3
-      - 香港 02 3
-      - 美国纽约 3
-      - 日本01 3
       - 日本02 2
-      - 台湾 3
-      - 台湾 4
+      - 台湾 2
+      - 新加坡 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - ⚡️韩国 - 03  | ChatGPT
-      - ⚡️美国 - 03  | ChatGPT
-      - ⚡️日本 - 03  | HBO Max
+      - ⚡️香港 - 02  | HBO Max
       - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
-      - 香港 01 4
-      - 香港 02 4
-      - 美国纽约 4
-      - 日本01 4
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - ⚡️澳门 - 01  | YouTube免广告
+      - ⚡️日本 - 01   | Disney
+      - 美国纽约 3
+      - 日本01 3
       - 日本02 3
-      - 台湾 5
+      - 台湾 3
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
+      - 香港 01 3
+      - 香港 02 3
+      - 美国纽约 4
+      - 日本01 4
+      - 日本02 4
+      - 台湾 4
+      - 新加坡 3
+      - 新加坡 4
+      - 台湾 5
+      - 日本01 5
+      - 日本02 5
+      - 美国西雅图原生 4
+      - 美国洛杉矶原生 4
+      - ⚡️韩国 - 02  | ChatGPT
+      - ⚡️韩国 - 01   | ChatGPT
+      - ⚡️美国 - 04  | ChatGPT
+      - ⚡️美国 - 03  | ChatGPT
+      - ⚡️美国 - 02  | ChatGPT
+      - ⚡️美国 - 01   | ChatGPT
+      - ⚡️日本 - 01   | Disney 2
+      - 香港 01 4
+      - 香港 02 4
+      - 美国纽约 5
+      - 日本01 6
+      - 日本02 6
+      - 台湾 6
+      - 新加坡 5
+      - 美国西雅图原生 5
+      - 美国洛杉矶原生 5
       - 香港 01 5
       - 香港 02 5
-      - 美国纽约 5
-      - 日本01 5
-      - 日本02 4
+      - 美国纽约 6
+      - 日本01 7
+      - 日本02 7
+      - 台湾 7
+      - 美国西雅图原生 6
+      - 美国洛杉矶原生 6
+      - 香港 01 6
+      - 香港 02 6
   - name: Others
     type: select
     proxies:
@@ -200,23 +269,28 @@ proxy-groups:
       - 台湾
       - 香港 01 2
       - 香港 02 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
       - 台湾 2
+      - ⚡️香港 - 02  | HBO Max
+      - ⚡️香港 - 03  | Netflix
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - 台湾 3
       - 香港 01 3
       - 香港 02 3
-      - 台湾 3
       - 台湾 4
-      - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
+      - 台湾 5
       - 香港 01 4
       - 香港 02 4
-      - 台湾 5
+      - 台湾 6
       - 香港 01 5
       - 香港 02 5
+      - 台湾 7
+      - 香港 01 6
+      - 香港 02 6
   - name: Apple TV
     type: select
     proxies:
@@ -228,51 +302,74 @@ proxy-groups:
       - 日本01
       - 日本02
       - 台湾
-      - 美国西雅图
-      - 美国洛杉矶
+      - 韩国01
+      - 新加坡
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
       - 香港 02 2
       - 美国纽约 2
       - 日本01 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️美国 - 01   | ChatGPT
-      - ⚡️韩国 - 01   | ChatGPT
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
-      - ⚡️日本 - 01   | Disney
-      - ⚡️美国 - 04  | ChatGPT
-      - 台湾 2
-      - 美国西雅图原生
-      - 美国洛杉矶原生
-      - 香港 01 3
-      - 香港 02 3
-      - 美国纽约 3
-      - 日本01 3
       - 日本02 2
-      - 台湾 3
-      - 台湾 4
+      - 台湾 2
+      - 新加坡 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - ⚡️韩国 - 03  | ChatGPT
-      - ⚡️美国 - 03  | ChatGPT
-      - ⚡️日本 - 03  | HBO Max
+      - ⚡️香港 - 02  | HBO Max
       - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
-      - 香港 01 4
-      - 香港 02 4
-      - 美国纽约 4
-      - 日本01 4
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - ⚡️澳门 - 01  | YouTube免广告
+      - ⚡️日本 - 01   | Disney
+      - 美国纽约 3
+      - 日本01 3
       - 日本02 3
-      - 台湾 5
+      - 台湾 3
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
+      - 香港 01 3
+      - 香港 02 3
+      - 美国纽约 4
+      - 日本01 4
+      - 日本02 4
+      - 台湾 4
+      - 新加坡 3
+      - 新加坡 4
+      - 台湾 5
+      - 日本01 5
+      - 日本02 5
+      - 美国西雅图原生 4
+      - 美国洛杉矶原生 4
+      - ⚡️韩国 - 02  | ChatGPT
+      - ⚡️韩国 - 01   | ChatGPT
+      - ⚡️美国 - 04  | ChatGPT
+      - ⚡️美国 - 03  | ChatGPT
+      - ⚡️美国 - 02  | ChatGPT
+      - ⚡️美国 - 01   | ChatGPT
+      - ⚡️日本 - 01   | Disney 2
+      - 香港 01 4
+      - 香港 02 4
+      - 美国纽约 5
+      - 日本01 6
+      - 日本02 6
+      - 台湾 6
+      - 新加坡 5
+      - 美国西雅图原生 5
+      - 美国洛杉矶原生 5
       - 香港 01 5
       - 香港 02 5
-      - 美国纽约 5
-      - 日本01 5
-      - 日本02 4
+      - 美国纽约 6
+      - 日本01 7
+      - 日本02 7
+      - 台湾 7
+      - 美国西雅图原生 6
+      - 美国洛杉矶原生 6
+      - 香港 01 6
+      - 香港 02 6
   - name: Asian TV
     type: select
     proxies:
@@ -283,23 +380,28 @@ proxy-groups:
       - 台湾
       - 香港 01 2
       - 香港 02 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
       - 台湾 2
+      - ⚡️香港 - 02  | HBO Max
+      - ⚡️香港 - 03  | Netflix
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - 台湾 3
       - 香港 01 3
       - 香港 02 3
-      - 台湾 3
       - 台湾 4
-      - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
+      - 台湾 5
       - 香港 01 4
       - 香港 02 4
-      - 台湾 5
+      - 台湾 6
       - 香港 01 5
       - 香港 02 5
+      - 台湾 7
+      - 香港 01 6
+      - 香港 02 6
   - name: Global TV
     type: select
     proxies:
@@ -311,51 +413,74 @@ proxy-groups:
       - 日本01
       - 日本02
       - 台湾
-      - 美国西雅图
-      - 美国洛杉矶
+      - 韩国01
+      - 新加坡
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
       - 香港 02 2
       - 美国纽约 2
       - 日本01 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️美国 - 01   | ChatGPT
-      - ⚡️韩国 - 01   | ChatGPT
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
-      - ⚡️日本 - 01   | Disney
-      - ⚡️美国 - 04  | ChatGPT
-      - 台湾 2
-      - 美国西雅图原生
-      - 美国洛杉矶原生
-      - 香港 01 3
-      - 香港 02 3
-      - 美国纽约 3
-      - 日本01 3
       - 日本02 2
-      - 台湾 3
-      - 台湾 4
+      - 台湾 2
+      - 新加坡 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - ⚡️韩国 - 03  | ChatGPT
-      - ⚡️美国 - 03  | ChatGPT
-      - ⚡️日本 - 03  | HBO Max
+      - ⚡️香港 - 02  | HBO Max
       - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
-      - 香港 01 4
-      - 香港 02 4
-      - 美国纽约 4
-      - 日本01 4
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - ⚡️澳门 - 01  | YouTube免广告
+      - ⚡️日本 - 01   | Disney
+      - 美国纽约 3
+      - 日本01 3
       - 日本02 3
-      - 台湾 5
+      - 台湾 3
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
+      - 香港 01 3
+      - 香港 02 3
+      - 美国纽约 4
+      - 日本01 4
+      - 日本02 4
+      - 台湾 4
+      - 新加坡 3
+      - 新加坡 4
+      - 台湾 5
+      - 日本01 5
+      - 日本02 5
+      - 美国西雅图原生 4
+      - 美国洛杉矶原生 4
+      - ⚡️韩国 - 02  | ChatGPT
+      - ⚡️韩国 - 01   | ChatGPT
+      - ⚡️美国 - 04  | ChatGPT
+      - ⚡️美国 - 03  | ChatGPT
+      - ⚡️美国 - 02  | ChatGPT
+      - ⚡️美国 - 01   | ChatGPT
+      - ⚡️日本 - 01   | Disney 2
+      - 香港 01 4
+      - 香港 02 4
+      - 美国纽约 5
+      - 日本01 6
+      - 日本02 6
+      - 台湾 6
+      - 新加坡 5
+      - 美国西雅图原生 5
+      - 美国洛杉矶原生 5
       - 香港 01 5
       - 香港 02 5
-      - 美国纽约 5
-      - 日本01 5
-      - 日本02 4
+      - 美国纽约 6
+      - 日本01 7
+      - 日本02 7
+      - 台湾 7
+      - 美国西雅图原生 6
+      - 美国洛杉矶原生 6
+      - 香港 01 6
+      - 香港 02 6
   - name: Disney
     type: select
     proxies:
@@ -382,51 +507,74 @@ proxy-groups:
       - 日本01
       - 日本02
       - 台湾
-      - 美国西雅图
-      - 美国洛杉矶
+      - 韩国01
+      - 新加坡
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
       - 香港 02 2
       - 美国纽约 2
       - 日本01 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️美国 - 01   | ChatGPT
-      - ⚡️韩国 - 01   | ChatGPT
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
-      - ⚡️日本 - 01   | Disney
-      - ⚡️美国 - 04  | ChatGPT
-      - 台湾 2
-      - 美国西雅图原生
-      - 美国洛杉矶原生
-      - 香港 01 3
-      - 香港 02 3
-      - 美国纽约 3
-      - 日本01 3
       - 日本02 2
-      - 台湾 3
-      - 台湾 4
+      - 台湾 2
+      - 新加坡 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - ⚡️韩国 - 03  | ChatGPT
-      - ⚡️美国 - 03  | ChatGPT
-      - ⚡️日本 - 03  | HBO Max
+      - ⚡️香港 - 02  | HBO Max
       - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
-      - 香港 01 4
-      - 香港 02 4
-      - 美国纽约 4
-      - 日本01 4
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - ⚡️澳门 - 01  | YouTube免广告
+      - ⚡️日本 - 01   | Disney
+      - 美国纽约 3
+      - 日本01 3
       - 日本02 3
-      - 台湾 5
+      - 台湾 3
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
+      - 香港 01 3
+      - 香港 02 3
+      - 美国纽约 4
+      - 日本01 4
+      - 日本02 4
+      - 台湾 4
+      - 新加坡 3
+      - 新加坡 4
+      - 台湾 5
+      - 日本01 5
+      - 日本02 5
+      - 美国西雅图原生 4
+      - 美国洛杉矶原生 4
+      - ⚡️韩国 - 02  | ChatGPT
+      - ⚡️韩国 - 01   | ChatGPT
+      - ⚡️美国 - 04  | ChatGPT
+      - ⚡️美国 - 03  | ChatGPT
+      - ⚡️美国 - 02  | ChatGPT
+      - ⚡️美国 - 01   | ChatGPT
+      - ⚡️日本 - 01   | Disney 2
+      - 香港 01 4
+      - 香港 02 4
+      - 美国纽约 5
+      - 日本01 6
+      - 日本02 6
+      - 台湾 6
+      - 新加坡 5
+      - 美国西雅图原生 5
+      - 美国洛杉矶原生 5
       - 香港 01 5
       - 香港 02 5
-      - 美国纽约 5
-      - 日本01 5
-      - 日本02 4
+      - 美国纽约 6
+      - 日本01 7
+      - 日本02 7
+      - 台湾 7
+      - 美国西雅图原生 6
+      - 美国洛杉矶原生 6
+      - 香港 01 6
+      - 香港 02 6
   - name: Spotify
     type: select
     proxies:
@@ -438,51 +586,74 @@ proxy-groups:
       - 日本01
       - 日本02
       - 台湾
-      - 美国西雅图
-      - 美国洛杉矶
+      - 韩国01
+      - 新加坡
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
       - 香港 02 2
       - 美国纽约 2
       - 日本01 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️美国 - 01   | ChatGPT
-      - ⚡️韩国 - 01   | ChatGPT
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
-      - ⚡️日本 - 01   | Disney
-      - ⚡️美国 - 04  | ChatGPT
-      - 台湾 2
-      - 美国西雅图原生
-      - 美国洛杉矶原生
-      - 香港 01 3
-      - 香港 02 3
-      - 美国纽约 3
-      - 日本01 3
       - 日本02 2
-      - 台湾 3
-      - 台湾 4
+      - 台湾 2
+      - 新加坡 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - ⚡️韩国 - 03  | ChatGPT
-      - ⚡️美国 - 03  | ChatGPT
-      - ⚡️日本 - 03  | HBO Max
+      - ⚡️香港 - 02  | HBO Max
       - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
-      - 香港 01 4
-      - 香港 02 4
-      - 美国纽约 4
-      - 日本01 4
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - ⚡️澳门 - 01  | YouTube免广告
+      - ⚡️日本 - 01   | Disney
+      - 美国纽约 3
+      - 日本01 3
       - 日本02 3
-      - 台湾 5
+      - 台湾 3
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
+      - 香港 01 3
+      - 香港 02 3
+      - 美国纽约 4
+      - 日本01 4
+      - 日本02 4
+      - 台湾 4
+      - 新加坡 3
+      - 新加坡 4
+      - 台湾 5
+      - 日本01 5
+      - 日本02 5
+      - 美国西雅图原生 4
+      - 美国洛杉矶原生 4
+      - ⚡️韩国 - 02  | ChatGPT
+      - ⚡️韩国 - 01   | ChatGPT
+      - ⚡️美国 - 04  | ChatGPT
+      - ⚡️美国 - 03  | ChatGPT
+      - ⚡️美国 - 02  | ChatGPT
+      - ⚡️美国 - 01   | ChatGPT
+      - ⚡️日本 - 01   | Disney 2
+      - 香港 01 4
+      - 香港 02 4
+      - 美国纽约 5
+      - 日本01 6
+      - 日本02 6
+      - 台湾 6
+      - 新加坡 5
+      - 美国西雅图原生 5
+      - 美国洛杉矶原生 5
       - 香港 01 5
       - 香港 02 5
-      - 美国纽约 5
-      - 日本01 5
-      - 日本02 4
+      - 美国纽约 6
+      - 日本01 7
+      - 日本02 7
+      - 台湾 7
+      - 美国西雅图原生 6
+      - 美国洛杉矶原生 6
+      - 香港 01 6
+      - 香港 02 6
   - name: Telegram
     type: select
     proxies:
@@ -494,51 +665,74 @@ proxy-groups:
       - 日本01
       - 日本02
       - 台湾
-      - 美国西雅图
-      - 美国洛杉矶
+      - 韩国01
+      - 新加坡
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
       - 香港 02 2
       - 美国纽约 2
       - 日本01 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️美国 - 01   | ChatGPT
-      - ⚡️韩国 - 01   | ChatGPT
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
-      - ⚡️日本 - 01   | Disney
-      - ⚡️美国 - 04  | ChatGPT
-      - 台湾 2
-      - 美国西雅图原生
-      - 美国洛杉矶原生
-      - 香港 01 3
-      - 香港 02 3
-      - 美国纽约 3
-      - 日本01 3
       - 日本02 2
-      - 台湾 3
-      - 台湾 4
+      - 台湾 2
+      - 新加坡 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - ⚡️韩国 - 03  | ChatGPT
-      - ⚡️美国 - 03  | ChatGPT
-      - ⚡️日本 - 03  | HBO Max
+      - ⚡️香港 - 02  | HBO Max
       - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
-      - 香港 01 4
-      - 香港 02 4
-      - 美国纽约 4
-      - 日本01 4
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - ⚡️澳门 - 01  | YouTube免广告
+      - ⚡️日本 - 01   | Disney
+      - 美国纽约 3
+      - 日本01 3
       - 日本02 3
-      - 台湾 5
+      - 台湾 3
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
+      - 香港 01 3
+      - 香港 02 3
+      - 美国纽约 4
+      - 日本01 4
+      - 日本02 4
+      - 台湾 4
+      - 新加坡 3
+      - 新加坡 4
+      - 台湾 5
+      - 日本01 5
+      - 日本02 5
+      - 美国西雅图原生 4
+      - 美国洛杉矶原生 4
+      - ⚡️韩国 - 02  | ChatGPT
+      - ⚡️韩国 - 01   | ChatGPT
+      - ⚡️美国 - 04  | ChatGPT
+      - ⚡️美国 - 03  | ChatGPT
+      - ⚡️美国 - 02  | ChatGPT
+      - ⚡️美国 - 01   | ChatGPT
+      - ⚡️日本 - 01   | Disney 2
+      - 香港 01 4
+      - 香港 02 4
+      - 美国纽约 5
+      - 日本01 6
+      - 日本02 6
+      - 台湾 6
+      - 新加坡 5
+      - 美国西雅图原生 5
+      - 美国洛杉矶原生 5
       - 香港 01 5
       - 香港 02 5
-      - 美国纽约 5
-      - 日本01 5
-      - 日本02 4
+      - 美国纽约 6
+      - 日本01 7
+      - 日本02 7
+      - 台湾 7
+      - 美国西雅图原生 6
+      - 美国洛杉矶原生 6
+      - 香港 01 6
+      - 香港 02 6
   - name: Steam
     type: select
     proxies:
@@ -556,51 +750,74 @@ proxy-groups:
       - 日本01
       - 日本02
       - 台湾
-      - 美国西雅图
-      - 美国洛杉矶
+      - 韩国01
+      - 新加坡
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
       - 香港 02 2
       - 美国纽约 2
       - 日本01 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️美国 - 01   | ChatGPT
-      - ⚡️韩国 - 01   | ChatGPT
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
-      - ⚡️日本 - 01   | Disney
-      - ⚡️美国 - 04  | ChatGPT
-      - 台湾 2
-      - 美国西雅图原生
-      - 美国洛杉矶原生
-      - 香港 01 3
-      - 香港 02 3
-      - 美国纽约 3
-      - 日本01 3
       - 日本02 2
-      - 台湾 3
-      - 台湾 4
+      - 台湾 2
+      - 新加坡 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - ⚡️韩国 - 03  | ChatGPT
-      - ⚡️美国 - 03  | ChatGPT
-      - ⚡️日本 - 03  | HBO Max
+      - ⚡️香港 - 02  | HBO Max
       - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
-      - 香港 01 4
-      - 香港 02 4
-      - 美国纽约 4
-      - 日本01 4
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - ⚡️澳门 - 01  | YouTube免广告
+      - ⚡️日本 - 01   | Disney
+      - 美国纽约 3
+      - 日本01 3
       - 日本02 3
-      - 台湾 5
+      - 台湾 3
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
+      - 香港 01 3
+      - 香港 02 3
+      - 美国纽约 4
+      - 日本01 4
+      - 日本02 4
+      - 台湾 4
+      - 新加坡 3
+      - 新加坡 4
+      - 台湾 5
+      - 日本01 5
+      - 日本02 5
+      - 美国西雅图原生 4
+      - 美国洛杉矶原生 4
+      - ⚡️韩国 - 02  | ChatGPT
+      - ⚡️韩国 - 01   | ChatGPT
+      - ⚡️美国 - 04  | ChatGPT
+      - ⚡️美国 - 03  | ChatGPT
+      - ⚡️美国 - 02  | ChatGPT
+      - ⚡️美国 - 01   | ChatGPT
+      - ⚡️日本 - 01   | Disney 2
+      - 香港 01 4
+      - 香港 02 4
+      - 美国纽约 5
+      - 日本01 6
+      - 日本02 6
+      - 台湾 6
+      - 新加坡 5
+      - 美国西雅图原生 5
+      - 美国洛杉矶原生 5
       - 香港 01 5
       - 香港 02 5
-      - 美国纽约 5
-      - 日本01 5
-      - 日本02 4
+      - 美国纽约 6
+      - 日本01 7
+      - 日本02 7
+      - 台湾 7
+      - 美国西雅图原生 6
+      - 美国洛杉矶原生 6
+      - 香港 01 6
+      - 香港 02 6
   - name: PayPal
     type: select
     proxies:
@@ -652,51 +869,74 @@ proxy-groups:
       - 日本01
       - 日本02
       - 台湾
-      - 美国西雅图
-      - 美国洛杉矶
+      - 韩国01
+      - 新加坡
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
       - 香港 02 2
       - 美国纽约 2
       - 日本01 2
-      - ⚡️香港 - 05  | Disney
-      - ⚡️香港 - 06  | Disney
-      - ⚡️香港 - 08  | Disney
-      - ⚡️美国 - 01   | ChatGPT
-      - ⚡️韩国 - 01   | ChatGPT
-      - ⚡️香港 - 08  | Disney 2
-      - ⚡️香港 - 07  | HBO Max
-      - ⚡️日本 - 01   | Disney
-      - ⚡️美国 - 04  | ChatGPT
-      - 台湾 2
-      - 美国西雅图原生
-      - 美国洛杉矶原生
-      - 香港 01 3
-      - 香港 02 3
-      - 美国纽约 3
-      - 日本01 3
       - 日本02 2
-      - 台湾 3
-      - 台湾 4
+      - 台湾 2
+      - 新加坡 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - ⚡️韩国 - 03  | ChatGPT
-      - ⚡️美国 - 03  | ChatGPT
-      - ⚡️日本 - 03  | HBO Max
+      - ⚡️香港 - 02  | HBO Max
       - ⚡️香港 - 03  | Netflix
-      - ⚡️香港 - 06  | Disney 2
-      - 香港 01 4
-      - 香港 02 4
-      - 美国纽约 4
-      - 日本01 4
+      - ⚡️香港 - 06  | Disney
+      - ⚡️香港 - 07  | HBO Max
+      - ⚡️香港 - 08  | Disney
+      - ⚡️台湾 - 02  | Netflix
+      - ⚡️台湾 - 03  | Netflix
+      - ⚡️台湾 - 04  | Netflix
+      - ⚡️澳门 - 01  | YouTube免广告
+      - ⚡️日本 - 01   | Disney
+      - 美国纽约 3
+      - 日本01 3
       - 日本02 3
-      - 台湾 5
+      - 台湾 3
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
+      - 香港 01 3
+      - 香港 02 3
+      - 美国纽约 4
+      - 日本01 4
+      - 日本02 4
+      - 台湾 4
+      - 新加坡 3
+      - 新加坡 4
+      - 台湾 5
+      - 日本01 5
+      - 日本02 5
+      - 美国西雅图原生 4
+      - 美国洛杉矶原生 4
+      - ⚡️韩国 - 02  | ChatGPT
+      - ⚡️韩国 - 01   | ChatGPT
+      - ⚡️美国 - 04  | ChatGPT
+      - ⚡️美国 - 03  | ChatGPT
+      - ⚡️美国 - 02  | ChatGPT
+      - ⚡️美国 - 01   | ChatGPT
+      - ⚡️日本 - 01   | Disney 2
+      - 香港 01 4
+      - 香港 02 4
+      - 美国纽约 5
+      - 日本01 6
+      - 日本02 6
+      - 台湾 6
+      - 新加坡 5
+      - 美国西雅图原生 5
+      - 美国洛杉矶原生 5
       - 香港 01 5
       - 香港 02 5
-      - 美国纽约 5
-      - 日本01 5
-      - 日本02 4
+      - 美国纽约 6
+      - 日本01 7
+      - 日本02 7
+      - 台湾 7
+      - 美国西雅图原生 6
+      - 美国洛杉矶原生 6
+      - 香港 01 6
+      - 香港 02 6
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
@@ -9309,11 +9549,18 @@ rules:
   - DOMAIN,uts-api.itunes.apple.com,Apple TV
   - DOMAIN-SUFFIX,tv.apple.com,Apple TV
   - DOMAIN-SUFFIX,abema-tv.com,Asian TV
+  - DOMAIN-SUFFIX,abema.adx.promo,Asian TV
   - DOMAIN-SUFFIX,abema.io,Asian TV
   - DOMAIN-SUFFIX,abema.tv,Asian TV
   - DOMAIN-SUFFIX,ameba.jp,Asian TV
+  - DOMAIN-SUFFIX,bucketeer.jp,Asian TV
+  - DOMAIN-SUFFIX,ds-linear-abematv.akamaized.net,Asian TV
+  - DOMAIN-SUFFIX,ds-vod-abematv.akamaized.net,Asian TV
   - DOMAIN-SUFFIX,hayabusa.io,Asian TV
-  - DOMAIN-KEYWORD,abematv.akamaized.net,Asian TV
+  - DOMAIN-SUFFIX,hayabusa.media,Asian TV
+  - DOMAIN-SUFFIX,linear-abematv.akamaized.net,Asian TV
+  - DOMAIN-SUFFIX,vod-abematv.akamaized.net,Asian TV
+  - DOMAIN-SUFFIX,vod-playout-abematv.akamaized.net,Asian TV
   - DOMAIN-SUFFIX,bahamut.com.tw,Asian TV
   - DOMAIN-SUFFIX,gamer.com.tw,Asian TV
   - DOMAIN,gamer-cds.cdn.hinet.net,Asian TV
