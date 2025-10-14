@@ -5,6 +5,30 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 香港HK02-专线中继, server: sg.fasthou.icu, port: 33112, type: ss, cipher: aes-128-gcm, password: 02168f1a-1641-4321-83f9-59a807c7eb2f}
+  - {name: 日本JP01-专线中继, server: sg.fasthou.icu, port: 33115, type: ss, cipher: aes-128-gcm, password: 78b7f787-ffb1-4d97-ab3c-04dbe9dc3980}
+  - {name: 新加坡SG01-专线中继, server: sg.fasthou.icu, port: 33117, type: ss, cipher: aes-128-gcm, password: 31d690a4-f6c0-419f-87fa-fe8fbe56d9b6}
+  - {name: 美国US01-专线中继, server: sg.fasthou.icu, port: 33119, type: ss, cipher: aes-128-gcm, password: 048dbfc7-5f58-4a16-8993-ffbf743f068b}
+  - {name: 日本JP02-专线中继, server: sg.fasthou.icu, port: 33116, type: ss, cipher: aes-128-gcm, password: 4b219e4c-4b56-4d0f-914e-05797fda727c}
+  - {name: 台湾丨解GPT, server: bmde.bcymanuscript.top, port: 48308, type: ss, cipher: aes-128-gcm, password: 2dfb9bdb-dfd9-4098-94ba-6a149884fe65}
+  - {name: 日本丨解GPT, server: bmde.bcymanuscript.top, port: 48303, type: ss, cipher: aes-128-gcm, password: 027b5ad3-d541-4067-9a23-6185e6e6e7b3}
+  - {name: 新加坡丨解GPT, server: bmde.bcymanuscript.top, port: 48304, type: ss, cipher: aes-128-gcm, password: 9351dce7-de30-4a2a-b6ca-fc636db675dd}
+  - {name: 日本解锁GPT, server: bmde.bcymanuscript.top, port: 48315, type: ss, cipher: aes-128-gcm, password: f1b2f46f-bef7-42f9-b7c4-de721a82ff3c}
+  - {name: 日本丨解GPT 2, server: bmde.bcymanuscript.top, port: 48303, type: ss, cipher: aes-128-gcm, password: 9bd09fa6-67ff-408d-ac70-befb339373c7}
+  - {name: 新加坡丨解GPT 2, server: bmde.bcymanuscript.top, port: 48304, type: ss, cipher: aes-128-gcm, password: 7225cfb3-a57a-4866-bd6e-30f4a76f1a2a}
+  - {name: 日本丨解GPT 3, server: bmde.bcymanuscript.top, port: 48303, type: ss, cipher: aes-128-gcm, password: 86cb7c39-c18c-4d32-8fa3-8e7ff6ae8103}
+  - {name: 新加坡丨解GPT 3, server: bmde.bcymanuscript.top, port: 48304, type: ss, cipher: aes-128-gcm, password: a265ff3d-05d5-4c48-b909-41e55b55e655}
+  - {name: 台湾丨解GPT 2, server: bmde.bcymanuscript.top, port: 48308, type: ss, cipher: aes-128-gcm, password: 6379b3b5-0fb4-424c-befc-f1ff124e86a8}
+  - {name: 香港HK02-专线中继 2, server: sg.fasthou.icu, port: 33112, type: ss, cipher: aes-128-gcm, password: 2c1bc85b-5b73-41d1-b406-742581b5a76f}
+  - {name: 日本JP02-专线中继 2, server: sg.fasthou.icu, port: 33116, type: ss, cipher: aes-128-gcm, password: f89d9c22-fbba-4716-b0d6-dc5fd26a7135}
+  - {name: 新加坡SG02-专线中继, server: sg.fasthou.icu, port: 33118, type: ss, cipher: aes-128-gcm, password: a795c4b6-ae37-4337-bc77-e43751df3f88}
+  - {name: 美国US01-专线中继 2, server: sg.fasthou.icu, port: 33119, type: ss, cipher: aes-128-gcm, password: 6885efd0-5ac0-403d-9fc5-e2f04a6a2121}
+  - {name: 美国US02-专线中继, server: sg.fasthou.icu, port: 33120, type: ss, cipher: aes-128-gcm, password: 602cabdc-7a95-43e3-b69c-2cb24301d6cf}
+  - {name: 日本JP01-专线中继 2, server: sg.fasthou.icu, port: 33115, type: ss, cipher: aes-128-gcm, password: d0839477-d41d-464d-8c5f-54796a8f1e28}
+  - {name: 日本丨解GPT 4, server: laeg.hsymanuscript.top, port: 19503, type: vmess, uuid: 4be718d9-79a8-4ab5-a2c7-a48199b768b1, alterId: 0, cipher: auto, tls: false}
+  - {name: 新加坡丨解GPT 4, server: laeg.hsymanuscript.top, port: 49510, type: vmess, uuid: 70b8d5d3-2b36-4988-ab93-62e8a8006b02, alterId: 0, cipher: auto, tls: false}
+  - {name: 马来西亚丨解GPT, server: laeg.hsymanuscript.top, port: 49517, type: vmess, uuid: 26c95794-86bf-4ab4-8569-4fedb3fbdc7c, alterId: 0, cipher: auto, tls: false}
+  - {name: 新加坡解GPT, server: laeg.hsymanuscript.top, port: 49513, type: vmess, uuid: 26c95794-86bf-4ab4-8569-4fedb3fbdc7c, alterId: 0, cipher: auto, tls: false}
   - {name: 香港 01, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 133928a3-1c7d-4b6d-aaa6-3c3e01f0417f, sni: douyin.com, skip-cert-verify: true, tfo: true}
   - {name: 香港 01 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 9a028ff6-3e9e-4e8f-bfe1-e3bd492e1c0f, sni: douyin.com, skip-cert-verify: true, tfo: true}
   - {name: 香港 01 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: e1c41da7-e47b-4a7d-bdbe-94b297f63c3a, sni: douyin.com, skip-cert-verify: true, tfo: true}
@@ -25,7 +49,7 @@ proxies:
   - {name: 新加坡1 2, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 20656052-4832-40cc-8e0c-1b81667344ea, sni: douyin.com, skip-cert-verify: true, tfo: true}
   - {name: 韩国01, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: c146b81b-86d1-47bc-adbf-e09d6e2a68d4, sni: douyin.com, skip-cert-verify: true, tfo: true}
   - {name: 韩国01 2, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 7f588073-8171-4bb9-8b41-25df50734b88, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾丨解GPT, server: olej.ffymanuscript.top, port: 29502, type: vmess, uuid: 6d9df59b-ec11-4990-9858-f48d417ade5d, alterId: 0, cipher: auto, tls: false}
+  - {name: 台湾丨解GPT 3, server: olej.ffymanuscript.top, port: 29502, type: vmess, uuid: 6d9df59b-ec11-4990-9858-f48d417ade5d, alterId: 0, cipher: auto, tls: false}
   - {name: 美国西雅图原生, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 290c5651-7737-4f50-973e-1f46de6cb2eb, sni: douyin.com, skip-cert-verify: true, tfo: true}
   - {name: 日本1 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 624e9f79-814e-4df7-b9be-64c7e5088212, sni: douyin.com, skip-cert-verify: true, tfo: true}
   - {name: 日本2 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: cf1c5ab1-f846-4a09-86df-69ca3653bef7, sni: douyin.com, skip-cert-verify: true, tfo: true}
@@ -52,7 +76,7 @@ proxies:
   - {name: 台湾1 8, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: f1ec0dde-a1e2-4a83-9762-74c8e6d0c518, sni: douyin.com, skip-cert-verify: true, tfo: true}
   - {name: 美国纽约 10, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 22b5e7bb-e637-4f7e-9540-0cd56426af0a, sni: douyin.com, skip-cert-verify: true, tfo: true}
   - {name: 美国纽约 11, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 482f183d-2235-4513-9e24-d75a03200480, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本丨解GPT, server: olej.ffymanuscript.top, port: 59503, type: vmess, uuid: cd5fa2ae-b2d2-49ee-9998-4694984c18d3, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本丨解GPT 5, server: olej.ffymanuscript.top, port: 59503, type: vmess, uuid: cd5fa2ae-b2d2-49ee-9998-4694984c18d3, alterId: 0, cipher: auto, tls: false}
   - {name: 美国西雅图原生 6, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: b5d28018-3312-493c-96ad-bd4293d549e4, sni: douyin.com, skip-cert-verify: true, tfo: true}
   - {name: 美国纽约 12, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 703b77d2-fc72-4528-9556-89aa80096122, sni: douyin.com, skip-cert-verify: true, tfo: true}
 proxy-groups:
@@ -61,6 +85,30 @@ proxy-groups:
     proxies:
       - Auto - UrlTest
       - DIRECT
+      - 香港HK02-专线中继
+      - 日本JP01-专线中继
+      - 新加坡SG01-专线中继
+      - 美国US01-专线中继
+      - 日本JP02-专线中继
+      - 台湾丨解GPT
+      - 日本丨解GPT
+      - 新加坡丨解GPT
+      - 日本解锁GPT
+      - 日本丨解GPT 2
+      - 新加坡丨解GPT 2
+      - 日本丨解GPT 3
+      - 新加坡丨解GPT 3
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
+      - 日本JP02-专线中继 2
+      - 新加坡SG02-专线中继
+      - 美国US01-专线中继 2
+      - 美国US02-专线中继
+      - 日本JP01-专线中继 2
+      - 日本丨解GPT 4
+      - 新加坡丨解GPT 4
+      - 马来西亚丨解GPT
+      - 新加坡解GPT
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -81,7 +129,7 @@ proxy-groups:
       - 新加坡1 2
       - 韩国01
       - 韩国01 2
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 美国西雅图原生
       - 日本1 4
       - 日本2 3
@@ -108,7 +156,7 @@ proxy-groups:
       - 台湾1 8
       - 美国纽约 10
       - 美国纽约 11
-      - 日本丨解GPT
+      - 日本丨解GPT 5
       - 美国西雅图原生 6
       - 美国纽约 12
   - name: Domestic
@@ -121,6 +169,30 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
+      - 香港HK02-专线中继
+      - 日本JP01-专线中继
+      - 新加坡SG01-专线中继
+      - 美国US01-专线中继
+      - 日本JP02-专线中继
+      - 台湾丨解GPT
+      - 日本丨解GPT
+      - 新加坡丨解GPT
+      - 日本解锁GPT
+      - 日本丨解GPT 2
+      - 新加坡丨解GPT 2
+      - 日本丨解GPT 3
+      - 新加坡丨解GPT 3
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
+      - 日本JP02-专线中继 2
+      - 新加坡SG02-专线中继
+      - 美国US01-专线中继 2
+      - 美国US02-专线中继
+      - 日本JP01-专线中继 2
+      - 日本丨解GPT 4
+      - 新加坡丨解GPT 4
+      - 马来西亚丨解GPT
+      - 新加坡解GPT
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -141,7 +213,7 @@ proxy-groups:
       - 新加坡1 2
       - 韩国01
       - 韩国01 2
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 美国西雅图原生
       - 日本1 4
       - 日本2 3
@@ -168,7 +240,7 @@ proxy-groups:
       - 台湾1 8
       - 美国纽约 10
       - 美国纽约 11
-      - 日本丨解GPT
+      - 日本丨解GPT 5
       - 美国西雅图原生 6
       - 美国纽约 12
   - name: Others
@@ -192,6 +264,10 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
+      - 香港HK02-专线中继
+      - 台湾丨解GPT
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -201,7 +277,7 @@ proxy-groups:
       - 台湾1
       - 台湾1 2
       - 台湾1 3
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 台湾1 4
       - 台湾1 5
       - 台湾1 6
@@ -212,6 +288,30 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
+      - 香港HK02-专线中继
+      - 日本JP01-专线中继
+      - 新加坡SG01-专线中继
+      - 美国US01-专线中继
+      - 日本JP02-专线中继
+      - 台湾丨解GPT
+      - 日本丨解GPT
+      - 新加坡丨解GPT
+      - 日本解锁GPT
+      - 日本丨解GPT 2
+      - 新加坡丨解GPT 2
+      - 日本丨解GPT 3
+      - 新加坡丨解GPT 3
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
+      - 日本JP02-专线中继 2
+      - 新加坡SG02-专线中继
+      - 美国US01-专线中继 2
+      - 美国US02-专线中继
+      - 日本JP01-专线中继 2
+      - 日本丨解GPT 4
+      - 新加坡丨解GPT 4
+      - 马来西亚丨解GPT
+      - 新加坡解GPT
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -232,7 +332,7 @@ proxy-groups:
       - 新加坡1 2
       - 韩国01
       - 韩国01 2
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 美国西雅图原生
       - 日本1 4
       - 日本2 3
@@ -259,7 +359,7 @@ proxy-groups:
       - 台湾1 8
       - 美国纽约 10
       - 美国纽约 11
-      - 日本丨解GPT
+      - 日本丨解GPT 5
       - 美国西雅图原生 6
       - 美国纽约 12
   - name: Asian TV
@@ -267,6 +367,10 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
+      - 香港HK02-专线中继
+      - 台湾丨解GPT
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -276,7 +380,7 @@ proxy-groups:
       - 台湾1
       - 台湾1 2
       - 台湾1 3
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 台湾1 4
       - 台湾1 5
       - 台湾1 6
@@ -287,6 +391,30 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
+      - 香港HK02-专线中继
+      - 日本JP01-专线中继
+      - 新加坡SG01-专线中继
+      - 美国US01-专线中继
+      - 日本JP02-专线中继
+      - 台湾丨解GPT
+      - 日本丨解GPT
+      - 新加坡丨解GPT
+      - 日本解锁GPT
+      - 日本丨解GPT 2
+      - 新加坡丨解GPT 2
+      - 日本丨解GPT 3
+      - 新加坡丨解GPT 3
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
+      - 日本JP02-专线中继 2
+      - 新加坡SG02-专线中继
+      - 美国US01-专线中继 2
+      - 美国US02-专线中继
+      - 日本JP01-专线中继 2
+      - 日本丨解GPT 4
+      - 新加坡丨解GPT 4
+      - 马来西亚丨解GPT
+      - 新加坡解GPT
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -307,7 +435,7 @@ proxy-groups:
       - 新加坡1 2
       - 韩国01
       - 韩国01 2
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 美国西雅图原生
       - 日本1 4
       - 日本2 3
@@ -334,7 +462,7 @@ proxy-groups:
       - 台湾1 8
       - 美国纽约 10
       - 美国纽约 11
-      - 日本丨解GPT
+      - 日本丨解GPT 5
       - 美国西雅图原生 6
       - 美国纽约 12
   - name: Disney
@@ -357,6 +485,30 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
+      - 香港HK02-专线中继
+      - 日本JP01-专线中继
+      - 新加坡SG01-专线中继
+      - 美国US01-专线中继
+      - 日本JP02-专线中继
+      - 台湾丨解GPT
+      - 日本丨解GPT
+      - 新加坡丨解GPT
+      - 日本解锁GPT
+      - 日本丨解GPT 2
+      - 新加坡丨解GPT 2
+      - 日本丨解GPT 3
+      - 新加坡丨解GPT 3
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
+      - 日本JP02-专线中继 2
+      - 新加坡SG02-专线中继
+      - 美国US01-专线中继 2
+      - 美国US02-专线中继
+      - 日本JP01-专线中继 2
+      - 日本丨解GPT 4
+      - 新加坡丨解GPT 4
+      - 马来西亚丨解GPT
+      - 新加坡解GPT
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -377,7 +529,7 @@ proxy-groups:
       - 新加坡1 2
       - 韩国01
       - 韩国01 2
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 美国西雅图原生
       - 日本1 4
       - 日本2 3
@@ -404,7 +556,7 @@ proxy-groups:
       - 台湾1 8
       - 美国纽约 10
       - 美国纽约 11
-      - 日本丨解GPT
+      - 日本丨解GPT 5
       - 美国西雅图原生 6
       - 美国纽约 12
   - name: Spotify
@@ -412,6 +564,30 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
+      - 香港HK02-专线中继
+      - 日本JP01-专线中继
+      - 新加坡SG01-专线中继
+      - 美国US01-专线中继
+      - 日本JP02-专线中继
+      - 台湾丨解GPT
+      - 日本丨解GPT
+      - 新加坡丨解GPT
+      - 日本解锁GPT
+      - 日本丨解GPT 2
+      - 新加坡丨解GPT 2
+      - 日本丨解GPT 3
+      - 新加坡丨解GPT 3
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
+      - 日本JP02-专线中继 2
+      - 新加坡SG02-专线中继
+      - 美国US01-专线中继 2
+      - 美国US02-专线中继
+      - 日本JP01-专线中继 2
+      - 日本丨解GPT 4
+      - 新加坡丨解GPT 4
+      - 马来西亚丨解GPT
+      - 新加坡解GPT
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -432,7 +608,7 @@ proxy-groups:
       - 新加坡1 2
       - 韩国01
       - 韩国01 2
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 美国西雅图原生
       - 日本1 4
       - 日本2 3
@@ -459,7 +635,7 @@ proxy-groups:
       - 台湾1 8
       - 美国纽约 10
       - 美国纽约 11
-      - 日本丨解GPT
+      - 日本丨解GPT 5
       - 美国西雅图原生 6
       - 美国纽约 12
   - name: Telegram
@@ -467,6 +643,30 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
+      - 香港HK02-专线中继
+      - 日本JP01-专线中继
+      - 新加坡SG01-专线中继
+      - 美国US01-专线中继
+      - 日本JP02-专线中继
+      - 台湾丨解GPT
+      - 日本丨解GPT
+      - 新加坡丨解GPT
+      - 日本解锁GPT
+      - 日本丨解GPT 2
+      - 新加坡丨解GPT 2
+      - 日本丨解GPT 3
+      - 新加坡丨解GPT 3
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
+      - 日本JP02-专线中继 2
+      - 新加坡SG02-专线中继
+      - 美国US01-专线中继 2
+      - 美国US02-专线中继
+      - 日本JP01-专线中继 2
+      - 日本丨解GPT 4
+      - 新加坡丨解GPT 4
+      - 马来西亚丨解GPT
+      - 新加坡解GPT
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -487,7 +687,7 @@ proxy-groups:
       - 新加坡1 2
       - 韩国01
       - 韩国01 2
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 美国西雅图原生
       - 日本1 4
       - 日本2 3
@@ -514,7 +714,7 @@ proxy-groups:
       - 台湾1 8
       - 美国纽约 10
       - 美国纽约 11
-      - 日本丨解GPT
+      - 日本丨解GPT 5
       - 美国西雅图原生 6
       - 美国纽约 12
   - name: Steam
@@ -528,6 +728,30 @@ proxy-groups:
       - Proxies
       - DIRECT
       - Domestic
+      - 香港HK02-专线中继
+      - 日本JP01-专线中继
+      - 新加坡SG01-专线中继
+      - 美国US01-专线中继
+      - 日本JP02-专线中继
+      - 台湾丨解GPT
+      - 日本丨解GPT
+      - 新加坡丨解GPT
+      - 日本解锁GPT
+      - 日本丨解GPT 2
+      - 新加坡丨解GPT 2
+      - 日本丨解GPT 3
+      - 新加坡丨解GPT 3
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
+      - 日本JP02-专线中继 2
+      - 新加坡SG02-专线中继
+      - 美国US01-专线中继 2
+      - 美国US02-专线中继
+      - 日本JP01-专线中继 2
+      - 日本丨解GPT 4
+      - 新加坡丨解GPT 4
+      - 马来西亚丨解GPT
+      - 新加坡解GPT
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -548,7 +772,7 @@ proxy-groups:
       - 新加坡1 2
       - 韩国01
       - 韩国01 2
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 美国西雅图原生
       - 日本1 4
       - 日本2 3
@@ -575,7 +799,7 @@ proxy-groups:
       - 台湾1 8
       - 美国纽约 10
       - 美国纽约 11
-      - 日本丨解GPT
+      - 日本丨解GPT 5
       - 美国西雅图原生 6
       - 美国纽约 12
   - name: PayPal
@@ -593,6 +817,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
+      - 日本解锁GPT
   - name: Crypto
     type: select
     proxies:
@@ -623,6 +848,30 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     interval: 1800
     proxies:
+      - 香港HK02-专线中继
+      - 日本JP01-专线中继
+      - 新加坡SG01-专线中继
+      - 美国US01-专线中继
+      - 日本JP02-专线中继
+      - 台湾丨解GPT
+      - 日本丨解GPT
+      - 新加坡丨解GPT
+      - 日本解锁GPT
+      - 日本丨解GPT 2
+      - 新加坡丨解GPT 2
+      - 日本丨解GPT 3
+      - 新加坡丨解GPT 3
+      - 台湾丨解GPT 2
+      - 香港HK02-专线中继 2
+      - 日本JP02-专线中继 2
+      - 新加坡SG02-专线中继
+      - 美国US01-专线中继 2
+      - 美国US02-专线中继
+      - 日本JP01-专线中继 2
+      - 日本丨解GPT 4
+      - 新加坡丨解GPT 4
+      - 马来西亚丨解GPT
+      - 新加坡解GPT
       - 香港 01
       - 香港 01 2
       - 香港 01 3
@@ -643,7 +892,7 @@ proxy-groups:
       - 新加坡1 2
       - 韩国01
       - 韩国01 2
-      - 台湾丨解GPT
+      - 台湾丨解GPT 3
       - 美国西雅图原生
       - 日本1 4
       - 日本2 3
@@ -670,7 +919,7 @@ proxy-groups:
       - 台湾1 8
       - 美国纽约 10
       - 美国纽约 11
-      - 日本丨解GPT
+      - 日本丨解GPT 5
       - 美国西雅图原生 6
       - 美国纽约 12
 rules:
