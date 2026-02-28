@@ -5,133 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 香港 01, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 936c27b6-0411-4a70-a55a-387615918d84, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 5fbaa786-a1a7-46fb-8dfb-f5c6d9a1d405, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: a87c6d89-be8c-4216-8745-c34966e93a68, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: fd5d7872-54cd-46d1-820b-b6c0a4a1b014, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 3c0d8684-8f23-4e89-82d9-b667dcc2b638, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 2618460c-61b0-4993-8ab7-900c5f959c33, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 676b7a7b-226a-4b3d-850e-769d7ccb87af, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: ed57e4eb-edf7-4e5b-8f5e-8902d2c74462, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 1a01f759-f84f-4a19-a4e7-6a1f343f3813, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 7d6eefcf-2e00-40cc-83af-8eecc7c71294, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 2, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: de7087e4-b640-4c32-88f7-8a2abccd809f, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 2, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 842e32d0-3243-4d2b-ae7d-91a451ebdf65, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: f325f720-f714-4c26-8dac-ae1830c85e96, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 67b11ce3-f589-4422-b7cc-c9d10f203474, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: b62bdb7e-dd30-4acd-b8d5-ba9ebb21c865, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 6b584255-ae00-4fd2-b3f3-fa69fea794a0, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 3, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 5d3b9e24-4f4b-4b05-b76b-74b72d199acf, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 3, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: e9e3d96b-c4ad-4157-838c-7307a28b99d7, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 4, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: ce1236f0-6e99-422c-b3c5-320741477aef, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 4, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 817ab326-370b-4500-8cf4-91a5eb620cd5, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: d338c8c5-a4ac-49be-87b4-9a36e0e8b43a, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 18bd8e78-383a-42a2-9fcb-a505e1c94eaa, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 4, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 4147ee00-eda7-411f-a916-d96dc93a7d31, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 4, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 4efc2007-1147-4bb1-af8d-e35a0f94f8f5, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 5, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 3c944621-9f5f-42c8-850d-856cdcef0c84, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 5, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 40d60f8f-1786-4ea0-8756-528095a0044b, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 5, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 52cd7c5d-d7f6-4dda-8dd6-0ae438527df1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 5, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 62a826e7-9ffa-46da-b684-01c084186340, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 5, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 8b838605-6f1f-4105-8f20-3f7b22d4d9c7, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 5, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 2e96c401-5e01-49f8-bb7d-f638d23c6814, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 429c89d7-da82-4249-883f-1f48f8ac9a1e, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: a03a87ad-5e7b-459e-9e58-ec663efa52e9, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 6, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 84c069c2-cf76-428b-9f7e-496054c1b2cc, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 6, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: b200584f-d7ad-4a36-ab3f-aee6f57fed05, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 6, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: c7b81955-5984-4fb2-9421-9c981e8ed108, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 6, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 6b3849a4-46f8-4137-8131-b341dfe1c361, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 7, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: dcdf5f5b-3a02-4330-ac9b-6bdb37adb26a, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 7, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: b4ddc390-15c3-41c2-8859-c7196287e651, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 7, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 8019cfa6-96bc-41aa-ae7d-b5eb62489264, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 7, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 399e9e60-1b2a-4281-bd6b-94b4c8f72fdb, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 7, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 78cda087-20ac-48c8-8313-d035048ee2dc, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 7, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 57869b1f-855f-4537-be84-f2e161bcffd4, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 8, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 926394ba-afcd-4795-b176-f2b2613bd0c6, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 8, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 4518aa94-34f5-463d-98ee-1a1eb1f9c5f1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 8, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: c0c7a6a5-dc90-4daf-92fa-648954624c9c, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 8, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 7577ec55-4b6b-4982-ab53-7fdae68bea87, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 8, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 02b4b0be-a930-4089-95f2-0f0fb5d41797, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 8, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 4bb5ab49-4aaa-4128-a80d-8a3cbdd32eef, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 9, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 5aac274a-5a81-4fe1-ba41-b0cfc9399de2, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 9, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 2de07993-8032-4f8c-bf41-1005e5baaa4c, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港, server: faq1.lieerr222.cn, port: 43522, type: vmess, uuid: 79ddba11-8bf2-443d-bc5c-d12c8d5d8437, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港 2, server: faq1.lieerr222.cn, port: 43521, type: vmess, uuid: ad56d8cc-9e7f-46ec-9dd2-5ab8c7bd1418, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01, server: faq1.lieerr222.cn, port: 43525, type: vmess, uuid: 4916f26b-9a54-4bba-833e-0976e4f46b10, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01, server: faq1.lieerr222.cn, port: 43527, type: vmess, uuid: e7c5c77d-a783-49c9-a8cc-be872eb653c5, alterId: 0, cipher: auto, tls: false}
-  - {name: 越南, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: 3dc98124-fa75-42de-9597-cda15b6e0744, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本02, server: faq1.lieerr222.cn, port: 43530, type: vmess, uuid: 0ffd3068-fb5b-4893-8b13-1d0089fbf891, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本01, server: faq1.lieerr222.cn, port: 43529, type: vmess, uuid: efa68b6d-59af-450a-adf1-45580f4beb2d, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港 3, server: faq1.lieerr222.cn, port: 43521, type: vmess, uuid: e9561af9-6b7a-4b99-a008-5a258a477bf5, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港 4, server: faq1.lieerr222.cn, port: 43522, type: vmess, uuid: 88339a9f-42a8-4040-860f-3148ba9594f5, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01 2, server: faq1.lieerr222.cn, port: 43525, type: vmess, uuid: fee5f14e-24bd-4727-8dfc-27157edfbfd7, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01 3, server: faq1.lieerr222.cn, port: 43525, type: vmess, uuid: 22c94f8b-c34e-41c6-8fc8-4b42e2227db2, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01 2, server: faq1.lieerr222.cn, port: 43527, type: vmess, uuid: 5fe158d5-289e-44a4-b734-fb47a670a36f, alterId: 0, cipher: auto, tls: false}
-  - {name: 越南 2, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: aa39dcbf-18ab-4cd2-a968-e721c45df9f4, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港 5, server: faq1.lieerr222.cn, port: 43521, type: vmess, uuid: 055e99bf-af57-4703-82e7-593d4ab6a3c5, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港 6, server: faq1.lieerr222.cn, port: 43522, type: vmess, uuid: 8e8d1084-b343-4951-adcc-be7aeddc9371, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01 4, server: faq1.lieerr222.cn, port: 43525, type: vmess, uuid: 07f3bfd5-f8aa-4132-9c25-9db384dfd95c, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01 3, server: faq1.lieerr222.cn, port: 43527, type: vmess, uuid: 624c5103-5901-411b-bb5e-29e5711ed5ca, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01 4, server: faq1.lieerr222.cn, port: 43527, type: vmess, uuid: e43f2d5b-7315-4112-8c79-3f2ef1a9a394, alterId: 0, cipher: auto, tls: false}
-  - {name: 越南 3, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: e5a1e20b-7642-419f-8d33-1bbbd324628d, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本02 2, server: faq1.lieerr222.cn, port: 43530, type: vmess, uuid: 8ae74c6a-a78d-4ba6-b7b0-83b92e6151e6, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港 7, server: faq1.lieerr222.cn, port: 43521, type: vmess, uuid: 55fa9b19-ec10-41ff-bba8-b750ed12cd5c, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本01 2, server: faq1.lieerr222.cn, port: 43529, type: vmess, uuid: cb1f5f7e-81f9-496b-ad3b-1657d52aa2dc, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港 8, server: faq1.lieerr222.cn, port: 43522, type: vmess, uuid: 8a934ffd-e98c-4c69-b510-0c9b512519f2, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01 5, server: faq1.lieerr222.cn, port: 43525, type: vmess, uuid: 94475888-80c4-46dc-a4b1-a0b13baff80e, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01 6, server: faq1.lieerr222.cn, port: 43525, type: vmess, uuid: c96aae3f-97b8-4aa1-9d53-978f6912c784, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01 5, server: faq1.lieerr222.cn, port: 43527, type: vmess, uuid: e597bc2e-5af2-4705-a791-069fbecd15da, alterId: 0, cipher: auto, tls: false}
-  - {name: 越南 4, server: faq1.lieerr222.cn, port: 43528, type: vmess, uuid: f39bbfdf-9068-4787-a56e-712db8de9900, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港 01 10, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 80d69587-beb2-4d0d-be4b-f4dcf3cd2117, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 9, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: babfeede-9419-41dc-9195-a25f5beb66f1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 10, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 9e352863-0aff-4de8-bc68-5832a3c8e6fb, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 9, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 4a31c4b4-fba6-43f5-a52f-821ebdfe292d, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 9, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: d56efb99-7b69-44a4-85e6-5ca849014219, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 9, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: ccd869df-8503-4df5-8a88-5f03b14787d8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 11, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 712d1881-2ace-42c0-af05-c068820ece32, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 10, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 73a4a78f-8de9-4f71-932d-37f46df3d07c, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 11, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 253edc3f-0edc-4855-ba54-de9df5c94695, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 10, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 938aa9cf-665d-49a5-ba61-5190495697c2, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 10, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 66efe237-ba3c-4764-a83b-08c97f13bd8a, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 10, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 7ea6ad05-3d80-458d-9c30-ba341dd33674, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 12, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: dd1cc2af-6246-46f4-8c8a-f60ce445dbf5, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 11, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 4b7b1328-6e1f-4762-b92e-c99269178c6e, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 12, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 5a138afb-6194-4826-a9c2-f134fc492f51, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 11, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 206154fe-c72c-49ae-bf71-b9b9aa6d6a09, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 11, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 52d56235-c74b-4c8e-8a9b-856d3caf6065, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 11, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: e6862457-ccf2-4f1f-9fd9-a79a258e5195, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 13, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: d4844219-3fff-48f0-9748-4a932ddca5dd, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 12, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 4dae511d-38ab-4acc-be16-69e55e159bc4, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 13, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 99f65be0-2398-47a6-a2d6-25df68ebd79d, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 12, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: adf0ace1-650b-4c9d-815e-98a06ec1a540, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 12, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: d97e96ee-1fd6-40f1-a053-95a75f92ee5e, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 12, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 53dff519-e083-42c6-8c56-8517c402f7db, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 14, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 77fd0c60-117b-4eb9-a485-0a0b906d2676, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 13, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 84d2f640-7aff-4542-9788-bd55ffd652cc, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 14, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 7f8b7143-2d2f-4c13-b6d3-e719f78c3aa1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 13, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 54e2b1bd-0e08-4681-8174-1200db5ff5f7, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 13, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 891fb226-fff1-49f2-af6c-8d224760c95b, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 13, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 0dafb745-07b5-4239-a70e-2160ea2e8718, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 15, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 800da88d-92eb-47c3-8508-23fc7119af99, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 14, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 25527980-bf9e-48e4-8bac-98d5a33114e8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 15, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 82581eda-bc34-4278-805e-e9936760cd7e, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 14, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: ac8ac8e5-61cc-46bb-b9c6-7baf8ff8e7f8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 14, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 1e83ea05-2e88-4c3f-a22b-235f38ef6cc8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 14, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: ba10ff80-f047-42c5-9826-56827fe042f1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 16, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 1b82cb73-525b-4765-9608-03c217c43809, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 15, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 8c7db8f8-aea7-45cc-9d23-7ee3ddabd93c, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 16, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 11394045-ff9f-4e9c-9130-be6cc5b169b8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 15, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 383ecf1a-32a4-4d3d-b1ee-875ca63e505f, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 15, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 1dcd5d5e-000f-46c4-bba2-9f303e402d48, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 15, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: b16e67eb-6b27-4e2c-97b8-6ef803d81546, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 17, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 8df9c58f-db34-42c0-8651-5ae8dcc93628, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 16, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 69bf784f-a258-489a-ad21-8efef50dc173, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 17, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 24abd3a1-dcd3-488b-a3cb-bdb23c91b494, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 16, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: f54799ef-adb3-4d55-8ffb-971c2692ee71, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 16, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 868ddaf6-2da7-4a31-9c78-4dd2bc1232d6, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 16, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: b1d603cc-87c2-4504-9e37-e13f3664a2eb, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 18, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: fb6d3d81-ac38-4925-8b5f-60d11f90430e, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 17, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: fbd0a5f8-b9c5-4a4f-973b-7bd49bafc739, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 2f686d81-c1bb-4135-8061-158f7b9cf29f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 6dc96ee8-e068-49d3-bba5-24235c3fea0d, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 92c07699-b71f-4450-a044-d1afed0b669e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 09c440b3-a30e-4a5f-b6e9-03773fbf3a42, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: a6be5a8b-3d49-476d-a743-3fdc3627a5c5, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 0ac54d4d-a55c-4fc8-8b9c-5185054e9571, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 1d58de26-0832-4514-8dae-418993993f1b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 140b3107-1287-4e5e-98b4-ca84ed5b0a09, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 757d3099-ee02-4af3-90ce-cda21307a105, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: eda34917-4c03-438c-a9bf-94b9b746b5fd, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: bcc2b009-62d6-4f65-a77f-2cf4118ce218, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 8827c41a-73bb-415e-a52d-772c8faf4c40, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: a631020d-bd41-450d-b105-035d9f1b30bb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 3dc3b178-3ece-4666-b149-11ebe16c944a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: c4e197c1-72b8-45cb-b7e5-1d7d6605c9f9, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: cbcd3cdd-0cae-48f4-99cc-d29a2844a9fd, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 2, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: ca1a598a-60cf-4b0f-a832-47a6972e754f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 2, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 814864c0-47d7-4a23-9345-f2528938eddc, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 2, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: bce9fd46-c33f-4390-b10b-71e0f48fce43, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 2, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 4c3df9e6-6356-4af5-a7fb-9e9bc1158bb2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 4, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 2691533a-4d87-40c8-8089-a99c5324256b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 05322555-91ee-455f-89af-912dbce9254e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 215a76ab-9973-4130-a7ed-253b4bba51f4, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 58e59e60-5e77-4004-bec6-1e0c7f9b1798, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 3, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: c7bae60e-3f28-40bc-b8f7-7286881ce486, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 3, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: f0f1d8d5-08d6-4b09-a1f5-bd96e0fdc280, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 4, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 0221bd25-1655-44e9-8fd4-515178799362, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 4, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 85a5cb6f-a896-49c5-a709-49c510140cca, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 5, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 50cbef48-6dc7-4131-97d8-ed84281cc54d, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 4, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 3abfdb9b-1410-4458-8525-a1ce28f3d60e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 5, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 5378c9bb-3c0a-4d53-acca-24502f3432f7, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 06318af2-4a8a-4587-984f-ce179d4aa831, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 5, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: b838a7db-8fa5-4f19-8260-a1f9da4a46c2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 6, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 0627c4d4-99eb-4354-aef5-de6a0e1c6ef2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 5, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 3e89c5e2-6942-459e-aced-1671e9d63f3d, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 6, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 87ffaefb-f665-4ae2-83bb-6287adefd61b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 7, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 2639b556-8e3a-4224-b727-5ec14fec835e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 7, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 84dcf39d-c576-4273-822d-be9b4718d6e5, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 3, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: a8efeccb-3804-44de-b9dc-f340b67ef015, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 5, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: a8b3de7d-86c5-4863-8037-032951094273, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 5, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 1fcd13cc-b687-4978-a6be-c533ee7bdfa4, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 84754618-192a-47a8-a752-2113ef01b3dd, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: fcccee94-cf31-4c39-90aa-119ff162dbab, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 8, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 1cf524b5-37e4-4b8c-8575-9bb7fc4753f4, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 8, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 28f63f83-e157-4269-b89f-355e5514ffec, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 4, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: bae84312-2ca0-451a-9735-cd361fb08c55, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 6, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 1c5b90dc-967a-4d17-8f68-5283d22f46a6, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 6, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 02d75d95-66b7-48c6-b702-8e7290812cca, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 7, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 0d174d2d-497e-4c95-808f-70de55285f5c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 7, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: c9611330-3f40-487d-8e48-91489dd4026f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 8, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 64f4a52a-938b-40f1-b8df-7cbced6baf61, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 9, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 099ceefa-92e7-4682-b3b4-78def7816726, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 9, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: f6e1dec5-ae7f-478a-8e7d-34d1d671aa00, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 5, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 15fddedd-e9d1-4abe-87f2-8b9ec108a507, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 10, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 18cc5128-063e-4754-b46d-d0748e39479c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 7, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: fe8bde89-be3e-45d6-87b0-db6086cc9190, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 9, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 3f914961-4071-4fe7-a917-373f3c2a50d2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 8, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: ae91aa21-c6be-469d-a8d1-35448fc94e2a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 10, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 992ad8c4-08f2-402a-8b77-4b0db763569a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 8, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 771c1522-6048-456a-b160-75cfc78f4b64, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 11, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 4890e0c7-1aad-4171-967a-2f1c24acf96f, sni: douyin.com, skip-cert-verify: true, tfo: true}
 proxy-groups:
   - name: Proxies
     type: select
@@ -144,127 +78,61 @@ proxy-groups:
       - 日本2
       - 台湾1
       - 美国纽约
+      - 新加坡1
+      - 韩国01
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 日本1 2
       - 日本2 2
+      - 日本2 3
       - 台湾1 2
       - 美国纽约 2
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
-      - 日本2 3
-      - 台湾1 3
-      - 美国纽约 3
+      - 新加坡1 2
+      - 美国西雅图原生 2
       - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 02 3
       - 日本2 4
-      - 台湾1 4
+      - 日本1 3
+      - 美国纽约 3
+      - 新加坡1 3
       - 美国纽约 4
+      - 新加坡1 4
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
+      - 日本1 4
       - 日本1 5
-      - 日本2 5
-      - 台湾1 5
-      - 美国纽约 5
-      - 香港 01 6
-      - 香港 02 6
       - 日本1 6
+      - 日本2 5
       - 日本2 6
-      - 台湾1 6
-      - 美国纽约 6
-      - 香港 01 7
-      - 香港 02 7
       - 日本1 7
       - 日本2 7
-      - 台湾1 7
-      - 美国纽约 7
-      - 香港 01 8
-      - 香港 02 8
+      - 台湾1 3
+      - 美国纽约 5
+      - 新加坡1 5
+      - 香港 01 6
+      - 香港 02 6
       - 日本1 8
       - 日本2 8
-      - 台湾1 8
-      - 美国纽约 8
-      - 香港 01 9
-      - 日本1 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本02
-      - 日本01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 越南 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 越南 3
-      - 日本02 2
-      - 香港 7
-      - 日本01 2
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 越南 4
-      - 香港 01 10
-      - 香港 02 9
-      - 日本1 10
+      - 台湾1 4
+      - 美国纽约 6
+      - 新加坡1 6
+      - 香港 02 7
+      - 香港 01 7
+      - 香港 02 8
       - 日本2 9
-      - 台湾1 9
-      - 美国纽约 9
-      - 香港 01 11
-      - 香港 02 10
-      - 日本1 11
+      - 日本1 9
+      - 台湾1 5
       - 日本2 10
-      - 台湾1 10
-      - 美国纽约 10
-      - 香港 01 12
+      - 美国纽约 7
+      - 香港 02 9
+      - 美国纽约 8
+      - 香港 02 10
+      - 香港 01 8
       - 香港 02 11
-      - 日本1 12
-      - 日本2 11
-      - 台湾1 11
-      - 美国纽约 11
-      - 香港 01 13
-      - 香港 02 12
-      - 日本1 13
-      - 日本2 12
-      - 台湾1 12
-      - 美国纽约 12
-      - 香港 01 14
-      - 香港 02 13
-      - 日本1 14
-      - 日本2 13
-      - 台湾1 13
-      - 美国纽约 13
-      - 香港 01 15
-      - 香港 02 14
-      - 日本1 15
-      - 日本2 14
-      - 台湾1 14
-      - 美国纽约 14
-      - 香港 01 16
-      - 香港 02 15
-      - 日本1 16
-      - 日本2 15
-      - 台湾1 15
-      - 美国纽约 15
-      - 香港 01 17
-      - 香港 02 16
-      - 日本1 17
-      - 日本2 16
-      - 台湾1 16
-      - 美国纽约 16
-      - 香港 01 18
-      - 香港 02 17
   - name: Domestic
     type: select
     proxies:
@@ -281,127 +149,61 @@ proxy-groups:
       - 日本2
       - 台湾1
       - 美国纽约
+      - 新加坡1
+      - 韩国01
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 日本1 2
       - 日本2 2
+      - 日本2 3
       - 台湾1 2
       - 美国纽约 2
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
-      - 日本2 3
-      - 台湾1 3
-      - 美国纽约 3
+      - 新加坡1 2
+      - 美国西雅图原生 2
       - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 02 3
       - 日本2 4
-      - 台湾1 4
+      - 日本1 3
+      - 美国纽约 3
+      - 新加坡1 3
       - 美国纽约 4
+      - 新加坡1 4
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
+      - 日本1 4
       - 日本1 5
-      - 日本2 5
-      - 台湾1 5
-      - 美国纽约 5
-      - 香港 01 6
-      - 香港 02 6
       - 日本1 6
+      - 日本2 5
       - 日本2 6
-      - 台湾1 6
-      - 美国纽约 6
-      - 香港 01 7
-      - 香港 02 7
       - 日本1 7
       - 日本2 7
-      - 台湾1 7
-      - 美国纽约 7
-      - 香港 01 8
-      - 香港 02 8
+      - 台湾1 3
+      - 美国纽约 5
+      - 新加坡1 5
+      - 香港 01 6
+      - 香港 02 6
       - 日本1 8
       - 日本2 8
-      - 台湾1 8
-      - 美国纽约 8
-      - 香港 01 9
-      - 日本1 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本02
-      - 日本01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 越南 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 越南 3
-      - 日本02 2
-      - 香港 7
-      - 日本01 2
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 越南 4
-      - 香港 01 10
-      - 香港 02 9
-      - 日本1 10
+      - 台湾1 4
+      - 美国纽约 6
+      - 新加坡1 6
+      - 香港 02 7
+      - 香港 01 7
+      - 香港 02 8
       - 日本2 9
-      - 台湾1 9
-      - 美国纽约 9
-      - 香港 01 11
-      - 香港 02 10
-      - 日本1 11
+      - 日本1 9
+      - 台湾1 5
       - 日本2 10
-      - 台湾1 10
-      - 美国纽约 10
-      - 香港 01 12
+      - 美国纽约 7
+      - 香港 02 9
+      - 美国纽约 8
+      - 香港 02 10
+      - 香港 01 8
       - 香港 02 11
-      - 日本1 12
-      - 日本2 11
-      - 台湾1 11
-      - 美国纽约 11
-      - 香港 01 13
-      - 香港 02 12
-      - 日本1 13
-      - 日本2 12
-      - 台湾1 12
-      - 美国纽约 12
-      - 香港 01 14
-      - 香港 02 13
-      - 日本1 14
-      - 日本2 13
-      - 台湾1 13
-      - 美国纽约 13
-      - 香港 01 15
-      - 香港 02 14
-      - 日本1 15
-      - 日本2 14
-      - 台湾1 14
-      - 美国纽约 14
-      - 香港 01 16
-      - 香港 02 15
-      - 日本1 16
-      - 日本2 15
-      - 台湾1 15
-      - 美国纽约 15
-      - 香港 01 17
-      - 香港 02 16
-      - 日本1 17
-      - 日本2 16
-      - 台湾1 16
-      - 美国纽约 16
-      - 香港 01 18
-      - 香港 02 17
   - name: Others
     type: select
     proxies:
@@ -427,72 +229,26 @@ proxy-groups:
       - 香港 02
       - 台湾1
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 台湾1 2
-      - 香港 01 3
-      - 香港 02 3
-      - 台湾1 3
       - 香港 01 4
-      - 香港 02 4
-      - 台湾1 4
+      - 香港 02 3
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
-      - 台湾1 5
+      - 台湾1 3
       - 香港 01 6
       - 香港 02 6
-      - 台湾1 6
-      - 香港 01 7
+      - 台湾1 4
       - 香港 02 7
-      - 台湾1 7
-      - 香港 01 8
+      - 香港 01 7
       - 香港 02 8
-      - 台湾1 8
-      - 香港 01 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 香港 7
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 香港 01 10
+      - 台湾1 5
       - 香港 02 9
-      - 台湾1 9
-      - 香港 01 11
       - 香港 02 10
-      - 台湾1 10
-      - 香港 01 12
+      - 香港 01 8
       - 香港 02 11
-      - 台湾1 11
-      - 香港 01 13
-      - 香港 02 12
-      - 台湾1 12
-      - 香港 01 14
-      - 香港 02 13
-      - 台湾1 13
-      - 香港 01 15
-      - 香港 02 14
-      - 台湾1 14
-      - 香港 01 16
-      - 香港 02 15
-      - 台湾1 15
-      - 香港 01 17
-      - 香港 02 16
-      - 台湾1 16
-      - 香港 01 18
-      - 香港 02 17
   - name: Apple TV
     type: select
     proxies:
@@ -504,127 +260,61 @@ proxy-groups:
       - 日本2
       - 台湾1
       - 美国纽约
+      - 新加坡1
+      - 韩国01
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 日本1 2
       - 日本2 2
+      - 日本2 3
       - 台湾1 2
       - 美国纽约 2
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
-      - 日本2 3
-      - 台湾1 3
-      - 美国纽约 3
+      - 新加坡1 2
+      - 美国西雅图原生 2
       - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 02 3
       - 日本2 4
-      - 台湾1 4
+      - 日本1 3
+      - 美国纽约 3
+      - 新加坡1 3
       - 美国纽约 4
+      - 新加坡1 4
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
+      - 日本1 4
       - 日本1 5
-      - 日本2 5
-      - 台湾1 5
-      - 美国纽约 5
-      - 香港 01 6
-      - 香港 02 6
       - 日本1 6
+      - 日本2 5
       - 日本2 6
-      - 台湾1 6
-      - 美国纽约 6
-      - 香港 01 7
-      - 香港 02 7
       - 日本1 7
       - 日本2 7
-      - 台湾1 7
-      - 美国纽约 7
-      - 香港 01 8
-      - 香港 02 8
+      - 台湾1 3
+      - 美国纽约 5
+      - 新加坡1 5
+      - 香港 01 6
+      - 香港 02 6
       - 日本1 8
       - 日本2 8
-      - 台湾1 8
-      - 美国纽约 8
-      - 香港 01 9
-      - 日本1 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本02
-      - 日本01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 越南 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 越南 3
-      - 日本02 2
-      - 香港 7
-      - 日本01 2
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 越南 4
-      - 香港 01 10
-      - 香港 02 9
-      - 日本1 10
+      - 台湾1 4
+      - 美国纽约 6
+      - 新加坡1 6
+      - 香港 02 7
+      - 香港 01 7
+      - 香港 02 8
       - 日本2 9
-      - 台湾1 9
-      - 美国纽约 9
-      - 香港 01 11
-      - 香港 02 10
-      - 日本1 11
+      - 日本1 9
+      - 台湾1 5
       - 日本2 10
-      - 台湾1 10
-      - 美国纽约 10
-      - 香港 01 12
+      - 美国纽约 7
+      - 香港 02 9
+      - 美国纽约 8
+      - 香港 02 10
+      - 香港 01 8
       - 香港 02 11
-      - 日本1 12
-      - 日本2 11
-      - 台湾1 11
-      - 美国纽约 11
-      - 香港 01 13
-      - 香港 02 12
-      - 日本1 13
-      - 日本2 12
-      - 台湾1 12
-      - 美国纽约 12
-      - 香港 01 14
-      - 香港 02 13
-      - 日本1 14
-      - 日本2 13
-      - 台湾1 13
-      - 美国纽约 13
-      - 香港 01 15
-      - 香港 02 14
-      - 日本1 15
-      - 日本2 14
-      - 台湾1 14
-      - 美国纽约 14
-      - 香港 01 16
-      - 香港 02 15
-      - 日本1 16
-      - 日本2 15
-      - 台湾1 15
-      - 美国纽约 15
-      - 香港 01 17
-      - 香港 02 16
-      - 日本1 17
-      - 日本2 16
-      - 台湾1 16
-      - 美国纽约 16
-      - 香港 01 18
-      - 香港 02 17
   - name: Asian TV
     type: select
     proxies:
@@ -634,72 +324,26 @@ proxy-groups:
       - 香港 02
       - 台湾1
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 台湾1 2
-      - 香港 01 3
-      - 香港 02 3
-      - 台湾1 3
       - 香港 01 4
-      - 香港 02 4
-      - 台湾1 4
+      - 香港 02 3
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
-      - 台湾1 5
+      - 台湾1 3
       - 香港 01 6
       - 香港 02 6
-      - 台湾1 6
-      - 香港 01 7
+      - 台湾1 4
       - 香港 02 7
-      - 台湾1 7
-      - 香港 01 8
+      - 香港 01 7
       - 香港 02 8
-      - 台湾1 8
-      - 香港 01 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 香港 7
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 香港 01 10
+      - 台湾1 5
       - 香港 02 9
-      - 台湾1 9
-      - 香港 01 11
       - 香港 02 10
-      - 台湾1 10
-      - 香港 01 12
+      - 香港 01 8
       - 香港 02 11
-      - 台湾1 11
-      - 香港 01 13
-      - 香港 02 12
-      - 台湾1 12
-      - 香港 01 14
-      - 香港 02 13
-      - 台湾1 13
-      - 香港 01 15
-      - 香港 02 14
-      - 台湾1 14
-      - 香港 01 16
-      - 香港 02 15
-      - 台湾1 15
-      - 香港 01 17
-      - 香港 02 16
-      - 台湾1 16
-      - 香港 01 18
-      - 香港 02 17
   - name: Global TV
     type: select
     proxies:
@@ -711,127 +355,61 @@ proxy-groups:
       - 日本2
       - 台湾1
       - 美国纽约
+      - 新加坡1
+      - 韩国01
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 日本1 2
       - 日本2 2
+      - 日本2 3
       - 台湾1 2
       - 美国纽约 2
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
-      - 日本2 3
-      - 台湾1 3
-      - 美国纽约 3
+      - 新加坡1 2
+      - 美国西雅图原生 2
       - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 02 3
       - 日本2 4
-      - 台湾1 4
+      - 日本1 3
+      - 美国纽约 3
+      - 新加坡1 3
       - 美国纽约 4
+      - 新加坡1 4
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
+      - 日本1 4
       - 日本1 5
-      - 日本2 5
-      - 台湾1 5
-      - 美国纽约 5
-      - 香港 01 6
-      - 香港 02 6
       - 日本1 6
+      - 日本2 5
       - 日本2 6
-      - 台湾1 6
-      - 美国纽约 6
-      - 香港 01 7
-      - 香港 02 7
       - 日本1 7
       - 日本2 7
-      - 台湾1 7
-      - 美国纽约 7
-      - 香港 01 8
-      - 香港 02 8
+      - 台湾1 3
+      - 美国纽约 5
+      - 新加坡1 5
+      - 香港 01 6
+      - 香港 02 6
       - 日本1 8
       - 日本2 8
-      - 台湾1 8
-      - 美国纽约 8
-      - 香港 01 9
-      - 日本1 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本02
-      - 日本01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 越南 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 越南 3
-      - 日本02 2
-      - 香港 7
-      - 日本01 2
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 越南 4
-      - 香港 01 10
-      - 香港 02 9
-      - 日本1 10
+      - 台湾1 4
+      - 美国纽约 6
+      - 新加坡1 6
+      - 香港 02 7
+      - 香港 01 7
+      - 香港 02 8
       - 日本2 9
-      - 台湾1 9
-      - 美国纽约 9
-      - 香港 01 11
-      - 香港 02 10
-      - 日本1 11
+      - 日本1 9
+      - 台湾1 5
       - 日本2 10
-      - 台湾1 10
-      - 美国纽约 10
-      - 香港 01 12
+      - 美国纽约 7
+      - 香港 02 9
+      - 美国纽约 8
+      - 香港 02 10
+      - 香港 01 8
       - 香港 02 11
-      - 日本1 12
-      - 日本2 11
-      - 台湾1 11
-      - 美国纽约 11
-      - 香港 01 13
-      - 香港 02 12
-      - 日本1 13
-      - 日本2 12
-      - 台湾1 12
-      - 美国纽约 12
-      - 香港 01 14
-      - 香港 02 13
-      - 日本1 14
-      - 日本2 13
-      - 台湾1 13
-      - 美国纽约 13
-      - 香港 01 15
-      - 香港 02 14
-      - 日本1 15
-      - 日本2 14
-      - 台湾1 14
-      - 美国纽约 14
-      - 香港 01 16
-      - 香港 02 15
-      - 日本1 16
-      - 日本2 15
-      - 台湾1 15
-      - 美国纽约 15
-      - 香港 01 17
-      - 香港 02 16
-      - 日本1 17
-      - 日本2 16
-      - 台湾1 16
-      - 美国纽约 16
-      - 香港 01 18
-      - 香港 02 17
   - name: Disney
     type: select
     proxies:
@@ -858,127 +436,61 @@ proxy-groups:
       - 日本2
       - 台湾1
       - 美国纽约
+      - 新加坡1
+      - 韩国01
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 日本1 2
       - 日本2 2
+      - 日本2 3
       - 台湾1 2
       - 美国纽约 2
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
-      - 日本2 3
-      - 台湾1 3
-      - 美国纽约 3
+      - 新加坡1 2
+      - 美国西雅图原生 2
       - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 02 3
       - 日本2 4
-      - 台湾1 4
+      - 日本1 3
+      - 美国纽约 3
+      - 新加坡1 3
       - 美国纽约 4
+      - 新加坡1 4
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
+      - 日本1 4
       - 日本1 5
-      - 日本2 5
-      - 台湾1 5
-      - 美国纽约 5
-      - 香港 01 6
-      - 香港 02 6
       - 日本1 6
+      - 日本2 5
       - 日本2 6
-      - 台湾1 6
-      - 美国纽约 6
-      - 香港 01 7
-      - 香港 02 7
       - 日本1 7
       - 日本2 7
-      - 台湾1 7
-      - 美国纽约 7
-      - 香港 01 8
-      - 香港 02 8
+      - 台湾1 3
+      - 美国纽约 5
+      - 新加坡1 5
+      - 香港 01 6
+      - 香港 02 6
       - 日本1 8
       - 日本2 8
-      - 台湾1 8
-      - 美国纽约 8
-      - 香港 01 9
-      - 日本1 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本02
-      - 日本01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 越南 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 越南 3
-      - 日本02 2
-      - 香港 7
-      - 日本01 2
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 越南 4
-      - 香港 01 10
-      - 香港 02 9
-      - 日本1 10
+      - 台湾1 4
+      - 美国纽约 6
+      - 新加坡1 6
+      - 香港 02 7
+      - 香港 01 7
+      - 香港 02 8
       - 日本2 9
-      - 台湾1 9
-      - 美国纽约 9
-      - 香港 01 11
-      - 香港 02 10
-      - 日本1 11
+      - 日本1 9
+      - 台湾1 5
       - 日本2 10
-      - 台湾1 10
-      - 美国纽约 10
-      - 香港 01 12
+      - 美国纽约 7
+      - 香港 02 9
+      - 美国纽约 8
+      - 香港 02 10
+      - 香港 01 8
       - 香港 02 11
-      - 日本1 12
-      - 日本2 11
-      - 台湾1 11
-      - 美国纽约 11
-      - 香港 01 13
-      - 香港 02 12
-      - 日本1 13
-      - 日本2 12
-      - 台湾1 12
-      - 美国纽约 12
-      - 香港 01 14
-      - 香港 02 13
-      - 日本1 14
-      - 日本2 13
-      - 台湾1 13
-      - 美国纽约 13
-      - 香港 01 15
-      - 香港 02 14
-      - 日本1 15
-      - 日本2 14
-      - 台湾1 14
-      - 美国纽约 14
-      - 香港 01 16
-      - 香港 02 15
-      - 日本1 16
-      - 日本2 15
-      - 台湾1 15
-      - 美国纽约 15
-      - 香港 01 17
-      - 香港 02 16
-      - 日本1 17
-      - 日本2 16
-      - 台湾1 16
-      - 美国纽约 16
-      - 香港 01 18
-      - 香港 02 17
   - name: Spotify
     type: select
     proxies:
@@ -990,127 +502,61 @@ proxy-groups:
       - 日本2
       - 台湾1
       - 美国纽约
+      - 新加坡1
+      - 韩国01
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 日本1 2
       - 日本2 2
+      - 日本2 3
       - 台湾1 2
       - 美国纽约 2
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
-      - 日本2 3
-      - 台湾1 3
-      - 美国纽约 3
+      - 新加坡1 2
+      - 美国西雅图原生 2
       - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 02 3
       - 日本2 4
-      - 台湾1 4
+      - 日本1 3
+      - 美国纽约 3
+      - 新加坡1 3
       - 美国纽约 4
+      - 新加坡1 4
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
+      - 日本1 4
       - 日本1 5
-      - 日本2 5
-      - 台湾1 5
-      - 美国纽约 5
-      - 香港 01 6
-      - 香港 02 6
       - 日本1 6
+      - 日本2 5
       - 日本2 6
-      - 台湾1 6
-      - 美国纽约 6
-      - 香港 01 7
-      - 香港 02 7
       - 日本1 7
       - 日本2 7
-      - 台湾1 7
-      - 美国纽约 7
-      - 香港 01 8
-      - 香港 02 8
+      - 台湾1 3
+      - 美国纽约 5
+      - 新加坡1 5
+      - 香港 01 6
+      - 香港 02 6
       - 日本1 8
       - 日本2 8
-      - 台湾1 8
-      - 美国纽约 8
-      - 香港 01 9
-      - 日本1 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本02
-      - 日本01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 越南 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 越南 3
-      - 日本02 2
-      - 香港 7
-      - 日本01 2
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 越南 4
-      - 香港 01 10
-      - 香港 02 9
-      - 日本1 10
+      - 台湾1 4
+      - 美国纽约 6
+      - 新加坡1 6
+      - 香港 02 7
+      - 香港 01 7
+      - 香港 02 8
       - 日本2 9
-      - 台湾1 9
-      - 美国纽约 9
-      - 香港 01 11
-      - 香港 02 10
-      - 日本1 11
+      - 日本1 9
+      - 台湾1 5
       - 日本2 10
-      - 台湾1 10
-      - 美国纽约 10
-      - 香港 01 12
+      - 美国纽约 7
+      - 香港 02 9
+      - 美国纽约 8
+      - 香港 02 10
+      - 香港 01 8
       - 香港 02 11
-      - 日本1 12
-      - 日本2 11
-      - 台湾1 11
-      - 美国纽约 11
-      - 香港 01 13
-      - 香港 02 12
-      - 日本1 13
-      - 日本2 12
-      - 台湾1 12
-      - 美国纽约 12
-      - 香港 01 14
-      - 香港 02 13
-      - 日本1 14
-      - 日本2 13
-      - 台湾1 13
-      - 美国纽约 13
-      - 香港 01 15
-      - 香港 02 14
-      - 日本1 15
-      - 日本2 14
-      - 台湾1 14
-      - 美国纽约 14
-      - 香港 01 16
-      - 香港 02 15
-      - 日本1 16
-      - 日本2 15
-      - 台湾1 15
-      - 美国纽约 15
-      - 香港 01 17
-      - 香港 02 16
-      - 日本1 17
-      - 日本2 16
-      - 台湾1 16
-      - 美国纽约 16
-      - 香港 01 18
-      - 香港 02 17
   - name: Telegram
     type: select
     proxies:
@@ -1122,127 +568,61 @@ proxy-groups:
       - 日本2
       - 台湾1
       - 美国纽约
+      - 新加坡1
+      - 韩国01
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 日本1 2
       - 日本2 2
+      - 日本2 3
       - 台湾1 2
       - 美国纽约 2
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
-      - 日本2 3
-      - 台湾1 3
-      - 美国纽约 3
+      - 新加坡1 2
+      - 美国西雅图原生 2
       - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 02 3
       - 日本2 4
-      - 台湾1 4
+      - 日本1 3
+      - 美国纽约 3
+      - 新加坡1 3
       - 美国纽约 4
+      - 新加坡1 4
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
+      - 日本1 4
       - 日本1 5
-      - 日本2 5
-      - 台湾1 5
-      - 美国纽约 5
-      - 香港 01 6
-      - 香港 02 6
       - 日本1 6
+      - 日本2 5
       - 日本2 6
-      - 台湾1 6
-      - 美国纽约 6
-      - 香港 01 7
-      - 香港 02 7
       - 日本1 7
       - 日本2 7
-      - 台湾1 7
-      - 美国纽约 7
-      - 香港 01 8
-      - 香港 02 8
+      - 台湾1 3
+      - 美国纽约 5
+      - 新加坡1 5
+      - 香港 01 6
+      - 香港 02 6
       - 日本1 8
       - 日本2 8
-      - 台湾1 8
-      - 美国纽约 8
-      - 香港 01 9
-      - 日本1 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本02
-      - 日本01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 越南 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 越南 3
-      - 日本02 2
-      - 香港 7
-      - 日本01 2
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 越南 4
-      - 香港 01 10
-      - 香港 02 9
-      - 日本1 10
+      - 台湾1 4
+      - 美国纽约 6
+      - 新加坡1 6
+      - 香港 02 7
+      - 香港 01 7
+      - 香港 02 8
       - 日本2 9
-      - 台湾1 9
-      - 美国纽约 9
-      - 香港 01 11
-      - 香港 02 10
-      - 日本1 11
+      - 日本1 9
+      - 台湾1 5
       - 日本2 10
-      - 台湾1 10
-      - 美国纽约 10
-      - 香港 01 12
+      - 美国纽约 7
+      - 香港 02 9
+      - 美国纽约 8
+      - 香港 02 10
+      - 香港 01 8
       - 香港 02 11
-      - 日本1 12
-      - 日本2 11
-      - 台湾1 11
-      - 美国纽约 11
-      - 香港 01 13
-      - 香港 02 12
-      - 日本1 13
-      - 日本2 12
-      - 台湾1 12
-      - 美国纽约 12
-      - 香港 01 14
-      - 香港 02 13
-      - 日本1 14
-      - 日本2 13
-      - 台湾1 13
-      - 美国纽约 13
-      - 香港 01 15
-      - 香港 02 14
-      - 日本1 15
-      - 日本2 14
-      - 台湾1 14
-      - 美国纽约 14
-      - 香港 01 16
-      - 香港 02 15
-      - 日本1 16
-      - 日本2 15
-      - 台湾1 15
-      - 美国纽约 15
-      - 香港 01 17
-      - 香港 02 16
-      - 日本1 17
-      - 日本2 16
-      - 台湾1 16
-      - 美国纽约 16
-      - 香港 01 18
-      - 香港 02 17
   - name: Steam
     type: select
     proxies:
@@ -1260,127 +640,61 @@ proxy-groups:
       - 日本2
       - 台湾1
       - 美国纽约
+      - 新加坡1
+      - 韩国01
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 日本1 2
       - 日本2 2
+      - 日本2 3
       - 台湾1 2
       - 美国纽约 2
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
-      - 日本2 3
-      - 台湾1 3
-      - 美国纽约 3
+      - 新加坡1 2
+      - 美国西雅图原生 2
       - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 02 3
       - 日本2 4
-      - 台湾1 4
+      - 日本1 3
+      - 美国纽约 3
+      - 新加坡1 3
       - 美国纽约 4
+      - 新加坡1 4
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
+      - 日本1 4
       - 日本1 5
-      - 日本2 5
-      - 台湾1 5
-      - 美国纽约 5
-      - 香港 01 6
-      - 香港 02 6
       - 日本1 6
+      - 日本2 5
       - 日本2 6
-      - 台湾1 6
-      - 美国纽约 6
-      - 香港 01 7
-      - 香港 02 7
       - 日本1 7
       - 日本2 7
-      - 台湾1 7
-      - 美国纽约 7
-      - 香港 01 8
-      - 香港 02 8
+      - 台湾1 3
+      - 美国纽约 5
+      - 新加坡1 5
+      - 香港 01 6
+      - 香港 02 6
       - 日本1 8
       - 日本2 8
-      - 台湾1 8
-      - 美国纽约 8
-      - 香港 01 9
-      - 日本1 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本02
-      - 日本01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 越南 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 越南 3
-      - 日本02 2
-      - 香港 7
-      - 日本01 2
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 越南 4
-      - 香港 01 10
-      - 香港 02 9
-      - 日本1 10
+      - 台湾1 4
+      - 美国纽约 6
+      - 新加坡1 6
+      - 香港 02 7
+      - 香港 01 7
+      - 香港 02 8
       - 日本2 9
-      - 台湾1 9
-      - 美国纽约 9
-      - 香港 01 11
-      - 香港 02 10
-      - 日本1 11
+      - 日本1 9
+      - 台湾1 5
       - 日本2 10
-      - 台湾1 10
-      - 美国纽约 10
-      - 香港 01 12
+      - 美国纽约 7
+      - 香港 02 9
+      - 美国纽约 8
+      - 香港 02 10
+      - 香港 01 8
       - 香港 02 11
-      - 日本1 12
-      - 日本2 11
-      - 台湾1 11
-      - 美国纽约 11
-      - 香港 01 13
-      - 香港 02 12
-      - 日本1 13
-      - 日本2 12
-      - 台湾1 12
-      - 美国纽约 12
-      - 香港 01 14
-      - 香港 02 13
-      - 日本1 14
-      - 日本2 13
-      - 台湾1 13
-      - 美国纽约 13
-      - 香港 01 15
-      - 香港 02 14
-      - 日本1 15
-      - 日本2 14
-      - 台湾1 14
-      - 美国纽约 14
-      - 香港 01 16
-      - 香港 02 15
-      - 日本1 16
-      - 日本2 15
-      - 台湾1 15
-      - 美国纽约 15
-      - 香港 01 17
-      - 香港 02 16
-      - 日本1 17
-      - 日本2 16
-      - 台湾1 16
-      - 美国纽约 16
-      - 香港 01 18
-      - 香港 02 17
   - name: PayPal
     type: select
     proxies:
@@ -1432,127 +746,61 @@ proxy-groups:
       - 日本2
       - 台湾1
       - 美国纽约
+      - 新加坡1
+      - 韩国01
+      - 美国西雅图原生
+      - 美国洛杉矶原生
       - 香港 01 2
+      - 香港 01 3
       - 香港 02 2
       - 日本1 2
       - 日本2 2
+      - 日本2 3
       - 台湾1 2
       - 美国纽约 2
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
-      - 日本2 3
-      - 台湾1 3
-      - 美国纽约 3
+      - 新加坡1 2
+      - 美国西雅图原生 2
       - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 02 3
       - 日本2 4
-      - 台湾1 4
+      - 日本1 3
+      - 美国纽约 3
+      - 新加坡1 3
       - 美国纽约 4
+      - 新加坡1 4
       - 香港 01 5
+      - 香港 02 4
       - 香港 02 5
+      - 日本1 4
       - 日本1 5
-      - 日本2 5
-      - 台湾1 5
-      - 美国纽约 5
-      - 香港 01 6
-      - 香港 02 6
       - 日本1 6
+      - 日本2 5
       - 日本2 6
-      - 台湾1 6
-      - 美国纽约 6
-      - 香港 01 7
-      - 香港 02 7
       - 日本1 7
       - 日本2 7
-      - 台湾1 7
-      - 美国纽约 7
-      - 香港 01 8
-      - 香港 02 8
+      - 台湾1 3
+      - 美国纽约 5
+      - 新加坡1 5
+      - 香港 01 6
+      - 香港 02 6
       - 日本1 8
       - 日本2 8
-      - 台湾1 8
-      - 美国纽约 8
-      - 香港 01 9
-      - 日本1 9
-      - 香港
-      - 香港 2
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本02
-      - 日本01
-      - 香港 3
-      - 香港 4
-      - 香港01 2
-      - 香港01 3
-      - 台湾01 2
-      - 越南 2
-      - 香港 5
-      - 香港 6
-      - 香港01 4
-      - 台湾01 3
-      - 台湾01 4
-      - 越南 3
-      - 日本02 2
-      - 香港 7
-      - 日本01 2
-      - 香港 8
-      - 香港01 5
-      - 香港01 6
-      - 台湾01 5
-      - 越南 4
-      - 香港 01 10
-      - 香港 02 9
-      - 日本1 10
+      - 台湾1 4
+      - 美国纽约 6
+      - 新加坡1 6
+      - 香港 02 7
+      - 香港 01 7
+      - 香港 02 8
       - 日本2 9
-      - 台湾1 9
-      - 美国纽约 9
-      - 香港 01 11
-      - 香港 02 10
-      - 日本1 11
+      - 日本1 9
+      - 台湾1 5
       - 日本2 10
-      - 台湾1 10
-      - 美国纽约 10
-      - 香港 01 12
+      - 美国纽约 7
+      - 香港 02 9
+      - 美国纽约 8
+      - 香港 02 10
+      - 香港 01 8
       - 香港 02 11
-      - 日本1 12
-      - 日本2 11
-      - 台湾1 11
-      - 美国纽约 11
-      - 香港 01 13
-      - 香港 02 12
-      - 日本1 13
-      - 日本2 12
-      - 台湾1 12
-      - 美国纽约 12
-      - 香港 01 14
-      - 香港 02 13
-      - 日本1 14
-      - 日本2 13
-      - 台湾1 13
-      - 美国纽约 13
-      - 香港 01 15
-      - 香港 02 14
-      - 日本1 15
-      - 日本2 14
-      - 台湾1 14
-      - 美国纽约 14
-      - 香港 01 16
-      - 香港 02 15
-      - 日本1 16
-      - 日本2 15
-      - 台湾1 15
-      - 美国纽约 15
-      - 香港 01 17
-      - 香港 02 16
-      - 日本1 17
-      - 日本2 16
-      - 台湾1 16
-      - 美国纽约 16
-      - 香港 01 18
-      - 香港 02 17
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
