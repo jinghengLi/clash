@@ -15,7 +15,7 @@ proxy-providers:
     type: http
     interval: 86400
     override:
-      additional-prefix: '[机场1名字]'
+      additional-prefix: 'feedback'
       skip-cert-verify: true
       udp: true
     health-check:
