@@ -5,182 +5,281 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 用力下滑选择👇线路, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 8c454f37-033c-4b51-ad81-9a7337d9aefb, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 2, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 451ba8cd-b373-40fd-827f-81b7f4310a05, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 3, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 7db5fb01-6e0a-4f8e-b377-967a90075728, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 568ee15d-db06-4d68-a160-3faae167aa86, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 6d03f8a6-b2b6-4089-9c84-17f679097505, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: aae7a6ef-8ea1-4f3e-944d-f9c5728daf35, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: b331b13b-bf81-40e8-ba3a-eafd82f430c9, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 5d7b1b56-46a8-48e6-80b3-9ee838dfa64b, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 774d8468-0818-4ab5-a6b5-c240c758784a, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: a4b2fda7-ec6d-4ed9-94ec-cb1c27603360, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 20e5b688-7c65-4e8e-b4dc-6419004dcdd1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 50e1c20f-9b05-42aa-a4ea-996c8d6da068, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 1e4c8297-7caf-4602-85a1-508d45ed67b8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: c36662c8-bcba-453c-928e-ab9ce2126ffd, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 214d8e43-b3e4-44c0-82a1-cf5cc5dd3f41, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 127bcfa8-f767-4f2a-91d7-d47d679b505f, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 上面☝️线路仅为备用, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: c947a5ad-6da0-49c0-8108-6118b4f56161, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 上面☝️线路仅为备用 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 419a06ad-bbf8-487e-8d0b-8751d7cfc988, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 上面☝️线路仅为备用 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: f8cf3abd-6e73-4c19-b8e4-6ad1d55b5227, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: ec0f1ecd-3229-4a39-9ee3-594dba7a2505, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 2, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 7ff2a802-5386-4007-8d81-5876e4aab854, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 2, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: de4f3f05-bdff-419f-99ec-30606e9a11ec, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 2, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 7970c2b0-65c7-45c0-a20a-f63bb603f9f0, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 2, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: d82f9d97-c7a2-4c1e-8360-4c0ff198423b, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 2, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 51b939ac-6657-4798-bc18-e61ec2ff5713, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 2, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 4835e7cf-0a74-4cff-be25-b042d48fb16f, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 4, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 055dd5ea-154a-4482-b626-6b1809060a05, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 5, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: ab66f80f-2ff6-49be-aee3-0b92963cdc48, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 72ec2090-c717-4fa3-99bc-6939d575d16d, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 2220304f-055d-4a75-a836-e2abeaf6aace, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 6eebdd07-766f-43d4-ad6d-fe4266b13bd0, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 2ed53a5d-0299-4107-a4ce-4698a1174307, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: f9251eca-d490-4fa1-87fd-fee112291dad, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 3, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: ea2d3716-e5ab-4034-8538-782766238388, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 3, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: e8e9f6f1-c24e-4227-99c8-ab054cf69831, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 7, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 765bcc19-d659-4d94-9241-ace8620b83e8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 8, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: dc960150-e9d0-4767-b0ba-7f85b1f72561, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 9, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 2e768e4f-97e2-4e4f-a2c1-51c227de9db5, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 3, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 7495f611-e6a7-4237-9f8d-01a1876eb601, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 3, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: db9cd314-d89b-4906-9f87-3b07e51cb381, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 3, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 74743c30-afc4-4988-b65d-343d14d1adbf, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 3, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 85d8f8a7-eab9-4e16-8a49-1042c30144f8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 4, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 70bc49f7-cc9b-4f80-8e64-c1dd135c8cdb, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 4, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 6438af52-3eae-427f-b87f-6d690dea30aa, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 2b9c6545-f23b-4a0b-84d8-2b14830154f3, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 3af6386f-bbdd-4fb3-9a68-1224b746c933, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 4, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 6617ef41-bf1b-4a49-92a5-6fc1c65446cf, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 4, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 79727f04-8350-4d9e-9eac-df75c2bd0fed, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 4, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 36b61f43-03d0-46c7-b32b-0eb873dd57e3, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 4, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 03c3cf3c-e8dd-40b7-8ac9-f103ea93ab0d, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 10, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 1b6402f3-c84a-4404-92d4-a612e5392f2f, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 11, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 5480adc2-39c7-4d74-9dcd-c7a56e4df4a9, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 4, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 3eb4747f-8dd3-4011-a4fb-06b46fdbb164, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 4, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: a7d70e3d-ff67-4df7-92ba-29e1a6509734, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 5, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 44debf8d-8339-4e85-bf0f-5cb088a73a9e, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 5, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 471c9886-a42a-4fad-a4ba-dc8309e27494, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 5, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 8376ae2e-44f6-4fd9-8aed-1b51580e2b80, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 5, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: c490e11a-d1d3-4a2e-b58b-f21981f877c4, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 5, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: a44755d4-aa1f-461e-97bf-9ac60b3e7c40, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 5, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: b1f363f6-c76c-4368-9a8b-bcb08b48a0f0, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 5, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 6d66f270-cdd6-4e44-81e0-f0ce25ecea3d, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 5, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 950b6d8d-a9e9-4cac-adac-23201bb275da, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 5, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: a34750e7-0c05-4730-a16a-6fb9b41b8eed, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 5, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 82c43f34-5963-428d-a969-8c5a81414a1f, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 379f79dd-41d8-4ed3-9700-50dcb1ccb027, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: accba840-a623-4bdc-a39f-bbf6937be747, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 12, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: b968e901-b65d-46be-9312-51fb553e5854, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 13, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: fa86e35c-7652-4fb7-9bdb-719fb3f5ab11, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 14, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 638cfd9d-526c-475e-bdb3-0eeeeadfeaac, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 6, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 2e79609c-1090-4335-8764-0edd5b7060f2, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 6, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 02083c44-8c11-4f49-8033-6ea103fd5c9c, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 6, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: e473fa50-c5e1-474c-84bb-41ab5c2076d5, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 6, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: d570d443-a4d7-46ff-9b20-959dbd462ba8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 6, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 2854a6f4-bfc3-4681-aadd-a0bd51da50f4, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 6, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 47bba608-2409-4928-9768-c89130d1bb1a, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 6, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 6054c1f7-824a-4e8b-9870-2ed5ca966fff, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 6, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: c6cb6ac4-1d41-42e6-aefe-a18f28b47b3c, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 7, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 705dcf07-b773-446a-a3ee-ee21332f9d94, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 15, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: d3aad0b3-1294-4542-b3af-f31b5c5420d8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 16, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 8fa04723-8b2e-4e06-88cf-4b9b7a249cae, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 17, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: e3d57e3c-da67-4900-a0d6-de2cbe54f2eb, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 7, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: ad81e16f-07fd-43c3-8508-e8ef6f81883d, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 7, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 31e9d2a7-f79a-4c24-8b64-e48389a319c7, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 7, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: eedb1eaf-51e1-484c-a96e-82d116a4d185, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 7, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: e746fcf3-29f9-4a69-83a1-91df95dc4323, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 18, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 458b4c96-d9a5-4cd5-b5c1-9bc582b5bcab, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 19, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: ae0e2fb9-390a-4ec7-88c1-ba01e07c07c1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 20, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 1d1b3a8e-b347-4726-8381-ab41a8ed5d68, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 7, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 0271f0d7-14a3-4254-ae34-787d484937d1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 7, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 47017f50-1767-4b2c-b618-b8f6361e942f, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 7, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 8439fa94-7499-4044-995b-a5d11d69c9c7, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 7, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 927e1324-28be-4ab6-9b45-aa50d6bff932, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 7, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 9463b098-cb19-4564-98c7-4773e457cbef, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 8, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: f2afa5b8-6aa4-4a91-8385-e1dff67fe1b6, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 8, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 12eaadbd-f411-4db8-ad25-14a2ef9ddd5b, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 8, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 9c577a6f-3e7f-4573-af01-347640adbeb2, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 8, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 77310a1c-4e90-4ae3-a7c8-745f200e9522, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 8, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 4033f062-e7eb-4228-9f0e-871f4269a0c6, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 8, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 0dbe110a-3317-4ae6-b81b-a08267860a59, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 8, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 44689133-51e7-4686-bc53-159ef20b00b2, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 8, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 0d1c1f07-5e85-41a7-b86c-b2521559d6b9, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 8, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 007237f0-4276-4686-a31f-61d31fcf5d87, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 8, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 87797203-738a-4ea3-8df8-800c39ff2928, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 9, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 3abcaa2b-0a83-4533-b500-d7b1720c9176, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 21, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: fdc2a7e4-9243-495d-9e77-ffb286fd4263, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 22, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 42646225-50ff-4193-b007-7fce76d0c06f, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 23, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 3387fb36-b108-4c63-8db7-fb70803fe1b6, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 9, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 6fa87b30-7fb0-4445-afcd-9ca853de619b, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 9, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 7c2d7902-a386-4657-993f-78b2677ca399, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 9, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 1f99f93d-83fe-439a-8e84-8ef41267a69b, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 9, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 4ddb1bdf-3677-498e-89da-54856dcf1a75, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 9, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: e2e07a3a-da56-4b8e-9670-5a4deb4aa5fa, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 9, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: cf977479-7879-4c3c-8063-1fd92ed2b971, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 9, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 13bcf722-7702-4f65-9e5d-93aba310fddf, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 9, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 3684385f-00e5-4321-b01f-382f12ac6f39, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 9, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 59cafb67-7f94-4397-8050-68aa8b98eafc, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 10, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 56e36a21-45cd-4ce4-9940-f92f5075643d, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 10, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: fb42b541-4acb-4b18-9aab-db48ddcdef45, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 10, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 0d1592e9-4e09-40c3-b65a-a72485ed0c39, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 24, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: c850cb1f-6f8a-47ac-bf8e-db85a7dc026a, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 25, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 11913eb7-a36b-47b3-aa0d-32878c5dbd19, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 26, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 6131f618-cbae-427c-b848-16c9e905b1d6, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 27, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 1c3715ab-511f-4317-8f91-77d96e9d42f1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 10, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: ce7e6f42-7cb2-4112-81ca-b267bc81b8d0, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 10, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: a0d4089c-9b19-4dbf-a6cd-e23f2ce2c177, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 10, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 62fdb118-42c3-4ac1-b50c-f18c097d2585, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 10, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 278e4b91-4aab-44e4-ad13-6115d9e94c10, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 10, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: a4aef299-e056-47f2-bdb3-24e6a5d046e1, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 10, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: fb275104-498e-472e-aa17-92bf760a5813, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 10, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 8b93a078-f2e7-46c5-8402-80b8e01a6571, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 11, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: a1f3045e-9f30-4734-bed2-169907b487c5, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 11, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 31bc8ca0-be2e-455c-811f-2931f8e5c457, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 用力下滑选择👇线路 28, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 3b47350c-0fe7-4f77-a13e-77d19b1837d8, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 上面☝️线路仅为备用 4, server: dax.kkieo555.cn, port: 43528, type: vmess, uuid: cc82e695-9a2a-4f11-82ca-6c4193763063, alterId: 0, cipher: auto, tls: false}
-  - {name: 用力下滑选择👇线路 29, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 2eeb5ed5-c033-4ba9-b651-9ad8f155daa5, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 11, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: fb4f38a4-6477-4633-b778-8ce33735cf1f, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 11, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 507dbba6-3a4a-4307-b436-2de5588d6275, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 11, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: f4923253-f751-4371-bad1-14a376a8dfe2, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 11, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 6788ce46-e2a9-4bd6-958d-f35ee45e5802, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡1 11, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 1f753979-7122-43e2-873d-f25f1952be48, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国01 11, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 7c2cf23b-978f-4990-836a-3de28f293e6a, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生 11, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: c7a6bec9-4e21-4a48-8371-3a0d2377f0a7, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国洛杉矶原生 11, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 9222be45-9e53-45c0-b40b-65266df4c58d, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 12, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: daa6ed14-27f2-410b-b84a-fde5441207a5, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港01, server: dax.kkieo555.cn, port: 43525, type: vmess, uuid: 8fc80a2e-6839-481c-b619-cc24966fc80e, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: 3630aa0b-8e12-473d-abcf-2c51d24574be, alterId: 0, cipher: auto, tls: false}
-  - {name: 越南, server: dax.kkieo555.cn, port: 43528, type: vmess, uuid: 7d3000d4-705c-4d7c-abec-ae5d8d53ba32, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本01, server: dax.kkieo555.cn, port: 43529, type: vmess, uuid: 5379671f-542d-4dbc-a769-f611a7f510d8, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本02, server: dax.kkieo555.cn, port: 43530, type: vmess, uuid: ed02ff95-a90c-4ca9-994f-b485dd676111, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01 2, server: dax.kkieo555.cn, port: 43525, type: vmess, uuid: b5f65ff3-3998-4320-b29c-9e3b9ba87a81, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01 2, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: 654fc4a9-06be-412c-a232-4110de22cc5b, alterId: 0, cipher: auto, tls: false}
-  - {name: 越南 2, server: dax.kkieo555.cn, port: 43528, type: vmess, uuid: 9ea0602c-0c94-4b88-bb6e-dd6397914c30, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本01 2, server: dax.kkieo555.cn, port: 43529, type: vmess, uuid: 623fa641-cdcf-4399-8b87-2f061566f27d, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本02 2, server: dax.kkieo555.cn, port: 43530, type: vmess, uuid: 66810d75-9969-4cd3-b373-0a12e326a31f, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01 3, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: 770f9b82-4e63-41a2-91dc-6fc81bfdd45f, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01 3, server: dax.kkieo555.cn, port: 43525, type: vmess, uuid: 808d413a-7bc7-4dc3-99d8-d053bc5a66b0, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本01 3, server: dax.kkieo555.cn, port: 43529, type: vmess, uuid: a2806dcf-54af-46c1-beee-2dab883a68ed, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本02 3, server: dax.kkieo555.cn, port: 43530, type: vmess, uuid: 06f95939-cd12-46e2-bdcc-f88cd65c867d, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01 4, server: dax.kkieo555.cn, port: 43525, type: vmess, uuid: e7586178-15db-4a6d-98cb-413e49a921d8, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01 4, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: b6f246c9-c950-4e68-9ba2-157b199a03b0, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本01 4, server: dax.kkieo555.cn, port: 43529, type: vmess, uuid: cb659857-cbdf-434c-8c97-6cf9cc8bbf2d, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本02 4, server: dax.kkieo555.cn, port: 43530, type: vmess, uuid: 6e3f0977-c859-4e75-82f3-2455ddde4245, alterId: 0, cipher: auto, tls: false}
-  - {name: 香港01 5, server: dax.kkieo555.cn, port: 43525, type: vmess, uuid: c26b9a18-a1c6-4ca0-86e8-e754f612c8de, alterId: 0, cipher: auto, tls: false}
-  - {name: 台湾01 5, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: 5f48efef-7777-46df-b992-db8e92e69001, alterId: 0, cipher: auto, tls: false}
+  - {name: 608更新, server: ddns2.qqa678.com, port: 47081, type: vmess, uuid: 148875e2-fa89-4a46-9515-81194d0efc02, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 0a9695cd-6053-4b76-9063-480b40fbe09f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 0f42835e-9afd-42b6-907a-a08e985335cb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: e0a5662b-4d37-4919-8601-8edbb09375eb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 0de18b78-d1f9-4dde-96bf-528bc3d731a3, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 06889de0-b1ac-441e-91d5-20ca75afcbbc, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: d9ff8d53-0c35-46c2-bff0-1931021b5523, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: f2f0efcd-fe10-4fca-8d0d-465b5c94f04a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: c2c922a7-0073-411a-a4c1-a7c72922af38, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: bd953d9b-4851-4012-a34b-c4cec4996670, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 1c5813c2-e0ea-4183-9815-c9ba7856aa08, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: f36c073b-dd7c-4e15-9ecd-b15a7cf791c8, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 2, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 3e305d65-5e18-4a21-aa5d-5e8ff230d260, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: ☝️上面的线路不要用, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 6f337bfc-a9f3-4e64-954b-de1d2ad5f3f3, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 2, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 4f34eb81-38b7-4804-b8f4-5c1b2b0ca7bb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 2, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 5a0bbcf7-2030-4bbf-9d64-538aaae9f8cc, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 2, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 1cbcddd5-8b54-4b2f-975a-0645659921e3, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 2, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: e3daa21f-53c0-476c-9d59-d89283d0db02, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 2, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: f5762388-c0c6-4dbf-b98c-6894c7133ee1, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 7fda1715-3a8a-4c5a-a97b-ecc175162e29, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 6ae9d15c-51b6-4c4e-8b6c-10d37b9dc0fc, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 30af3205-017b-4afe-879d-bdf716c35252, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 0df8c156-d4b2-4cd2-b66f-4660b5b5e0b6, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 3, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 287252fb-099f-4bc7-9c76-c58909a4e693, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 3, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 59007aa5-8f65-4c75-ab99-309f72479b8b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 3, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: c5917d44-8e70-4617-acee-df9559d2c855, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 3, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 5605b2ce-10c8-4716-b5f1-21931c0a459d, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: ☝️上面的线路不要用 2, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: f76bf85b-4507-4ecf-9745-b5017e9a5223, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 3, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: a4a7a91a-9a87-4039-93d9-56d3958f0357, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 3, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: ad51b916-c1c0-48fe-a2bf-b07a3cd29374, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 09a7a2f7-aa70-4214-bea9-282e73fa9c4c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 4ac7c463-530d-4253-9c8d-7239f4ffbb37, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 3, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 19d17884-b355-4c54-b937-91a0bc739493, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 10e0f5d7-5b5e-472a-b11e-139ebde6458b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 4, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 0bb54a0b-a4ce-4d71-befd-475428f413da, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 4, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: a9abece9-95c5-472c-a030-79f5f0f44296, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 4, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 048ea37b-f1de-48c3-9acc-9f737352ed13, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 4, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: b540337c-0847-4999-89f3-1cb8d92a0777, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 4, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: da5bcb82-9e8f-4627-a575-1a502e6f6ec2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 4, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: f86bb044-2abc-4f5b-8713-83427dde915d, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 4, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 419bd082-4c1f-4702-b24b-1d632337c98a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 4, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 485e15fc-5761-4ba8-82ff-b5a98689cf54, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: ☝️上面的线路不要用 3, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: e714992b-906b-476e-b63b-0e435dae40d9, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: abccd7bb-0586-4ee0-8216-c01fa7cdc12a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 5, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 38afafea-2b35-401a-a231-7b37c6fddc19, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 5, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: f4586827-9efe-4020-955e-28fb084bc29b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 5, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 641a30d9-8e87-41bc-9bdd-bded224d0032, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 5, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: bea30c4d-cce8-45a3-a468-b7e4956d0142, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 5, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: c9df3652-bca7-4689-aceb-9a618a14269a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 5, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 23ce76b2-fbe1-4a90-9716-155ba7263d76, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 5, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 890a81f0-4f42-4b9d-a849-1a1515686f7e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 5, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 900af122-0c4f-4e0a-940e-adae362623d0, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 5, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 98bb81f4-af14-4a24-974e-922b1d5cdca7, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 5, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 12af534c-4b3a-461a-acf7-58b8002e08bd, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 6, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 34c41ae2-06c5-4465-9ec2-a023aaac2f6b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 569b96f3-8818-40eb-8da0-1c078fea9146, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 2, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: e8a36595-4562-49c9-b54d-a39dde5259c8, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 6, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 09a32c88-217e-4739-86f1-580005e1b717, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 6, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 088757aa-7a2f-4d0e-b4ed-fedc214adb10, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 6, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: dcd60ecf-432b-4c1b-adf5-a87b3bcb351e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 6, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 41869729-005e-42d7-bd86-e64f624fe098, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 6, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 63d38ccf-ed02-4f52-b55c-c8dcb2ce9795, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 6, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 6c471f04-9831-49a7-8c8a-c5da49ab410b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: b769f742-38b1-4614-a242-08f7083958f8, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 4ba9c958-46ec-4c88-8f95-8a41c3383a31, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 6, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: fa44170a-b6a8-49d9-b4c5-2a52fd184776, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 7, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: a3810bbf-6cec-492f-9081-0473c9583a8f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 7, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: a21351d9-ea41-4883-b696-60dc23c1e6d2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 7, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: b86e31aa-4d86-41af-92e4-4471cc193da2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 7, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 18dd6d3a-df2f-4656-94de-1a0c806314ba, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 7, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: d79ffa57-5f15-4775-9e05-fc5b8fb61337, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 3, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 4a2b0291-ad06-44fa-9046-25fd8fe8a2d1, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 4, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 09354f94-4084-4b22-bad7-e218643d09c5, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本, server: tjfanqie.kkieo555.cn, port: 44470, type: trojan, password: f97a5bf6-2f4e-4bfb-b5d5-8cd36f73ee31, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾01, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: 83b7518e-ee6e-4840-b576-124ba6d1b83d, alterId: 0, cipher: auto, tls: false}
+  - {name: 越南, server: dax.kkieo555.cn, port: 43528, type: vmess, uuid: b3bc4e04-1aaf-4b58-925c-216efdfb9f42, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本01, server: dax.kkieo555.cn, port: 43529, type: vmess, uuid: 997016b5-ca4b-4208-a41b-6c302adaa57c, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本02, server: dax.kkieo555.cn, port: 43530, type: vmess, uuid: d28a2824-ef0c-4db7-9976-f4c08173c666, alterId: 0, cipher: auto, tls: false}
+  - {name: 香港01, server: dax.kkieo555.cn, port: 43525, type: vmess, uuid: 56ff7020-414b-44dc-845f-94014fc150a8, alterId: 0, cipher: auto, tls: false}
+  - {name: 台湾01 2, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: a9569f54-287a-43f0-a447-826604eef470, alterId: 0, cipher: auto, tls: false}
+  - {name: 台湾01 3, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: ad8804f8-920e-471c-927d-908a19b11018, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本01 2, server: dax.kkieo555.cn, port: 43529, type: vmess, uuid: 4cfbfde7-08a7-4117-9643-69ef7eeb91fb, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本02 2, server: dax.kkieo555.cn, port: 43530, type: vmess, uuid: c3f0883b-a1c1-4d63-a3d5-e4628ead25ed, alterId: 0, cipher: auto, tls: false}
+  - {name: 香港01 2, server: dax.kkieo555.cn, port: 43525, type: vmess, uuid: baed031a-a9d0-4547-b203-053f3a7283ca, alterId: 0, cipher: auto, tls: false}
+  - {name: 台湾01 4, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: 7deaf687-efa3-4ac6-aba4-9dc08e56a615, alterId: 0, cipher: auto, tls: false}
+  - {name: 越南 2, server: dax.kkieo555.cn, port: 43528, type: vmess, uuid: 6aa22285-0196-4290-abb8-72cefa4584ce, alterId: 0, cipher: auto, tls: false}
+  - {name: 用力下滑选择👇线路 5, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: be14f1b9-3964-4a7d-9574-aff134a3c7eb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本01 3, server: dax.kkieo555.cn, port: 43529, type: vmess, uuid: 9771dc0f-c8c9-495b-b7b9-d74362faa809, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本02 3, server: dax.kkieo555.cn, port: 43530, type: vmess, uuid: 689bada3-193b-42d8-bc36-99404d97e292, alterId: 0, cipher: auto, tls: false}
+  - {name: 台湾01 5, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: a6b320fa-c457-4531-851d-56c768dca8da, alterId: 0, cipher: auto, tls: false}
+  - {name: 香港01 3, server: dax.kkieo555.cn, port: 43525, type: vmess, uuid: e8ee7176-c608-4465-a673-8134db0dea19, alterId: 0, cipher: auto, tls: false}
+  - {name: 香港01 4, server: dax.kkieo555.cn, port: 43525, type: vmess, uuid: 138d89a2-3e70-4702-a77d-62471e319781, alterId: 0, cipher: auto, tls: false}
+  - {name: 台湾01 6, server: dax.kkieo555.cn, port: 43527, type: vmess, uuid: e19e19d4-e0e4-4f34-ba28-932e5717111d, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本01 4, server: dax.kkieo555.cn, port: 43529, type: vmess, uuid: 4e8f9d08-6784-49c2-8143-405dfcaab8b0, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本 2, server: tjfanqie.kkieo555.cn, port: 44470, type: trojan, password: 7f49afba-08e3-4bcb-a721-51aea91e6787, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 6, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: a540bfee-dfcd-427d-b18a-3539c751ffb3, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 7, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 06be7d79-71a9-46df-8173-8d9aaf86077a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 7, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: bcebea9f-6680-4daf-93e4-51b4235b920c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 7, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 1fd86dfe-139b-44e3-8941-1c4cd798b8b6, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 7, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 24199da8-8b07-4c6c-9a38-f044bb36ddf1, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 7, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: cb11bad2-5ec5-48f2-aa47-9c7237621b72, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 8, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 16aabe84-9a18-4118-9d41-21a10a59e9fe, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 8, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 7756c8f6-edf2-4e29-80d7-b5c4529645c0, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 8, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 5b1597e3-6e91-48bb-80e8-a9a96f7d9ef7, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 8, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 958e8640-f22b-4465-a34f-5a33cb14d5db, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 8, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: f0117b3e-57b3-44bb-89e6-cf071c7816bb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 8, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 6ca1b357-f9cd-4a62-b4ff-2abd72a9910e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 8, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: f0798486-3039-4204-b7f5-f67e9d0b8b60, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 8, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 42b1f475-b819-4574-9930-d679bc5ec118, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 8, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 192aa78d-2467-4a60-adbe-3386acdd8868, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 8, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: eb62886b-bc3f-4c3d-befd-523f7ba9e84a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 9, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 46d898d4-c3c7-4619-a065-d1888511cb40, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 9, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: bb2dcdd8-700b-4265-8555-f494a0f6c3af, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 9, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 123b2561-f29f-4f9a-a53f-080e157b0bd0, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 9, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 90f3f74f-594f-4249-a847-42689b8101b7, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 9, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 9728fdf8-7163-4e84-b7b6-dde92fd469a1, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 7, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: f322173c-85b0-424d-9047-133ac32f3680, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 8, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 09e82e07-c92b-4df0-b046-64589d1118ce, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 9, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 07c14346-035e-4646-8cef-d89aa1d71f80, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 9, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 76a3af9f-33b4-43f7-b681-bfe6fbc1f894, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 9, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 71bebcfd-aea8-40f1-82ff-745ca2fe049c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 9, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: fd9092ed-79cf-430c-a995-a57dc50054a2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 9, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 355b6cba-9c63-403a-909b-a3bedf9056d3, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 10, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 97c8415b-a40a-4c9b-a044-9f90184f0c34, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 10, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 0f17a3fb-e1c5-4282-9e09-4036b47b2a64, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 10, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: a360ecab-2535-4f82-944d-29e30929d100, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 10, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: d500c62f-f55c-4640-a921-5b014769e088, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 10, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: a0deb4dc-3c16-4bf8-bc8b-29775bf131cb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 9, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 7e21e7e9-6100-4ce8-835a-fb94f3441a71, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 10, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 0773eb59-03f0-40cf-a344-254fbc5b714f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 11, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: cd3523e0-c9f4-4abe-97c2-05a978673609, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 10, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 17e060de-618f-47a5-9a81-678e6d167b8b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 10, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: a374a72d-6cd8-4893-a72a-7183245b4d2a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 10, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 0bae64ff-fd0b-40df-b60a-217baa7e8f4c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 10, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 2a9df3ec-6fb9-43e7-87e6-dba17309bed7, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 10, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 9e64c7ef-60a5-4139-ad39-0a5b544217b2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 11, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: f4911d39-824a-494f-9b66-94116f129729, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 12, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: a776954f-3c03-40ba-bea2-d77c96cd1272, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 11, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: b301c8a4-30c6-464b-a664-6dc40dbd7354, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 11, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 47edd080-52b3-459f-9233-d0daa541e2c1, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 11, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: e5c44a2c-bd05-4aaf-9453-b8f78753d77e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 11, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: a17f390a-bca5-4774-88ec-ef79949e6628, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 11, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: ba630572-5da1-4899-8248-ce27551a8000, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 11, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 78fb2dd2-c911-4335-9419-a45234bce3f9, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 11, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: f935003d-0aab-4516-8b6c-e12ce5a0c95f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 11, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: b091b39b-66db-4f21-a6c6-9352870eedc3, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 11, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 1543869f-5811-4535-a4ca-e165ba55a2c7, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 12, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 69f40f4c-433e-48b0-b7f3-03fa200b87eb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 12, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 9840925e-b4a4-48c8-ab9b-1276714db35a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 13, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: b6ba9fe2-d0e1-4e4b-a9c0-a9327d8da2bd, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 14, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: b69b3546-34ca-460c-bec1-67cf07cbc274, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 12, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 0a07b984-1f40-4cc9-9a72-b196e1589067, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 12, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: b015b5fa-854a-4fad-a564-d9eac38482ea, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 12, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 7cdc6703-d638-4c04-af4f-7fa462ec688a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 12, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 4619508f-82bb-43fc-96a9-59226fcb0dfb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 12, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 2b089446-d827-403b-bc30-38c3b85961cf, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 12, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 7e8bbc1b-d74e-4b1d-af62-de5239777554, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 12, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 4648b80a-6b17-4e4a-8eb4-f4bc4b733b08, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 12, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 37f0e49e-d570-488c-a877-36ab4b3d0da4, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 13, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 3c211dcf-b6bc-4060-b694-7d0369f31aed, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 13, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: e4abf484-03ac-4964-8493-5c031e37a417, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 13, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 2b0b1c01-d623-4633-bd10-057203c4b073, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 13, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 4b48296e-f479-424c-838c-8436c0863270, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 15, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: b56b4ea5-b40c-4f1f-9647-672053a8e7be, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 16, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 2f0f8892-b41a-49a3-bd96-5fc3683c002a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 17, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: e9b07772-38b2-4162-bed5-c4d25ff98eaa, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 13, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 1b50dc43-480a-48b2-a451-be10689fe173, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 13, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 4492d1ef-930d-4e80-9f88-48b0b7b1b3b1, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 13, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 14e8b035-4e62-4dae-a3c8-023a8cfdf8ee, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 13, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 58fb8f6d-c35f-4c58-a4de-2ed7d905c084, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 13, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: facc87df-ab2c-44d5-95ff-5c59d1e5819b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 13, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 68301d72-9609-4592-9233-f700a607d15f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 14, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 8b92ca3a-30dc-4202-8db4-d8dd5a292bb6, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 14, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: a13fc0c9-970a-4529-9a74-c614e1ad49c2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 14, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: f9949376-aed7-4c6b-adf2-73f98595d198, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 14, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 79950138-84b0-4669-bc65-8bd8e9ee4954, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 14, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 381fece0-261f-493c-b866-c1e86964e558, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 14, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 73ffd9c1-5808-4113-a4a0-e09bc5b0c557, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 14, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: a3153475-949c-4d99-b067-ce9eaa2d827b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 14, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 2087a805-adcc-4cd6-9823-ccf49dc880f5, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 18, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: d471523d-9d83-4dd0-a8eb-6fe61ff14c3a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 14, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 8b4260ff-6580-458f-8bd3-4af6aafbf7f6, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 14, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: d0255344-e007-4f00-b0a5-4012f8710026, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 15, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 87454e08-149e-4a4b-b95d-0eb6902a2c91, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 15, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 1364ef7e-a58b-4b15-bf14-45311c262b00, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 15, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 0be5fa28-ceda-4119-898e-a95347108537, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 15, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 9211da06-9d0f-4705-827a-1b7493cfa1c7, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 15, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 2b40d04a-4fe7-4286-8907-3755e12f86b6, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 15, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: cbd35f64-8d28-4869-96a2-da0d812dae66, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 15, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 91713e7b-4d52-4579-a7cb-f589d75e2ae2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 15, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 4e45401c-25cd-46c1-bfc4-64ea389242d5, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 15, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 9f8ca6fa-3f82-4595-9ca7-0f75ddfd599b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 15, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 4139f162-2a06-4ae7-b6b0-346e2e467db0, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 16, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 6799f1b4-7c27-4b63-9e84-a5c8e9bb8b70, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 16, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: ba5d36fc-3f8d-4b15-9735-b31c7af16c1c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 19, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: b7a73bb8-4731-48e9-88a1-911731604709, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 20, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: ff839e17-9eb3-44da-9517-48c9472db634, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 16, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 7c4d4335-4788-4238-ab13-f03853e62b7d, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 16, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 8e01afa9-ecbf-4636-8eb4-229f1100bf86, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 16, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 25fedc0a-972f-40de-a7db-c58534e76eaa, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 16, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 3b4c7bbc-76e5-4fe6-b742-380ac0641a62, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 16, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 20940e9f-37b8-453a-895f-3b8372657fa3, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 16, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 5eb0b593-ee85-43d4-8df8-b876df364946, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 16, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: ac91bfc2-d7b3-4af5-bb31-ff1dc38e2bd6, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 16, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: bb348003-7855-4086-a972-410c47fe799e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 17, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: e505edfe-7e9d-4f17-8a51-0ae37cb956e2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 17, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 2a002572-1958-42de-8f8c-9d5000d876bd, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 17, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 0acb6f96-711e-41bf-9dc4-8bdb4ef6021e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 17, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 97b49a2a-a1c9-4359-ae12-60d7096c7e91, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 17, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 71feaee2-65c9-403e-9f82-bfcc44126e49, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 21, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 194f982a-a4ef-4968-9eaf-8f9e66ca5a66, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 22, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: cfa8df5a-7160-4cdb-befc-3f0c0be215b9, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 23, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: fd3f2b26-8c0e-4bb2-8026-821c03708acc, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 24, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: b851a7b1-642b-43c2-a371-22ba1cf8e2bb, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 25, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: e8e01a77-51b8-4588-a8cb-96230e90577a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 17, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: f2cc17b5-ba54-4e06-be69-eb909f7ef230, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 17, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 55a3121b-ce0a-48e9-9f64-5f3ecefd62a5, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 17, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 0f692768-67a2-4c36-8b72-32083ca858ab, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 17, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 19afe823-5c0a-4766-bfb6-3bd06fdaf652, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 17, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 18018ee9-4ab6-431a-af22-ad322110ec8e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 18, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: b3e42afe-eb99-4091-beaf-4c8c707117ae, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 18, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: db71f6c9-aa66-4ad1-8325-3cc0db05cecf, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 18, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 01ae6bac-d770-4854-84ae-6b02e6775884, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 18, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: c802f365-c879-457e-96f2-6c2498508c5e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 18, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 64a5533e-dffe-4731-8ef5-a9d850c1b03f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 18, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: c169a290-88b8-4adf-aee3-8c4556169f23, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 18, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 7ec930b4-c8c4-4485-aa0a-bbf79d689b5f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 18, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 7ef40bef-e64d-46bc-855a-8715b7aa9f3d, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 26, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 9fb898d4-2646-42c3-9d9c-b2b8650a030b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 18, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 2c61f828-cc17-40e3-9f57-5d6db6e9c1b0, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 18, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 761aed6b-c62d-4746-981a-950d87e5d9ce, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 19, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 497de5bf-0026-4d54-b1d4-7215537623a5, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 19, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 7b994bd4-284f-4ab3-81fc-c225710a18bf, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 19, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 7f496346-2dd9-46ad-8aa8-0c5192f332f3, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 19, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 619d8379-d54b-4467-ba60-7267a0999b4a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 19, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 832bf60e-a3de-43fa-8536-d32df74bc109, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 19, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: f4cb5d59-e89a-457f-a99b-171ad54bd505, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 19, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 4321834a-734c-4679-a8c4-417fd2953bee, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 19, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 4ad2b6f4-3576-43d7-8260-9009b13a87d7, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 19, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: d61a979e-1f77-42ab-9075-d6788c02b47e, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 19, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: e201587b-d366-43c2-ae40-2f6fe9a0362f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 20, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 9559e0af-f84f-4362-9aa0-a1d4eb75fd81, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 20, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 070513c0-5333-4d1b-97ad-136460ff8a53, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 20, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: ae707135-ff31-4704-871e-b4b0d6c075c9, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 20, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: e1c36071-41d8-46f8-9fb8-2738db3b7acd, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 20, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: f8d3c0e4-6b9b-4fc2-a4ff-f9ff3996fbd9, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 用力下滑选择👇线路 27, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 37fa3c48-34cc-49c1-819a-4ffe31d8822b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 20, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: 464d7c46-2439-4f4d-8fe4-84870741e165, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 20, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: 326e112e-d791-49c6-afc6-ff8c2d684dff, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 20, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 89c967c4-9efd-43f3-a049-6693aa37e587, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 20, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: ce0d32de-97a2-412a-b548-3c73c34b77d7, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 20, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: d22ca271-a2a9-4bdd-a42b-2f0de86d420a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 21, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 146fb351-d95d-48cf-80ab-08aec00e21f0, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 21, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 3ca12839-f430-4f43-b036-b9954d1b818b, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 21, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: b515b893-6560-43eb-be4f-225d22e7170f, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 21, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 6ac09754-1c75-492f-a512-607c8546979a, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 21, server: xiaozhu1.kkieo555.cn, port: 41274, type: trojan, password: 8dcccf46-501f-469a-870a-18c5b02b455c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 21, server: xiaozhu1.kkieo555.cn, port: 41275, type: trojan, password: f2cd11e5-584b-47ae-a9ed-6c7f993507b2, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡1 21, server: xiaozhu1.kkieo555.cn, port: 41277, type: trojan, password: b8f838de-0476-4b13-9ec4-e035fe39f994, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国01 21, server: xiaozhu1.kkieo555.cn, port: 49214, type: trojan, password: 365b80cc-f32b-4e65-b19e-75cc00dd7f36, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国西雅图原生 21, server: xiaozhu1.kkieo555.cn, port: 30210, type: trojan, password: 50a86a87-bef4-4888-9d00-c03d9476ec1c, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国洛杉矶原生 21, server: xiaozhu1.kkieo555.cn, port: 19216, type: trojan, password: 52bc6573-1dfb-4837-98ea-19e63ecc6265, sni: douyin.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港03, server: ddns2.qqa678.com, port: 47081, type: vmess, uuid: d6b84922-d5ab-4922-a18a-e337aa6fe6ec, alterId: 0, cipher: auto, tls: false}
+  - {name: 香港04, server: ddns2.qqa678.com, port: 47081, type: vmess, uuid: d6b84922-d5ab-4922-a18a-e337aa6fe6ec, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国03, server: ddns2.qqa678.com, port: 47084, type: vmess, uuid: d6b84922-d5ab-4922-a18a-e337aa6fe6ec, alterId: 0, cipher: auto, tls: false}
+  - {name: 美国04, server: ddns2.qqa678.com, port: 47084, type: vmess, uuid: d6b84922-d5ab-4922-a18a-e337aa6fe6ec, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本03, server: ddns2.qqa678.com, port: 47083, type: vmess, uuid: d6b84922-d5ab-4922-a18a-e337aa6fe6ec, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本04, server: ddns2.qqa678.com, port: 47083, type: vmess, uuid: d6b84922-d5ab-4922-a18a-e337aa6fe6ec, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
       - Auto - UrlTest
       - DIRECT
-      - 用力下滑选择👇线路
-      - 用力下滑选择👇线路 2
-      - 用力下滑选择👇线路 3
-      - 香港 01
-      - 香港 02
-      - 日本1
+      - 608更新
       - 日本2
       - 台湾1
       - 美国纽约
@@ -188,50 +287,42 @@ proxy-groups:
       - 韩国01
       - 美国西雅图原生
       - 美国洛杉矶原生
-      - 香港 01 2
-      - 香港 02 2
-      - 日本1 2
-      - 上面☝️线路仅为备用
-      - 上面☝️线路仅为备用 2
-      - 上面☝️线路仅为备用 3
+      - 香港 01
+      - 香港 02
+      - 日本1
       - 日本2 2
       - 台湾1 2
+      - ☝️上面的线路不要用
       - 美国纽约 2
       - 新加坡1 2
       - 韩国01 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - 用力下滑选择👇线路 4
-      - 用力下滑选择👇线路 5
-      - 用力下滑选择👇线路 6
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
       - 日本2 3
       - 台湾1 3
       - 美国纽约 3
-      - 用力下滑选择👇线路 7
-      - 用力下滑选择👇线路 8
-      - 用力下滑选择👇线路 9
       - 新加坡1 3
       - 韩国01 3
+      - ☝️上面的线路不要用 2
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
-      - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
       - 日本2 4
       - 台湾1 4
       - 美国纽约 4
       - 新加坡1 4
       - 韩国01 4
-      - 用力下滑选择👇线路 10
-      - 用力下滑选择👇线路 11
       - 美国西雅图原生 4
       - 美国洛杉矶原生 4
-      - 香港 01 5
-      - 香港 02 5
-      - 日本1 5
+      - 香港 01 4
+      - 香港 02 4
+      - ☝️上面的线路不要用 3
+      - 日本1 4
       - 日本2 5
       - 台湾1 5
       - 美国纽约 5
@@ -239,38 +330,56 @@ proxy-groups:
       - 韩国01 5
       - 美国西雅图原生 5
       - 美国洛杉矶原生 5
-      - 香港 01 6
-      - 香港 02 6
-      - 用力下滑选择👇线路 12
-      - 用力下滑选择👇线路 13
-      - 用力下滑选择👇线路 14
-      - 日本1 6
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
       - 日本2 6
+      - 用力下滑选择👇线路
+      - 用力下滑选择👇线路 2
       - 台湾1 6
       - 美国纽约 6
       - 新加坡1 6
       - 韩国01 6
       - 美国西雅图原生 6
       - 美国洛杉矶原生 6
-      - 香港 01 7
-      - 用力下滑选择👇线路 15
-      - 用力下滑选择👇线路 16
-      - 用力下滑选择👇线路 17
-      - 香港 02 7
-      - 日本1 7
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
       - 日本2 7
       - 台湾1 7
-      - 用力下滑选择👇线路 18
-      - 用力下滑选择👇线路 19
-      - 用力下滑选择👇线路 20
       - 美国纽约 7
       - 新加坡1 7
       - 韩国01 7
+      - 用力下滑选择👇线路 3
+      - 用力下滑选择👇线路 4
+      - 日本
+      - 台湾01
+      - 越南
+      - 日本01
+      - 日本02
+      - 香港01
+      - 台湾01 2
+      - 台湾01 3
+      - 日本01 2
+      - 日本02 2
+      - 香港01 2
+      - 台湾01 4
+      - 越南 2
+      - 用力下滑选择👇线路 5
+      - 日本01 3
+      - 日本02 3
+      - 台湾01 5
+      - 香港01 3
+      - 香港01 4
+      - 台湾01 6
+      - 日本01 4
+      - 日本 2
+      - 用力下滑选择👇线路 6
       - 美国西雅图原生 7
       - 美国洛杉矶原生 7
-      - 香港 01 8
-      - 香港 02 8
-      - 日本1 8
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
       - 日本2 8
       - 台湾1 8
       - 美国纽约 8
@@ -278,67 +387,166 @@ proxy-groups:
       - 韩国01 8
       - 美国西雅图原生 8
       - 美国洛杉矶原生 8
-      - 香港 01 9
-      - 用力下滑选择👇线路 21
-      - 用力下滑选择👇线路 22
-      - 用力下滑选择👇线路 23
-      - 香港 02 9
-      - 日本1 9
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
       - 日本2 9
       - 台湾1 9
       - 美国纽约 9
       - 新加坡1 9
       - 韩国01 9
+      - 用力下滑选择👇线路 7
+      - 用力下滑选择👇线路 8
       - 美国西雅图原生 9
       - 美国洛杉矶原生 9
-      - 香港 01 10
-      - 香港 02 10
-      - 日本1 10
-      - 用力下滑选择👇线路 24
-      - 用力下滑选择👇线路 25
-      - 用力下滑选择👇线路 26
-      - 用力下滑选择👇线路 27
+      - 香港 01 9
+      - 香港 02 9
+      - 日本1 9
       - 日本2 10
       - 台湾1 10
       - 美国纽约 10
       - 新加坡1 10
       - 韩国01 10
+      - 用力下滑选择👇线路 9
+      - 用力下滑选择👇线路 10
+      - 用力下滑选择👇线路 11
       - 美国西雅图原生 10
       - 美国洛杉矶原生 10
-      - 香港 01 11
-      - 香港 02 11
-      - 用力下滑选择👇线路 28
-      - 上面☝️线路仅为备用 4
-      - 用力下滑选择👇线路 29
-      - 日本1 11
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 10
       - 日本2 11
+      - 用力下滑选择👇线路 12
       - 台湾1 11
       - 美国纽约 11
       - 新加坡1 11
       - 韩国01 11
       - 美国西雅图原生 11
       - 美国洛杉矶原生 11
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 11
+      - 日本2 12
+      - 台湾1 12
+      - 用力下滑选择👇线路 13
+      - 用力下滑选择👇线路 14
+      - 美国纽约 12
+      - 新加坡1 12
+      - 韩国01 12
+      - 美国西雅图原生 12
+      - 美国洛杉矶原生 12
       - 香港 01 12
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本01
-      - 日本02
-      - 香港01 2
-      - 台湾01 2
-      - 越南 2
-      - 日本01 2
-      - 日本02 2
-      - 台湾01 3
-      - 香港01 3
-      - 日本01 3
-      - 日本02 3
-      - 香港01 4
-      - 台湾01 4
-      - 日本01 4
-      - 日本02 4
-      - 香港01 5
-      - 台湾01 5
+      - 香港 02 12
+      - 日本1 12
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 13
+      - 日本2 13
+      - 用力下滑选择👇线路 15
+      - 用力下滑选择👇线路 16
+      - 用力下滑选择👇线路 17
+      - 台湾1 13
+      - 美国纽约 13
+      - 新加坡1 13
+      - 韩国01 13
+      - 美国西雅图原生 13
+      - 美国洛杉矶原生 13
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 新加坡1 14
+      - 韩国01 14
+      - 用力下滑选择👇线路 18
+      - 美国西雅图原生 14
+      - 美国洛杉矶原生 14
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 新加坡1 15
+      - 韩国01 15
+      - 美国西雅图原生 15
+      - 美国洛杉矶原生 15
+      - 香港 01 16
+      - 香港 02 16
+      - 用力下滑选择👇线路 19
+      - 用力下滑选择👇线路 20
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 新加坡1 16
+      - 韩国01 16
+      - 美国西雅图原生 16
+      - 美国洛杉矶原生 16
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 用力下滑选择👇线路 21
+      - 用力下滑选择👇线路 22
+      - 用力下滑选择👇线路 23
+      - 用力下滑选择👇线路 24
+      - 用力下滑选择👇线路 25
+      - 美国纽约 17
+      - 新加坡1 17
+      - 韩国01 17
+      - 美国西雅图原生 17
+      - 美国洛杉矶原生 17
+      - 香港 01 18
+      - 香港 02 18
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 新加坡1 18
+      - 韩国01 18
+      - 用力下滑选择👇线路 26
+      - 美国西雅图原生 18
+      - 美国洛杉矶原生 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 新加坡1 19
+      - 韩国01 19
+      - 美国西雅图原生 19
+      - 美国洛杉矶原生 19
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 用力下滑选择👇线路 27
+      - 美国纽约 20
+      - 新加坡1 20
+      - 韩国01 20
+      - 美国西雅图原生 20
+      - 美国洛杉矶原生 20
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 新加坡1 21
+      - 韩国01 21
+      - 美国西雅图原生 21
+      - 美国洛杉矶原生 21
+      - 香港03
+      - 香港04
+      - 美国03
+      - 美国04
+      - 日本03
+      - 日本04
   - name: Domestic
     type: select
     proxies:
@@ -349,12 +557,7 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
-      - 用力下滑选择👇线路
-      - 用力下滑选择👇线路 2
-      - 用力下滑选择👇线路 3
-      - 香港 01
-      - 香港 02
-      - 日本1
+      - 608更新
       - 日本2
       - 台湾1
       - 美国纽约
@@ -362,50 +565,42 @@ proxy-groups:
       - 韩国01
       - 美国西雅图原生
       - 美国洛杉矶原生
-      - 香港 01 2
-      - 香港 02 2
-      - 日本1 2
-      - 上面☝️线路仅为备用
-      - 上面☝️线路仅为备用 2
-      - 上面☝️线路仅为备用 3
+      - 香港 01
+      - 香港 02
+      - 日本1
       - 日本2 2
       - 台湾1 2
+      - ☝️上面的线路不要用
       - 美国纽约 2
       - 新加坡1 2
       - 韩国01 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - 用力下滑选择👇线路 4
-      - 用力下滑选择👇线路 5
-      - 用力下滑选择👇线路 6
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
       - 日本2 3
       - 台湾1 3
       - 美国纽约 3
-      - 用力下滑选择👇线路 7
-      - 用力下滑选择👇线路 8
-      - 用力下滑选择👇线路 9
       - 新加坡1 3
       - 韩国01 3
+      - ☝️上面的线路不要用 2
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
-      - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
       - 日本2 4
       - 台湾1 4
       - 美国纽约 4
       - 新加坡1 4
       - 韩国01 4
-      - 用力下滑选择👇线路 10
-      - 用力下滑选择👇线路 11
       - 美国西雅图原生 4
       - 美国洛杉矶原生 4
-      - 香港 01 5
-      - 香港 02 5
-      - 日本1 5
+      - 香港 01 4
+      - 香港 02 4
+      - ☝️上面的线路不要用 3
+      - 日本1 4
       - 日本2 5
       - 台湾1 5
       - 美国纽约 5
@@ -413,38 +608,56 @@ proxy-groups:
       - 韩国01 5
       - 美国西雅图原生 5
       - 美国洛杉矶原生 5
-      - 香港 01 6
-      - 香港 02 6
-      - 用力下滑选择👇线路 12
-      - 用力下滑选择👇线路 13
-      - 用力下滑选择👇线路 14
-      - 日本1 6
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
       - 日本2 6
+      - 用力下滑选择👇线路
+      - 用力下滑选择👇线路 2
       - 台湾1 6
       - 美国纽约 6
       - 新加坡1 6
       - 韩国01 6
       - 美国西雅图原生 6
       - 美国洛杉矶原生 6
-      - 香港 01 7
-      - 用力下滑选择👇线路 15
-      - 用力下滑选择👇线路 16
-      - 用力下滑选择👇线路 17
-      - 香港 02 7
-      - 日本1 7
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
       - 日本2 7
       - 台湾1 7
-      - 用力下滑选择👇线路 18
-      - 用力下滑选择👇线路 19
-      - 用力下滑选择👇线路 20
       - 美国纽约 7
       - 新加坡1 7
       - 韩国01 7
+      - 用力下滑选择👇线路 3
+      - 用力下滑选择👇线路 4
+      - 日本
+      - 台湾01
+      - 越南
+      - 日本01
+      - 日本02
+      - 香港01
+      - 台湾01 2
+      - 台湾01 3
+      - 日本01 2
+      - 日本02 2
+      - 香港01 2
+      - 台湾01 4
+      - 越南 2
+      - 用力下滑选择👇线路 5
+      - 日本01 3
+      - 日本02 3
+      - 台湾01 5
+      - 香港01 3
+      - 香港01 4
+      - 台湾01 6
+      - 日本01 4
+      - 日本 2
+      - 用力下滑选择👇线路 6
       - 美国西雅图原生 7
       - 美国洛杉矶原生 7
-      - 香港 01 8
-      - 香港 02 8
-      - 日本1 8
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
       - 日本2 8
       - 台湾1 8
       - 美国纽约 8
@@ -452,67 +665,166 @@ proxy-groups:
       - 韩国01 8
       - 美国西雅图原生 8
       - 美国洛杉矶原生 8
-      - 香港 01 9
-      - 用力下滑选择👇线路 21
-      - 用力下滑选择👇线路 22
-      - 用力下滑选择👇线路 23
-      - 香港 02 9
-      - 日本1 9
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
       - 日本2 9
       - 台湾1 9
       - 美国纽约 9
       - 新加坡1 9
       - 韩国01 9
+      - 用力下滑选择👇线路 7
+      - 用力下滑选择👇线路 8
       - 美国西雅图原生 9
       - 美国洛杉矶原生 9
-      - 香港 01 10
-      - 香港 02 10
-      - 日本1 10
-      - 用力下滑选择👇线路 24
-      - 用力下滑选择👇线路 25
-      - 用力下滑选择👇线路 26
-      - 用力下滑选择👇线路 27
+      - 香港 01 9
+      - 香港 02 9
+      - 日本1 9
       - 日本2 10
       - 台湾1 10
       - 美国纽约 10
       - 新加坡1 10
       - 韩国01 10
+      - 用力下滑选择👇线路 9
+      - 用力下滑选择👇线路 10
+      - 用力下滑选择👇线路 11
       - 美国西雅图原生 10
       - 美国洛杉矶原生 10
-      - 香港 01 11
-      - 香港 02 11
-      - 用力下滑选择👇线路 28
-      - 上面☝️线路仅为备用 4
-      - 用力下滑选择👇线路 29
-      - 日本1 11
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 10
       - 日本2 11
+      - 用力下滑选择👇线路 12
       - 台湾1 11
       - 美国纽约 11
       - 新加坡1 11
       - 韩国01 11
       - 美国西雅图原生 11
       - 美国洛杉矶原生 11
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 11
+      - 日本2 12
+      - 台湾1 12
+      - 用力下滑选择👇线路 13
+      - 用力下滑选择👇线路 14
+      - 美国纽约 12
+      - 新加坡1 12
+      - 韩国01 12
+      - 美国西雅图原生 12
+      - 美国洛杉矶原生 12
       - 香港 01 12
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本01
-      - 日本02
-      - 香港01 2
-      - 台湾01 2
-      - 越南 2
-      - 日本01 2
-      - 日本02 2
-      - 台湾01 3
-      - 香港01 3
-      - 日本01 3
-      - 日本02 3
-      - 香港01 4
-      - 台湾01 4
-      - 日本01 4
-      - 日本02 4
-      - 香港01 5
-      - 台湾01 5
+      - 香港 02 12
+      - 日本1 12
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 13
+      - 日本2 13
+      - 用力下滑选择👇线路 15
+      - 用力下滑选择👇线路 16
+      - 用力下滑选择👇线路 17
+      - 台湾1 13
+      - 美国纽约 13
+      - 新加坡1 13
+      - 韩国01 13
+      - 美国西雅图原生 13
+      - 美国洛杉矶原生 13
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 新加坡1 14
+      - 韩国01 14
+      - 用力下滑选择👇线路 18
+      - 美国西雅图原生 14
+      - 美国洛杉矶原生 14
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 新加坡1 15
+      - 韩国01 15
+      - 美国西雅图原生 15
+      - 美国洛杉矶原生 15
+      - 香港 01 16
+      - 香港 02 16
+      - 用力下滑选择👇线路 19
+      - 用力下滑选择👇线路 20
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 新加坡1 16
+      - 韩国01 16
+      - 美国西雅图原生 16
+      - 美国洛杉矶原生 16
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 用力下滑选择👇线路 21
+      - 用力下滑选择👇线路 22
+      - 用力下滑选择👇线路 23
+      - 用力下滑选择👇线路 24
+      - 用力下滑选择👇线路 25
+      - 美国纽约 17
+      - 新加坡1 17
+      - 韩国01 17
+      - 美国西雅图原生 17
+      - 美国洛杉矶原生 17
+      - 香港 01 18
+      - 香港 02 18
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 新加坡1 18
+      - 韩国01 18
+      - 用力下滑选择👇线路 26
+      - 美国西雅图原生 18
+      - 美国洛杉矶原生 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 新加坡1 19
+      - 韩国01 19
+      - 美国西雅图原生 19
+      - 美国洛杉矶原生 19
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 用力下滑选择👇线路 27
+      - 美国纽约 20
+      - 新加坡1 20
+      - 韩国01 20
+      - 美国西雅图原生 20
+      - 美国洛杉矶原生 20
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 新加坡1 21
+      - 韩国01 21
+      - 美国西雅图原生 21
+      - 美国洛杉矶原生 21
+      - 香港03
+      - 香港04
+      - 美国03
+      - 美国04
+      - 日本03
+      - 日本04
   - name: Others
     type: select
     proxies:
@@ -534,61 +846,87 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
+      - 台湾1
       - 香港 01
       - 香港 02
-      - 台湾1
+      - 台湾1 2
       - 香港 01 2
       - 香港 02 2
-      - 台湾1 2
+      - 台湾1 3
       - 香港 01 3
       - 香港 02 3
-      - 台湾1 3
+      - 台湾1 4
       - 香港 01 4
       - 香港 02 4
-      - 台湾1 4
+      - 台湾1 5
       - 香港 01 5
       - 香港 02 5
-      - 台湾1 5
+      - 台湾1 6
       - 香港 01 6
       - 香港 02 6
-      - 台湾1 6
-      - 香港 01 7
-      - 香港 02 7
       - 台湾1 7
-      - 香港 01 8
-      - 香港 02 8
-      - 台湾1 8
-      - 香港 01 9
-      - 香港 02 9
-      - 台湾1 9
-      - 香港 01 10
-      - 香港 02 10
-      - 台湾1 10
-      - 香港 01 11
-      - 香港 02 11
-      - 台湾1 11
-      - 香港 01 12
-      - 香港01
       - 台湾01
-      - 香港01 2
+      - 香港01
       - 台湾01 2
       - 台湾01 3
+      - 香港01 2
+      - 台湾01 4
+      - 台湾01 5
       - 香港01 3
       - 香港01 4
-      - 台湾01 4
-      - 香港01 5
-      - 台湾01 5
+      - 台湾01 6
+      - 香港 01 7
+      - 香港 02 7
+      - 台湾1 8
+      - 香港 01 8
+      - 香港 02 8
+      - 台湾1 9
+      - 香港 01 9
+      - 香港 02 9
+      - 台湾1 10
+      - 香港 01 10
+      - 香港 02 10
+      - 台湾1 11
+      - 香港 01 11
+      - 香港 02 11
+      - 台湾1 12
+      - 香港 01 12
+      - 香港 02 12
+      - 香港 01 13
+      - 香港 02 13
+      - 台湾1 13
+      - 香港 01 14
+      - 香港 02 14
+      - 台湾1 14
+      - 香港 01 15
+      - 香港 02 15
+      - 台湾1 15
+      - 香港 01 16
+      - 香港 02 16
+      - 台湾1 16
+      - 香港 01 17
+      - 香港 02 17
+      - 台湾1 17
+      - 香港 01 18
+      - 香港 02 18
+      - 台湾1 18
+      - 香港 01 19
+      - 香港 02 19
+      - 台湾1 19
+      - 香港 01 20
+      - 香港 02 20
+      - 台湾1 20
+      - 香港 01 21
+      - 香港 02 21
+      - 台湾1 21
+      - 香港03
+      - 香港04
   - name: Apple TV
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 用力下滑选择👇线路
-      - 用力下滑选择👇线路 2
-      - 用力下滑选择👇线路 3
-      - 香港 01
-      - 香港 02
-      - 日本1
+      - 608更新
       - 日本2
       - 台湾1
       - 美国纽约
@@ -596,50 +934,42 @@ proxy-groups:
       - 韩国01
       - 美国西雅图原生
       - 美国洛杉矶原生
-      - 香港 01 2
-      - 香港 02 2
-      - 日本1 2
-      - 上面☝️线路仅为备用
-      - 上面☝️线路仅为备用 2
-      - 上面☝️线路仅为备用 3
+      - 香港 01
+      - 香港 02
+      - 日本1
       - 日本2 2
       - 台湾1 2
+      - ☝️上面的线路不要用
       - 美国纽约 2
       - 新加坡1 2
       - 韩国01 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - 用力下滑选择👇线路 4
-      - 用力下滑选择👇线路 5
-      - 用力下滑选择👇线路 6
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
       - 日本2 3
       - 台湾1 3
       - 美国纽约 3
-      - 用力下滑选择👇线路 7
-      - 用力下滑选择👇线路 8
-      - 用力下滑选择👇线路 9
       - 新加坡1 3
       - 韩国01 3
+      - ☝️上面的线路不要用 2
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
-      - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
       - 日本2 4
       - 台湾1 4
       - 美国纽约 4
       - 新加坡1 4
       - 韩国01 4
-      - 用力下滑选择👇线路 10
-      - 用力下滑选择👇线路 11
       - 美国西雅图原生 4
       - 美国洛杉矶原生 4
-      - 香港 01 5
-      - 香港 02 5
-      - 日本1 5
+      - 香港 01 4
+      - 香港 02 4
+      - ☝️上面的线路不要用 3
+      - 日本1 4
       - 日本2 5
       - 台湾1 5
       - 美国纽约 5
@@ -647,38 +977,56 @@ proxy-groups:
       - 韩国01 5
       - 美国西雅图原生 5
       - 美国洛杉矶原生 5
-      - 香港 01 6
-      - 香港 02 6
-      - 用力下滑选择👇线路 12
-      - 用力下滑选择👇线路 13
-      - 用力下滑选择👇线路 14
-      - 日本1 6
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
       - 日本2 6
+      - 用力下滑选择👇线路
+      - 用力下滑选择👇线路 2
       - 台湾1 6
       - 美国纽约 6
       - 新加坡1 6
       - 韩国01 6
       - 美国西雅图原生 6
       - 美国洛杉矶原生 6
-      - 香港 01 7
-      - 用力下滑选择👇线路 15
-      - 用力下滑选择👇线路 16
-      - 用力下滑选择👇线路 17
-      - 香港 02 7
-      - 日本1 7
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
       - 日本2 7
       - 台湾1 7
-      - 用力下滑选择👇线路 18
-      - 用力下滑选择👇线路 19
-      - 用力下滑选择👇线路 20
       - 美国纽约 7
       - 新加坡1 7
       - 韩国01 7
+      - 用力下滑选择👇线路 3
+      - 用力下滑选择👇线路 4
+      - 日本
+      - 台湾01
+      - 越南
+      - 日本01
+      - 日本02
+      - 香港01
+      - 台湾01 2
+      - 台湾01 3
+      - 日本01 2
+      - 日本02 2
+      - 香港01 2
+      - 台湾01 4
+      - 越南 2
+      - 用力下滑选择👇线路 5
+      - 日本01 3
+      - 日本02 3
+      - 台湾01 5
+      - 香港01 3
+      - 香港01 4
+      - 台湾01 6
+      - 日本01 4
+      - 日本 2
+      - 用力下滑选择👇线路 6
       - 美国西雅图原生 7
       - 美国洛杉矶原生 7
-      - 香港 01 8
-      - 香港 02 8
-      - 日本1 8
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
       - 日本2 8
       - 台湾1 8
       - 美国纽约 8
@@ -686,127 +1034,252 @@ proxy-groups:
       - 韩国01 8
       - 美国西雅图原生 8
       - 美国洛杉矶原生 8
-      - 香港 01 9
-      - 用力下滑选择👇线路 21
-      - 用力下滑选择👇线路 22
-      - 用力下滑选择👇线路 23
-      - 香港 02 9
-      - 日本1 9
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
       - 日本2 9
       - 台湾1 9
       - 美国纽约 9
       - 新加坡1 9
       - 韩国01 9
+      - 用力下滑选择👇线路 7
+      - 用力下滑选择👇线路 8
       - 美国西雅图原生 9
       - 美国洛杉矶原生 9
-      - 香港 01 10
-      - 香港 02 10
-      - 日本1 10
-      - 用力下滑选择👇线路 24
-      - 用力下滑选择👇线路 25
-      - 用力下滑选择👇线路 26
-      - 用力下滑选择👇线路 27
+      - 香港 01 9
+      - 香港 02 9
+      - 日本1 9
       - 日本2 10
       - 台湾1 10
       - 美国纽约 10
       - 新加坡1 10
       - 韩国01 10
+      - 用力下滑选择👇线路 9
+      - 用力下滑选择👇线路 10
+      - 用力下滑选择👇线路 11
       - 美国西雅图原生 10
       - 美国洛杉矶原生 10
-      - 香港 01 11
-      - 香港 02 11
-      - 用力下滑选择👇线路 28
-      - 上面☝️线路仅为备用 4
-      - 用力下滑选择👇线路 29
-      - 日本1 11
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 10
       - 日本2 11
+      - 用力下滑选择👇线路 12
       - 台湾1 11
       - 美国纽约 11
       - 新加坡1 11
       - 韩国01 11
       - 美国西雅图原生 11
       - 美国洛杉矶原生 11
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 11
+      - 日本2 12
+      - 台湾1 12
+      - 用力下滑选择👇线路 13
+      - 用力下滑选择👇线路 14
+      - 美国纽约 12
+      - 新加坡1 12
+      - 韩国01 12
+      - 美国西雅图原生 12
+      - 美国洛杉矶原生 12
       - 香港 01 12
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本01
-      - 日本02
-      - 香港01 2
-      - 台湾01 2
-      - 越南 2
-      - 日本01 2
-      - 日本02 2
-      - 台湾01 3
-      - 香港01 3
-      - 日本01 3
-      - 日本02 3
-      - 香港01 4
-      - 台湾01 4
-      - 日本01 4
-      - 日本02 4
-      - 香港01 5
-      - 台湾01 5
+      - 香港 02 12
+      - 日本1 12
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 13
+      - 日本2 13
+      - 用力下滑选择👇线路 15
+      - 用力下滑选择👇线路 16
+      - 用力下滑选择👇线路 17
+      - 台湾1 13
+      - 美国纽约 13
+      - 新加坡1 13
+      - 韩国01 13
+      - 美国西雅图原生 13
+      - 美国洛杉矶原生 13
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 新加坡1 14
+      - 韩国01 14
+      - 用力下滑选择👇线路 18
+      - 美国西雅图原生 14
+      - 美国洛杉矶原生 14
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 新加坡1 15
+      - 韩国01 15
+      - 美国西雅图原生 15
+      - 美国洛杉矶原生 15
+      - 香港 01 16
+      - 香港 02 16
+      - 用力下滑选择👇线路 19
+      - 用力下滑选择👇线路 20
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 新加坡1 16
+      - 韩国01 16
+      - 美国西雅图原生 16
+      - 美国洛杉矶原生 16
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 用力下滑选择👇线路 21
+      - 用力下滑选择👇线路 22
+      - 用力下滑选择👇线路 23
+      - 用力下滑选择👇线路 24
+      - 用力下滑选择👇线路 25
+      - 美国纽约 17
+      - 新加坡1 17
+      - 韩国01 17
+      - 美国西雅图原生 17
+      - 美国洛杉矶原生 17
+      - 香港 01 18
+      - 香港 02 18
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 新加坡1 18
+      - 韩国01 18
+      - 用力下滑选择👇线路 26
+      - 美国西雅图原生 18
+      - 美国洛杉矶原生 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 新加坡1 19
+      - 韩国01 19
+      - 美国西雅图原生 19
+      - 美国洛杉矶原生 19
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 用力下滑选择👇线路 27
+      - 美国纽约 20
+      - 新加坡1 20
+      - 韩国01 20
+      - 美国西雅图原生 20
+      - 美国洛杉矶原生 20
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 新加坡1 21
+      - 韩国01 21
+      - 美国西雅图原生 21
+      - 美国洛杉矶原生 21
+      - 香港03
+      - 香港04
+      - 美国03
+      - 美国04
+      - 日本03
+      - 日本04
   - name: Asian TV
     type: select
     proxies:
       - DIRECT
       - Proxies
+      - 台湾1
       - 香港 01
       - 香港 02
-      - 台湾1
+      - 台湾1 2
       - 香港 01 2
       - 香港 02 2
-      - 台湾1 2
+      - 台湾1 3
       - 香港 01 3
       - 香港 02 3
-      - 台湾1 3
+      - 台湾1 4
       - 香港 01 4
       - 香港 02 4
-      - 台湾1 4
+      - 台湾1 5
       - 香港 01 5
       - 香港 02 5
-      - 台湾1 5
+      - 台湾1 6
       - 香港 01 6
       - 香港 02 6
-      - 台湾1 6
-      - 香港 01 7
-      - 香港 02 7
       - 台湾1 7
-      - 香港 01 8
-      - 香港 02 8
-      - 台湾1 8
-      - 香港 01 9
-      - 香港 02 9
-      - 台湾1 9
-      - 香港 01 10
-      - 香港 02 10
-      - 台湾1 10
-      - 香港 01 11
-      - 香港 02 11
-      - 台湾1 11
-      - 香港 01 12
-      - 香港01
       - 台湾01
-      - 香港01 2
+      - 香港01
       - 台湾01 2
       - 台湾01 3
+      - 香港01 2
+      - 台湾01 4
+      - 台湾01 5
       - 香港01 3
       - 香港01 4
-      - 台湾01 4
-      - 香港01 5
-      - 台湾01 5
+      - 台湾01 6
+      - 香港 01 7
+      - 香港 02 7
+      - 台湾1 8
+      - 香港 01 8
+      - 香港 02 8
+      - 台湾1 9
+      - 香港 01 9
+      - 香港 02 9
+      - 台湾1 10
+      - 香港 01 10
+      - 香港 02 10
+      - 台湾1 11
+      - 香港 01 11
+      - 香港 02 11
+      - 台湾1 12
+      - 香港 01 12
+      - 香港 02 12
+      - 香港 01 13
+      - 香港 02 13
+      - 台湾1 13
+      - 香港 01 14
+      - 香港 02 14
+      - 台湾1 14
+      - 香港 01 15
+      - 香港 02 15
+      - 台湾1 15
+      - 香港 01 16
+      - 香港 02 16
+      - 台湾1 16
+      - 香港 01 17
+      - 香港 02 17
+      - 台湾1 17
+      - 香港 01 18
+      - 香港 02 18
+      - 台湾1 18
+      - 香港 01 19
+      - 香港 02 19
+      - 台湾1 19
+      - 香港 01 20
+      - 香港 02 20
+      - 台湾1 20
+      - 香港 01 21
+      - 香港 02 21
+      - 台湾1 21
+      - 香港03
+      - 香港04
   - name: Global TV
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 用力下滑选择👇线路
-      - 用力下滑选择👇线路 2
-      - 用力下滑选择👇线路 3
-      - 香港 01
-      - 香港 02
-      - 日本1
+      - 608更新
       - 日本2
       - 台湾1
       - 美国纽约
@@ -814,50 +1287,42 @@ proxy-groups:
       - 韩国01
       - 美国西雅图原生
       - 美国洛杉矶原生
-      - 香港 01 2
-      - 香港 02 2
-      - 日本1 2
-      - 上面☝️线路仅为备用
-      - 上面☝️线路仅为备用 2
-      - 上面☝️线路仅为备用 3
+      - 香港 01
+      - 香港 02
+      - 日本1
       - 日本2 2
       - 台湾1 2
+      - ☝️上面的线路不要用
       - 美国纽约 2
       - 新加坡1 2
       - 韩国01 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - 用力下滑选择👇线路 4
-      - 用力下滑选择👇线路 5
-      - 用力下滑选择👇线路 6
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
       - 日本2 3
       - 台湾1 3
       - 美国纽约 3
-      - 用力下滑选择👇线路 7
-      - 用力下滑选择👇线路 8
-      - 用力下滑选择👇线路 9
       - 新加坡1 3
       - 韩国01 3
+      - ☝️上面的线路不要用 2
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
-      - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
       - 日本2 4
       - 台湾1 4
       - 美国纽约 4
       - 新加坡1 4
       - 韩国01 4
-      - 用力下滑选择👇线路 10
-      - 用力下滑选择👇线路 11
       - 美国西雅图原生 4
       - 美国洛杉矶原生 4
-      - 香港 01 5
-      - 香港 02 5
-      - 日本1 5
+      - 香港 01 4
+      - 香港 02 4
+      - ☝️上面的线路不要用 3
+      - 日本1 4
       - 日本2 5
       - 台湾1 5
       - 美国纽约 5
@@ -865,38 +1330,56 @@ proxy-groups:
       - 韩国01 5
       - 美国西雅图原生 5
       - 美国洛杉矶原生 5
-      - 香港 01 6
-      - 香港 02 6
-      - 用力下滑选择👇线路 12
-      - 用力下滑选择👇线路 13
-      - 用力下滑选择👇线路 14
-      - 日本1 6
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
       - 日本2 6
+      - 用力下滑选择👇线路
+      - 用力下滑选择👇线路 2
       - 台湾1 6
       - 美国纽约 6
       - 新加坡1 6
       - 韩国01 6
       - 美国西雅图原生 6
       - 美国洛杉矶原生 6
-      - 香港 01 7
-      - 用力下滑选择👇线路 15
-      - 用力下滑选择👇线路 16
-      - 用力下滑选择👇线路 17
-      - 香港 02 7
-      - 日本1 7
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
       - 日本2 7
       - 台湾1 7
-      - 用力下滑选择👇线路 18
-      - 用力下滑选择👇线路 19
-      - 用力下滑选择👇线路 20
       - 美国纽约 7
       - 新加坡1 7
       - 韩国01 7
+      - 用力下滑选择👇线路 3
+      - 用力下滑选择👇线路 4
+      - 日本
+      - 台湾01
+      - 越南
+      - 日本01
+      - 日本02
+      - 香港01
+      - 台湾01 2
+      - 台湾01 3
+      - 日本01 2
+      - 日本02 2
+      - 香港01 2
+      - 台湾01 4
+      - 越南 2
+      - 用力下滑选择👇线路 5
+      - 日本01 3
+      - 日本02 3
+      - 台湾01 5
+      - 香港01 3
+      - 香港01 4
+      - 台湾01 6
+      - 日本01 4
+      - 日本 2
+      - 用力下滑选择👇线路 6
       - 美国西雅图原生 7
       - 美国洛杉矶原生 7
-      - 香港 01 8
-      - 香港 02 8
-      - 日本1 8
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
       - 日本2 8
       - 台湾1 8
       - 美国纽约 8
@@ -904,67 +1387,166 @@ proxy-groups:
       - 韩国01 8
       - 美国西雅图原生 8
       - 美国洛杉矶原生 8
-      - 香港 01 9
-      - 用力下滑选择👇线路 21
-      - 用力下滑选择👇线路 22
-      - 用力下滑选择👇线路 23
-      - 香港 02 9
-      - 日本1 9
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
       - 日本2 9
       - 台湾1 9
       - 美国纽约 9
       - 新加坡1 9
       - 韩国01 9
+      - 用力下滑选择👇线路 7
+      - 用力下滑选择👇线路 8
       - 美国西雅图原生 9
       - 美国洛杉矶原生 9
-      - 香港 01 10
-      - 香港 02 10
-      - 日本1 10
-      - 用力下滑选择👇线路 24
-      - 用力下滑选择👇线路 25
-      - 用力下滑选择👇线路 26
-      - 用力下滑选择👇线路 27
+      - 香港 01 9
+      - 香港 02 9
+      - 日本1 9
       - 日本2 10
       - 台湾1 10
       - 美国纽约 10
       - 新加坡1 10
       - 韩国01 10
+      - 用力下滑选择👇线路 9
+      - 用力下滑选择👇线路 10
+      - 用力下滑选择👇线路 11
       - 美国西雅图原生 10
       - 美国洛杉矶原生 10
-      - 香港 01 11
-      - 香港 02 11
-      - 用力下滑选择👇线路 28
-      - 上面☝️线路仅为备用 4
-      - 用力下滑选择👇线路 29
-      - 日本1 11
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 10
       - 日本2 11
+      - 用力下滑选择👇线路 12
       - 台湾1 11
       - 美国纽约 11
       - 新加坡1 11
       - 韩国01 11
       - 美国西雅图原生 11
       - 美国洛杉矶原生 11
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 11
+      - 日本2 12
+      - 台湾1 12
+      - 用力下滑选择👇线路 13
+      - 用力下滑选择👇线路 14
+      - 美国纽约 12
+      - 新加坡1 12
+      - 韩国01 12
+      - 美国西雅图原生 12
+      - 美国洛杉矶原生 12
       - 香港 01 12
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本01
-      - 日本02
-      - 香港01 2
-      - 台湾01 2
-      - 越南 2
-      - 日本01 2
-      - 日本02 2
-      - 台湾01 3
-      - 香港01 3
-      - 日本01 3
-      - 日本02 3
-      - 香港01 4
-      - 台湾01 4
-      - 日本01 4
-      - 日本02 4
-      - 香港01 5
-      - 台湾01 5
+      - 香港 02 12
+      - 日本1 12
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 13
+      - 日本2 13
+      - 用力下滑选择👇线路 15
+      - 用力下滑选择👇线路 16
+      - 用力下滑选择👇线路 17
+      - 台湾1 13
+      - 美国纽约 13
+      - 新加坡1 13
+      - 韩国01 13
+      - 美国西雅图原生 13
+      - 美国洛杉矶原生 13
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 新加坡1 14
+      - 韩国01 14
+      - 用力下滑选择👇线路 18
+      - 美国西雅图原生 14
+      - 美国洛杉矶原生 14
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 新加坡1 15
+      - 韩国01 15
+      - 美国西雅图原生 15
+      - 美国洛杉矶原生 15
+      - 香港 01 16
+      - 香港 02 16
+      - 用力下滑选择👇线路 19
+      - 用力下滑选择👇线路 20
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 新加坡1 16
+      - 韩国01 16
+      - 美国西雅图原生 16
+      - 美国洛杉矶原生 16
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 用力下滑选择👇线路 21
+      - 用力下滑选择👇线路 22
+      - 用力下滑选择👇线路 23
+      - 用力下滑选择👇线路 24
+      - 用力下滑选择👇线路 25
+      - 美国纽约 17
+      - 新加坡1 17
+      - 韩国01 17
+      - 美国西雅图原生 17
+      - 美国洛杉矶原生 17
+      - 香港 01 18
+      - 香港 02 18
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 新加坡1 18
+      - 韩国01 18
+      - 用力下滑选择👇线路 26
+      - 美国西雅图原生 18
+      - 美国洛杉矶原生 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 新加坡1 19
+      - 韩国01 19
+      - 美国西雅图原生 19
+      - 美国洛杉矶原生 19
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 用力下滑选择👇线路 27
+      - 美国纽约 20
+      - 新加坡1 20
+      - 韩国01 20
+      - 美国西雅图原生 20
+      - 美国洛杉矶原生 20
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 新加坡1 21
+      - 韩国01 21
+      - 美国西雅图原生 21
+      - 美国洛杉矶原生 21
+      - 香港03
+      - 香港04
+      - 美国03
+      - 美国04
+      - 日本03
+      - 日本04
   - name: Disney
     type: select
     proxies:
@@ -985,12 +1567,7 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
-      - 用力下滑选择👇线路
-      - 用力下滑选择👇线路 2
-      - 用力下滑选择👇线路 3
-      - 香港 01
-      - 香港 02
-      - 日本1
+      - 608更新
       - 日本2
       - 台湾1
       - 美国纽约
@@ -998,50 +1575,42 @@ proxy-groups:
       - 韩国01
       - 美国西雅图原生
       - 美国洛杉矶原生
-      - 香港 01 2
-      - 香港 02 2
-      - 日本1 2
-      - 上面☝️线路仅为备用
-      - 上面☝️线路仅为备用 2
-      - 上面☝️线路仅为备用 3
+      - 香港 01
+      - 香港 02
+      - 日本1
       - 日本2 2
       - 台湾1 2
+      - ☝️上面的线路不要用
       - 美国纽约 2
       - 新加坡1 2
       - 韩国01 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - 用力下滑选择👇线路 4
-      - 用力下滑选择👇线路 5
-      - 用力下滑选择👇线路 6
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
       - 日本2 3
       - 台湾1 3
       - 美国纽约 3
-      - 用力下滑选择👇线路 7
-      - 用力下滑选择👇线路 8
-      - 用力下滑选择👇线路 9
       - 新加坡1 3
       - 韩国01 3
+      - ☝️上面的线路不要用 2
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
-      - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
       - 日本2 4
       - 台湾1 4
       - 美国纽约 4
       - 新加坡1 4
       - 韩国01 4
-      - 用力下滑选择👇线路 10
-      - 用力下滑选择👇线路 11
       - 美国西雅图原生 4
       - 美国洛杉矶原生 4
-      - 香港 01 5
-      - 香港 02 5
-      - 日本1 5
+      - 香港 01 4
+      - 香港 02 4
+      - ☝️上面的线路不要用 3
+      - 日本1 4
       - 日本2 5
       - 台湾1 5
       - 美国纽约 5
@@ -1049,38 +1618,56 @@ proxy-groups:
       - 韩国01 5
       - 美国西雅图原生 5
       - 美国洛杉矶原生 5
-      - 香港 01 6
-      - 香港 02 6
-      - 用力下滑选择👇线路 12
-      - 用力下滑选择👇线路 13
-      - 用力下滑选择👇线路 14
-      - 日本1 6
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
       - 日本2 6
+      - 用力下滑选择👇线路
+      - 用力下滑选择👇线路 2
       - 台湾1 6
       - 美国纽约 6
       - 新加坡1 6
       - 韩国01 6
       - 美国西雅图原生 6
       - 美国洛杉矶原生 6
-      - 香港 01 7
-      - 用力下滑选择👇线路 15
-      - 用力下滑选择👇线路 16
-      - 用力下滑选择👇线路 17
-      - 香港 02 7
-      - 日本1 7
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
       - 日本2 7
       - 台湾1 7
-      - 用力下滑选择👇线路 18
-      - 用力下滑选择👇线路 19
-      - 用力下滑选择👇线路 20
       - 美国纽约 7
       - 新加坡1 7
       - 韩国01 7
+      - 用力下滑选择👇线路 3
+      - 用力下滑选择👇线路 4
+      - 日本
+      - 台湾01
+      - 越南
+      - 日本01
+      - 日本02
+      - 香港01
+      - 台湾01 2
+      - 台湾01 3
+      - 日本01 2
+      - 日本02 2
+      - 香港01 2
+      - 台湾01 4
+      - 越南 2
+      - 用力下滑选择👇线路 5
+      - 日本01 3
+      - 日本02 3
+      - 台湾01 5
+      - 香港01 3
+      - 香港01 4
+      - 台湾01 6
+      - 日本01 4
+      - 日本 2
+      - 用力下滑选择👇线路 6
       - 美国西雅图原生 7
       - 美国洛杉矶原生 7
-      - 香港 01 8
-      - 香港 02 8
-      - 日本1 8
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
       - 日本2 8
       - 台湾1 8
       - 美国纽约 8
@@ -1088,78 +1675,172 @@ proxy-groups:
       - 韩国01 8
       - 美国西雅图原生 8
       - 美国洛杉矶原生 8
-      - 香港 01 9
-      - 用力下滑选择👇线路 21
-      - 用力下滑选择👇线路 22
-      - 用力下滑选择👇线路 23
-      - 香港 02 9
-      - 日本1 9
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
       - 日本2 9
       - 台湾1 9
       - 美国纽约 9
       - 新加坡1 9
       - 韩国01 9
+      - 用力下滑选择👇线路 7
+      - 用力下滑选择👇线路 8
       - 美国西雅图原生 9
       - 美国洛杉矶原生 9
-      - 香港 01 10
-      - 香港 02 10
-      - 日本1 10
-      - 用力下滑选择👇线路 24
-      - 用力下滑选择👇线路 25
-      - 用力下滑选择👇线路 26
-      - 用力下滑选择👇线路 27
+      - 香港 01 9
+      - 香港 02 9
+      - 日本1 9
       - 日本2 10
       - 台湾1 10
       - 美国纽约 10
       - 新加坡1 10
       - 韩国01 10
+      - 用力下滑选择👇线路 9
+      - 用力下滑选择👇线路 10
+      - 用力下滑选择👇线路 11
       - 美国西雅图原生 10
       - 美国洛杉矶原生 10
-      - 香港 01 11
-      - 香港 02 11
-      - 用力下滑选择👇线路 28
-      - 上面☝️线路仅为备用 4
-      - 用力下滑选择👇线路 29
-      - 日本1 11
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 10
       - 日本2 11
+      - 用力下滑选择👇线路 12
       - 台湾1 11
       - 美国纽约 11
       - 新加坡1 11
       - 韩国01 11
       - 美国西雅图原生 11
       - 美国洛杉矶原生 11
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 11
+      - 日本2 12
+      - 台湾1 12
+      - 用力下滑选择👇线路 13
+      - 用力下滑选择👇线路 14
+      - 美国纽约 12
+      - 新加坡1 12
+      - 韩国01 12
+      - 美国西雅图原生 12
+      - 美国洛杉矶原生 12
       - 香港 01 12
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本01
-      - 日本02
-      - 香港01 2
-      - 台湾01 2
-      - 越南 2
-      - 日本01 2
-      - 日本02 2
-      - 台湾01 3
-      - 香港01 3
-      - 日本01 3
-      - 日本02 3
-      - 香港01 4
-      - 台湾01 4
-      - 日本01 4
-      - 日本02 4
-      - 香港01 5
-      - 台湾01 5
+      - 香港 02 12
+      - 日本1 12
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 13
+      - 日本2 13
+      - 用力下滑选择👇线路 15
+      - 用力下滑选择👇线路 16
+      - 用力下滑选择👇线路 17
+      - 台湾1 13
+      - 美国纽约 13
+      - 新加坡1 13
+      - 韩国01 13
+      - 美国西雅图原生 13
+      - 美国洛杉矶原生 13
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 新加坡1 14
+      - 韩国01 14
+      - 用力下滑选择👇线路 18
+      - 美国西雅图原生 14
+      - 美国洛杉矶原生 14
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 新加坡1 15
+      - 韩国01 15
+      - 美国西雅图原生 15
+      - 美国洛杉矶原生 15
+      - 香港 01 16
+      - 香港 02 16
+      - 用力下滑选择👇线路 19
+      - 用力下滑选择👇线路 20
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 新加坡1 16
+      - 韩国01 16
+      - 美国西雅图原生 16
+      - 美国洛杉矶原生 16
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 用力下滑选择👇线路 21
+      - 用力下滑选择👇线路 22
+      - 用力下滑选择👇线路 23
+      - 用力下滑选择👇线路 24
+      - 用力下滑选择👇线路 25
+      - 美国纽约 17
+      - 新加坡1 17
+      - 韩国01 17
+      - 美国西雅图原生 17
+      - 美国洛杉矶原生 17
+      - 香港 01 18
+      - 香港 02 18
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 新加坡1 18
+      - 韩国01 18
+      - 用力下滑选择👇线路 26
+      - 美国西雅图原生 18
+      - 美国洛杉矶原生 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 新加坡1 19
+      - 韩国01 19
+      - 美国西雅图原生 19
+      - 美国洛杉矶原生 19
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 用力下滑选择👇线路 27
+      - 美国纽约 20
+      - 新加坡1 20
+      - 韩国01 20
+      - 美国西雅图原生 20
+      - 美国洛杉矶原生 20
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 新加坡1 21
+      - 韩国01 21
+      - 美国西雅图原生 21
+      - 美国洛杉矶原生 21
+      - 香港03
+      - 香港04
+      - 美国03
+      - 美国04
+      - 日本03
+      - 日本04
   - name: Spotify
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 用力下滑选择👇线路
-      - 用力下滑选择👇线路 2
-      - 用力下滑选择👇线路 3
-      - 香港 01
-      - 香港 02
-      - 日本1
+      - 608更新
       - 日本2
       - 台湾1
       - 美国纽约
@@ -1167,50 +1848,42 @@ proxy-groups:
       - 韩国01
       - 美国西雅图原生
       - 美国洛杉矶原生
-      - 香港 01 2
-      - 香港 02 2
-      - 日本1 2
-      - 上面☝️线路仅为备用
-      - 上面☝️线路仅为备用 2
-      - 上面☝️线路仅为备用 3
+      - 香港 01
+      - 香港 02
+      - 日本1
       - 日本2 2
       - 台湾1 2
+      - ☝️上面的线路不要用
       - 美国纽约 2
       - 新加坡1 2
       - 韩国01 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - 用力下滑选择👇线路 4
-      - 用力下滑选择👇线路 5
-      - 用力下滑选择👇线路 6
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
       - 日本2 3
       - 台湾1 3
       - 美国纽约 3
-      - 用力下滑选择👇线路 7
-      - 用力下滑选择👇线路 8
-      - 用力下滑选择👇线路 9
       - 新加坡1 3
       - 韩国01 3
+      - ☝️上面的线路不要用 2
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
-      - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
       - 日本2 4
       - 台湾1 4
       - 美国纽约 4
       - 新加坡1 4
       - 韩国01 4
-      - 用力下滑选择👇线路 10
-      - 用力下滑选择👇线路 11
       - 美国西雅图原生 4
       - 美国洛杉矶原生 4
-      - 香港 01 5
-      - 香港 02 5
-      - 日本1 5
+      - 香港 01 4
+      - 香港 02 4
+      - ☝️上面的线路不要用 3
+      - 日本1 4
       - 日本2 5
       - 台湾1 5
       - 美国纽约 5
@@ -1218,38 +1891,56 @@ proxy-groups:
       - 韩国01 5
       - 美国西雅图原生 5
       - 美国洛杉矶原生 5
-      - 香港 01 6
-      - 香港 02 6
-      - 用力下滑选择👇线路 12
-      - 用力下滑选择👇线路 13
-      - 用力下滑选择👇线路 14
-      - 日本1 6
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
       - 日本2 6
+      - 用力下滑选择👇线路
+      - 用力下滑选择👇线路 2
       - 台湾1 6
       - 美国纽约 6
       - 新加坡1 6
       - 韩国01 6
       - 美国西雅图原生 6
       - 美国洛杉矶原生 6
-      - 香港 01 7
-      - 用力下滑选择👇线路 15
-      - 用力下滑选择👇线路 16
-      - 用力下滑选择👇线路 17
-      - 香港 02 7
-      - 日本1 7
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
       - 日本2 7
       - 台湾1 7
-      - 用力下滑选择👇线路 18
-      - 用力下滑选择👇线路 19
-      - 用力下滑选择👇线路 20
       - 美国纽约 7
       - 新加坡1 7
       - 韩国01 7
+      - 用力下滑选择👇线路 3
+      - 用力下滑选择👇线路 4
+      - 日本
+      - 台湾01
+      - 越南
+      - 日本01
+      - 日本02
+      - 香港01
+      - 台湾01 2
+      - 台湾01 3
+      - 日本01 2
+      - 日本02 2
+      - 香港01 2
+      - 台湾01 4
+      - 越南 2
+      - 用力下滑选择👇线路 5
+      - 日本01 3
+      - 日本02 3
+      - 台湾01 5
+      - 香港01 3
+      - 香港01 4
+      - 台湾01 6
+      - 日本01 4
+      - 日本 2
+      - 用力下滑选择👇线路 6
       - 美国西雅图原生 7
       - 美国洛杉矶原生 7
-      - 香港 01 8
-      - 香港 02 8
-      - 日本1 8
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
       - 日本2 8
       - 台湾1 8
       - 美国纽约 8
@@ -1257,78 +1948,172 @@ proxy-groups:
       - 韩国01 8
       - 美国西雅图原生 8
       - 美国洛杉矶原生 8
-      - 香港 01 9
-      - 用力下滑选择👇线路 21
-      - 用力下滑选择👇线路 22
-      - 用力下滑选择👇线路 23
-      - 香港 02 9
-      - 日本1 9
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
       - 日本2 9
       - 台湾1 9
       - 美国纽约 9
       - 新加坡1 9
       - 韩国01 9
+      - 用力下滑选择👇线路 7
+      - 用力下滑选择👇线路 8
       - 美国西雅图原生 9
       - 美国洛杉矶原生 9
-      - 香港 01 10
-      - 香港 02 10
-      - 日本1 10
-      - 用力下滑选择👇线路 24
-      - 用力下滑选择👇线路 25
-      - 用力下滑选择👇线路 26
-      - 用力下滑选择👇线路 27
+      - 香港 01 9
+      - 香港 02 9
+      - 日本1 9
       - 日本2 10
       - 台湾1 10
       - 美国纽约 10
       - 新加坡1 10
       - 韩国01 10
+      - 用力下滑选择👇线路 9
+      - 用力下滑选择👇线路 10
+      - 用力下滑选择👇线路 11
       - 美国西雅图原生 10
       - 美国洛杉矶原生 10
-      - 香港 01 11
-      - 香港 02 11
-      - 用力下滑选择👇线路 28
-      - 上面☝️线路仅为备用 4
-      - 用力下滑选择👇线路 29
-      - 日本1 11
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 10
       - 日本2 11
+      - 用力下滑选择👇线路 12
       - 台湾1 11
       - 美国纽约 11
       - 新加坡1 11
       - 韩国01 11
       - 美国西雅图原生 11
       - 美国洛杉矶原生 11
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 11
+      - 日本2 12
+      - 台湾1 12
+      - 用力下滑选择👇线路 13
+      - 用力下滑选择👇线路 14
+      - 美国纽约 12
+      - 新加坡1 12
+      - 韩国01 12
+      - 美国西雅图原生 12
+      - 美国洛杉矶原生 12
       - 香港 01 12
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本01
-      - 日本02
-      - 香港01 2
-      - 台湾01 2
-      - 越南 2
-      - 日本01 2
-      - 日本02 2
-      - 台湾01 3
-      - 香港01 3
-      - 日本01 3
-      - 日本02 3
-      - 香港01 4
-      - 台湾01 4
-      - 日本01 4
-      - 日本02 4
-      - 香港01 5
-      - 台湾01 5
+      - 香港 02 12
+      - 日本1 12
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 13
+      - 日本2 13
+      - 用力下滑选择👇线路 15
+      - 用力下滑选择👇线路 16
+      - 用力下滑选择👇线路 17
+      - 台湾1 13
+      - 美国纽约 13
+      - 新加坡1 13
+      - 韩国01 13
+      - 美国西雅图原生 13
+      - 美国洛杉矶原生 13
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 新加坡1 14
+      - 韩国01 14
+      - 用力下滑选择👇线路 18
+      - 美国西雅图原生 14
+      - 美国洛杉矶原生 14
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 新加坡1 15
+      - 韩国01 15
+      - 美国西雅图原生 15
+      - 美国洛杉矶原生 15
+      - 香港 01 16
+      - 香港 02 16
+      - 用力下滑选择👇线路 19
+      - 用力下滑选择👇线路 20
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 新加坡1 16
+      - 韩国01 16
+      - 美国西雅图原生 16
+      - 美国洛杉矶原生 16
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 用力下滑选择👇线路 21
+      - 用力下滑选择👇线路 22
+      - 用力下滑选择👇线路 23
+      - 用力下滑选择👇线路 24
+      - 用力下滑选择👇线路 25
+      - 美国纽约 17
+      - 新加坡1 17
+      - 韩国01 17
+      - 美国西雅图原生 17
+      - 美国洛杉矶原生 17
+      - 香港 01 18
+      - 香港 02 18
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 新加坡1 18
+      - 韩国01 18
+      - 用力下滑选择👇线路 26
+      - 美国西雅图原生 18
+      - 美国洛杉矶原生 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 新加坡1 19
+      - 韩国01 19
+      - 美国西雅图原生 19
+      - 美国洛杉矶原生 19
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 用力下滑选择👇线路 27
+      - 美国纽约 20
+      - 新加坡1 20
+      - 韩国01 20
+      - 美国西雅图原生 20
+      - 美国洛杉矶原生 20
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 新加坡1 21
+      - 韩国01 21
+      - 美国西雅图原生 21
+      - 美国洛杉矶原生 21
+      - 香港03
+      - 香港04
+      - 美国03
+      - 美国04
+      - 日本03
+      - 日本04
   - name: Telegram
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 用力下滑选择👇线路
-      - 用力下滑选择👇线路 2
-      - 用力下滑选择👇线路 3
-      - 香港 01
-      - 香港 02
-      - 日本1
+      - 608更新
       - 日本2
       - 台湾1
       - 美国纽约
@@ -1336,50 +2121,42 @@ proxy-groups:
       - 韩国01
       - 美国西雅图原生
       - 美国洛杉矶原生
-      - 香港 01 2
-      - 香港 02 2
-      - 日本1 2
-      - 上面☝️线路仅为备用
-      - 上面☝️线路仅为备用 2
-      - 上面☝️线路仅为备用 3
+      - 香港 01
+      - 香港 02
+      - 日本1
       - 日本2 2
       - 台湾1 2
+      - ☝️上面的线路不要用
       - 美国纽约 2
       - 新加坡1 2
       - 韩国01 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - 用力下滑选择👇线路 4
-      - 用力下滑选择👇线路 5
-      - 用力下滑选择👇线路 6
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
       - 日本2 3
       - 台湾1 3
       - 美国纽约 3
-      - 用力下滑选择👇线路 7
-      - 用力下滑选择👇线路 8
-      - 用力下滑选择👇线路 9
       - 新加坡1 3
       - 韩国01 3
+      - ☝️上面的线路不要用 2
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
-      - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
       - 日本2 4
       - 台湾1 4
       - 美国纽约 4
       - 新加坡1 4
       - 韩国01 4
-      - 用力下滑选择👇线路 10
-      - 用力下滑选择👇线路 11
       - 美国西雅图原生 4
       - 美国洛杉矶原生 4
-      - 香港 01 5
-      - 香港 02 5
-      - 日本1 5
+      - 香港 01 4
+      - 香港 02 4
+      - ☝️上面的线路不要用 3
+      - 日本1 4
       - 日本2 5
       - 台湾1 5
       - 美国纽约 5
@@ -1387,38 +2164,56 @@ proxy-groups:
       - 韩国01 5
       - 美国西雅图原生 5
       - 美国洛杉矶原生 5
-      - 香港 01 6
-      - 香港 02 6
-      - 用力下滑选择👇线路 12
-      - 用力下滑选择👇线路 13
-      - 用力下滑选择👇线路 14
-      - 日本1 6
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
       - 日本2 6
+      - 用力下滑选择👇线路
+      - 用力下滑选择👇线路 2
       - 台湾1 6
       - 美国纽约 6
       - 新加坡1 6
       - 韩国01 6
       - 美国西雅图原生 6
       - 美国洛杉矶原生 6
-      - 香港 01 7
-      - 用力下滑选择👇线路 15
-      - 用力下滑选择👇线路 16
-      - 用力下滑选择👇线路 17
-      - 香港 02 7
-      - 日本1 7
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
       - 日本2 7
       - 台湾1 7
-      - 用力下滑选择👇线路 18
-      - 用力下滑选择👇线路 19
-      - 用力下滑选择👇线路 20
       - 美国纽约 7
       - 新加坡1 7
       - 韩国01 7
+      - 用力下滑选择👇线路 3
+      - 用力下滑选择👇线路 4
+      - 日本
+      - 台湾01
+      - 越南
+      - 日本01
+      - 日本02
+      - 香港01
+      - 台湾01 2
+      - 台湾01 3
+      - 日本01 2
+      - 日本02 2
+      - 香港01 2
+      - 台湾01 4
+      - 越南 2
+      - 用力下滑选择👇线路 5
+      - 日本01 3
+      - 日本02 3
+      - 台湾01 5
+      - 香港01 3
+      - 香港01 4
+      - 台湾01 6
+      - 日本01 4
+      - 日本 2
+      - 用力下滑选择👇线路 6
       - 美国西雅图原生 7
       - 美国洛杉矶原生 7
-      - 香港 01 8
-      - 香港 02 8
-      - 日本1 8
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
       - 日本2 8
       - 台湾1 8
       - 美国纽约 8
@@ -1426,67 +2221,166 @@ proxy-groups:
       - 韩国01 8
       - 美国西雅图原生 8
       - 美国洛杉矶原生 8
-      - 香港 01 9
-      - 用力下滑选择👇线路 21
-      - 用力下滑选择👇线路 22
-      - 用力下滑选择👇线路 23
-      - 香港 02 9
-      - 日本1 9
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
       - 日本2 9
       - 台湾1 9
       - 美国纽约 9
       - 新加坡1 9
       - 韩国01 9
+      - 用力下滑选择👇线路 7
+      - 用力下滑选择👇线路 8
       - 美国西雅图原生 9
       - 美国洛杉矶原生 9
-      - 香港 01 10
-      - 香港 02 10
-      - 日本1 10
-      - 用力下滑选择👇线路 24
-      - 用力下滑选择👇线路 25
-      - 用力下滑选择👇线路 26
-      - 用力下滑选择👇线路 27
+      - 香港 01 9
+      - 香港 02 9
+      - 日本1 9
       - 日本2 10
       - 台湾1 10
       - 美国纽约 10
       - 新加坡1 10
       - 韩国01 10
+      - 用力下滑选择👇线路 9
+      - 用力下滑选择👇线路 10
+      - 用力下滑选择👇线路 11
       - 美国西雅图原生 10
       - 美国洛杉矶原生 10
-      - 香港 01 11
-      - 香港 02 11
-      - 用力下滑选择👇线路 28
-      - 上面☝️线路仅为备用 4
-      - 用力下滑选择👇线路 29
-      - 日本1 11
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 10
       - 日本2 11
+      - 用力下滑选择👇线路 12
       - 台湾1 11
       - 美国纽约 11
       - 新加坡1 11
       - 韩国01 11
       - 美国西雅图原生 11
       - 美国洛杉矶原生 11
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 11
+      - 日本2 12
+      - 台湾1 12
+      - 用力下滑选择👇线路 13
+      - 用力下滑选择👇线路 14
+      - 美国纽约 12
+      - 新加坡1 12
+      - 韩国01 12
+      - 美国西雅图原生 12
+      - 美国洛杉矶原生 12
       - 香港 01 12
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本01
-      - 日本02
-      - 香港01 2
-      - 台湾01 2
-      - 越南 2
-      - 日本01 2
-      - 日本02 2
-      - 台湾01 3
-      - 香港01 3
-      - 日本01 3
-      - 日本02 3
-      - 香港01 4
-      - 台湾01 4
-      - 日本01 4
-      - 日本02 4
-      - 香港01 5
-      - 台湾01 5
+      - 香港 02 12
+      - 日本1 12
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 13
+      - 日本2 13
+      - 用力下滑选择👇线路 15
+      - 用力下滑选择👇线路 16
+      - 用力下滑选择👇线路 17
+      - 台湾1 13
+      - 美国纽约 13
+      - 新加坡1 13
+      - 韩国01 13
+      - 美国西雅图原生 13
+      - 美国洛杉矶原生 13
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 新加坡1 14
+      - 韩国01 14
+      - 用力下滑选择👇线路 18
+      - 美国西雅图原生 14
+      - 美国洛杉矶原生 14
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 新加坡1 15
+      - 韩国01 15
+      - 美国西雅图原生 15
+      - 美国洛杉矶原生 15
+      - 香港 01 16
+      - 香港 02 16
+      - 用力下滑选择👇线路 19
+      - 用力下滑选择👇线路 20
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 新加坡1 16
+      - 韩国01 16
+      - 美国西雅图原生 16
+      - 美国洛杉矶原生 16
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 用力下滑选择👇线路 21
+      - 用力下滑选择👇线路 22
+      - 用力下滑选择👇线路 23
+      - 用力下滑选择👇线路 24
+      - 用力下滑选择👇线路 25
+      - 美国纽约 17
+      - 新加坡1 17
+      - 韩国01 17
+      - 美国西雅图原生 17
+      - 美国洛杉矶原生 17
+      - 香港 01 18
+      - 香港 02 18
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 新加坡1 18
+      - 韩国01 18
+      - 用力下滑选择👇线路 26
+      - 美国西雅图原生 18
+      - 美国洛杉矶原生 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 新加坡1 19
+      - 韩国01 19
+      - 美国西雅图原生 19
+      - 美国洛杉矶原生 19
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 用力下滑选择👇线路 27
+      - 美国纽约 20
+      - 新加坡1 20
+      - 韩国01 20
+      - 美国西雅图原生 20
+      - 美国洛杉矶原生 20
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 新加坡1 21
+      - 韩国01 21
+      - 美国西雅图原生 21
+      - 美国洛杉矶原生 21
+      - 香港03
+      - 香港04
+      - 美国03
+      - 美国04
+      - 日本03
+      - 日本04
   - name: Steam
     type: select
     proxies:
@@ -1498,12 +2392,7 @@ proxy-groups:
       - Proxies
       - DIRECT
       - Domestic
-      - 用力下滑选择👇线路
-      - 用力下滑选择👇线路 2
-      - 用力下滑选择👇线路 3
-      - 香港 01
-      - 香港 02
-      - 日本1
+      - 608更新
       - 日本2
       - 台湾1
       - 美国纽约
@@ -1511,50 +2400,42 @@ proxy-groups:
       - 韩国01
       - 美国西雅图原生
       - 美国洛杉矶原生
-      - 香港 01 2
-      - 香港 02 2
-      - 日本1 2
-      - 上面☝️线路仅为备用
-      - 上面☝️线路仅为备用 2
-      - 上面☝️线路仅为备用 3
+      - 香港 01
+      - 香港 02
+      - 日本1
       - 日本2 2
       - 台湾1 2
+      - ☝️上面的线路不要用
       - 美国纽约 2
       - 新加坡1 2
       - 韩国01 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - 用力下滑选择👇线路 4
-      - 用力下滑选择👇线路 5
-      - 用力下滑选择👇线路 6
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
       - 日本2 3
       - 台湾1 3
       - 美国纽约 3
-      - 用力下滑选择👇线路 7
-      - 用力下滑选择👇线路 8
-      - 用力下滑选择👇线路 9
       - 新加坡1 3
       - 韩国01 3
+      - ☝️上面的线路不要用 2
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
-      - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
       - 日本2 4
       - 台湾1 4
       - 美国纽约 4
       - 新加坡1 4
       - 韩国01 4
-      - 用力下滑选择👇线路 10
-      - 用力下滑选择👇线路 11
       - 美国西雅图原生 4
       - 美国洛杉矶原生 4
-      - 香港 01 5
-      - 香港 02 5
-      - 日本1 5
+      - 香港 01 4
+      - 香港 02 4
+      - ☝️上面的线路不要用 3
+      - 日本1 4
       - 日本2 5
       - 台湾1 5
       - 美国纽约 5
@@ -1562,38 +2443,56 @@ proxy-groups:
       - 韩国01 5
       - 美国西雅图原生 5
       - 美国洛杉矶原生 5
-      - 香港 01 6
-      - 香港 02 6
-      - 用力下滑选择👇线路 12
-      - 用力下滑选择👇线路 13
-      - 用力下滑选择👇线路 14
-      - 日本1 6
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
       - 日本2 6
+      - 用力下滑选择👇线路
+      - 用力下滑选择👇线路 2
       - 台湾1 6
       - 美国纽约 6
       - 新加坡1 6
       - 韩国01 6
       - 美国西雅图原生 6
       - 美国洛杉矶原生 6
-      - 香港 01 7
-      - 用力下滑选择👇线路 15
-      - 用力下滑选择👇线路 16
-      - 用力下滑选择👇线路 17
-      - 香港 02 7
-      - 日本1 7
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
       - 日本2 7
       - 台湾1 7
-      - 用力下滑选择👇线路 18
-      - 用力下滑选择👇线路 19
-      - 用力下滑选择👇线路 20
       - 美国纽约 7
       - 新加坡1 7
       - 韩国01 7
+      - 用力下滑选择👇线路 3
+      - 用力下滑选择👇线路 4
+      - 日本
+      - 台湾01
+      - 越南
+      - 日本01
+      - 日本02
+      - 香港01
+      - 台湾01 2
+      - 台湾01 3
+      - 日本01 2
+      - 日本02 2
+      - 香港01 2
+      - 台湾01 4
+      - 越南 2
+      - 用力下滑选择👇线路 5
+      - 日本01 3
+      - 日本02 3
+      - 台湾01 5
+      - 香港01 3
+      - 香港01 4
+      - 台湾01 6
+      - 日本01 4
+      - 日本 2
+      - 用力下滑选择👇线路 6
       - 美国西雅图原生 7
       - 美国洛杉矶原生 7
-      - 香港 01 8
-      - 香港 02 8
-      - 日本1 8
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
       - 日本2 8
       - 台湾1 8
       - 美国纽约 8
@@ -1601,67 +2500,166 @@ proxy-groups:
       - 韩国01 8
       - 美国西雅图原生 8
       - 美国洛杉矶原生 8
-      - 香港 01 9
-      - 用力下滑选择👇线路 21
-      - 用力下滑选择👇线路 22
-      - 用力下滑选择👇线路 23
-      - 香港 02 9
-      - 日本1 9
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
       - 日本2 9
       - 台湾1 9
       - 美国纽约 9
       - 新加坡1 9
       - 韩国01 9
+      - 用力下滑选择👇线路 7
+      - 用力下滑选择👇线路 8
       - 美国西雅图原生 9
       - 美国洛杉矶原生 9
-      - 香港 01 10
-      - 香港 02 10
-      - 日本1 10
-      - 用力下滑选择👇线路 24
-      - 用力下滑选择👇线路 25
-      - 用力下滑选择👇线路 26
-      - 用力下滑选择👇线路 27
+      - 香港 01 9
+      - 香港 02 9
+      - 日本1 9
       - 日本2 10
       - 台湾1 10
       - 美国纽约 10
       - 新加坡1 10
       - 韩国01 10
+      - 用力下滑选择👇线路 9
+      - 用力下滑选择👇线路 10
+      - 用力下滑选择👇线路 11
       - 美国西雅图原生 10
       - 美国洛杉矶原生 10
-      - 香港 01 11
-      - 香港 02 11
-      - 用力下滑选择👇线路 28
-      - 上面☝️线路仅为备用 4
-      - 用力下滑选择👇线路 29
-      - 日本1 11
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 10
       - 日本2 11
+      - 用力下滑选择👇线路 12
       - 台湾1 11
       - 美国纽约 11
       - 新加坡1 11
       - 韩国01 11
       - 美国西雅图原生 11
       - 美国洛杉矶原生 11
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 11
+      - 日本2 12
+      - 台湾1 12
+      - 用力下滑选择👇线路 13
+      - 用力下滑选择👇线路 14
+      - 美国纽约 12
+      - 新加坡1 12
+      - 韩国01 12
+      - 美国西雅图原生 12
+      - 美国洛杉矶原生 12
       - 香港 01 12
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本01
-      - 日本02
-      - 香港01 2
-      - 台湾01 2
-      - 越南 2
-      - 日本01 2
-      - 日本02 2
-      - 台湾01 3
-      - 香港01 3
-      - 日本01 3
-      - 日本02 3
-      - 香港01 4
-      - 台湾01 4
-      - 日本01 4
-      - 日本02 4
-      - 香港01 5
-      - 台湾01 5
+      - 香港 02 12
+      - 日本1 12
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 13
+      - 日本2 13
+      - 用力下滑选择👇线路 15
+      - 用力下滑选择👇线路 16
+      - 用力下滑选择👇线路 17
+      - 台湾1 13
+      - 美国纽约 13
+      - 新加坡1 13
+      - 韩国01 13
+      - 美国西雅图原生 13
+      - 美国洛杉矶原生 13
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 新加坡1 14
+      - 韩国01 14
+      - 用力下滑选择👇线路 18
+      - 美国西雅图原生 14
+      - 美国洛杉矶原生 14
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 新加坡1 15
+      - 韩国01 15
+      - 美国西雅图原生 15
+      - 美国洛杉矶原生 15
+      - 香港 01 16
+      - 香港 02 16
+      - 用力下滑选择👇线路 19
+      - 用力下滑选择👇线路 20
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 新加坡1 16
+      - 韩国01 16
+      - 美国西雅图原生 16
+      - 美国洛杉矶原生 16
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 用力下滑选择👇线路 21
+      - 用力下滑选择👇线路 22
+      - 用力下滑选择👇线路 23
+      - 用力下滑选择👇线路 24
+      - 用力下滑选择👇线路 25
+      - 美国纽约 17
+      - 新加坡1 17
+      - 韩国01 17
+      - 美国西雅图原生 17
+      - 美国洛杉矶原生 17
+      - 香港 01 18
+      - 香港 02 18
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 新加坡1 18
+      - 韩国01 18
+      - 用力下滑选择👇线路 26
+      - 美国西雅图原生 18
+      - 美国洛杉矶原生 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 新加坡1 19
+      - 韩国01 19
+      - 美国西雅图原生 19
+      - 美国洛杉矶原生 19
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 用力下滑选择👇线路 27
+      - 美国纽约 20
+      - 新加坡1 20
+      - 韩国01 20
+      - 美国西雅图原生 20
+      - 美国洛杉矶原生 20
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 新加坡1 21
+      - 韩国01 21
+      - 美国西雅图原生 21
+      - 美国洛杉矶原生 21
+      - 香港03
+      - 香港04
+      - 美国03
+      - 美国04
+      - 日本03
+      - 日本04
   - name: PayPal
     type: select
     proxies:
@@ -1707,12 +2705,7 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     interval: 1800
     proxies:
-      - 用力下滑选择👇线路
-      - 用力下滑选择👇线路 2
-      - 用力下滑选择👇线路 3
-      - 香港 01
-      - 香港 02
-      - 日本1
+      - 608更新
       - 日本2
       - 台湾1
       - 美国纽约
@@ -1720,50 +2713,42 @@ proxy-groups:
       - 韩国01
       - 美国西雅图原生
       - 美国洛杉矶原生
-      - 香港 01 2
-      - 香港 02 2
-      - 日本1 2
-      - 上面☝️线路仅为备用
-      - 上面☝️线路仅为备用 2
-      - 上面☝️线路仅为备用 3
+      - 香港 01
+      - 香港 02
+      - 日本1
       - 日本2 2
       - 台湾1 2
+      - ☝️上面的线路不要用
       - 美国纽约 2
       - 新加坡1 2
       - 韩国01 2
       - 美国西雅图原生 2
       - 美国洛杉矶原生 2
-      - 用力下滑选择👇线路 4
-      - 用力下滑选择👇线路 5
-      - 用力下滑选择👇线路 6
-      - 香港 01 3
-      - 香港 02 3
-      - 日本1 3
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
       - 日本2 3
       - 台湾1 3
       - 美国纽约 3
-      - 用力下滑选择👇线路 7
-      - 用力下滑选择👇线路 8
-      - 用力下滑选择👇线路 9
       - 新加坡1 3
       - 韩国01 3
+      - ☝️上面的线路不要用 2
       - 美国西雅图原生 3
       - 美国洛杉矶原生 3
-      - 香港 01 4
-      - 香港 02 4
-      - 日本1 4
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
       - 日本2 4
       - 台湾1 4
       - 美国纽约 4
       - 新加坡1 4
       - 韩国01 4
-      - 用力下滑选择👇线路 10
-      - 用力下滑选择👇线路 11
       - 美国西雅图原生 4
       - 美国洛杉矶原生 4
-      - 香港 01 5
-      - 香港 02 5
-      - 日本1 5
+      - 香港 01 4
+      - 香港 02 4
+      - ☝️上面的线路不要用 3
+      - 日本1 4
       - 日本2 5
       - 台湾1 5
       - 美国纽约 5
@@ -1771,38 +2756,56 @@ proxy-groups:
       - 韩国01 5
       - 美国西雅图原生 5
       - 美国洛杉矶原生 5
-      - 香港 01 6
-      - 香港 02 6
-      - 用力下滑选择👇线路 12
-      - 用力下滑选择👇线路 13
-      - 用力下滑选择👇线路 14
-      - 日本1 6
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
       - 日本2 6
+      - 用力下滑选择👇线路
+      - 用力下滑选择👇线路 2
       - 台湾1 6
       - 美国纽约 6
       - 新加坡1 6
       - 韩国01 6
       - 美国西雅图原生 6
       - 美国洛杉矶原生 6
-      - 香港 01 7
-      - 用力下滑选择👇线路 15
-      - 用力下滑选择👇线路 16
-      - 用力下滑选择👇线路 17
-      - 香港 02 7
-      - 日本1 7
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
       - 日本2 7
       - 台湾1 7
-      - 用力下滑选择👇线路 18
-      - 用力下滑选择👇线路 19
-      - 用力下滑选择👇线路 20
       - 美国纽约 7
       - 新加坡1 7
       - 韩国01 7
+      - 用力下滑选择👇线路 3
+      - 用力下滑选择👇线路 4
+      - 日本
+      - 台湾01
+      - 越南
+      - 日本01
+      - 日本02
+      - 香港01
+      - 台湾01 2
+      - 台湾01 3
+      - 日本01 2
+      - 日本02 2
+      - 香港01 2
+      - 台湾01 4
+      - 越南 2
+      - 用力下滑选择👇线路 5
+      - 日本01 3
+      - 日本02 3
+      - 台湾01 5
+      - 香港01 3
+      - 香港01 4
+      - 台湾01 6
+      - 日本01 4
+      - 日本 2
+      - 用力下滑选择👇线路 6
       - 美国西雅图原生 7
       - 美国洛杉矶原生 7
-      - 香港 01 8
-      - 香港 02 8
-      - 日本1 8
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
       - 日本2 8
       - 台湾1 8
       - 美国纽约 8
@@ -1810,67 +2813,166 @@ proxy-groups:
       - 韩国01 8
       - 美国西雅图原生 8
       - 美国洛杉矶原生 8
-      - 香港 01 9
-      - 用力下滑选择👇线路 21
-      - 用力下滑选择👇线路 22
-      - 用力下滑选择👇线路 23
-      - 香港 02 9
-      - 日本1 9
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
       - 日本2 9
       - 台湾1 9
       - 美国纽约 9
       - 新加坡1 9
       - 韩国01 9
+      - 用力下滑选择👇线路 7
+      - 用力下滑选择👇线路 8
       - 美国西雅图原生 9
       - 美国洛杉矶原生 9
-      - 香港 01 10
-      - 香港 02 10
-      - 日本1 10
-      - 用力下滑选择👇线路 24
-      - 用力下滑选择👇线路 25
-      - 用力下滑选择👇线路 26
-      - 用力下滑选择👇线路 27
+      - 香港 01 9
+      - 香港 02 9
+      - 日本1 9
       - 日本2 10
       - 台湾1 10
       - 美国纽约 10
       - 新加坡1 10
       - 韩国01 10
+      - 用力下滑选择👇线路 9
+      - 用力下滑选择👇线路 10
+      - 用力下滑选择👇线路 11
       - 美国西雅图原生 10
       - 美国洛杉矶原生 10
-      - 香港 01 11
-      - 香港 02 11
-      - 用力下滑选择👇线路 28
-      - 上面☝️线路仅为备用 4
-      - 用力下滑选择👇线路 29
-      - 日本1 11
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 10
       - 日本2 11
+      - 用力下滑选择👇线路 12
       - 台湾1 11
       - 美国纽约 11
       - 新加坡1 11
       - 韩国01 11
       - 美国西雅图原生 11
       - 美国洛杉矶原生 11
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 11
+      - 日本2 12
+      - 台湾1 12
+      - 用力下滑选择👇线路 13
+      - 用力下滑选择👇线路 14
+      - 美国纽约 12
+      - 新加坡1 12
+      - 韩国01 12
+      - 美国西雅图原生 12
+      - 美国洛杉矶原生 12
       - 香港 01 12
-      - 香港01
-      - 台湾01
-      - 越南
-      - 日本01
-      - 日本02
-      - 香港01 2
-      - 台湾01 2
-      - 越南 2
-      - 日本01 2
-      - 日本02 2
-      - 台湾01 3
-      - 香港01 3
-      - 日本01 3
-      - 日本02 3
-      - 香港01 4
-      - 台湾01 4
-      - 日本01 4
-      - 日本02 4
-      - 香港01 5
-      - 台湾01 5
+      - 香港 02 12
+      - 日本1 12
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 13
+      - 日本2 13
+      - 用力下滑选择👇线路 15
+      - 用力下滑选择👇线路 16
+      - 用力下滑选择👇线路 17
+      - 台湾1 13
+      - 美国纽约 13
+      - 新加坡1 13
+      - 韩国01 13
+      - 美国西雅图原生 13
+      - 美国洛杉矶原生 13
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 新加坡1 14
+      - 韩国01 14
+      - 用力下滑选择👇线路 18
+      - 美国西雅图原生 14
+      - 美国洛杉矶原生 14
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 新加坡1 15
+      - 韩国01 15
+      - 美国西雅图原生 15
+      - 美国洛杉矶原生 15
+      - 香港 01 16
+      - 香港 02 16
+      - 用力下滑选择👇线路 19
+      - 用力下滑选择👇线路 20
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 新加坡1 16
+      - 韩国01 16
+      - 美国西雅图原生 16
+      - 美国洛杉矶原生 16
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 用力下滑选择👇线路 21
+      - 用力下滑选择👇线路 22
+      - 用力下滑选择👇线路 23
+      - 用力下滑选择👇线路 24
+      - 用力下滑选择👇线路 25
+      - 美国纽约 17
+      - 新加坡1 17
+      - 韩国01 17
+      - 美国西雅图原生 17
+      - 美国洛杉矶原生 17
+      - 香港 01 18
+      - 香港 02 18
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 新加坡1 18
+      - 韩国01 18
+      - 用力下滑选择👇线路 26
+      - 美国西雅图原生 18
+      - 美国洛杉矶原生 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 新加坡1 19
+      - 韩国01 19
+      - 美国西雅图原生 19
+      - 美国洛杉矶原生 19
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 用力下滑选择👇线路 27
+      - 美国纽约 20
+      - 新加坡1 20
+      - 韩国01 20
+      - 美国西雅图原生 20
+      - 美国洛杉矶原生 20
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 新加坡1 21
+      - 韩国01 21
+      - 美国西雅图原生 21
+      - 美国洛杉矶原生 21
+      - 香港03
+      - 香港04
+      - 美国03
+      - 美国04
+      - 日本03
+      - 日本04
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
@@ -12731,15 +13833,34 @@ rules:
   - DOMAIN-SUFFIX,augmentcode.com,AI Suite
   - DOMAIN-SUFFIX,ai.com,AI Suite
   - DOMAIN-SUFFIX,chatgpt.com,AI Suite
+  - DOMAIN-SUFFIX,ct.sendgrid.net,AI Suite
+  - DOMAIN-SUFFIX,featureassets.org,AI Suite
+  - DOMAIN-SUFFIX,featuregates.org,AI Suite
+  - DOMAIN-SUFFIX,intercom.io,AI Suite
+  - DOMAIN-SUFFIX,intercomcdn.com,AI Suite
+  - DOMAIN-SUFFIX,oaistatic.com,AI Suite
+  - DOMAIN-SUFFIX,oaiusercontent.com,AI Suite
   - DOMAIN-SUFFIX,openai.com,AI Suite
+  - DOMAIN-SUFFIX,prodregistryv2.org,AI Suite
+  - DOMAIN-SUFFIX,statsig.com,AI Suite
+  - DOMAIN-SUFFIX,statsigapi.net,AI Suite
+  - DOMAIN,cdn.openaimerge.com,AI Suite
+  - DOMAIN,cdn.workos.com,AI Suite
+  - DOMAIN,challenges.cloudflare.com,AI Suite
   - DOMAIN,chat.openai.com.cdn.cloudflare.net,AI Suite
+  - DOMAIN,forwarder.workos.com,AI Suite
+  - DOMAIN,humb.apple.com,AI Suite
+  - DOMAIN,images.workoscdn.com,AI Suite
+  - DOMAIN,js.stripe.com,AI Suite
+  - DOMAIN,o207216.ingest.sentry.io,AI Suite
+  - DOMAIN,o33249.ingest.sentry.io,AI Suite
   - DOMAIN,openaiapi-site.azureedge.net,AI Suite
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net,AI Suite
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net,AI Suite
   - DOMAIN,production-openaicom-storage.azureedge.net,AI Suite
-  - DOMAIN-SUFFIX,cdn.oaistatic.com,AI Suite
-  - DOMAIN-SUFFIX,oaiusercontent.com,AI Suite
-  - DOMAIN,o33249.ingest.sentry.io,AI Suite
+  - DOMAIN,rum.browser-intake-datadoghq.com,AI Suite
+  - DOMAIN,setup.workos.com,AI Suite
+  - DOMAIN,workos.imgix.net,AI Suite
   - DOMAIN-SUFFIX,cerebras.ai,AI Suite
   - DOMAIN-SUFFIX,chorus.sh,AI Suite
   - DOMAIN-SUFFIX,anthropic.com,AI Suite
@@ -12794,7 +13915,6 @@ rules:
   - DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com,AI Suite
   - DOMAIN-SUFFIX,smoot.apple.com,AI Suite
   - DOMAIN-SUFFIX,sora.com,AI Suite
-  - DOMAIN,sora-cdn.oaistatic.com,AI Suite
   - DOMAIN-SUFFIX,trae.ai,AI Suite
   - DOMAIN-SUFFIX,traeapi.us,AI Suite
   - DOMAIN-SUFFIX,windsurf.com,AI Suite
