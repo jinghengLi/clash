@@ -1,7 +1,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://api.dler.io/sub?target=clash&url=https%3A%2F%2Fmastrongger07.netlify.app%2F%7C&insert=false"
+    url: "https://edt.lijingheng.dpdns.org/sub?token=e7dc128d38fa473cd8e9e984902999ed"
     type: http
     interval: 86400
     health-check:
