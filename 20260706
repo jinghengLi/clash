@@ -5,176 +5,365 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 续费联系购买客服, server: ddns2.qqa678.com, port: 47081, type: vmess, uuid: 148875e2-fa89-4a46-9515-81194d0efc02, alterId: 0, cipher: auto, tls: false}
-  - {name: 失联加Q号3766573864, server: ddns2.qqa678.com, port: 47084, type: vmess, uuid: 148875e2-fa89-4a46-9515-81194d0efc02, alterId: 0, cipher: auto, tls: false}
-  - {name: 行业唯一拥有备用服务器, server: ddns2.qqa678.com, port: 47083, type: vmess, uuid: 148875e2-fa89-4a46-9515-81194d0efc02, alterId: 0, cipher: auto, tls: false}
-  - {name: 365天服务不宕机, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 10f81800-5baa-47a7-b7c0-582dbeef049b, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 高速/稳定/安全/可靠, server: xiaozhu1.kkieo555.cn, port: 49213, type: trojan, password: 7f81b273-5a88-44d7-a8b2-204576a27edf, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 买多久就可以用多久, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: d28ce57f-9644-4ef6-90db-c276392b262e, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 包维护包售后包监测, server: xiaozhu1.kkieo555.cn, port: 41273, type: trojan, password: 53c9163d-1902-4c30-9c6d-7a1ead6ef904, sni: douyin.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 3b7786d1-c339-40be-9c10-e36072bf9c64, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 65e2a48e-aa51-46fd-851a-e55867c70c8b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: dec21fd6-3bee-40ec-971e-1ea9106d6716, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 2, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 052ea7ca-6f53-4a31-8a3f-a6d51b6c659c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 越南, server: faq.dvbzrli.cn, port: 44472, type: trojan, password: c30ce06c-f9c9-493c-b8d8-4b8152f1b0f3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国, server: faq.dvbzrli.cn, port: 44473, type: trojan, password: 71b383a7-9759-43fd-b3dc-0f997983b13b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡, server: faq.dvbzrli.cn, port: 44474, type: trojan, password: 6d619dad-cb30-494d-b578-1bf20f2420b0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 菲律宾, server: faq.dvbzrli.cn, port: 44476, type: trojan, password: 8f0e613d-3041-4a43-ba81-a82a413b9f36, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 澳大利亚, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: 786beea2-5631-4558-af45-dffc1765fd93, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 澳大利亚 2, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: af5b7df8-8df7-4e00-95a3-fbf607a5a942, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 澳大利亚 3, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: ff94628f-43f8-4cf0-98ea-023db4dff8c2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 马来西亚, server: faq.dvbzrli.cn, port: 44478, type: trojan, password: 6a9f7074-9691-445f-8190-204d18ab6afc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国1, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: 8eb79103-518c-4504-a570-28243846f9b0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国2, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 8eb79103-518c-4504-a570-28243846f9b0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国3, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: f251e2d4-403b-4f26-b81e-a4621b865f92, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国4, server: faq.dvbzrli.cn, port: 44485, type: trojan, password: f251e2d4-403b-4f26-b81e-a4621b865f92, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 3, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 8fec0c8b-778d-4061-bad7-8854266680bb, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 越南 2, server: faq.dvbzrli.cn, port: 44472, type: trojan, password: 8fec0c8b-778d-4061-bad7-8854266680bb, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本 2, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 6a596030-b781-4b6d-a804-e2e95c6284ce, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 4, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 6a596030-b781-4b6d-a804-e2e95c6284ce, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 澳大利亚 4, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: 2241eea1-c18b-4d82-99b3-1da59c011ead, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本 3, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: c54ac49a-fd6a-4540-9376-655de5cf9c75, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 5, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: c902e291-b4ab-4975-8260-452147d38731, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本 4, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 6dc4310a-a9ed-46e6-a2dc-a5daadb1307e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国 2, server: faq.dvbzrli.cn, port: 44473, type: trojan, password: b79ca31c-428f-4b45-9cb2-808af34bb87c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国1 2, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: cbc131ea-b94e-416c-a3ab-8f76116fda4e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国2 2, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 250dcfc9-db82-497e-9fec-5bd5c7488e64, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国3 2, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: 46101746-9da8-4882-acb9-7706eb347e27, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国4 2, server: faq.dvbzrli.cn, port: 44485, type: trojan, password: 65c03b24-9f7d-49df-9dc4-459ef470e427, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 6, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 65e544a3-1d2b-4c04-a1f5-825666e6c840, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 7, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 65c03b24-9f7d-49df-9dc4-459ef470e427, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本 5, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: a3dab7df-c465-415b-9cfe-a3b54cd2614b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本 6, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 2e749af7-f4dd-4484-9436-8fb4c8998368, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本 7, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: d9bcd88f-f532-4ed4-bd43-70da5a10da25, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 2, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 4f462227-08dc-46c8-bdf8-27aaa55bc30d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 8, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: de6507cd-0db2-4ace-ad6d-cfb9ae51f898, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡 2, server: faq.dvbzrli.cn, port: 44474, type: trojan, password: 50af964e-523d-42be-a741-403d96acb5a5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 澳大利亚 5, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: 25414713-d0f2-4003-839e-2f9c89e7cb30, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国西雅图原生, server: xiaozhu.qnycjxt.cn, port: 30210, type: trojan, password: 03cfc937-d248-4bff-abfb-1ff4dffaac77, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 澳大利亚 6, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: e40cfa73-0860-4f3e-9383-25e44ccc27d4, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国1 3, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: b7e3f644-01be-43eb-9271-3402aa03c31a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国2 3, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 34c1b9e7-1f9e-44c1-91d7-c5ee3e1de0df, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国3 3, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: 42cd9ca6-e5db-4d68-91fd-7097eddfee39, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国3 4, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: 8db037e1-5bb1-4b9e-a564-1452ce712d61, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国4 3, server: faq.dvbzrli.cn, port: 44485, type: trojan, password: dae53ce1-4820-47b3-b425-3c3b25f1c566, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 越南 3, server: faq.dvbzrli.cn, port: 44472, type: trojan, password: f12c1c0c-90b2-44af-b57e-0ea469e423ef, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 9, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: f12c1c0c-90b2-44af-b57e-0ea469e423ef, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国4 4, server: faq.dvbzrli.cn, port: 44485, type: trojan, password: f12c1c0c-90b2-44af-b57e-0ea469e423ef, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本 8, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 156f44b5-1ef0-4da7-bdff-b688cc05d644, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国1 4, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: 156f44b5-1ef0-4da7-bdff-b688cc05d644, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: a4c3a91c-8e6f-45bb-b8d0-da21c1fd862f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 2cd70158-685b-4991-aeb6-2bb994ae3db3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 36d81f80-7968-45ad-ad95-e2ebea8c5278, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 0036a9ec-3f16-40a0-933f-8f7b7097fa50, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: fcf7882d-3d0e-4535-b1dd-4e0523ecb10d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 7cbc3fd4-6fc8-48ad-b108-8793dc2dd93d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 2, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 8a0e6f2b-1551-46eb-882b-2065c00a3445, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 2, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: ffc01246-cdff-41c6-9f01-577e70023fb1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 2, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 18353a8f-faac-4731-9380-62d2cfa535b5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 2, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 0fb02478-9857-437c-b2ec-a423b1afb5c4, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 2, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 71394347-d05d-4e37-9732-0cf36380dd67, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 2, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: c386df8a-55bd-447c-b9df-f0e7276e88a1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 3, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: f4f74daa-2404-46e6-a827-d6c082cbd08f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 3, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 7e6b36d5-ebd5-43bd-ad34-d989cb605333, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 3, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: c6fca431-5515-46ab-9544-7b3e03df35dc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 3, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 69b4a6b9-99bf-43ee-ad39-83f2bbc4ceef, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 3, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 92f2b325-b72a-4a55-b07d-63a0eb948139, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 3, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 808fb4fd-cb93-4ba4-89dd-30a09de59e6b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 4, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 9dc8570f-2688-40cb-969d-bbb604b623e5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 4, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 8414360c-a8a7-4ca7-85d3-8f1378068481, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 4, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 0771bdc7-e747-4557-b184-af7112f5da15, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 4, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 3a2d529d-354b-4329-b54d-3814f076ad08, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 4, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: cdb22cbb-1ac1-437a-af3e-080eab8c98d2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 4, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 1fba292e-e5cd-416a-8299-5d8da018776b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 5, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 05077e14-c20c-4ad8-8c7e-a76df7278031, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 5, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 70ab0518-2e2c-491d-bbab-d4c131efea66, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 5, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 37373cc6-1d41-4fb9-9d25-178d10a5b27e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 5, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: e758bdc9-f88f-4745-ae06-23a49dedd069, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 5, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: e4a1fd9f-f1bb-430f-a80b-2b704baf1731, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 5, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: e0c38160-7949-4033-a085-c689e7841e67, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 6, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 50ee2f85-5769-4fec-afd1-0987cbc3b535, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 6, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: a2cdf044-179e-4655-bf5b-d88b22d43660, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 6, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: d63ad18b-2b10-4bfc-b83b-73ec918ce562, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 6, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: f7e3c000-f878-4ef1-9fbc-dec1b90b38d2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 6, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 92a15d59-6a12-4880-ad3c-d3d01d609fc9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 6, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 912e533e-b003-4134-a28a-bbfbcf1f76a2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 7, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 4ea770ed-aae3-4cf6-8492-e29a6c7b2ae3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 7, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 3fbf167a-ded2-4441-873e-e9eb7c3011c1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 7, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: b66b7e3a-8619-4f7f-b2ed-bd07aedf5f7f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 7, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: c06ddb31-3ecc-4ad6-a3ac-9c18dd4f3cfa, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 7, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 08e3a5d5-2403-4985-a81f-534f77f13ad6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 7, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 61d42898-2033-429e-89b1-c9a8c84dd233, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 8, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: c19c0225-28fd-4880-b436-5e03dea58e64, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 8, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 5cd38d9b-6ea7-4be8-b8ba-a9db4a5500ca, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本1 8, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 7f383a6c-68e0-47a9-a513-ab00c762ae49, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本2 8, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 7aac50cd-5f07-41d6-a33d-c4cb8f27e307, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾1 8, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: da9b32f3-e9b6-47c8-8333-b470000210f5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约 8, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 8c5a532c-4255-4a8a-bcbc-e82284f8d933, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 01 9, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: dd6e0297-999a-466f-8d41-7548614cdb27, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 02 9, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 8cba79d6-852a-4b20-a5c2-826a4b475119, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 近期受墙冷空气影响, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 7cb8e1fa-70d9-4631-b237-7b789b7abe6f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 部分地区本地网络封锁, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: b3ddeea6-4841-4361-8278-f54ac6e6552d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 特新增以下直连线路, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 4a374eac-8e00-433d-97f2-89b61dc3a1bb, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 原线路服务器一切正常, server: faq.dvbzrli.cn, port: 44472, type: trojan, password: ad03d9fb-4904-447a-b7a0-9648f48f3a5a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 部分地区本地中转封锁, server: faq.dvbzrli.cn, port: 44474, type: trojan, password: b149b31d-c3e8-4d8b-ad08-52d1a35ac186, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 2ef21172-45f1-4d65-ab72-0a380b88ae90, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 5e9682a7-b3a0-4b23-9028-33aed32517cc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 2, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 91f17fcc-6fb9-49b1-bc0f-e877d3fcbcde, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 3, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 08faf66f-3064-4479-8bb1-754f6d50da22, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 4, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: d9407d1f-a171-4496-9e5a-5aae621ff222, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 5, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: c86ca12a-80a4-4a8f-badb-219aac8ab943, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: f2390cd9-c4fc-4229-b9ee-7cd2215777ed, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 2, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 538bdb94-7e91-4de7-98ea-71b565e4a7b6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 6, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 0c7dcbe2-c0fc-405f-8c82-10d9817c6e33, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 7, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: b6ec46d4-0235-4620-a90a-7f23524a72d0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 8, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: eca0dcd9-6d3a-41b7-9a2c-8f62f8f68798, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 请选择下面直连线路👇, server: faq.dvbzrli.cn, port: 44474, type: trojan, password: 419eea7f-aef3-4ea7-96c3-8dbfcd8b68b5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 部分地区本地中转封锁 2, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: 175f8015-9309-408f-b672-c20b5abaf810, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国1, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: eca0dcd9-6d3a-41b7-9a2c-8f62f8f68798, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 澳大利亚, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: 1f10e960-41f9-48a5-af6e-a985a3d9b9b9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 马来西亚, server: faq.dvbzrli.cn, port: 44478, type: trojan, password: b9dc1deb-3cf6-4748-9cac-b88ebfc63a84, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国2, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: e3d97195-c83f-430a-b70d-cec79c60b6cd, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 9, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 6efbca5f-35e9-4238-aa0b-9060f49f53a2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 3, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: f427d7b4-38ce-4c8e-a2b0-f7cfb158e99f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 10, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: b8f36440-86fe-453f-afbf-1523ddd4193a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾 2, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 13503496-4814-4f95-be88-74cd25a4901f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国, server: faq.dvbzrli.cn, port: 44473, type: trojan, password: 01031730-fcef-4fb1-a269-e5c9480c7c90, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 请选择下面直连线路👇 2, server: faq.dvbzrli.cn, port: 44478, type: trojan, password: 584194a7-dc97-4715-ad82-ba4db423a4cc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 部分地区本地中转封�, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: 84bf8beb-e1e5-4d27-aec1-ae8d13aebc78, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡, server: faq.dvbzrli.cn, port: 44474, type: trojan, password: 22e58eb4-72e6-4c19-883a-7be49bb270c6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 马来西亚 2, server: faq.dvbzrli.cn, port: 44478, type: trojan, password: 597655ce-0b8f-4f9a-98c4-53598c3f0f7f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 澳大利亚 2, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: 59b93df1-3e17-4e79-b33e-7d2790fc9de0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国1 2, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: de612e26-44e0-4de3-b7fb-500674b2203e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国3, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: d6848370-1a28-43f4-b251-0215da989d97, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国3 2, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: d892a0de-5cb7-4fa8-be83-c69e4a315a73, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国2 2, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 34a30398-cd35-4e56-b437-e837a57d046c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国1 3, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: 5a11f6ca-0b70-4579-81c6-df7a537d0be1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 越南, server: faq.dvbzrli.cn, port: 44472, type: trojan, password: 29019436-6211-4ca9-9f63-8a55327fc158, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 11, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: e55876eb-884a-4949-aff6-ebb21d6d9ad9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 12, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 93631f64-9dd0-4796-a7ec-0829e9ae44b5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 4, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 4eb39e09-0c38-4674-b8c4-6a5894abf4db, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 请选择下面直连线路👇 3, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: f9fa2218-c8c2-4241-9011-a862b45feb85, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 部分地区本地中转封锁 3, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: fd594163-a656-447a-b7c4-1ab2a2b535c7, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 请选择下面直连线路👇 4, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 34d32075-079b-4625-8b22-6da5a934f366, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 部分地区本地中转封锁 4, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 9e7897a6-fb7f-4027-9a24-7a9489851c1c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾 3, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 43e2dc44-615d-4515-98c1-ac2708d32d36, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾 4, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 26b7edee-abe7-4c96-be72-2bddd9345699, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡 2, server: faq.dvbzrli.cn, port: 44474, type: trojan, password: 23d5b5d8-8be8-4aa8-8d54-b70881b0a390, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 马来西亚 3, server: faq.dvbzrli.cn, port: 44478, type: trojan, password: 6e132ff4-421b-4e97-8177-22744a0fc244, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 越南 2, server: faq.dvbzrli.cn, port: 44472, type: trojan, password: 6065bc4a-0a55-4ebb-a6aa-4796b218266b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国3 3, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: 6065bc4a-0a55-4ebb-a6aa-4796b218266b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国2 3, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 5b520393-967b-4501-8e2b-1f084f73f538, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国3 4, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: b689b2f4-801f-44c4-b584-67c553aa2ece, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国4, server: faq.dvbzrli.cn, port: 44485, type: trojan, password: 7738ad31-e60c-4bfd-ad2e-7b89e4618a8f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 澳大利亚 3, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: 8a8249bd-3e8e-4e8b-b90d-4c92bdf82a88, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国2 4, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 71d7b2bb-6f67-4e4e-a293-e8f89c8cd158, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国1 4, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: 71d7b2bb-6f67-4e4e-a293-e8f89c8cd158, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 近期受墙冷空气影响 2, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 4fd36a8d-3e03-4464-a3c0-58aa909873ed, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 部分地区本地网络封锁 2, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 9fa194b5-f2e9-4a8d-8c9b-44d66fa3657f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 出现无法使用中转线路, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: cf701f04-4b36-447f-ad53-1b50dfcfc7f8, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 特新增以下直连线路 2, server: faq.dvbzrli.cn, port: 44472, type: trojan, password: 143b3a13-a9a7-4761-a4ad-6a232d2d1766, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 原线路服务器一切正常 2, server: faq.dvbzrli.cn, port: 44473, type: trojan, password: 6ab880c8-edbf-466e-becf-2b9a262ba283, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 本地干扰解除自动恢复, server: faq.dvbzrli.cn, port: 44473, type: trojan, password: 49898306-2087-4579-9502-5d9aa2df1fa2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 感谢您的支持和厚爱, server: faq.dvbzrli.cn, port: 44474, type: trojan, password: ae04f720-b5d2-47e0-b089-e5153082911d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 澳大利亚 4, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: b3a1b21c-1a80-41e6-ad0a-736ceb22b6e0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 韩国 2, server: faq.dvbzrli.cn, port: 44473, type: trojan, password: dc96d485-014f-4fb6-a666-b4301f276a19, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 13, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: bc503e49-af8d-489a-b794-b93a7877a878, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国1 5, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: bc503e49-af8d-489a-b794-b93a7877a878, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国2 5, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 0a6aeeb0-3e3b-4292-bdb7-5ac778c687b9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国3 5, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: afd2c1f6-1869-4fd5-a820-3e60f9f7e5e6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国4 2, server: faq.dvbzrli.cn, port: 44485, type: trojan, password: 4f2a9d3d-4096-4879-84f0-5c80ea481eac, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 14, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: cb6ae227-cdbe-4633-a610-10e0076aee24, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 15, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 24393a7c-392f-4657-98d1-1ff9f4966ba7, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾 5, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: f2d393b5-051c-41fc-a5c7-7b219a705e72, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾 6, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 9800d0c0-a8e8-455b-8e1c-f3833d925b6a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 16, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 22c0f410-9f55-428a-81dc-91aacbc978e4, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国2 6, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 22c0f410-9f55-428a-81dc-91aacbc978e4, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 越南 3, server: faq.dvbzrli.cn, port: 44472, type: trojan, password: 3152b33f-c31c-481b-b623-28ea559495d3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国1 6, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: 3152b33f-c31c-481b-b623-28ea559495d3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾 7, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: c4a86c12-0dcd-4d46-9e51-def1ac2e0b37, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 17, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 91f57de0-0329-4c49-ba4f-2f04564107f6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 5, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 46acaf27-71d8-4a14-9250-754b03609eea, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 6, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: f8f398f9-9abb-4604-9886-a46eeaee114e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾 8, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 4bb28792-e0ab-40cb-a0de-5ccff7b10cfe, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 18, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 2788b11d-7db3-4aee-9b3c-088c5ad6f67b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 19, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 6fb9a098-0bee-42a1-b8c9-8d733ac3fa3a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 20, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 12ac0571-970a-4c65-a9e6-923080c3be4b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾 9, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 770de7ea-571a-4718-9820-e835c6a57e27, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 21, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 9ffa51b9-0427-4a86-95aa-b6910dfdfc3a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾 10, server: faq.dvbzrli.cn, port: 44471, type: trojan, password: 899b6acb-bdd4-410a-a591-69e9b3dbc800, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 7, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 33f6967a-2066-447d-97a9-2d3eaeb3c41c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 新加坡 3, server: faq.dvbzrli.cn, port: 44474, type: trojan, password: 8c914a06-3acb-40bf-975a-6f4f70fcb8b6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国1 7, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: 0508ff71-584e-4ae6-8f0d-49fef218c33e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国1 8, server: faq.dvbzrli.cn, port: 44482, type: trojan, password: 5941ed73-2a95-444e-af78-26ce228d7d7e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国2 7, server: faq.dvbzrli.cn, port: 44483, type: trojan, password: 70277835-038a-4b86-aec6-cfd4013189ef, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国3 6, server: faq.dvbzrli.cn, port: 44484, type: trojan, password: 70277835-038a-4b86-aec6-cfd4013189ef, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 英国, server: faq.dvbzrli.cn, port: 44481, type: trojan, password: 0a5c98df-6e76-496d-ab75-bad8558f7764, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本 22, server: faq.dvbzrli.cn, port: 44470, type: trojan, password: 60863076-01f0-493b-bfc6-b39ea6aba965, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 8, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: 3dbcaca6-3a1f-4224-85f2-7d95a3177d31, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 9, server: faq.dvbzrli.cn, port: 44469, type: trojan, password: bba2f92c-f36a-4e66-befa-733f635a4a8e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 澳大利亚 5, server: faq.dvbzrli.cn, port: 44477, type: trojan, password: fc754f37-288e-414f-91e8-2f8acc9ed9da, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 马来西亚 4, server: faq.dvbzrli.cn, port: 44478, type: trojan, password: fc754f37-288e-414f-91e8-2f8acc9ed9da, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: e169cb8d-9483-4cbf-83db-dcac805b6383, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 020779bf-67e5-4f34-a517-13e28ae1e364, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 4ff38350-25fd-4d02-9207-1e0d52505a6e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 448679ef-11b0-46b1-8313-99c14490cf3e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 564de64d-d791-439b-b3c5-3ef21ac22f31, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 5a35509b-2325-40f6-9078-4ecf8ff7f31b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 2, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: f4273c5d-0c26-4f2d-81d7-a270d9996c49, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 2, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: bee5862c-2056-492d-be44-7973d481d471, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 2, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: e618c0c9-45f0-4589-a0cd-d9c6d6170c96, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 2, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 2e6ee24c-1d91-4144-bfc8-72a4a0482652, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 2, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 09e8690b-7989-4738-880f-e73088e7f144, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 2, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 1ce9c5f0-1c2e-448f-a32d-cfe097d45654, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 3, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 5684fd77-7852-465c-9bab-e0dcc6096998, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 3, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 851662cf-4664-4d5a-b28a-9671fc0af832, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 3, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: fd8125a4-523d-4687-86a3-047970ee0cc9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 3, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: be24cf44-936d-4102-bfcb-c587857188c8, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 3, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 4e181e49-f952-46ba-9d29-79053e1e8fcf, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 3, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 2fa61aca-a67e-46a6-9573-f42fafc3cc89, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 4, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 98075d43-d1bc-4e1a-ba88-8f20539c5d66, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 4, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 84ea3e02-df48-41b1-ac7d-6a88fb631a11, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 4, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: e928d402-5974-4ee5-aa5c-7c3b76b4669f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 4, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 8c516770-34b2-4fa3-98b9-c086983e6e7a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 4, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 3b38d4a6-37b7-4b96-8465-a9df66a32fc5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 4, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 1a8ff217-8d47-4556-8906-2ae4bd8ba40f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 5, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 28360fd6-f331-4763-8f19-b7158b029a9b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 5, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: fb8a4702-1cdf-409c-a84a-06370fa81c95, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 5, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: fe4b7502-9fca-4dd2-adcf-59b4f13fb33f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 5, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 45c6bbca-2502-43b9-87b3-fa815becffd3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 5, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 1a3c85af-bba4-472d-a9a1-f9ab3e4488ef, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 5, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: ed6c20f7-022d-47a1-86d7-82c8727a88ec, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 6, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 4ffd590f-df5e-4cc9-a465-fe355c6b0c46, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 6, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 5103569d-69fe-432f-9577-54b1ba4f9ca4, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 6, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 9ceba552-b0f7-4273-996a-1bd632c14120, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 6, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 2e57c9c0-69a3-4532-b5cf-87823352917a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 6, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 6eb35040-61ff-4cc7-924c-03d79b886d51, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 6, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: bcd09109-9e8f-4368-b243-e687ffd94ab6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 7, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: cdbea1f1-8052-478f-bf6f-dc1c72177336, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 7, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 14aa584f-bf4e-4d69-bc94-ad3d3f7ff891, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 7, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 2a4b9754-15bc-4b8f-8253-367d2d224570, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 7, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: c9f591ef-3f11-4478-b292-890b8b52f22f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 7, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 53a54b69-d09d-4c8e-a799-eff3487ec724, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 7, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 010e4d81-a0ad-40c4-bdd7-d46e30835323, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 8, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 87b2d608-a0d3-404b-a9db-607b6f54afb7, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 8, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 15da71f4-936a-4ac2-963e-176aedbc1d2f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 8, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 4496b7de-b8f0-4966-a6f6-08d245e03d07, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 8, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 9421d77e-3ced-488d-a8cb-ce29a5de3e0e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 8, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 64be5e4a-87af-4372-bbbc-b61260b7684f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 8, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 9e6314bc-696c-43dd-bed9-52300abefd65, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 9, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 5d7f98f9-f779-49ac-9340-5d08feae0fc2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 9, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 87808a07-f311-4fea-9d69-ee310430e1a0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 10, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: a0dbba25-3c39-4272-9656-c1e44e0b200f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 10, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 63fd4662-d467-4368-9552-d7e92ac02fc1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 9, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 3cdd0dcc-02d8-45ff-95e1-046b120a2eb9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 9, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: d8be5475-bc11-4549-9dea-33cf428d063d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 9, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 42ab458e-c75c-4679-9fa7-0cad52a33610, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 9, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: cde2266c-d519-4f24-b71d-03bb161b6641, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 11, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: b984613d-01a5-469d-8a38-fdec02ee0959, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 11, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 86c45193-8ce4-4c07-85d6-059c3656562c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 10, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 90da58f5-32a6-4c70-9b02-378f88d96b2a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 10, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: dda9c438-c983-4595-a32b-b3a6fb28d14e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 10, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: b81dc43a-f077-4c36-8486-a22bf441dbd2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 10, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 1a972c85-6cb9-4c03-9b6a-8fb9e8ede565, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 12, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: c7724b4e-dbed-4273-b1b3-0db0b88d9321, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 12, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: cabb450e-a714-4ba6-8c32-f74ccd458532, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 11, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: d6dae54b-69c1-4f14-ba5b-ea1a20bc09c8, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 11, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 5d0e0657-0a1e-4aed-bc84-63e62bff4ca4, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 11, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 60a1f986-38fc-423e-a336-e5b9a7e8dce7, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 11, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 84d58196-5344-43fe-9c95-ab93b31d5782, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 13, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: e13180ea-da9c-4ecc-a956-df765708b0e5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 13, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 28ca6017-2c49-4707-afec-33f28b1ccbd4, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 12, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 72aa1b6f-ca91-4868-b691-248084ddc342, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 12, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: a7c3e7d0-393a-437d-a14b-f4b7dc2c0737, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 12, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: e2ef2ac0-164c-453a-8f56-8e0728606a97, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 12, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 02d3bad8-e650-443b-a874-eebcf06de237, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 14, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 5760fd7f-ab04-4f49-9a01-be5b6956d702, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 14, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 0429ffef-d1c4-49af-acc0-0500214e2f92, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 13, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 376c0113-17be-43af-a56e-0751c9c9ea0d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 13, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: e878fb94-8b14-41c4-8398-1181c11ea759, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 13, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: afc4753b-7249-41a2-9870-166a672d2276, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 13, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 195034f4-2bdf-4c33-a55f-a2c02bd92738, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 15, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: d353df4d-e77f-4e38-81bc-d10e8672fa5e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 15, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: f5c92379-bb4a-46f0-9d19-60dabbce26ee, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 14, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 0e117a99-31a1-4e2e-9870-8bcc4c9fcb0c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 14, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: c63404a9-b6b9-4229-8faa-2e7d6d3cdb8a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 14, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 42a22bea-4850-4660-9697-64e879fba000, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 14, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 7da5947b-32e1-4eec-88bf-c0b8561b75c9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 16, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 7502759f-ee22-4c2d-bf16-6c0e8ebcb834, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 16, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 60143e31-adcd-4fb1-8fc6-9291b06fa939, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 15, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 86a872c7-25ce-4b30-b288-9f166503adac, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 15, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: e397f2d2-644a-4b71-8539-a44f8eebe06a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 15, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 51fa959d-0f3f-4cf4-872d-4972f2e1399c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 15, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 17a7af25-e1d2-44aa-b441-da0da9f093d8, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 17, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: c70b601c-5cdd-4954-8a6c-3d2fcd2f6daf, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 17, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 2316b06a-7b4d-409c-8cc4-4e9999693a81, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 16, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 521f3875-579e-421b-b439-9df23ebba76b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 16, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 16c3fca6-4dab-4b04-a8eb-5f9b75252e15, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 16, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 32441660-2067-4c11-8fdd-caaf5ad8d796, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 16, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: e1bae489-41f2-4c77-85f1-b467d13a1d8d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 18, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: bcdd8293-df09-4fe3-a67d-46a37da30c11, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 18, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 5914300b-8cbb-4648-9d3d-401844e9008d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 19, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 9f723789-1cdd-41b3-a945-63e9223d6f79, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 19, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 7fc5b84c-a7bc-4463-90fb-578a2bbb15ef, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 17, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 79f31424-97bb-4e3c-a452-5b59b8393f1e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 17, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 5d9b15a2-e831-45e0-b51d-d99e485375be, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 17, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 308716e5-4db1-4b5f-9f52-0d2834ae0f4b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 17, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 0f0e7590-888e-475c-9918-ad3d00c6f650, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 20, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: ecea27c0-5696-4092-bccf-7921def7d0fc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 20, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 4e6ee6e6-1329-46e7-af20-da5c6dcd945a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 18, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 3f5d9481-f6a4-4c74-ac78-94faada73a0e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 18, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 7ba0523f-9b12-483e-b933-44ef4631d771, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 18, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 54ce8153-4994-45f2-b4ef-d59ef1d23a03, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 18, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 1e5b33fd-5884-4b98-b446-d089189ed8b2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 21, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 441e323e-c980-48e0-a78d-ced38eef8ffa, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 21, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 70835351-d583-49b9-9dae-95f4bebade18, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 19, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 2468a9a0-e20c-4c95-933d-e8570409c038, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 19, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: f71b0480-3a1d-4067-b169-e876a0cb6766, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 19, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 58b7f1f3-8b67-4b33-a5c9-33d7f005de0f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 19, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: fe3af8e0-b367-4116-9440-1d58e20008f0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 22, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 44409d89-ff57-4bc9-a8b9-bbbad1cfd16e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 22, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 2361e2e1-533b-429f-8a29-cd56136af3db, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 20, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 6fa0bdeb-40cf-4ece-8e7d-0582b1cf9c52, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 20, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 78a4ed6f-477b-44e3-8c52-250d970c3c8f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 20, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 5c4a546b-0210-42fa-8863-4c547c1ee22a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 20, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 4fa38add-94a7-476d-b8b9-a8e2212468d3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 23, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 385fb997-dd3c-4442-a24f-646dbb246947, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 23, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: fa0b0304-8705-40dc-b5fd-eafb0e27fcc9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 21, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 5843335c-0944-4251-8a68-91abf7aeb9eb, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 21, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: ab60ced0-6cda-498e-8aea-30636121a906, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 21, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 87a06551-b204-4720-b980-3624dbcb04a2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 21, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 807d9b6f-408b-4c49-b13b-a014fbecfec6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 24, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 7ff7f617-dca4-413b-8976-18f5851440f4, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 24, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: d876f818-c99b-46f7-9d05-2d8166bff139, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 22, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 5437f4fc-2226-4479-9057-6b7bf9e92ff0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 22, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 23558fb1-aa88-4a0f-a1ab-53ca3eed20d4, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 22, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 1631dda4-0867-44ce-beda-2f465765039f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 22, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: bce21606-bd91-4f29-942a-33d210c68cd7, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 25, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 48b29a6b-cdc2-4566-90b4-a93578d700de, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 25, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: b7bed572-f3f4-4551-8966-65662b965f86, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 23, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: f1d9fc51-f12d-4514-9159-092965a08d01, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 23, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 0c73411a-c778-40c4-9a5f-e707f21f05ac, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 23, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: 4a8b26da-1b44-45d5-9107-d63c37abc1e1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 23, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: 748d065e-baf2-4647-9e0d-b37526d0e46d, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 26, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: aadca7e8-c640-4087-8ab2-2462fbd4ae98, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 26, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: ac7cc05c-f452-4579-814e-e505b314c84b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 24, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 900dc14e-25a0-4e38-b062-af2792ba3403, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 24, server: xiaozhu.qnycjxt.cn, port: 41273, type: trojan, password: 8fe6b3d0-c85b-4124-be8a-a136b9769a41, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 24, server: xiaozhu.qnycjxt.cn, port: 41274, type: trojan, password: f63dbe69-1a38-4d10-ae6b-76cdf27c1790, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 24, server: xiaozhu.qnycjxt.cn, port: 41275, type: trojan, password: cca85ab6-a71f-47d1-bee3-9096143e8c18, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 27, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 8937e3c4-c406-4faa-a48b-cd02b84f9257, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 27, server: xiaozhu.qnycjxt.cn, port: 49213, type: trojan, password: 88bb2995-40a8-4262-885b-1a4f445be330, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
       - Auto - UrlTest
       - DIRECT
-      - 续费联系购买客服
-      - 失联加Q号3766573864
-      - 行业唯一拥有备用服务器
-      - 365天服务不宕机
-      - 高速/稳定/安全/可靠
-      - 买多久就可以用多久
-      - 包维护包售后包监测
+      - 近期受墙冷空气影响
+      - 部分地区本地网络封锁
+      - 特新增以下直连线路
+      - 原线路服务器一切正常
+      - 部分地区本地中转封锁
       - 香港
       - 日本
-      - 台湾
-      - 台湾 2
-      - 越南
-      - 韩国
-      - 新加坡
-      - 菲律宾
-      - 澳大利亚
-      - 澳大利亚 2
-      - 澳大利亚 3
-      - 马来西亚
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 台湾 3
-      - 越南 2
       - 日本 2
-      - 台湾 4
-      - 澳大利亚 4
       - 日本 3
-      - 台湾 5
       - 日本 4
-      - 韩国 2
-      - 美国1 2
-      - 美国2 2
-      - 美国3 2
-      - 美国4 2
-      - 台湾 6
-      - 台湾 7
       - 日本 5
+      - 台湾
+      - 香港 2
       - 日本 6
       - 日本 7
-      - 香港 2
-      - 台湾 8
-      - 新加坡 2
-      - 澳大利亚 5
-      - 美国西雅图原生
-      - 澳大利亚 6
-      - 美国1 3
-      - 美国2 3
-      - 美国3 3
-      - 美国3 4
-      - 美国4 3
-      - 越南 3
-      - 台湾 9
-      - 美国4 4
       - 日本 8
+      - 请选择下面直连线路👇
+      - 部分地区本地中转封锁 2
+      - 美国1
+      - 澳大利亚
+      - 马来西亚
+      - 美国2
+      - 日本 9
+      - 香港 3
+      - 日本 10
+      - 台湾 2
+      - 韩国
+      - 请选择下面直连线路👇 2
+      - 新加坡
+      - 马来西亚 2
+      - 澳大利亚 2
+      - 美国1 2
+      - 美国3
+      - 美国3 2
+      - 美国2 2
+      - 美国1 3
+      - 越南
+      - 日本 11
+      - 日本 12
+      - 香港 4
+      - 请选择下面直连线路👇 3
+      - 部分地区本地中转封锁 3
+      - 请选择下面直连线路👇 4
+      - 部分地区本地中转封锁 4
+      - 台湾 3
+      - 台湾 4
+      - 新加坡 2
+      - 马来西亚 3
+      - 越南 2
+      - 美国3 3
+      - 美国2 3
+      - 美国3 4
+      - 美国4
+      - 澳大利亚 3
+      - 美国2 4
       - 美国1 4
+      - 近期受墙冷空气影响 2
+      - 部分地区本地网络封锁 2
+      - 出现无法使用中转线路
+      - 特新增以下直连线路 2
+      - 原线路服务器一切正常 2
+      - 本地干扰解除自动恢复
+      - 感谢您的支持和厚爱
+      - 澳大利亚 4
+      - 韩国 2
+      - 日本 13
+      - 美国1 5
+      - 美国2 5
+      - 美国3 5
+      - 美国4 2
+      - 日本 14
+      - 日本 15
+      - 台湾 5
+      - 台湾 6
+      - 日本 16
+      - 美国2 6
+      - 越南 3
+      - 美国1 6
+      - 台湾 7
+      - 日本 17
+      - 香港 5
+      - 香港 6
+      - 台湾 8
+      - 日本 18
+      - 日本 19
+      - 日本 20
+      - 台湾 9
+      - 日本 21
+      - 台湾 10
+      - 香港 7
+      - 新加坡 3
+      - 美国1 7
+      - 美国1 8
+      - 美国2 7
+      - 美国3 6
+      - 英国
+      - 日本 22
+      - 香港 8
+      - 香港 9
+      - 澳大利亚 5
+      - 马来西亚 4
       - 香港 01
       - 香港 02
       - 日本1
@@ -225,6 +414,106 @@ proxy-groups:
       - 美国纽约 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 美国纽约 17
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 香港 01 22
+      - 香港 02 22
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 美国纽约 20
+      - 香港 01 23
+      - 香港 02 23
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 香港 01 24
+      - 香港 02 24
+      - 日本1 22
+      - 日本2 22
+      - 台湾1 22
+      - 美国纽约 22
+      - 香港 01 25
+      - 香港 02 25
+      - 日本1 23
+      - 日本2 23
+      - 台湾1 23
+      - 美国纽约 23
+      - 香港 01 26
+      - 香港 02 26
+      - 日本1 24
+      - 日本2 24
+      - 台湾1 24
+      - 美国纽约 24
+      - 香港 01 27
+      - 香港 02 27
   - name: Domestic
     type: select
     proxies:
@@ -235,63 +524,107 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
-      - 续费联系购买客服
-      - 失联加Q号3766573864
-      - 行业唯一拥有备用服务器
-      - 365天服务不宕机
-      - 高速/稳定/安全/可靠
-      - 买多久就可以用多久
-      - 包维护包售后包监测
+      - 近期受墙冷空气影响
+      - 部分地区本地网络封锁
+      - 特新增以下直连线路
+      - 原线路服务器一切正常
+      - 部分地区本地中转封锁
       - 香港
       - 日本
-      - 台湾
-      - 台湾 2
-      - 越南
-      - 韩国
-      - 新加坡
-      - 菲律宾
-      - 澳大利亚
-      - 澳大利亚 2
-      - 澳大利亚 3
-      - 马来西亚
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 台湾 3
-      - 越南 2
       - 日本 2
-      - 台湾 4
-      - 澳大利亚 4
       - 日本 3
-      - 台湾 5
       - 日本 4
-      - 韩国 2
-      - 美国1 2
-      - 美国2 2
-      - 美国3 2
-      - 美国4 2
-      - 台湾 6
-      - 台湾 7
       - 日本 5
+      - 台湾
+      - 香港 2
       - 日本 6
       - 日本 7
-      - 香港 2
-      - 台湾 8
-      - 新加坡 2
-      - 澳大利亚 5
-      - 美国西雅图原生
-      - 澳大利亚 6
-      - 美国1 3
-      - 美国2 3
-      - 美国3 3
-      - 美国3 4
-      - 美国4 3
-      - 越南 3
-      - 台湾 9
-      - 美国4 4
       - 日本 8
+      - 请选择下面直连线路👇
+      - 部分地区本地中转封锁 2
+      - 美国1
+      - 澳大利亚
+      - 马来西亚
+      - 美国2
+      - 日本 9
+      - 香港 3
+      - 日本 10
+      - 台湾 2
+      - 韩国
+      - 请选择下面直连线路👇 2
+      - 新加坡
+      - 马来西亚 2
+      - 澳大利亚 2
+      - 美国1 2
+      - 美国3
+      - 美国3 2
+      - 美国2 2
+      - 美国1 3
+      - 越南
+      - 日本 11
+      - 日本 12
+      - 香港 4
+      - 请选择下面直连线路👇 3
+      - 部分地区本地中转封锁 3
+      - 请选择下面直连线路👇 4
+      - 部分地区本地中转封锁 4
+      - 台湾 3
+      - 台湾 4
+      - 新加坡 2
+      - 马来西亚 3
+      - 越南 2
+      - 美国3 3
+      - 美国2 3
+      - 美国3 4
+      - 美国4
+      - 澳大利亚 3
+      - 美国2 4
       - 美国1 4
+      - 近期受墙冷空气影响 2
+      - 部分地区本地网络封锁 2
+      - 出现无法使用中转线路
+      - 特新增以下直连线路 2
+      - 原线路服务器一切正常 2
+      - 本地干扰解除自动恢复
+      - 感谢您的支持和厚爱
+      - 澳大利亚 4
+      - 韩国 2
+      - 日本 13
+      - 美国1 5
+      - 美国2 5
+      - 美国3 5
+      - 美国4 2
+      - 日本 14
+      - 日本 15
+      - 台湾 5
+      - 台湾 6
+      - 日本 16
+      - 美国2 6
+      - 越南 3
+      - 美国1 6
+      - 台湾 7
+      - 日本 17
+      - 香港 5
+      - 香港 6
+      - 台湾 8
+      - 日本 18
+      - 日本 19
+      - 日本 20
+      - 台湾 9
+      - 日本 21
+      - 台湾 10
+      - 香港 7
+      - 新加坡 3
+      - 美国1 7
+      - 美国1 8
+      - 美国2 7
+      - 美国3 6
+      - 英国
+      - 日本 22
+      - 香港 8
+      - 香港 9
+      - 澳大利亚 5
+      - 马来西亚 4
       - 香港 01
       - 香港 02
       - 日本1
@@ -342,6 +675,106 @@ proxy-groups:
       - 美国纽约 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 美国纽约 17
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 香港 01 22
+      - 香港 02 22
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 美国纽约 20
+      - 香港 01 23
+      - 香港 02 23
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 香港 01 24
+      - 香港 02 24
+      - 日本1 22
+      - 日本2 22
+      - 台湾1 22
+      - 美国纽约 22
+      - 香港 01 25
+      - 香港 02 25
+      - 日本1 23
+      - 日本2 23
+      - 台湾1 23
+      - 美国纽约 23
+      - 香港 01 26
+      - 香港 02 26
+      - 日本1 24
+      - 日本2 24
+      - 台湾1 24
+      - 美国纽约 24
+      - 香港 01 27
+      - 香港 02 27
   - name: Others
     type: select
     proxies:
@@ -365,15 +798,23 @@ proxy-groups:
       - Proxies
       - 香港
       - 台湾
+      - 香港 2
+      - 香港 3
       - 台湾 2
+      - 香港 4
       - 台湾 3
       - 台湾 4
       - 台湾 5
       - 台湾 6
       - 台湾 7
-      - 香港 2
+      - 香港 5
+      - 香港 6
       - 台湾 8
       - 台湾 9
+      - 台湾 10
+      - 香港 7
+      - 香港 8
+      - 香港 9
       - 香港 01
       - 香港 02
       - 台湾1
@@ -400,68 +841,164 @@ proxy-groups:
       - 台湾1 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 台湾1 9
+      - 香港 01 11
+      - 香港 02 11
+      - 台湾1 10
+      - 香港 01 12
+      - 香港 02 12
+      - 台湾1 11
+      - 香港 01 13
+      - 香港 02 13
+      - 台湾1 12
+      - 香港 01 14
+      - 香港 02 14
+      - 台湾1 13
+      - 香港 01 15
+      - 香港 02 15
+      - 台湾1 14
+      - 香港 01 16
+      - 香港 02 16
+      - 台湾1 15
+      - 香港 01 17
+      - 香港 02 17
+      - 台湾1 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 台湾1 17
+      - 香港 01 20
+      - 香港 02 20
+      - 台湾1 18
+      - 香港 01 21
+      - 香港 02 21
+      - 台湾1 19
+      - 香港 01 22
+      - 香港 02 22
+      - 台湾1 20
+      - 香港 01 23
+      - 香港 02 23
+      - 台湾1 21
+      - 香港 01 24
+      - 香港 02 24
+      - 台湾1 22
+      - 香港 01 25
+      - 香港 02 25
+      - 台湾1 23
+      - 香港 01 26
+      - 香港 02 26
+      - 台湾1 24
+      - 香港 01 27
+      - 香港 02 27
   - name: Apple TV
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 续费联系购买客服
-      - 失联加Q号3766573864
-      - 行业唯一拥有备用服务器
-      - 365天服务不宕机
-      - 高速/稳定/安全/可靠
-      - 买多久就可以用多久
-      - 包维护包售后包监测
+      - 近期受墙冷空气影响
+      - 部分地区本地网络封锁
+      - 特新增以下直连线路
+      - 原线路服务器一切正常
+      - 部分地区本地中转封锁
       - 香港
       - 日本
-      - 台湾
-      - 台湾 2
-      - 越南
-      - 韩国
-      - 新加坡
-      - 菲律宾
-      - 澳大利亚
-      - 澳大利亚 2
-      - 澳大利亚 3
-      - 马来西亚
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 台湾 3
-      - 越南 2
       - 日本 2
-      - 台湾 4
-      - 澳大利亚 4
       - 日本 3
-      - 台湾 5
       - 日本 4
-      - 韩国 2
-      - 美国1 2
-      - 美国2 2
-      - 美国3 2
-      - 美国4 2
-      - 台湾 6
-      - 台湾 7
       - 日本 5
+      - 台湾
+      - 香港 2
       - 日本 6
       - 日本 7
-      - 香港 2
-      - 台湾 8
-      - 新加坡 2
-      - 澳大利亚 5
-      - 美国西雅图原生
-      - 澳大利亚 6
-      - 美国1 3
-      - 美国2 3
-      - 美国3 3
-      - 美国3 4
-      - 美国4 3
-      - 越南 3
-      - 台湾 9
-      - 美国4 4
       - 日本 8
+      - 请选择下面直连线路👇
+      - 部分地区本地中转封锁 2
+      - 美国1
+      - 澳大利亚
+      - 马来西亚
+      - 美国2
+      - 日本 9
+      - 香港 3
+      - 日本 10
+      - 台湾 2
+      - 韩国
+      - 请选择下面直连线路👇 2
+      - 新加坡
+      - 马来西亚 2
+      - 澳大利亚 2
+      - 美国1 2
+      - 美国3
+      - 美国3 2
+      - 美国2 2
+      - 美国1 3
+      - 越南
+      - 日本 11
+      - 日本 12
+      - 香港 4
+      - 请选择下面直连线路👇 3
+      - 部分地区本地中转封锁 3
+      - 请选择下面直连线路👇 4
+      - 部分地区本地中转封锁 4
+      - 台湾 3
+      - 台湾 4
+      - 新加坡 2
+      - 马来西亚 3
+      - 越南 2
+      - 美国3 3
+      - 美国2 3
+      - 美国3 4
+      - 美国4
+      - 澳大利亚 3
+      - 美国2 4
       - 美国1 4
+      - 近期受墙冷空气影响 2
+      - 部分地区本地网络封锁 2
+      - 出现无法使用中转线路
+      - 特新增以下直连线路 2
+      - 原线路服务器一切正常 2
+      - 本地干扰解除自动恢复
+      - 感谢您的支持和厚爱
+      - 澳大利亚 4
+      - 韩国 2
+      - 日本 13
+      - 美国1 5
+      - 美国2 5
+      - 美国3 5
+      - 美国4 2
+      - 日本 14
+      - 日本 15
+      - 台湾 5
+      - 台湾 6
+      - 日本 16
+      - 美国2 6
+      - 越南 3
+      - 美国1 6
+      - 台湾 7
+      - 日本 17
+      - 香港 5
+      - 香港 6
+      - 台湾 8
+      - 日本 18
+      - 日本 19
+      - 日本 20
+      - 台湾 9
+      - 日本 21
+      - 台湾 10
+      - 香港 7
+      - 新加坡 3
+      - 美国1 7
+      - 美国1 8
+      - 美国2 7
+      - 美国3 6
+      - 英国
+      - 日本 22
+      - 香港 8
+      - 香港 9
+      - 澳大利亚 5
+      - 马来西亚 4
       - 香港 01
       - 香港 02
       - 日本1
@@ -512,6 +1049,106 @@ proxy-groups:
       - 美国纽约 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 美国纽约 17
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 香港 01 22
+      - 香港 02 22
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 美国纽约 20
+      - 香港 01 23
+      - 香港 02 23
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 香港 01 24
+      - 香港 02 24
+      - 日本1 22
+      - 日本2 22
+      - 台湾1 22
+      - 美国纽约 22
+      - 香港 01 25
+      - 香港 02 25
+      - 日本1 23
+      - 日本2 23
+      - 台湾1 23
+      - 美国纽约 23
+      - 香港 01 26
+      - 香港 02 26
+      - 日本1 24
+      - 日本2 24
+      - 台湾1 24
+      - 美国纽约 24
+      - 香港 01 27
+      - 香港 02 27
   - name: Asian TV
     type: select
     proxies:
@@ -519,15 +1156,23 @@ proxy-groups:
       - Proxies
       - 香港
       - 台湾
+      - 香港 2
+      - 香港 3
       - 台湾 2
+      - 香港 4
       - 台湾 3
       - 台湾 4
       - 台湾 5
       - 台湾 6
       - 台湾 7
-      - 香港 2
+      - 香港 5
+      - 香港 6
       - 台湾 8
       - 台湾 9
+      - 台湾 10
+      - 香港 7
+      - 香港 8
+      - 香港 9
       - 香港 01
       - 香港 02
       - 台湾1
@@ -554,68 +1199,164 @@ proxy-groups:
       - 台湾1 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 台湾1 9
+      - 香港 01 11
+      - 香港 02 11
+      - 台湾1 10
+      - 香港 01 12
+      - 香港 02 12
+      - 台湾1 11
+      - 香港 01 13
+      - 香港 02 13
+      - 台湾1 12
+      - 香港 01 14
+      - 香港 02 14
+      - 台湾1 13
+      - 香港 01 15
+      - 香港 02 15
+      - 台湾1 14
+      - 香港 01 16
+      - 香港 02 16
+      - 台湾1 15
+      - 香港 01 17
+      - 香港 02 17
+      - 台湾1 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 台湾1 17
+      - 香港 01 20
+      - 香港 02 20
+      - 台湾1 18
+      - 香港 01 21
+      - 香港 02 21
+      - 台湾1 19
+      - 香港 01 22
+      - 香港 02 22
+      - 台湾1 20
+      - 香港 01 23
+      - 香港 02 23
+      - 台湾1 21
+      - 香港 01 24
+      - 香港 02 24
+      - 台湾1 22
+      - 香港 01 25
+      - 香港 02 25
+      - 台湾1 23
+      - 香港 01 26
+      - 香港 02 26
+      - 台湾1 24
+      - 香港 01 27
+      - 香港 02 27
   - name: Global TV
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 续费联系购买客服
-      - 失联加Q号3766573864
-      - 行业唯一拥有备用服务器
-      - 365天服务不宕机
-      - 高速/稳定/安全/可靠
-      - 买多久就可以用多久
-      - 包维护包售后包监测
+      - 近期受墙冷空气影响
+      - 部分地区本地网络封锁
+      - 特新增以下直连线路
+      - 原线路服务器一切正常
+      - 部分地区本地中转封锁
       - 香港
       - 日本
-      - 台湾
-      - 台湾 2
-      - 越南
-      - 韩国
-      - 新加坡
-      - 菲律宾
-      - 澳大利亚
-      - 澳大利亚 2
-      - 澳大利亚 3
-      - 马来西亚
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 台湾 3
-      - 越南 2
       - 日本 2
-      - 台湾 4
-      - 澳大利亚 4
       - 日本 3
-      - 台湾 5
       - 日本 4
-      - 韩国 2
-      - 美国1 2
-      - 美国2 2
-      - 美国3 2
-      - 美国4 2
-      - 台湾 6
-      - 台湾 7
       - 日本 5
+      - 台湾
+      - 香港 2
       - 日本 6
       - 日本 7
-      - 香港 2
-      - 台湾 8
-      - 新加坡 2
-      - 澳大利亚 5
-      - 美国西雅图原生
-      - 澳大利亚 6
-      - 美国1 3
-      - 美国2 3
-      - 美国3 3
-      - 美国3 4
-      - 美国4 3
-      - 越南 3
-      - 台湾 9
-      - 美国4 4
       - 日本 8
+      - 请选择下面直连线路👇
+      - 部分地区本地中转封锁 2
+      - 美国1
+      - 澳大利亚
+      - 马来西亚
+      - 美国2
+      - 日本 9
+      - 香港 3
+      - 日本 10
+      - 台湾 2
+      - 韩国
+      - 请选择下面直连线路👇 2
+      - 新加坡
+      - 马来西亚 2
+      - 澳大利亚 2
+      - 美国1 2
+      - 美国3
+      - 美国3 2
+      - 美国2 2
+      - 美国1 3
+      - 越南
+      - 日本 11
+      - 日本 12
+      - 香港 4
+      - 请选择下面直连线路👇 3
+      - 部分地区本地中转封锁 3
+      - 请选择下面直连线路👇 4
+      - 部分地区本地中转封锁 4
+      - 台湾 3
+      - 台湾 4
+      - 新加坡 2
+      - 马来西亚 3
+      - 越南 2
+      - 美国3 3
+      - 美国2 3
+      - 美国3 4
+      - 美国4
+      - 澳大利亚 3
+      - 美国2 4
       - 美国1 4
+      - 近期受墙冷空气影响 2
+      - 部分地区本地网络封锁 2
+      - 出现无法使用中转线路
+      - 特新增以下直连线路 2
+      - 原线路服务器一切正常 2
+      - 本地干扰解除自动恢复
+      - 感谢您的支持和厚爱
+      - 澳大利亚 4
+      - 韩国 2
+      - 日本 13
+      - 美国1 5
+      - 美国2 5
+      - 美国3 5
+      - 美国4 2
+      - 日本 14
+      - 日本 15
+      - 台湾 5
+      - 台湾 6
+      - 日本 16
+      - 美国2 6
+      - 越南 3
+      - 美国1 6
+      - 台湾 7
+      - 日本 17
+      - 香港 5
+      - 香港 6
+      - 台湾 8
+      - 日本 18
+      - 日本 19
+      - 日本 20
+      - 台湾 9
+      - 日本 21
+      - 台湾 10
+      - 香港 7
+      - 新加坡 3
+      - 美国1 7
+      - 美国1 8
+      - 美国2 7
+      - 美国3 6
+      - 英国
+      - 日本 22
+      - 香港 8
+      - 香港 9
+      - 澳大利亚 5
+      - 马来西亚 4
       - 香港 01
       - 香港 02
       - 日本1
@@ -666,6 +1407,106 @@ proxy-groups:
       - 美国纽约 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 美国纽约 17
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 香港 01 22
+      - 香港 02 22
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 美国纽约 20
+      - 香港 01 23
+      - 香港 02 23
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 香港 01 24
+      - 香港 02 24
+      - 日本1 22
+      - 日本2 22
+      - 台湾1 22
+      - 美国纽约 22
+      - 香港 01 25
+      - 香港 02 25
+      - 日本1 23
+      - 日本2 23
+      - 台湾1 23
+      - 美国纽约 23
+      - 香港 01 26
+      - 香港 02 26
+      - 日本1 24
+      - 日本2 24
+      - 台湾1 24
+      - 美国纽约 24
+      - 香港 01 27
+      - 香港 02 27
   - name: Disney
     type: select
     proxies:
@@ -686,63 +1527,107 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
-      - 续费联系购买客服
-      - 失联加Q号3766573864
-      - 行业唯一拥有备用服务器
-      - 365天服务不宕机
-      - 高速/稳定/安全/可靠
-      - 买多久就可以用多久
-      - 包维护包售后包监测
+      - 近期受墙冷空气影响
+      - 部分地区本地网络封锁
+      - 特新增以下直连线路
+      - 原线路服务器一切正常
+      - 部分地区本地中转封锁
       - 香港
       - 日本
-      - 台湾
-      - 台湾 2
-      - 越南
-      - 韩国
-      - 新加坡
-      - 菲律宾
-      - 澳大利亚
-      - 澳大利亚 2
-      - 澳大利亚 3
-      - 马来西亚
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 台湾 3
-      - 越南 2
       - 日本 2
-      - 台湾 4
-      - 澳大利亚 4
       - 日本 3
-      - 台湾 5
       - 日本 4
-      - 韩国 2
-      - 美国1 2
-      - 美国2 2
-      - 美国3 2
-      - 美国4 2
-      - 台湾 6
-      - 台湾 7
       - 日本 5
+      - 台湾
+      - 香港 2
       - 日本 6
       - 日本 7
-      - 香港 2
-      - 台湾 8
-      - 新加坡 2
-      - 澳大利亚 5
-      - 美国西雅图原生
-      - 澳大利亚 6
-      - 美国1 3
-      - 美国2 3
-      - 美国3 3
-      - 美国3 4
-      - 美国4 3
-      - 越南 3
-      - 台湾 9
-      - 美国4 4
       - 日本 8
+      - 请选择下面直连线路👇
+      - 部分地区本地中转封锁 2
+      - 美国1
+      - 澳大利亚
+      - 马来西亚
+      - 美国2
+      - 日本 9
+      - 香港 3
+      - 日本 10
+      - 台湾 2
+      - 韩国
+      - 请选择下面直连线路👇 2
+      - 新加坡
+      - 马来西亚 2
+      - 澳大利亚 2
+      - 美国1 2
+      - 美国3
+      - 美国3 2
+      - 美国2 2
+      - 美国1 3
+      - 越南
+      - 日本 11
+      - 日本 12
+      - 香港 4
+      - 请选择下面直连线路👇 3
+      - 部分地区本地中转封锁 3
+      - 请选择下面直连线路👇 4
+      - 部分地区本地中转封锁 4
+      - 台湾 3
+      - 台湾 4
+      - 新加坡 2
+      - 马来西亚 3
+      - 越南 2
+      - 美国3 3
+      - 美国2 3
+      - 美国3 4
+      - 美国4
+      - 澳大利亚 3
+      - 美国2 4
       - 美国1 4
+      - 近期受墙冷空气影响 2
+      - 部分地区本地网络封锁 2
+      - 出现无法使用中转线路
+      - 特新增以下直连线路 2
+      - 原线路服务器一切正常 2
+      - 本地干扰解除自动恢复
+      - 感谢您的支持和厚爱
+      - 澳大利亚 4
+      - 韩国 2
+      - 日本 13
+      - 美国1 5
+      - 美国2 5
+      - 美国3 5
+      - 美国4 2
+      - 日本 14
+      - 日本 15
+      - 台湾 5
+      - 台湾 6
+      - 日本 16
+      - 美国2 6
+      - 越南 3
+      - 美国1 6
+      - 台湾 7
+      - 日本 17
+      - 香港 5
+      - 香港 6
+      - 台湾 8
+      - 日本 18
+      - 日本 19
+      - 日本 20
+      - 台湾 9
+      - 日本 21
+      - 台湾 10
+      - 香港 7
+      - 新加坡 3
+      - 美国1 7
+      - 美国1 8
+      - 美国2 7
+      - 美国3 6
+      - 英国
+      - 日本 22
+      - 香港 8
+      - 香港 9
+      - 澳大利亚 5
+      - 马来西亚 4
       - 香港 01
       - 香港 02
       - 日本1
@@ -793,68 +1678,212 @@ proxy-groups:
       - 美国纽约 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 美国纽约 17
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 香港 01 22
+      - 香港 02 22
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 美国纽约 20
+      - 香港 01 23
+      - 香港 02 23
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 香港 01 24
+      - 香港 02 24
+      - 日本1 22
+      - 日本2 22
+      - 台湾1 22
+      - 美国纽约 22
+      - 香港 01 25
+      - 香港 02 25
+      - 日本1 23
+      - 日本2 23
+      - 台湾1 23
+      - 美国纽约 23
+      - 香港 01 26
+      - 香港 02 26
+      - 日本1 24
+      - 日本2 24
+      - 台湾1 24
+      - 美国纽约 24
+      - 香港 01 27
+      - 香港 02 27
   - name: Spotify
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 续费联系购买客服
-      - 失联加Q号3766573864
-      - 行业唯一拥有备用服务器
-      - 365天服务不宕机
-      - 高速/稳定/安全/可靠
-      - 买多久就可以用多久
-      - 包维护包售后包监测
+      - 近期受墙冷空气影响
+      - 部分地区本地网络封锁
+      - 特新增以下直连线路
+      - 原线路服务器一切正常
+      - 部分地区本地中转封锁
       - 香港
       - 日本
-      - 台湾
-      - 台湾 2
-      - 越南
-      - 韩国
-      - 新加坡
-      - 菲律宾
-      - 澳大利亚
-      - 澳大利亚 2
-      - 澳大利亚 3
-      - 马来西亚
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 台湾 3
-      - 越南 2
       - 日本 2
-      - 台湾 4
-      - 澳大利亚 4
       - 日本 3
-      - 台湾 5
       - 日本 4
-      - 韩国 2
-      - 美国1 2
-      - 美国2 2
-      - 美国3 2
-      - 美国4 2
-      - 台湾 6
-      - 台湾 7
       - 日本 5
+      - 台湾
+      - 香港 2
       - 日本 6
       - 日本 7
-      - 香港 2
-      - 台湾 8
-      - 新加坡 2
-      - 澳大利亚 5
-      - 美国西雅图原生
-      - 澳大利亚 6
-      - 美国1 3
-      - 美国2 3
-      - 美国3 3
-      - 美国3 4
-      - 美国4 3
-      - 越南 3
-      - 台湾 9
-      - 美国4 4
       - 日本 8
+      - 请选择下面直连线路👇
+      - 部分地区本地中转封锁 2
+      - 美国1
+      - 澳大利亚
+      - 马来西亚
+      - 美国2
+      - 日本 9
+      - 香港 3
+      - 日本 10
+      - 台湾 2
+      - 韩国
+      - 请选择下面直连线路👇 2
+      - 新加坡
+      - 马来西亚 2
+      - 澳大利亚 2
+      - 美国1 2
+      - 美国3
+      - 美国3 2
+      - 美国2 2
+      - 美国1 3
+      - 越南
+      - 日本 11
+      - 日本 12
+      - 香港 4
+      - 请选择下面直连线路👇 3
+      - 部分地区本地中转封锁 3
+      - 请选择下面直连线路👇 4
+      - 部分地区本地中转封锁 4
+      - 台湾 3
+      - 台湾 4
+      - 新加坡 2
+      - 马来西亚 3
+      - 越南 2
+      - 美国3 3
+      - 美国2 3
+      - 美国3 4
+      - 美国4
+      - 澳大利亚 3
+      - 美国2 4
       - 美国1 4
+      - 近期受墙冷空气影响 2
+      - 部分地区本地网络封锁 2
+      - 出现无法使用中转线路
+      - 特新增以下直连线路 2
+      - 原线路服务器一切正常 2
+      - 本地干扰解除自动恢复
+      - 感谢您的支持和厚爱
+      - 澳大利亚 4
+      - 韩国 2
+      - 日本 13
+      - 美国1 5
+      - 美国2 5
+      - 美国3 5
+      - 美国4 2
+      - 日本 14
+      - 日本 15
+      - 台湾 5
+      - 台湾 6
+      - 日本 16
+      - 美国2 6
+      - 越南 3
+      - 美国1 6
+      - 台湾 7
+      - 日本 17
+      - 香港 5
+      - 香港 6
+      - 台湾 8
+      - 日本 18
+      - 日本 19
+      - 日本 20
+      - 台湾 9
+      - 日本 21
+      - 台湾 10
+      - 香港 7
+      - 新加坡 3
+      - 美国1 7
+      - 美国1 8
+      - 美国2 7
+      - 美国3 6
+      - 英国
+      - 日本 22
+      - 香港 8
+      - 香港 9
+      - 澳大利亚 5
+      - 马来西亚 4
       - 香港 01
       - 香港 02
       - 日本1
@@ -905,68 +1934,212 @@ proxy-groups:
       - 美国纽约 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 美国纽约 17
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 香港 01 22
+      - 香港 02 22
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 美国纽约 20
+      - 香港 01 23
+      - 香港 02 23
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 香港 01 24
+      - 香港 02 24
+      - 日本1 22
+      - 日本2 22
+      - 台湾1 22
+      - 美国纽约 22
+      - 香港 01 25
+      - 香港 02 25
+      - 日本1 23
+      - 日本2 23
+      - 台湾1 23
+      - 美国纽约 23
+      - 香港 01 26
+      - 香港 02 26
+      - 日本1 24
+      - 日本2 24
+      - 台湾1 24
+      - 美国纽约 24
+      - 香港 01 27
+      - 香港 02 27
   - name: Telegram
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 续费联系购买客服
-      - 失联加Q号3766573864
-      - 行业唯一拥有备用服务器
-      - 365天服务不宕机
-      - 高速/稳定/安全/可靠
-      - 买多久就可以用多久
-      - 包维护包售后包监测
+      - 近期受墙冷空气影响
+      - 部分地区本地网络封锁
+      - 特新增以下直连线路
+      - 原线路服务器一切正常
+      - 部分地区本地中转封锁
       - 香港
       - 日本
-      - 台湾
-      - 台湾 2
-      - 越南
-      - 韩国
-      - 新加坡
-      - 菲律宾
-      - 澳大利亚
-      - 澳大利亚 2
-      - 澳大利亚 3
-      - 马来西亚
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 台湾 3
-      - 越南 2
       - 日本 2
-      - 台湾 4
-      - 澳大利亚 4
       - 日本 3
-      - 台湾 5
       - 日本 4
-      - 韩国 2
-      - 美国1 2
-      - 美国2 2
-      - 美国3 2
-      - 美国4 2
-      - 台湾 6
-      - 台湾 7
       - 日本 5
+      - 台湾
+      - 香港 2
       - 日本 6
       - 日本 7
-      - 香港 2
-      - 台湾 8
-      - 新加坡 2
-      - 澳大利亚 5
-      - 美国西雅图原生
-      - 澳大利亚 6
-      - 美国1 3
-      - 美国2 3
-      - 美国3 3
-      - 美国3 4
-      - 美国4 3
-      - 越南 3
-      - 台湾 9
-      - 美国4 4
       - 日本 8
+      - 请选择下面直连线路👇
+      - 部分地区本地中转封锁 2
+      - 美国1
+      - 澳大利亚
+      - 马来西亚
+      - 美国2
+      - 日本 9
+      - 香港 3
+      - 日本 10
+      - 台湾 2
+      - 韩国
+      - 请选择下面直连线路👇 2
+      - 新加坡
+      - 马来西亚 2
+      - 澳大利亚 2
+      - 美国1 2
+      - 美国3
+      - 美国3 2
+      - 美国2 2
+      - 美国1 3
+      - 越南
+      - 日本 11
+      - 日本 12
+      - 香港 4
+      - 请选择下面直连线路👇 3
+      - 部分地区本地中转封锁 3
+      - 请选择下面直连线路👇 4
+      - 部分地区本地中转封锁 4
+      - 台湾 3
+      - 台湾 4
+      - 新加坡 2
+      - 马来西亚 3
+      - 越南 2
+      - 美国3 3
+      - 美国2 3
+      - 美国3 4
+      - 美国4
+      - 澳大利亚 3
+      - 美国2 4
       - 美国1 4
+      - 近期受墙冷空气影响 2
+      - 部分地区本地网络封锁 2
+      - 出现无法使用中转线路
+      - 特新增以下直连线路 2
+      - 原线路服务器一切正常 2
+      - 本地干扰解除自动恢复
+      - 感谢您的支持和厚爱
+      - 澳大利亚 4
+      - 韩国 2
+      - 日本 13
+      - 美国1 5
+      - 美国2 5
+      - 美国3 5
+      - 美国4 2
+      - 日本 14
+      - 日本 15
+      - 台湾 5
+      - 台湾 6
+      - 日本 16
+      - 美国2 6
+      - 越南 3
+      - 美国1 6
+      - 台湾 7
+      - 日本 17
+      - 香港 5
+      - 香港 6
+      - 台湾 8
+      - 日本 18
+      - 日本 19
+      - 日本 20
+      - 台湾 9
+      - 日本 21
+      - 台湾 10
+      - 香港 7
+      - 新加坡 3
+      - 美国1 7
+      - 美国1 8
+      - 美国2 7
+      - 美国3 6
+      - 英国
+      - 日本 22
+      - 香港 8
+      - 香港 9
+      - 澳大利亚 5
+      - 马来西亚 4
       - 香港 01
       - 香港 02
       - 日本1
@@ -1017,6 +2190,106 @@ proxy-groups:
       - 美国纽约 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 美国纽约 17
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 香港 01 22
+      - 香港 02 22
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 美国纽约 20
+      - 香港 01 23
+      - 香港 02 23
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 香港 01 24
+      - 香港 02 24
+      - 日本1 22
+      - 日本2 22
+      - 台湾1 22
+      - 美国纽约 22
+      - 香港 01 25
+      - 香港 02 25
+      - 日本1 23
+      - 日本2 23
+      - 台湾1 23
+      - 美国纽约 23
+      - 香港 01 26
+      - 香港 02 26
+      - 日本1 24
+      - 日本2 24
+      - 台湾1 24
+      - 美国纽约 24
+      - 香港 01 27
+      - 香港 02 27
   - name: Steam
     type: select
     proxies:
@@ -1028,63 +2301,107 @@ proxy-groups:
       - Proxies
       - DIRECT
       - Domestic
-      - 续费联系购买客服
-      - 失联加Q号3766573864
-      - 行业唯一拥有备用服务器
-      - 365天服务不宕机
-      - 高速/稳定/安全/可靠
-      - 买多久就可以用多久
-      - 包维护包售后包监测
+      - 近期受墙冷空气影响
+      - 部分地区本地网络封锁
+      - 特新增以下直连线路
+      - 原线路服务器一切正常
+      - 部分地区本地中转封锁
       - 香港
       - 日本
-      - 台湾
-      - 台湾 2
-      - 越南
-      - 韩国
-      - 新加坡
-      - 菲律宾
-      - 澳大利亚
-      - 澳大利亚 2
-      - 澳大利亚 3
-      - 马来西亚
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 台湾 3
-      - 越南 2
       - 日本 2
-      - 台湾 4
-      - 澳大利亚 4
       - 日本 3
-      - 台湾 5
       - 日本 4
-      - 韩国 2
-      - 美国1 2
-      - 美国2 2
-      - 美国3 2
-      - 美国4 2
-      - 台湾 6
-      - 台湾 7
       - 日本 5
+      - 台湾
+      - 香港 2
       - 日本 6
       - 日本 7
-      - 香港 2
-      - 台湾 8
-      - 新加坡 2
-      - 澳大利亚 5
-      - 美国西雅图原生
-      - 澳大利亚 6
-      - 美国1 3
-      - 美国2 3
-      - 美国3 3
-      - 美国3 4
-      - 美国4 3
-      - 越南 3
-      - 台湾 9
-      - 美国4 4
       - 日本 8
+      - 请选择下面直连线路👇
+      - 部分地区本地中转封锁 2
+      - 美国1
+      - 澳大利亚
+      - 马来西亚
+      - 美国2
+      - 日本 9
+      - 香港 3
+      - 日本 10
+      - 台湾 2
+      - 韩国
+      - 请选择下面直连线路👇 2
+      - 新加坡
+      - 马来西亚 2
+      - 澳大利亚 2
+      - 美国1 2
+      - 美国3
+      - 美国3 2
+      - 美国2 2
+      - 美国1 3
+      - 越南
+      - 日本 11
+      - 日本 12
+      - 香港 4
+      - 请选择下面直连线路👇 3
+      - 部分地区本地中转封锁 3
+      - 请选择下面直连线路👇 4
+      - 部分地区本地中转封锁 4
+      - 台湾 3
+      - 台湾 4
+      - 新加坡 2
+      - 马来西亚 3
+      - 越南 2
+      - 美国3 3
+      - 美国2 3
+      - 美国3 4
+      - 美国4
+      - 澳大利亚 3
+      - 美国2 4
       - 美国1 4
+      - 近期受墙冷空气影响 2
+      - 部分地区本地网络封锁 2
+      - 出现无法使用中转线路
+      - 特新增以下直连线路 2
+      - 原线路服务器一切正常 2
+      - 本地干扰解除自动恢复
+      - 感谢您的支持和厚爱
+      - 澳大利亚 4
+      - 韩国 2
+      - 日本 13
+      - 美国1 5
+      - 美国2 5
+      - 美国3 5
+      - 美国4 2
+      - 日本 14
+      - 日本 15
+      - 台湾 5
+      - 台湾 6
+      - 日本 16
+      - 美国2 6
+      - 越南 3
+      - 美国1 6
+      - 台湾 7
+      - 日本 17
+      - 香港 5
+      - 香港 6
+      - 台湾 8
+      - 日本 18
+      - 日本 19
+      - 日本 20
+      - 台湾 9
+      - 日本 21
+      - 台湾 10
+      - 香港 7
+      - 新加坡 3
+      - 美国1 7
+      - 美国1 8
+      - 美国2 7
+      - 美国3 6
+      - 英国
+      - 日本 22
+      - 香港 8
+      - 香港 9
+      - 澳大利亚 5
+      - 马来西亚 4
       - 香港 01
       - 香港 02
       - 日本1
@@ -1135,6 +2452,106 @@ proxy-groups:
       - 美国纽约 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 美国纽约 17
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 香港 01 22
+      - 香港 02 22
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 美国纽约 20
+      - 香港 01 23
+      - 香港 02 23
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 香港 01 24
+      - 香港 02 24
+      - 日本1 22
+      - 日本2 22
+      - 台湾1 22
+      - 美国纽约 22
+      - 香港 01 25
+      - 香港 02 25
+      - 日本1 23
+      - 日本2 23
+      - 台湾1 23
+      - 美国纽约 23
+      - 香港 01 26
+      - 香港 02 26
+      - 日本1 24
+      - 日本2 24
+      - 台湾1 24
+      - 美国纽约 24
+      - 香港 01 27
+      - 香港 02 27
   - name: PayPal
     type: select
     proxies:
@@ -1180,63 +2597,107 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     interval: 1800
     proxies:
-      - 续费联系购买客服
-      - 失联加Q号3766573864
-      - 行业唯一拥有备用服务器
-      - 365天服务不宕机
-      - 高速/稳定/安全/可靠
-      - 买多久就可以用多久
-      - 包维护包售后包监测
+      - 近期受墙冷空气影响
+      - 部分地区本地网络封锁
+      - 特新增以下直连线路
+      - 原线路服务器一切正常
+      - 部分地区本地中转封锁
       - 香港
       - 日本
-      - 台湾
-      - 台湾 2
-      - 越南
-      - 韩国
-      - 新加坡
-      - 菲律宾
-      - 澳大利亚
-      - 澳大利亚 2
-      - 澳大利亚 3
-      - 马来西亚
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 台湾 3
-      - 越南 2
       - 日本 2
-      - 台湾 4
-      - 澳大利亚 4
       - 日本 3
-      - 台湾 5
       - 日本 4
-      - 韩国 2
-      - 美国1 2
-      - 美国2 2
-      - 美国3 2
-      - 美国4 2
-      - 台湾 6
-      - 台湾 7
       - 日本 5
+      - 台湾
+      - 香港 2
       - 日本 6
       - 日本 7
-      - 香港 2
-      - 台湾 8
-      - 新加坡 2
-      - 澳大利亚 5
-      - 美国西雅图原生
-      - 澳大利亚 6
-      - 美国1 3
-      - 美国2 3
-      - 美国3 3
-      - 美国3 4
-      - 美国4 3
-      - 越南 3
-      - 台湾 9
-      - 美国4 4
       - 日本 8
+      - 请选择下面直连线路👇
+      - 部分地区本地中转封锁 2
+      - 美国1
+      - 澳大利亚
+      - 马来西亚
+      - 美国2
+      - 日本 9
+      - 香港 3
+      - 日本 10
+      - 台湾 2
+      - 韩国
+      - 请选择下面直连线路👇 2
+      - 新加坡
+      - 马来西亚 2
+      - 澳大利亚 2
+      - 美国1 2
+      - 美国3
+      - 美国3 2
+      - 美国2 2
+      - 美国1 3
+      - 越南
+      - 日本 11
+      - 日本 12
+      - 香港 4
+      - 请选择下面直连线路👇 3
+      - 部分地区本地中转封锁 3
+      - 请选择下面直连线路👇 4
+      - 部分地区本地中转封锁 4
+      - 台湾 3
+      - 台湾 4
+      - 新加坡 2
+      - 马来西亚 3
+      - 越南 2
+      - 美国3 3
+      - 美国2 3
+      - 美国3 4
+      - 美国4
+      - 澳大利亚 3
+      - 美国2 4
       - 美国1 4
+      - 近期受墙冷空气影响 2
+      - 部分地区本地网络封锁 2
+      - 出现无法使用中转线路
+      - 特新增以下直连线路 2
+      - 原线路服务器一切正常 2
+      - 本地干扰解除自动恢复
+      - 感谢您的支持和厚爱
+      - 澳大利亚 4
+      - 韩国 2
+      - 日本 13
+      - 美国1 5
+      - 美国2 5
+      - 美国3 5
+      - 美国4 2
+      - 日本 14
+      - 日本 15
+      - 台湾 5
+      - 台湾 6
+      - 日本 16
+      - 美国2 6
+      - 越南 3
+      - 美国1 6
+      - 台湾 7
+      - 日本 17
+      - 香港 5
+      - 香港 6
+      - 台湾 8
+      - 日本 18
+      - 日本 19
+      - 日本 20
+      - 台湾 9
+      - 日本 21
+      - 台湾 10
+      - 香港 7
+      - 新加坡 3
+      - 美国1 7
+      - 美国1 8
+      - 美国2 7
+      - 美国3 6
+      - 英国
+      - 日本 22
+      - 香港 8
+      - 香港 9
+      - 澳大利亚 5
+      - 马来西亚 4
       - 香港 01
       - 香港 02
       - 日本1
@@ -1287,6 +2748,106 @@ proxy-groups:
       - 美国纽约 8
       - 香港 01 9
       - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
+      - 香港 01 19
+      - 香港 02 19
+      - 日本1 17
+      - 日本2 17
+      - 台湾1 17
+      - 美国纽约 17
+      - 香港 01 20
+      - 香港 02 20
+      - 日本1 18
+      - 日本2 18
+      - 台湾1 18
+      - 美国纽约 18
+      - 香港 01 21
+      - 香港 02 21
+      - 日本1 19
+      - 日本2 19
+      - 台湾1 19
+      - 美国纽约 19
+      - 香港 01 22
+      - 香港 02 22
+      - 日本1 20
+      - 日本2 20
+      - 台湾1 20
+      - 美国纽约 20
+      - 香港 01 23
+      - 香港 02 23
+      - 日本1 21
+      - 日本2 21
+      - 台湾1 21
+      - 美国纽约 21
+      - 香港 01 24
+      - 香港 02 24
+      - 日本1 22
+      - 日本2 22
+      - 台湾1 22
+      - 美国纽约 22
+      - 香港 01 25
+      - 香港 02 25
+      - 日本1 23
+      - 日本2 23
+      - 台湾1 23
+      - 美国纽约 23
+      - 香港 01 26
+      - 香港 02 26
+      - 日本1 24
+      - 日本2 24
+      - 台湾1 24
+      - 美国纽约 24
+      - 香港 01 27
+      - 香港 02 27
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
