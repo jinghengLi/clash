@@ -5,378 +5,240 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 8月25日更新, server: xxz13.xiaozhu9545515.com, port: 41275, type: trojan, password: d1fcaf6e-4b09-41ac-87f7-a674f93e7fcf, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 澳大利亚, server: swk.swk2099.com, port: 44409, type: trojan, password: 9e80551d-a38b-4613-b7c4-41d8ea4004b3, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 马来西亚, server: swk.swk2099.com, port: 44410, type: trojan, password: 4a538dfc-6a2c-473c-a3f3-ccf153e53229, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 加拿大, server: swk.swk2099.com, port: 44412, type: trojan, password: 2ce71e74-86c0-4e54-a5c7-9e6b1c706ca9, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 英国, server: swk.swk2099.com, port: 44413, type: trojan, password: b211b50c-6af7-491f-b590-e7a9ecb35f99, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国1, server: swk.swk2099.com, port: 44414, type: trojan, password: 680a2c1e-042c-48b1-b783-739742d09839, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国2, server: swk.swk2099.com, port: 44415, type: trojan, password: 4a18bde4-44aa-4dac-8687-1555fc5db6e0, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国3, server: swk.swk2099.com, port: 44416, type: trojan, password: e95efa12-63cb-494d-9f6b-6296a57ef361, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国4, server: swk.swk2099.com, port: 44417, type: trojan, password: 183ae8f1-68b6-4bfa-92a3-daf4ea96a08d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本, server: swk.swk2099.com, port: 44402, type: trojan, password: 67f3c83e-525e-4ff5-84b0-1795daad694b, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 2, server: swk.swk2099.com, port: 44402, type: trojan, password: 6e09d809-3418-42cd-a1ee-a9aa275b43b1, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 香港, server: swk.swk2099.com, port: 44401, type: trojan, password: 3c25e32e-55f4-437f-878b-d48b7b350698, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 3, server: swk.swk2099.com, port: 44402, type: trojan, password: 5665d931-ba8a-4863-8db8-b23f468e80fb, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 4, server: swk.swk2099.com, port: 44402, type: trojan, password: df9fda2c-d099-4a14-aa8e-ef7a35231c61, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 菲律宾, server: swk.swk2099.com, port: 44408, type: trojan, password: 4a7aa521-efa2-4630-96f6-33db7f918d6c, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡, server: swk.swk2099.com, port: 44406, type: trojan, password: 7322017d-d200-4468-a34b-06b353354390, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 5, server: swk.swk2099.com, port: 44402, type: trojan, password: a0c5a9ee-7f11-4f28-9899-4017402d7c90, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 韩国, server: swk.swk2099.com, port: 44405, type: trojan, password: a1918ab0-1a4f-4e23-b464-68d0e81184df, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 6, server: swk.swk2099.com, port: 44402, type: trojan, password: a5b93cfc-8af1-40f5-96c7-59063350f172, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 7, server: swk.swk2099.com, port: 44402, type: trojan, password: 127f4dba-7029-4776-a3ec-2571707af8f0, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 8, server: swk.swk2099.com, port: 44402, type: trojan, password: adb20008-3d94-4fbe-8b46-1eef38d2f895, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 澳大利亚 2, server: swk.swk2099.com, port: 44409, type: trojan, password: 988557d9-29f3-4eab-86a1-d51326f7f060, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 土耳其, server: swk.swk2099.com, port: 44411, type: trojan, password: 8a8da3d7-4d9c-4e08-8440-6c6c5f924388, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡 2, server: swk.swk2099.com, port: 44406, type: trojan, password: 8b495ed3-ea07-490c-a44e-8fc4671b91da, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 9, server: swk.swk2099.com, port: 44402, type: trojan, password: de4c8c29-54f0-4152-9162-e302326ac18e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 韩国 2, server: swk.swk2099.com, port: 44405, type: trojan, password: e63f3400-b5e9-40c9-b2fd-eede9a507bdf, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 10, server: swk.swk2099.com, port: 44402, type: trojan, password: 3052e05e-38c0-4f96-9350-c0faee7b6ead, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 11, server: swk.swk2099.com, port: 44402, type: trojan, password: 95827cf6-f9b8-4ffa-a11a-6c3bc8bf5d0a, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾, server: swk.swk2099.com, port: 44403, type: trojan, password: 37a1fc83-2a3c-47c8-be09-f8c73e1337ca, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 菲律宾 2, server: swk.swk2099.com, port: 44408, type: trojan, password: 33de650f-620e-42a5-ab6b-c26634df7cd6, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 土耳其 2, server: swk.swk2099.com, port: 44411, type: trojan, password: b998b95b-ab45-42cb-8b81-9a80add6f8fb, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 马来西亚 2, server: swk.swk2099.com, port: 44410, type: trojan, password: a0388e29-f1b5-4ef6-a601-b10533fef7c6, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国2 2, server: swk.swk2099.com, port: 44415, type: trojan, password: 26d0b416-ceca-4f5d-b8a6-23a33214a7df, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 马来西亚 3, server: swk.swk2099.com, port: 44410, type: trojan, password: 52cee213-e4f1-4349-84d5-6a628402f451, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 菲律宾 3, server: swk.swk2099.com, port: 44408, type: trojan, password: 6ce51a4b-1594-4177-9d84-7842c6295c23, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡 3, server: swk.swk2099.com, port: 44406, type: trojan, password: 4244c1f9-400b-4464-86b3-ec760335565b, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 菲律宾 4, server: swk.swk2099.com, port: 44408, type: trojan, password: 55f9b6bf-9188-4c82-a8c0-d17fd977f1f5, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 澳大利亚 3, server: swk.swk2099.com, port: 44409, type: trojan, password: 6ebd5ea1-ffac-431f-bfe1-059440ef4337, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 加拿大 2, server: swk.swk2099.com, port: 44412, type: trojan, password: ff9e3842-cb4c-4fbc-b55c-422779a1ad20, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国2 3, server: swk.swk2099.com, port: 44415, type: trojan, password: fa760d20-5d4b-4a6e-b4ee-0b742f3b53f8, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 英国 2, server: swk.swk2099.com, port: 44413, type: trojan, password: 900a9bf1-be32-41df-8b1e-125ace3b1096, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国2 4, server: swk.swk2099.com, port: 44415, type: trojan, password: d2c43173-6d10-4338-9d08-b428b33a4ae9, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 韩国 3, server: swk.swk2099.com, port: 44405, type: trojan, password: 41663c74-fc08-4d48-8cfa-9adb037b9916, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 12, server: swk.swk2099.com, port: 44402, type: trojan, password: 477d00e7-7add-4a19-a472-12ba699e477d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 2, server: swk.swk2099.com, port: 44403, type: trojan, password: 8e0838df-29e9-44b6-9822-4df64f4739b3, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 韩国 4, server: swk.swk2099.com, port: 44405, type: trojan, password: a9579f05-5f3c-4655-af7c-44f8f89b8f12, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 3, server: swk.swk2099.com, port: 44403, type: trojan, password: 9365e31f-3b1f-46ec-9b4f-0c624ec09935, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡 4, server: swk.swk2099.com, port: 44406, type: trojan, password: 5d7f6050-01a2-4135-9a57-afb16a8792ad, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡 5, server: swk.swk2099.com, port: 44406, type: trojan, password: 1a522173-521e-4af6-b462-7bf31adeae61, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 4, server: swk.swk2099.com, port: 44403, type: trojan, password: 2d9863fc-fe5d-4a69-b6db-e3d5cbb4af39, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 香港 2, server: swk.swk2099.com, port: 44401, type: trojan, password: 81d53512-5c87-412e-a8fa-0e63b7219976, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 5, server: swk.swk2099.com, port: 44403, type: trojan, password: f9bfc225-c758-4951-8265-80fd653bdf57, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 6, server: swk.swk2099.com, port: 44403, type: trojan, password: 2e316297-8483-416f-a826-b9c3ce97d6e4, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 马来西亚 4, server: swk.swk2099.com, port: 44410, type: trojan, password: 0682eea3-c279-4345-ae4b-c0ebfebe72b7, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡丨解GPT, server: ffiw.owwoedu.com, port: 59510, type: vmess, uuid: 1d7c9b4a-fdd7-4966-bd0f-229de9649552, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 219a5fb1-7b71-4ada-8e4e-ba96a632bb80, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 2, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 59fd70dc-0d9d-42e9-8f32-7c93e08b5d05, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 6a7d24c9-d71c-4de4-885c-e44c888564de, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 2, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: f5c27cc2-c455-424c-8a36-f57cdef0eca2, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本丨解GPT, server: ffiw.owwoedu.com, port: 59503, type: vmess, uuid: 871b4d30-8da9-4115-b9f5-23c7959a6bf6, alterId: 0, cipher: auto, tls: false}
-  - {name: 新加坡丨解GPT 2, server: ffiw.owwoedu.com, port: 59510, type: vmess, uuid: 9e03ec56-9e15-47b8-a594-65091e814d7a, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国 01【IEPL】, server: ffiw.owwoedu.com, port: 59504, type: vmess, uuid: 8d4ec4db-fb1c-4487-b405-b77d42ca6106, alterId: 0, cipher: auto, tls: false}
-  - {name: 美国 02【IEPL】, server: ffiw.owwoedu.com, port: 29512, type: vmess, uuid: bd495769-fe3b-4ec6-a112-fd5ecb1c46a8, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 3, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 3cb94a57-f440-4f80-991a-976908a0872b, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 3, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 6cb3c1f6-12de-4f09-aeb5-19017d121197, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 4, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: ecbeeefc-c681-4a2e-8a75-cf690563d06b, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 4, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 4c020562-3105-4094-b2f6-a261dac5d296, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 5, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 56bacca6-ab98-4dfb-bb0a-0ca91fd580da, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 5, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: fc65fc01-c9ca-4a1b-920a-b46a358b66c1, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大丨快速, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 302a5e61-1cc3-4d42-bfca-5a2af19c4247, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 6, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 0db50d04-34ff-444f-9e65-56a4ab2513db, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 6, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 7fb66b94-feef-4620-9594-ad1147bcb216, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本丨解GPT 2, server: ffiw.owwoedu.com, port: 59503, type: vmess, uuid: e0ad408c-0259-4949-9709-66f9a5296204, alterId: 0, cipher: auto, tls: false}
-  - {name: 新加坡丨解GPT 3, server: ffiw.owwoedu.com, port: 59510, type: vmess, uuid: ac90d5f9-6b34-4898-9ee8-6522a523bbbd, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 7, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 7207e035-b0c9-49a9-921e-f8d7cab4b958, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 7, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: a5f14f1a-bd62-4f64-8d37-90ac54af16a2, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大丨Gemini, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 4969c973-ff6e-467b-bda4-0f36debfbcc3, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 8, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: d7b725de-cdbd-46d6-990b-7d5128a2b456, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 9, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 93067702-ed64-469a-a8d9-7e9dc2e5829a, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 8, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 4d88d096-143d-4ccd-bcce-0886711ecda0, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 9, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 7ff3ff23-bf8d-448d-8ec6-0fdbbf124ac6, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 10, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 77636f6c-65c5-47ab-a7c3-01a57720bfef, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 10, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 66331458-8084-49c4-94b2-1001b3344d97, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 11, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: b0d34cc1-d8cc-40c0-a8cc-bafc6b45b2c8, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 11, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 66331458-8084-49c4-94b2-1001b3344d97, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: c74224f3-d00f-44ff-8a68-6b562446f48a, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 2, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 15def522-d9fe-46eb-a1b9-87e6224164b9, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 3, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 114533f2-8e9e-46a1-89d4-36be2624eb0b, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 4, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 94ac8aea-6929-4b54-9cfd-92b128852ece, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 5, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 6a951b57-279a-42f3-9106-266d00f7f4a3, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 12, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 41478869-753e-4f4c-b9bd-a9ffe98982ef, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 6, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: b2f7174f-9102-4ce9-9f6e-9509bd7f66d1, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 7, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 856bc03e-8600-441c-8ec8-b34e98aed947, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 12, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 69b80564-59c5-46b3-a70c-4a859327fa76, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 13, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: afdcaedc-991c-4e86-a4f5-c3b06cb67f27, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 14, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: d6acfd4d-34de-4c75-b0cb-d3fc5551f370, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大丨Gemini 2, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 3ff5efb2-a4ba-4af7-8443-3f416698f898, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 15, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 2d06ca2b-d897-4609-9e91-232a6cf11280, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 16, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 08c44304-07bd-4582-a714-ccdaeaf008f2, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 13, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 50fe998a-c6eb-481b-9edf-d688a6f0710f, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚丨GPT 14, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 687ea908-3a47-40f1-ad91-2910c16a560e, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 8, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 5aba058a-d4de-43dd-b03c-5464b988c285, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 9, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: c775a850-6d1f-4b8d-82f3-5129a630983c, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 10, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 0c3afeac-bbaa-4f66-9122-145070b31d82, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 11, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: afb42c7a-bc86-4357-ae06-cf53504e6159, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 17, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: abae593d-d6f9-4368-996f-11438e99b342, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 12, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 61213f9c-f11a-4103-897b-6ee3d2afc2fd, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 18, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: 1f37dcc1-4181-4f82-bb01-7e00cbc3e66e, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚Gemini 13, server: ffiw.owwoedu.com, port: 59517, type: vmess, uuid: 67571d3b-c2a8-4fbe-9436-83b4fe9e1d2b, alterId: 0, cipher: auto, tls: false}
-  - {name: 加拿大Gemini 19, server: ffiw.owwoedu.com, port: 59507, type: vmess, uuid: e9fd9ccc-a638-4251-bd4e-a18c7d38b397, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本丨解GPT 3, server: ffiw.owwoedu.com, port: 59503, type: vmess, uuid: c452fbf8-f378-469b-a765-fb6d342ac7ba, alterId: 0, cipher: auto, tls: false}
-  - {name: 日本1, server: xxz12.xiaozhu9545515.com, port: 41273, type: trojan, password: b05d8b4f-3d9f-4c82-a067-9942a421a947, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国纽约, server: xxz12.xiaozhu9545515.com, port: 41275, type: trojan, password: 5be00e1b-5c44-4217-8daa-0f515b5086ae, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 7, server: kog.dvbzrli.cn, port: 44420, type: trojan, password: af76c012-6d90-4269-b9a2-4c8170108f60, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国 5, server: kog.dvbzrli.cn, port: 44422, type: trojan, password: 9ef56e45-3d23-4851-b44d-da0763de2616, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 韩国 6, server: kog.dvbzrli.cn, port: 44422, type: trojan, password: e7d94d50-f554-4811-86dd-215479682487, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 澳大利亚 4, server: kog.dvbzrli.cn, port: 44426, type: trojan, password: 8996e431-5119-4df3-b607-ea2420094c5c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 马来西亚 5, server: kog.dvbzrli.cn, port: 44427, type: trojan, password: 657b6dc8-ea83-49f6-b0df-eb65644be76a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国1 2, server: kog.dvbzrli.cn, port: 44431, type: trojan, password: 40883d3a-b7fb-48c0-8be9-aea0f598bded, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国2 5, server: kog.dvbzrli.cn, port: 44432, type: trojan, password: c4d9cf08-dde6-4a4e-811b-d0fe281257f2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国3 2, server: kog.dvbzrli.cn, port: 44433, type: trojan, password: b2011e0d-b814-4777-9bfd-d14a2f1e03b0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 美国4 2, server: kog.dvbzrli.cn, port: 44434, type: trojan, password: 54b292c9-ed33-4c16-a687-a64f2a605274, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 香港 3, server: kog.dvbzrli.cn, port: 44418, type: trojan, password: fa60e2b1-5017-4cb4-92d2-3b26d5a65654, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 8, server: kog.dvbzrli.cn, port: 44420, type: trojan, password: 5e07bcd1-2a32-4c15-8970-ff960e1ab4ce, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本 13, server: kog.dvbzrli.cn, port: 44419, type: trojan, password: 0a5e97fd-4bc9-4d97-9f59-3f2c703a2f29, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 越南, server: kog.dvbzrli.cn, port: 44421, type: trojan, password: 0ccdbde3-119b-4c5e-a17e-3f5c61da45b3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 9, server: kog.dvbzrli.cn, port: 44420, type: trojan, password: 972bfb9c-0ca6-4d51-a94e-104ed74d4ac7, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 新加坡 6, server: kog.dvbzrli.cn, port: 44423, type: trojan, password: 5faba7cf-5457-4dc7-9252-fa2c29b9bd67, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 澳大利亚 5, server: kog.dvbzrli.cn, port: 44426, type: trojan, password: 1d4a03fe-0823-4553-ae59-8cbfe9cd57cc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 马来西亚 6, server: kog.dvbzrli.cn, port: 44427, type: trojan, password: 7635654b-4a5c-467f-a3b3-05b021967c89, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 10, server: kog.dvbzrli.cn, port: 44420, type: trojan, password: d6e42041-ede0-4b3b-8d92-29f25fb4e8a8, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 11, server: kog.dvbzrli.cn, port: 44420, type: trojan, password: 1bbc43ea-46c1-4be0-9f91-742618175588, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 台湾 12, server: kog.dvbzrli.cn, port: 44420, type: trojan, password: fcedb769-0e53-4c1f-99f7-36142fc4eb05, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
-  - {name: 日本丨解GPT 4, server: ffiw.owwoedu.com, port: 59503, type: vmess, uuid: 6a91fbbe-d28a-464e-bfb4-df37fecd972e, alterId: 0, cipher: auto, tls: false}
-  - {name: 马来西亚 7, server: swk.swk2099.com, port: 44410, type: trojan, password: e5f2e91d-a300-4b05-beb8-eaeec7fd82a9, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 澳大利亚 6, server: swk.swk2099.com, port: 44409, type: trojan, password: 80def7c9-89c1-4308-8563-0d5619096a8b, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 菲律宾 5, server: swk.swk2099.com, port: 44408, type: trojan, password: c9a4cf6e-8ca3-4eb3-bee9-764f0b414c7b, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 14, server: swk.swk2099.com, port: 44402, type: trojan, password: 7fafd1d8-6d9f-4541-ae90-fb47d2aa8c19, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 13, server: swk.swk2099.com, port: 44403, type: trojan, password: e7beb5f0-00d6-4b39-bc2f-ed26936a6e1c, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 韩国 7, server: swk.swk2099.com, port: 44405, type: trojan, password: 41b8b7ee-84ab-4626-b962-028e1dfeb268, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 韩国 8, server: swk.swk2099.com, port: 44405, type: trojan, password: c712c809-2b4f-4e1e-9b9b-2e3ce788bf02, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 14, server: swk.swk2099.com, port: 44403, type: trojan, password: b56d473c-0c66-476d-96f0-5c05821179ff, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 15, server: swk.swk2099.com, port: 44402, type: trojan, password: 0712925e-a034-439a-852a-6a83305cb370, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 15, server: swk.swk2099.com, port: 44403, type: trojan, password: 5ad4846f-d6fd-4b4e-b788-1af2c39a6af4, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 16, server: swk.swk2099.com, port: 44403, type: trojan, password: 42621f6a-5428-4fcc-91b6-b9ddbd2f8148, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 澳大利亚 7, server: swk.swk2099.com, port: 44409, type: trojan, password: ca466584-430d-440e-9816-02c2cf634095, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 马来西亚 8, server: swk.swk2099.com, port: 44410, type: trojan, password: f6a0f5a9-5cd5-4e45-9747-e6c65a1b3b6b, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国1 3, server: swk.swk2099.com, port: 44414, type: trojan, password: ea4dfe2a-243f-4a23-8ecd-cb4d656035ea, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国2 6, server: swk.swk2099.com, port: 44415, type: trojan, password: 7c4c3ee7-a72c-4014-abff-22a6dd4d909c, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国2 7, server: swk.swk2099.com, port: 44415, type: trojan, password: 6cf1b963-37e6-4162-9b67-5a26ed8edead, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国3 3, server: swk.swk2099.com, port: 44416, type: trojan, password: 50ee5032-aecb-436f-91e2-3cda4a9f2d92, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国4 3, server: swk.swk2099.com, port: 44417, type: trojan, password: 860a1329-145c-468a-a384-910506223d33, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 17, server: swk.swk2099.com, port: 44403, type: trojan, password: 4c87cd8c-b82c-4568-baef-a5bea3134679, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 16, server: swk.swk2099.com, port: 44402, type: trojan, password: 6c6ddfdf-311c-479f-b403-dd561a622748, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 菲律宾 6, server: swk.swk2099.com, port: 44408, type: trojan, password: 8566ba71-048b-4377-be1e-7c0b92b308f8, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 澳大利亚 8, server: swk.swk2099.com, port: 44409, type: trojan, password: 861935c0-346b-4272-a3cb-92e49b737659, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 马来西亚 9, server: swk.swk2099.com, port: 44410, type: trojan, password: 617e7767-251a-45da-82b2-d79a0f87f727, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 马来西亚 10, server: swk.swk2099.com, port: 44410, type: trojan, password: bddc4515-9df8-4c1e-b15e-58be0edd0375, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡 7, server: swk.swk2099.com, port: 44406, type: trojan, password: b7074e4c-ca86-4206-bb60-d79d9e73529f, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 菲律宾 7, server: swk.swk2099.com, port: 44408, type: trojan, password: b2e42984-d63f-49aa-b067-9838896fe015, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 澳大利亚 9, server: swk.swk2099.com, port: 44409, type: trojan, password: a24bbc7e-6fc7-4653-8cde-b0dde99da33f, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 马来西亚 11, server: swk.swk2099.com, port: 44410, type: trojan, password: d15b9bdb-6506-4241-bce2-e975180a57c7, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 澳大利亚 10, server: swk.swk2099.com, port: 44409, type: trojan, password: b2a067a4-e6a4-4414-bb90-63ea80afb276, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国1 4, server: swk.swk2099.com, port: 44414, type: trojan, password: 161e838e-0a33-4357-8826-bd67b986b1cc, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国2 8, server: swk.swk2099.com, port: 44415, type: trojan, password: 75d1ffc4-679e-4417-9f55-7ebeb6a89941, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡 8, server: swk.swk2099.com, port: 44406, type: trojan, password: b3c0c0d6-dc7b-4795-9da0-049e74003757, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 18, server: swk.swk2099.com, port: 44403, type: trojan, password: e2bf4978-2bbc-4bf9-9922-d4248a401bee, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 17, server: swk.swk2099.com, port: 44402, type: trojan, password: ac855b8b-02fa-412a-865b-c1c786f35812, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡 9, server: swk.swk2099.com, port: 44406, type: trojan, password: b0cf4a5d-ab1a-4537-803a-dba83467481e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 18, server: swk.swk2099.com, port: 44402, type: trojan, password: a7aac3c7-3942-40ab-886f-31ad7052b822, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 19, server: swk.swk2099.com, port: 44402, type: trojan, password: 854c3798-0407-41b7-b241-b8a1e43d94ca, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡 10, server: swk.swk2099.com, port: 44406, type: trojan, password: 4cef695c-3274-4949-bd07-ba153bcdb635, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 美国2 9, server: swk.swk2099.com, port: 44415, type: trojan, password: ca2f31d1-ff79-484c-8522-242933c11607, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 19, server: swk.swk2099.com, port: 44403, type: trojan, password: 8833ad15-269d-4d40-9730-7fe959cb3932, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 20, server: swk.swk2099.com, port: 44402, type: trojan, password: 032660a5-42a7-4f6c-ac77-72265399d224, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 韩国 9, server: swk.swk2099.com, port: 44405, type: trojan, password: 6ab982de-87fe-4674-9cb5-760e4a0113c1, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 澳大利亚 11, server: swk.swk2099.com, port: 44409, type: trojan, password: 54eaae89-284b-4b03-9f02-668eff1334a9, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 菲律宾 8, server: swk.swk2099.com, port: 44408, type: trojan, password: be3279ce-a1b1-411c-bfc2-190dc2c01432, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 新加坡 11, server: swk.swk2099.com, port: 44406, type: trojan, password: 6fbf51bf-a22e-4c75-8ae7-ecf569211ecf, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 韩国 10, server: swk.swk2099.com, port: 44405, type: trojan, password: 82e98d18-7006-4ee3-8973-cbce2ae782af, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 21, server: swk.swk2099.com, port: 44402, type: trojan, password: f28668ba-6326-4051-97d9-3818a617946a, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 日本 22, server: swk.swk2099.com, port: 44402, type: trojan, password: 4236b45d-9610-4707-8391-47a050d3b839, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 台湾 20, server: swk.swk2099.com, port: 44403, type: trojan, password: ae6b9f72-a430-452b-b28a-f9aab2c0ed9c, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 香港 01, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 9036e308-16ca-4ac1-bd24-b5c40eee4a81, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 4eb8600f-b1e4-40c8-ab68-4f5f759522ab, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 9f4aa5e8-068b-415b-b5ec-366050294274, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 233f078f-ee5b-430d-b4d4-7ef0295b8596, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 80664313-c619-4d1b-8275-f92d041ddd92, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: e7e7b945-2063-4298-8946-33ef513ebf02, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 2, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 6b6c49e6-0976-41d6-8a79-7fb7ee78fa9e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 2, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: dceaa9e3-d8de-4319-a820-cb96c2c4d37e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 2, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: a8487277-cade-4010-b3cf-2337cd01c932, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 2, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 5fdb781a-0a8b-49a4-8d6a-458bbaf33997, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 2, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: d678db4c-176f-4f0c-bef9-e4e4d8c931cc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 2, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: f2b02b06-7b7d-4c60-9ce8-1189861561a6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 3, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: cbafe7cd-1088-485a-b406-3ec8896ffe12, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 3, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 777eba93-d1a5-44c9-93a4-db5f3a089ee2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 3, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: fb82f6a9-ea6d-4487-a695-038dc6a56bfd, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 3, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 4d2806e5-9819-4db2-83b3-13f5a4860e14, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 3, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 5e96a457-9f6f-4a06-a431-1de294a0cbac, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 3, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 9757c034-67ad-4e93-b8f2-d2c8565d2974, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 4, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 67ebc82a-3dc6-444c-9995-00965ef832c1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 4, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: eba9dd6a-1085-4001-9941-2a2abce19eb8, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 4, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 341496b5-9a63-4ace-97ca-1bcedb5c5cbc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 4, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 1e14d410-8f4f-4b5f-931d-2a83c14ed355, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 4, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: cf96e6a7-538f-4acf-b76b-a9bddfccf642, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 4, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 1550a319-cc21-49f8-903f-2b92cc536ad9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 5, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: ee9248f5-3271-4627-9efb-9e5eb34fada9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 5, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 30767abf-e0b2-4cc6-be70-70dcb4730a88, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 5, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 8dda1c25-4cae-4afd-85a1-8661b6cefe66, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 5, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 345822ee-b488-45fd-969e-c6ba3f194660, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 5, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: e80932c6-ba8e-479a-be6e-88fcc8dfa3b8, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 5, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 48057abd-c6a3-451f-adf4-0331fba6fafd, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 6, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: bc2bd9a9-edbf-4daf-ab19-378110619dbc, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 6, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 556f6577-8028-4a1c-9d45-41c9fbf2a6eb, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 6, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 917e7938-d70e-44b6-932e-1e00add67e45, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 6, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 7e76bdef-7b33-4318-a621-d5ac8ee860b1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 6, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 422de006-55c5-406a-be02-bd277f2c1fc9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 6, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: b854cc4e-2172-414e-b036-a918493a362e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 7, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 5c8cc191-98f2-4db0-9889-ff08ebf21403, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 7, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 3835888e-7b14-41d6-bdb6-16d3bd38fd18, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 7, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: fe0e3130-4842-4e8f-8f20-9479560eb974, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 7, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: d3b8cd15-2056-43ff-a68f-eb1e049be643, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 7, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 4b763bf5-aba0-4959-b6e2-1aeaa8bdef95, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 7, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: b9b82fb8-dcd3-4ec3-a0b3-fd33ae501020, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 8, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 58e1a017-0758-48cf-946e-899f446b39a6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 8, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 01a6e45b-fa72-43d5-8bae-b70c25f55523, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 8, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: df853c25-2527-40f6-97d9-a6afc18bd845, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 8, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 29082229-e5ae-430e-87b6-f12a98dc3050, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 8, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 76f6b4c7-1909-4fea-a863-3c9bed2e6669, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 8, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: efe25ba0-74c5-4f10-bf44-442f9d8e38e3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 9, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 468f3254-e4ef-4489-af88-20baed5d3a27, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 9, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 7d3f92d3-4a45-48a4-a053-5353af213d2b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 马来西亚丨GPT, server: ff001.owwoedu.com, port: 59517, type: vmess, uuid: cf9819f0-0ff7-4169-8c74-3a6cbc7d6818, alterId: 0, cipher: auto, tls: false}
+  - {name: 马来西亚丨GPT 2, server: ff001.owwoedu.com, port: 59517, type: vmess, uuid: 5719195d-dbfb-4508-9cf7-f61d52844a31, alterId: 0, cipher: auto, tls: false}
+  - {name: 加拿大丨Gemini, server: ff001.owwoedu.com, port: 59507, type: vmess, uuid: ad95542f-74e8-4aa4-b4b3-73c37a05c389, alterId: 0, cipher: auto, tls: false}
+  - {name: 日本丨解GPT, server: ff001.owwoedu.com, port: 59503, type: vmess, uuid: 294e5760-d007-4571-bcc9-27ca52ba1268, alterId: 0, cipher: auto, tls: false}
+  - {name: 加拿大丨Gemini 2, server: ff001.owwoedu.com, port: 59507, type: vmess, uuid: ba03967d-0a36-45a9-b3cd-6bd2dd262e07, alterId: 0, cipher: auto, tls: false}
+  - {name: 新加坡丨解GPT, server: ff001.owwoedu.com, port: 59510, type: vmess, uuid: 8b13ae36-0e20-448c-b87a-541df35b72f5, alterId: 0, cipher: auto, tls: false}
+  - {name: 马来西亚丨GPT 3, server: ff001.owwoedu.com, port: 59517, type: vmess, uuid: 05d71ea0-937c-40db-8915-c56297eddedf, alterId: 0, cipher: auto, tls: false}
+  - {name: 加拿大丨Gemini 3, server: ff001.owwoedu.com, port: 59507, type: vmess, uuid: 9b0cc43d-d7f9-4a6a-861d-3e96f9525e05, alterId: 0, cipher: auto, tls: false}
+  - {name: 加拿大丨Gemini 4, server: ff001.owwoedu.com, port: 59507, type: vmess, uuid: 3d620187-06bc-4ff6-b303-e4de9b2a837c, alterId: 0, cipher: auto, tls: false}
+  - {name: 马来西亚丨GPT 4, server: ff001.owwoedu.com, port: 59517, type: vmess, uuid: 0afda2f6-a1cc-48ca-803b-c703e066a90a, alterId: 0, cipher: auto, tls: false}
+  - {name: 加拿大Gemini, server: ff001.owwoedu.com, port: 59507, type: vmess, uuid: 9c24c6e3-db14-4ef7-8017-90e601db361a, alterId: 0, cipher: auto, tls: false}
+  - {name: 加拿大Gemini 2, server: ff001.owwoedu.com, port: 59507, type: vmess, uuid: 32224e56-9a23-4227-ad7f-7d216dca7dbc, alterId: 0, cipher: auto, tls: false}
+  - {name: 加拿大Gemini 3, server: ff001.owwoedu.com, port: 59507, type: vmess, uuid: bf68d962-8748-434e-a314-c61f7a66edfb, alterId: 0, cipher: auto, tls: false}
+  - {name: 加拿大Gemini 4, server: ff001.owwoedu.com, port: 59507, type: vmess, uuid: 3b40f23d-026c-4d94-8332-40323a3411a1, alterId: 0, cipher: auto, tls: false}
+  - {name: 香港 01 10, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 2ce3ba5a-5743-48b5-acfe-f67914487eb2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 10, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 1c1bd1ee-e958-427e-8231-86ae3eee1c53, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 9, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: c9c9fb88-de85-44c4-826e-43d29ee3d71b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 9, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 44c2d64c-a0f1-48e5-8073-27cdf5392bc1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 9, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 1a977ad6-7284-442c-a846-3cace4dae73a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 9, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: f1364255-6b43-45bc-9a6f-7312e1a62362, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 11, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 2273aebb-f723-4c48-b246-93916c5a56e7, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 11, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: aad66b93-a0cb-4928-a3c0-a98d4297bd95, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 10, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 65a3c62d-bad9-42aa-8cd4-01dabcaaed54, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 10, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 84c40ad0-4ac3-4ef1-aa4b-9cfe9a087ff1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 10, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 37bed441-63ad-493a-9161-665953245e53, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 10, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 11b27f5c-af27-497c-9a86-2bbe1512c28c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 12, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: cd8dee04-7f8f-43e1-9eea-1bf02d8027e9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 12, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: b4a3bd91-e081-46d1-bfc4-f51e3c59b528, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 11, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 7ff4d42c-229a-43e8-b9b5-5869ceabfd60, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 11, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: d862f81a-d95b-47cf-9f7b-25ef1a1d7f7f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 11, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: ebff0c3b-239d-4d67-9ed1-e4a66078cb9f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 11, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 9f37baff-08af-4b4b-886d-bfa1a279c0ba, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 13, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: c20e9bb2-3e3a-42da-bcbe-15865c330701, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 13, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: fe2166f7-847d-4f78-af17-290d4752a9bb, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 12, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 2db5c528-283a-4328-aab7-021a6d128c59, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 12, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 80a488ae-7975-479b-9deb-d114cb234729, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 12, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 2ebca965-ac7a-4d37-b68d-153fea509573, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 12, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 8e2146be-681b-4dca-961e-f9c92c9a0e71, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 14, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 5892f774-054b-4b7e-8cd0-50714eec4d8a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 14, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: c86281d5-fcdb-46a8-885c-c0a9ca3236ee, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 13, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 78b48f97-10b2-42c7-b58b-111238a6f335, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 13, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: bf270659-9b10-4bed-8ad3-7a8d9e1a05ee, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 13, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: a3051d1e-18bd-4ea8-b7ee-e3644b8527c0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 13, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 77bfdcdf-5022-44ae-9af1-875783bd6c28, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 15, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: c276c167-02fa-45f1-b802-6baf4f0af490, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 15, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: b3e7c293-1b7a-4774-9dc2-dfb728d255e3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 14, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 128951bb-c492-4e39-8407-5d7d67f99a03, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 14, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: e68b85bf-9747-4078-b42d-fd85a8ae960e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 14, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: faf9bd89-38f4-4fc6-a2eb-d8c25544f627, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 14, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 2990fd4f-8b21-4e25-a6f8-87bfd94986cf, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 16, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: a79c089c-8a94-4a1d-b55b-b7398a80bc1c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 16, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 5ee368e4-f9d7-422f-81bf-2b38bbed469c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 15, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: f3887dbe-80ec-4b0f-9f69-5713fce9028c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 15, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: 9b533b72-24d3-4032-9558-82d018da00c5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 15, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 719a219f-1e5a-46dc-991b-265407c411af, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 15, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 0a1623f0-27f7-48d1-8065-c6957de8c77c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 17, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 689332de-13d6-4f57-a29f-e923e02aeccf, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 17, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 838d0150-f605-4e81-819d-e43af9e1cdaa, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本1 16, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: f719e67f-b8ab-4515-82f9-70637963e1bb, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 日本2 16, server: xxz16.xiaozhu9545515.com, port: 41273, type: trojan, password: d9e259f8-3f9d-47e0-be90-8925323c90f3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 台湾1 16, server: xxz16.xiaozhu9545515.com, port: 41274, type: trojan, password: 50299945-803e-44cf-97f9-5dce6835fe5f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 美国纽约 16, server: xxz16.xiaozhu9545515.com, port: 41275, type: trojan, password: 7874c554-85e8-4ebd-8ac1-d92091c96da2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 01 18, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 97022f1f-0a58-4a4c-b38d-f6b065ca019a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 香港 02 18, server: xxz16.xiaozhu9545515.com, port: 49213, type: trojan, password: 61ba5cac-605e-41f5-a70d-ae77bf7a70ec, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
 proxy-groups:
   - name: Proxies
     type: select
     proxies:
       - Auto - UrlTest
       - DIRECT
-      - 8月25日更新
-      - 澳大利亚
-      - 马来西亚
-      - 加拿大
-      - 英国
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 日本
-      - 日本 2
-      - 香港
-      - 日本 3
-      - 日本 4
-      - 菲律宾
-      - 新加坡
-      - 日本 5
-      - 韩国
-      - 日本 6
-      - 日本 7
-      - 日本 8
-      - 澳大利亚 2
-      - 土耳其
-      - 新加坡 2
-      - 日本 9
-      - 韩国 2
-      - 日本 10
-      - 日本 11
-      - 台湾
-      - 菲律宾 2
-      - 土耳其 2
-      - 马来西亚 2
-      - 美国2 2
-      - 马来西亚 3
-      - 菲律宾 3
-      - 新加坡 3
-      - 菲律宾 4
-      - 澳大利亚 3
-      - 加拿大 2
-      - 美国2 3
-      - 英国 2
-      - 美国2 4
-      - 韩国 3
-      - 日本 12
-      - 台湾 2
-      - 韩国 4
-      - 台湾 3
-      - 新加坡 4
-      - 新加坡 5
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 马来西亚 4
-      - 新加坡丨解GPT
+      - 香港 01
+      - 香港 02
+      - 日本1
+      - 日本2
+      - 台湾1
+      - 美国纽约
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
+      - 日本2 2
+      - 台湾1 2
+      - 美国纽约 2
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
+      - 日本2 3
+      - 台湾1 3
+      - 美国纽约 3
+      - 香港 01 4
+      - 香港 02 4
+      - 日本1 4
+      - 日本2 4
+      - 台湾1 4
+      - 美国纽约 4
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
+      - 日本2 5
+      - 台湾1 5
+      - 美国纽约 5
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
+      - 日本2 6
+      - 台湾1 6
+      - 美国纽约 6
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
+      - 日本2 7
+      - 台湾1 7
+      - 美国纽约 7
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
+      - 日本2 8
+      - 台湾1 8
+      - 美国纽约 8
+      - 香港 01 9
+      - 香港 02 9
       - 马来西亚丨GPT
       - 马来西亚丨GPT 2
+      - 加拿大丨Gemini
+      - 日本丨解GPT
+      - 加拿大丨Gemini 2
+      - 新加坡丨解GPT
+      - 马来西亚丨GPT 3
+      - 加拿大丨Gemini 3
+      - 加拿大丨Gemini 4
+      - 马来西亚丨GPT 4
       - 加拿大Gemini
       - 加拿大Gemini 2
-      - 日本丨解GPT
-      - 新加坡丨解GPT 2
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 马来西亚丨GPT 3
       - 加拿大Gemini 3
       - 加拿大Gemini 4
-      - 马来西亚丨GPT 4
-      - 马来西亚丨GPT 5
-      - 加拿大Gemini 5
-      - 加拿大丨快速
-      - 马来西亚丨GPT 6
-      - 加拿大Gemini 6
-      - 日本丨解GPT 2
-      - 新加坡丨解GPT 3
-      - 加拿大Gemini 7
-      - 马来西亚丨GPT 7
-      - 加拿大丨Gemini
-      - 加拿大Gemini 8
-      - 加拿大Gemini 9
-      - 马来西亚丨GPT 8
-      - 马来西亚丨GPT 9
-      - 加拿大Gemini 10
-      - 马来西亚丨GPT 10
-      - 马来西亚丨GPT 11
-      - 加拿大Gemini 11
-      - 马来西亚Gemini
-      - 马来西亚Gemini 2
-      - 马来西亚Gemini 3
-      - 马来西亚Gemini 4
-      - 马来西亚Gemini 5
-      - 加拿大Gemini 12
-      - 马来西亚Gemini 6
-      - 马来西亚Gemini 7
-      - 马来西亚丨GPT 12
-      - 加拿大Gemini 13
-      - 加拿大Gemini 14
-      - 加拿大丨Gemini 2
-      - 加拿大Gemini 15
-      - 加拿大Gemini 16
-      - 马来西亚丨GPT 13
-      - 马来西亚丨GPT 14
-      - 马来西亚Gemini 8
-      - 马来西亚Gemini 9
-      - 马来西亚Gemini 10
-      - 马来西亚Gemini 11
-      - 加拿大Gemini 17
-      - 马来西亚Gemini 12
-      - 加拿大Gemini 18
-      - 马来西亚Gemini 13
-      - 加拿大Gemini 19
-      - 日本丨解GPT 3
-      - 日本1
-      - 美国纽约
-      - 台湾 7
-      - 韩国 5
-      - 韩国 6
-      - 澳大利亚 4
-      - 马来西亚 5
-      - 美国1 2
-      - 美国2 5
-      - 美国3 2
-      - 美国4 2
-      - 香港 3
-      - 台湾 8
-      - 日本 13
-      - 越南
-      - 台湾 9
-      - 新加坡 6
-      - 澳大利亚 5
-      - 马来西亚 6
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 日本丨解GPT 4
-      - 马来西亚 7
-      - 澳大利亚 6
-      - 菲律宾 5
-      - 日本 14
-      - 台湾 13
-      - 韩国 7
-      - 韩国 8
-      - 台湾 14
-      - 日本 15
-      - 台湾 15
-      - 台湾 16
-      - 澳大利亚 7
-      - 马来西亚 8
-      - 美国1 3
-      - 美国2 6
-      - 美国2 7
-      - 美国3 3
-      - 美国4 3
-      - 台湾 17
-      - 日本 16
-      - 菲律宾 6
-      - 澳大利亚 8
-      - 马来西亚 9
-      - 马来西亚 10
-      - 新加坡 7
-      - 菲律宾 7
-      - 澳大利亚 9
-      - 马来西亚 11
-      - 澳大利亚 10
-      - 美国1 4
-      - 美国2 8
-      - 新加坡 8
-      - 台湾 18
-      - 日本 17
-      - 新加坡 9
-      - 日本 18
-      - 日本 19
-      - 新加坡 10
-      - 美国2 9
-      - 台湾 19
-      - 日本 20
-      - 韩国 9
-      - 澳大利亚 11
-      - 菲律宾 8
-      - 新加坡 11
-      - 韩国 10
-      - 日本 21
-      - 日本 22
-      - 台湾 20
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
   - name: Domestic
     type: select
     proxies:
@@ -387,189 +249,120 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
-      - 8月25日更新
-      - 澳大利亚
-      - 马来西亚
-      - 加拿大
-      - 英国
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 日本
-      - 日本 2
-      - 香港
-      - 日本 3
-      - 日本 4
-      - 菲律宾
-      - 新加坡
-      - 日本 5
-      - 韩国
-      - 日本 6
-      - 日本 7
-      - 日本 8
-      - 澳大利亚 2
-      - 土耳其
-      - 新加坡 2
-      - 日本 9
-      - 韩国 2
-      - 日本 10
-      - 日本 11
-      - 台湾
-      - 菲律宾 2
-      - 土耳其 2
-      - 马来西亚 2
-      - 美国2 2
-      - 马来西亚 3
-      - 菲律宾 3
-      - 新加坡 3
-      - 菲律宾 4
-      - 澳大利亚 3
-      - 加拿大 2
-      - 美国2 3
-      - 英国 2
-      - 美国2 4
-      - 韩国 3
-      - 日本 12
-      - 台湾 2
-      - 韩国 4
-      - 台湾 3
-      - 新加坡 4
-      - 新加坡 5
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 马来西亚 4
-      - 新加坡丨解GPT
+      - 香港 01
+      - 香港 02
+      - 日本1
+      - 日本2
+      - 台湾1
+      - 美国纽约
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
+      - 日本2 2
+      - 台湾1 2
+      - 美国纽约 2
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
+      - 日本2 3
+      - 台湾1 3
+      - 美国纽约 3
+      - 香港 01 4
+      - 香港 02 4
+      - 日本1 4
+      - 日本2 4
+      - 台湾1 4
+      - 美国纽约 4
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
+      - 日本2 5
+      - 台湾1 5
+      - 美国纽约 5
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
+      - 日本2 6
+      - 台湾1 6
+      - 美国纽约 6
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
+      - 日本2 7
+      - 台湾1 7
+      - 美国纽约 7
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
+      - 日本2 8
+      - 台湾1 8
+      - 美国纽约 8
+      - 香港 01 9
+      - 香港 02 9
       - 马来西亚丨GPT
       - 马来西亚丨GPT 2
+      - 加拿大丨Gemini
+      - 日本丨解GPT
+      - 加拿大丨Gemini 2
+      - 新加坡丨解GPT
+      - 马来西亚丨GPT 3
+      - 加拿大丨Gemini 3
+      - 加拿大丨Gemini 4
+      - 马来西亚丨GPT 4
       - 加拿大Gemini
       - 加拿大Gemini 2
-      - 日本丨解GPT
-      - 新加坡丨解GPT 2
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 马来西亚丨GPT 3
       - 加拿大Gemini 3
       - 加拿大Gemini 4
-      - 马来西亚丨GPT 4
-      - 马来西亚丨GPT 5
-      - 加拿大Gemini 5
-      - 加拿大丨快速
-      - 马来西亚丨GPT 6
-      - 加拿大Gemini 6
-      - 日本丨解GPT 2
-      - 新加坡丨解GPT 3
-      - 加拿大Gemini 7
-      - 马来西亚丨GPT 7
-      - 加拿大丨Gemini
-      - 加拿大Gemini 8
-      - 加拿大Gemini 9
-      - 马来西亚丨GPT 8
-      - 马来西亚丨GPT 9
-      - 加拿大Gemini 10
-      - 马来西亚丨GPT 10
-      - 马来西亚丨GPT 11
-      - 加拿大Gemini 11
-      - 马来西亚Gemini
-      - 马来西亚Gemini 2
-      - 马来西亚Gemini 3
-      - 马来西亚Gemini 4
-      - 马来西亚Gemini 5
-      - 加拿大Gemini 12
-      - 马来西亚Gemini 6
-      - 马来西亚Gemini 7
-      - 马来西亚丨GPT 12
-      - 加拿大Gemini 13
-      - 加拿大Gemini 14
-      - 加拿大丨Gemini 2
-      - 加拿大Gemini 15
-      - 加拿大Gemini 16
-      - 马来西亚丨GPT 13
-      - 马来西亚丨GPT 14
-      - 马来西亚Gemini 8
-      - 马来西亚Gemini 9
-      - 马来西亚Gemini 10
-      - 马来西亚Gemini 11
-      - 加拿大Gemini 17
-      - 马来西亚Gemini 12
-      - 加拿大Gemini 18
-      - 马来西亚Gemini 13
-      - 加拿大Gemini 19
-      - 日本丨解GPT 3
-      - 日本1
-      - 美国纽约
-      - 台湾 7
-      - 韩国 5
-      - 韩国 6
-      - 澳大利亚 4
-      - 马来西亚 5
-      - 美国1 2
-      - 美国2 5
-      - 美国3 2
-      - 美国4 2
-      - 香港 3
-      - 台湾 8
-      - 日本 13
-      - 越南
-      - 台湾 9
-      - 新加坡 6
-      - 澳大利亚 5
-      - 马来西亚 6
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 日本丨解GPT 4
-      - 马来西亚 7
-      - 澳大利亚 6
-      - 菲律宾 5
-      - 日本 14
-      - 台湾 13
-      - 韩国 7
-      - 韩国 8
-      - 台湾 14
-      - 日本 15
-      - 台湾 15
-      - 台湾 16
-      - 澳大利亚 7
-      - 马来西亚 8
-      - 美国1 3
-      - 美国2 6
-      - 美国2 7
-      - 美国3 3
-      - 美国4 3
-      - 台湾 17
-      - 日本 16
-      - 菲律宾 6
-      - 澳大利亚 8
-      - 马来西亚 9
-      - 马来西亚 10
-      - 新加坡 7
-      - 菲律宾 7
-      - 澳大利亚 9
-      - 马来西亚 11
-      - 澳大利亚 10
-      - 美国1 4
-      - 美国2 8
-      - 新加坡 8
-      - 台湾 18
-      - 日本 17
-      - 新加坡 9
-      - 日本 18
-      - 日本 19
-      - 新加坡 10
-      - 美国2 9
-      - 台湾 19
-      - 日本 20
-      - 韩国 9
-      - 澳大利亚 11
-      - 菲律宾 8
-      - 新加坡 11
-      - 韩国 10
-      - 日本 21
-      - 日本 22
-      - 台湾 20
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
   - name: Others
     type: select
     proxies:
@@ -591,433 +384,353 @@ proxy-groups:
     proxies:
       - DIRECT
       - Proxies
-      - 香港
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 台湾 7
-      - 香港 3
-      - 台湾 8
-      - 台湾 9
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 台湾 16
-      - 台湾 17
-      - 台湾 18
-      - 台湾 19
-      - 台湾 20
+      - 香港 01
+      - 香港 02
+      - 台湾1
+      - 香港 01 2
+      - 香港 02 2
+      - 台湾1 2
+      - 香港 01 3
+      - 香港 02 3
+      - 台湾1 3
+      - 香港 01 4
+      - 香港 02 4
+      - 台湾1 4
+      - 香港 01 5
+      - 香港 02 5
+      - 台湾1 5
+      - 香港 01 6
+      - 香港 02 6
+      - 台湾1 6
+      - 香港 01 7
+      - 香港 02 7
+      - 台湾1 7
+      - 香港 01 8
+      - 香港 02 8
+      - 台湾1 8
+      - 香港 01 9
+      - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 台湾1 9
+      - 香港 01 11
+      - 香港 02 11
+      - 台湾1 10
+      - 香港 01 12
+      - 香港 02 12
+      - 台湾1 11
+      - 香港 01 13
+      - 香港 02 13
+      - 台湾1 12
+      - 香港 01 14
+      - 香港 02 14
+      - 台湾1 13
+      - 香港 01 15
+      - 香港 02 15
+      - 台湾1 14
+      - 香港 01 16
+      - 香港 02 16
+      - 台湾1 15
+      - 香港 01 17
+      - 香港 02 17
+      - 台湾1 16
+      - 香港 01 18
+      - 香港 02 18
   - name: Apple TV
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 8月25日更新
-      - 澳大利亚
-      - 马来西亚
-      - 加拿大
-      - 英国
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 日本
-      - 日本 2
-      - 香港
-      - 日本 3
-      - 日本 4
-      - 菲律宾
-      - 新加坡
-      - 日本 5
-      - 韩国
-      - 日本 6
-      - 日本 7
-      - 日本 8
-      - 澳大利亚 2
-      - 土耳其
-      - 新加坡 2
-      - 日本 9
-      - 韩国 2
-      - 日本 10
-      - 日本 11
-      - 台湾
-      - 菲律宾 2
-      - 土耳其 2
-      - 马来西亚 2
-      - 美国2 2
-      - 马来西亚 3
-      - 菲律宾 3
-      - 新加坡 3
-      - 菲律宾 4
-      - 澳大利亚 3
-      - 加拿大 2
-      - 美国2 3
-      - 英国 2
-      - 美国2 4
-      - 韩国 3
-      - 日本 12
-      - 台湾 2
-      - 韩国 4
-      - 台湾 3
-      - 新加坡 4
-      - 新加坡 5
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 马来西亚 4
-      - 新加坡丨解GPT
+      - 香港 01
+      - 香港 02
+      - 日本1
+      - 日本2
+      - 台湾1
+      - 美国纽约
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
+      - 日本2 2
+      - 台湾1 2
+      - 美国纽约 2
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
+      - 日本2 3
+      - 台湾1 3
+      - 美国纽约 3
+      - 香港 01 4
+      - 香港 02 4
+      - 日本1 4
+      - 日本2 4
+      - 台湾1 4
+      - 美国纽约 4
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
+      - 日本2 5
+      - 台湾1 5
+      - 美国纽约 5
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
+      - 日本2 6
+      - 台湾1 6
+      - 美国纽约 6
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
+      - 日本2 7
+      - 台湾1 7
+      - 美国纽约 7
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
+      - 日本2 8
+      - 台湾1 8
+      - 美国纽约 8
+      - 香港 01 9
+      - 香港 02 9
       - 马来西亚丨GPT
       - 马来西亚丨GPT 2
+      - 加拿大丨Gemini
+      - 日本丨解GPT
+      - 加拿大丨Gemini 2
+      - 新加坡丨解GPT
+      - 马来西亚丨GPT 3
+      - 加拿大丨Gemini 3
+      - 加拿大丨Gemini 4
+      - 马来西亚丨GPT 4
       - 加拿大Gemini
       - 加拿大Gemini 2
-      - 日本丨解GPT
-      - 新加坡丨解GPT 2
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 马来西亚丨GPT 3
       - 加拿大Gemini 3
       - 加拿大Gemini 4
-      - 马来西亚丨GPT 4
-      - 马来西亚丨GPT 5
-      - 加拿大Gemini 5
-      - 加拿大丨快速
-      - 马来西亚丨GPT 6
-      - 加拿大Gemini 6
-      - 日本丨解GPT 2
-      - 新加坡丨解GPT 3
-      - 加拿大Gemini 7
-      - 马来西亚丨GPT 7
-      - 加拿大丨Gemini
-      - 加拿大Gemini 8
-      - 加拿大Gemini 9
-      - 马来西亚丨GPT 8
-      - 马来西亚丨GPT 9
-      - 加拿大Gemini 10
-      - 马来西亚丨GPT 10
-      - 马来西亚丨GPT 11
-      - 加拿大Gemini 11
-      - 马来西亚Gemini
-      - 马来西亚Gemini 2
-      - 马来西亚Gemini 3
-      - 马来西亚Gemini 4
-      - 马来西亚Gemini 5
-      - 加拿大Gemini 12
-      - 马来西亚Gemini 6
-      - 马来西亚Gemini 7
-      - 马来西亚丨GPT 12
-      - 加拿大Gemini 13
-      - 加拿大Gemini 14
-      - 加拿大丨Gemini 2
-      - 加拿大Gemini 15
-      - 加拿大Gemini 16
-      - 马来西亚丨GPT 13
-      - 马来西亚丨GPT 14
-      - 马来西亚Gemini 8
-      - 马来西亚Gemini 9
-      - 马来西亚Gemini 10
-      - 马来西亚Gemini 11
-      - 加拿大Gemini 17
-      - 马来西亚Gemini 12
-      - 加拿大Gemini 18
-      - 马来西亚Gemini 13
-      - 加拿大Gemini 19
-      - 日本丨解GPT 3
-      - 日本1
-      - 美国纽约
-      - 台湾 7
-      - 韩国 5
-      - 韩国 6
-      - 澳大利亚 4
-      - 马来西亚 5
-      - 美国1 2
-      - 美国2 5
-      - 美国3 2
-      - 美国4 2
-      - 香港 3
-      - 台湾 8
-      - 日本 13
-      - 越南
-      - 台湾 9
-      - 新加坡 6
-      - 澳大利亚 5
-      - 马来西亚 6
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 日本丨解GPT 4
-      - 马来西亚 7
-      - 澳大利亚 6
-      - 菲律宾 5
-      - 日本 14
-      - 台湾 13
-      - 韩国 7
-      - 韩国 8
-      - 台湾 14
-      - 日本 15
-      - 台湾 15
-      - 台湾 16
-      - 澳大利亚 7
-      - 马来西亚 8
-      - 美国1 3
-      - 美国2 6
-      - 美国2 7
-      - 美国3 3
-      - 美国4 3
-      - 台湾 17
-      - 日本 16
-      - 菲律宾 6
-      - 澳大利亚 8
-      - 马来西亚 9
-      - 马来西亚 10
-      - 新加坡 7
-      - 菲律宾 7
-      - 澳大利亚 9
-      - 马来西亚 11
-      - 澳大利亚 10
-      - 美国1 4
-      - 美国2 8
-      - 新加坡 8
-      - 台湾 18
-      - 日本 17
-      - 新加坡 9
-      - 日本 18
-      - 日本 19
-      - 新加坡 10
-      - 美国2 9
-      - 台湾 19
-      - 日本 20
-      - 韩国 9
-      - 澳大利亚 11
-      - 菲律宾 8
-      - 新加坡 11
-      - 韩国 10
-      - 日本 21
-      - 日本 22
-      - 台湾 20
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
   - name: Asian TV
     type: select
     proxies:
       - DIRECT
       - Proxies
-      - 香港
-      - 台湾
-      - 台湾 2
-      - 台湾 3
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 台湾 7
-      - 香港 3
-      - 台湾 8
-      - 台湾 9
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 台湾 13
-      - 台湾 14
-      - 台湾 15
-      - 台湾 16
-      - 台湾 17
-      - 台湾 18
-      - 台湾 19
-      - 台湾 20
+      - 香港 01
+      - 香港 02
+      - 台湾1
+      - 香港 01 2
+      - 香港 02 2
+      - 台湾1 2
+      - 香港 01 3
+      - 香港 02 3
+      - 台湾1 3
+      - 香港 01 4
+      - 香港 02 4
+      - 台湾1 4
+      - 香港 01 5
+      - 香港 02 5
+      - 台湾1 5
+      - 香港 01 6
+      - 香港 02 6
+      - 台湾1 6
+      - 香港 01 7
+      - 香港 02 7
+      - 台湾1 7
+      - 香港 01 8
+      - 香港 02 8
+      - 台湾1 8
+      - 香港 01 9
+      - 香港 02 9
+      - 香港 01 10
+      - 香港 02 10
+      - 台湾1 9
+      - 香港 01 11
+      - 香港 02 11
+      - 台湾1 10
+      - 香港 01 12
+      - 香港 02 12
+      - 台湾1 11
+      - 香港 01 13
+      - 香港 02 13
+      - 台湾1 12
+      - 香港 01 14
+      - 香港 02 14
+      - 台湾1 13
+      - 香港 01 15
+      - 香港 02 15
+      - 台湾1 14
+      - 香港 01 16
+      - 香港 02 16
+      - 台湾1 15
+      - 香港 01 17
+      - 香港 02 17
+      - 台湾1 16
+      - 香港 01 18
+      - 香港 02 18
   - name: Global TV
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 8月25日更新
-      - 澳大利亚
-      - 马来西亚
-      - 加拿大
-      - 英国
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 日本
-      - 日本 2
-      - 香港
-      - 日本 3
-      - 日本 4
-      - 菲律宾
-      - 新加坡
-      - 日本 5
-      - 韩国
-      - 日本 6
-      - 日本 7
-      - 日本 8
-      - 澳大利亚 2
-      - 土耳其
-      - 新加坡 2
-      - 日本 9
-      - 韩国 2
-      - 日本 10
-      - 日本 11
-      - 台湾
-      - 菲律宾 2
-      - 土耳其 2
-      - 马来西亚 2
-      - 美国2 2
-      - 马来西亚 3
-      - 菲律宾 3
-      - 新加坡 3
-      - 菲律宾 4
-      - 澳大利亚 3
-      - 加拿大 2
-      - 美国2 3
-      - 英国 2
-      - 美国2 4
-      - 韩国 3
-      - 日本 12
-      - 台湾 2
-      - 韩国 4
-      - 台湾 3
-      - 新加坡 4
-      - 新加坡 5
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 马来西亚 4
-      - 新加坡丨解GPT
+      - 香港 01
+      - 香港 02
+      - 日本1
+      - 日本2
+      - 台湾1
+      - 美国纽约
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
+      - 日本2 2
+      - 台湾1 2
+      - 美国纽约 2
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
+      - 日本2 3
+      - 台湾1 3
+      - 美国纽约 3
+      - 香港 01 4
+      - 香港 02 4
+      - 日本1 4
+      - 日本2 4
+      - 台湾1 4
+      - 美国纽约 4
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
+      - 日本2 5
+      - 台湾1 5
+      - 美国纽约 5
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
+      - 日本2 6
+      - 台湾1 6
+      - 美国纽约 6
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
+      - 日本2 7
+      - 台湾1 7
+      - 美国纽约 7
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
+      - 日本2 8
+      - 台湾1 8
+      - 美国纽约 8
+      - 香港 01 9
+      - 香港 02 9
       - 马来西亚丨GPT
       - 马来西亚丨GPT 2
+      - 加拿大丨Gemini
+      - 日本丨解GPT
+      - 加拿大丨Gemini 2
+      - 新加坡丨解GPT
+      - 马来西亚丨GPT 3
+      - 加拿大丨Gemini 3
+      - 加拿大丨Gemini 4
+      - 马来西亚丨GPT 4
       - 加拿大Gemini
       - 加拿大Gemini 2
-      - 日本丨解GPT
-      - 新加坡丨解GPT 2
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 马来西亚丨GPT 3
       - 加拿大Gemini 3
       - 加拿大Gemini 4
-      - 马来西亚丨GPT 4
-      - 马来西亚丨GPT 5
-      - 加拿大Gemini 5
-      - 加拿大丨快速
-      - 马来西亚丨GPT 6
-      - 加拿大Gemini 6
-      - 日本丨解GPT 2
-      - 新加坡丨解GPT 3
-      - 加拿大Gemini 7
-      - 马来西亚丨GPT 7
-      - 加拿大丨Gemini
-      - 加拿大Gemini 8
-      - 加拿大Gemini 9
-      - 马来西亚丨GPT 8
-      - 马来西亚丨GPT 9
-      - 加拿大Gemini 10
-      - 马来西亚丨GPT 10
-      - 马来西亚丨GPT 11
-      - 加拿大Gemini 11
-      - 马来西亚Gemini
-      - 马来西亚Gemini 2
-      - 马来西亚Gemini 3
-      - 马来西亚Gemini 4
-      - 马来西亚Gemini 5
-      - 加拿大Gemini 12
-      - 马来西亚Gemini 6
-      - 马来西亚Gemini 7
-      - 马来西亚丨GPT 12
-      - 加拿大Gemini 13
-      - 加拿大Gemini 14
-      - 加拿大丨Gemini 2
-      - 加拿大Gemini 15
-      - 加拿大Gemini 16
-      - 马来西亚丨GPT 13
-      - 马来西亚丨GPT 14
-      - 马来西亚Gemini 8
-      - 马来西亚Gemini 9
-      - 马来西亚Gemini 10
-      - 马来西亚Gemini 11
-      - 加拿大Gemini 17
-      - 马来西亚Gemini 12
-      - 加拿大Gemini 18
-      - 马来西亚Gemini 13
-      - 加拿大Gemini 19
-      - 日本丨解GPT 3
-      - 日本1
-      - 美国纽约
-      - 台湾 7
-      - 韩国 5
-      - 韩国 6
-      - 澳大利亚 4
-      - 马来西亚 5
-      - 美国1 2
-      - 美国2 5
-      - 美国3 2
-      - 美国4 2
-      - 香港 3
-      - 台湾 8
-      - 日本 13
-      - 越南
-      - 台湾 9
-      - 新加坡 6
-      - 澳大利亚 5
-      - 马来西亚 6
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 日本丨解GPT 4
-      - 马来西亚 7
-      - 澳大利亚 6
-      - 菲律宾 5
-      - 日本 14
-      - 台湾 13
-      - 韩国 7
-      - 韩国 8
-      - 台湾 14
-      - 日本 15
-      - 台湾 15
-      - 台湾 16
-      - 澳大利亚 7
-      - 马来西亚 8
-      - 美国1 3
-      - 美国2 6
-      - 美国2 7
-      - 美国3 3
-      - 美国4 3
-      - 台湾 17
-      - 日本 16
-      - 菲律宾 6
-      - 澳大利亚 8
-      - 马来西亚 9
-      - 马来西亚 10
-      - 新加坡 7
-      - 菲律宾 7
-      - 澳大利亚 9
-      - 马来西亚 11
-      - 澳大利亚 10
-      - 美国1 4
-      - 美国2 8
-      - 新加坡 8
-      - 台湾 18
-      - 日本 17
-      - 新加坡 9
-      - 日本 18
-      - 日本 19
-      - 新加坡 10
-      - 美国2 9
-      - 台湾 19
-      - 日本 20
-      - 韩国 9
-      - 澳大利亚 11
-      - 菲律宾 8
-      - 新加坡 11
-      - 韩国 10
-      - 日本 21
-      - 日本 22
-      - 台湾 20
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
   - name: Disney
     type: select
     proxies:
@@ -1038,565 +751,358 @@ proxy-groups:
     proxies:
       - Proxies
       - DIRECT
-      - 8月25日更新
-      - 澳大利亚
-      - 马来西亚
-      - 加拿大
-      - 英国
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 日本
-      - 日本 2
-      - 香港
-      - 日本 3
-      - 日本 4
-      - 菲律宾
-      - 新加坡
-      - 日本 5
-      - 韩国
-      - 日本 6
-      - 日本 7
-      - 日本 8
-      - 澳大利亚 2
-      - 土耳其
-      - 新加坡 2
-      - 日本 9
-      - 韩国 2
-      - 日本 10
-      - 日本 11
-      - 台湾
-      - 菲律宾 2
-      - 土耳其 2
-      - 马来西亚 2
-      - 美国2 2
-      - 马来西亚 3
-      - 菲律宾 3
-      - 新加坡 3
-      - 菲律宾 4
-      - 澳大利亚 3
-      - 加拿大 2
-      - 美国2 3
-      - 英国 2
-      - 美国2 4
-      - 韩国 3
-      - 日本 12
-      - 台湾 2
-      - 韩国 4
-      - 台湾 3
-      - 新加坡 4
-      - 新加坡 5
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 马来西亚 4
-      - 新加坡丨解GPT
+      - 香港 01
+      - 香港 02
+      - 日本1
+      - 日本2
+      - 台湾1
+      - 美国纽约
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
+      - 日本2 2
+      - 台湾1 2
+      - 美国纽约 2
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
+      - 日本2 3
+      - 台湾1 3
+      - 美国纽约 3
+      - 香港 01 4
+      - 香港 02 4
+      - 日本1 4
+      - 日本2 4
+      - 台湾1 4
+      - 美国纽约 4
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
+      - 日本2 5
+      - 台湾1 5
+      - 美国纽约 5
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
+      - 日本2 6
+      - 台湾1 6
+      - 美国纽约 6
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
+      - 日本2 7
+      - 台湾1 7
+      - 美国纽约 7
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
+      - 日本2 8
+      - 台湾1 8
+      - 美国纽约 8
+      - 香港 01 9
+      - 香港 02 9
       - 马来西亚丨GPT
       - 马来西亚丨GPT 2
+      - 加拿大丨Gemini
+      - 日本丨解GPT
+      - 加拿大丨Gemini 2
+      - 新加坡丨解GPT
+      - 马来西亚丨GPT 3
+      - 加拿大丨Gemini 3
+      - 加拿大丨Gemini 4
+      - 马来西亚丨GPT 4
       - 加拿大Gemini
       - 加拿大Gemini 2
-      - 日本丨解GPT
-      - 新加坡丨解GPT 2
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 马来西亚丨GPT 3
       - 加拿大Gemini 3
       - 加拿大Gemini 4
-      - 马来西亚丨GPT 4
-      - 马来西亚丨GPT 5
-      - 加拿大Gemini 5
-      - 加拿大丨快速
-      - 马来西亚丨GPT 6
-      - 加拿大Gemini 6
-      - 日本丨解GPT 2
-      - 新加坡丨解GPT 3
-      - 加拿大Gemini 7
-      - 马来西亚丨GPT 7
-      - 加拿大丨Gemini
-      - 加拿大Gemini 8
-      - 加拿大Gemini 9
-      - 马来西亚丨GPT 8
-      - 马来西亚丨GPT 9
-      - 加拿大Gemini 10
-      - 马来西亚丨GPT 10
-      - 马来西亚丨GPT 11
-      - 加拿大Gemini 11
-      - 马来西亚Gemini
-      - 马来西亚Gemini 2
-      - 马来西亚Gemini 3
-      - 马来西亚Gemini 4
-      - 马来西亚Gemini 5
-      - 加拿大Gemini 12
-      - 马来西亚Gemini 6
-      - 马来西亚Gemini 7
-      - 马来西亚丨GPT 12
-      - 加拿大Gemini 13
-      - 加拿大Gemini 14
-      - 加拿大丨Gemini 2
-      - 加拿大Gemini 15
-      - 加拿大Gemini 16
-      - 马来西亚丨GPT 13
-      - 马来西亚丨GPT 14
-      - 马来西亚Gemini 8
-      - 马来西亚Gemini 9
-      - 马来西亚Gemini 10
-      - 马来西亚Gemini 11
-      - 加拿大Gemini 17
-      - 马来西亚Gemini 12
-      - 加拿大Gemini 18
-      - 马来西亚Gemini 13
-      - 加拿大Gemini 19
-      - 日本丨解GPT 3
-      - 日本1
-      - 美国纽约
-      - 台湾 7
-      - 韩国 5
-      - 韩国 6
-      - 澳大利亚 4
-      - 马来西亚 5
-      - 美国1 2
-      - 美国2 5
-      - 美国3 2
-      - 美国4 2
-      - 香港 3
-      - 台湾 8
-      - 日本 13
-      - 越南
-      - 台湾 9
-      - 新加坡 6
-      - 澳大利亚 5
-      - 马来西亚 6
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 日本丨解GPT 4
-      - 马来西亚 7
-      - 澳大利亚 6
-      - 菲律宾 5
-      - 日本 14
-      - 台湾 13
-      - 韩国 7
-      - 韩国 8
-      - 台湾 14
-      - 日本 15
-      - 台湾 15
-      - 台湾 16
-      - 澳大利亚 7
-      - 马来西亚 8
-      - 美国1 3
-      - 美国2 6
-      - 美国2 7
-      - 美国3 3
-      - 美国4 3
-      - 台湾 17
-      - 日本 16
-      - 菲律宾 6
-      - 澳大利亚 8
-      - 马来西亚 9
-      - 马来西亚 10
-      - 新加坡 7
-      - 菲律宾 7
-      - 澳大利亚 9
-      - 马来西亚 11
-      - 澳大利亚 10
-      - 美国1 4
-      - 美国2 8
-      - 新加坡 8
-      - 台湾 18
-      - 日本 17
-      - 新加坡 9
-      - 日本 18
-      - 日本 19
-      - 新加坡 10
-      - 美国2 9
-      - 台湾 19
-      - 日本 20
-      - 韩国 9
-      - 澳大利亚 11
-      - 菲律宾 8
-      - 新加坡 11
-      - 韩国 10
-      - 日本 21
-      - 日本 22
-      - 台湾 20
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
   - name: Spotify
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 8月25日更新
-      - 澳大利亚
-      - 马来西亚
-      - 加拿大
-      - 英国
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 日本
-      - 日本 2
-      - 香港
-      - 日本 3
-      - 日本 4
-      - 菲律宾
-      - 新加坡
-      - 日本 5
-      - 韩国
-      - 日本 6
-      - 日本 7
-      - 日本 8
-      - 澳大利亚 2
-      - 土耳其
-      - 新加坡 2
-      - 日本 9
-      - 韩国 2
-      - 日本 10
-      - 日本 11
-      - 台湾
-      - 菲律宾 2
-      - 土耳其 2
-      - 马来西亚 2
-      - 美国2 2
-      - 马来西亚 3
-      - 菲律宾 3
-      - 新加坡 3
-      - 菲律宾 4
-      - 澳大利亚 3
-      - 加拿大 2
-      - 美国2 3
-      - 英国 2
-      - 美国2 4
-      - 韩国 3
-      - 日本 12
-      - 台湾 2
-      - 韩国 4
-      - 台湾 3
-      - 新加坡 4
-      - 新加坡 5
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 马来西亚 4
-      - 新加坡丨解GPT
+      - 香港 01
+      - 香港 02
+      - 日本1
+      - 日本2
+      - 台湾1
+      - 美国纽约
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
+      - 日本2 2
+      - 台湾1 2
+      - 美国纽约 2
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
+      - 日本2 3
+      - 台湾1 3
+      - 美国纽约 3
+      - 香港 01 4
+      - 香港 02 4
+      - 日本1 4
+      - 日本2 4
+      - 台湾1 4
+      - 美国纽约 4
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
+      - 日本2 5
+      - 台湾1 5
+      - 美国纽约 5
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
+      - 日本2 6
+      - 台湾1 6
+      - 美国纽约 6
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
+      - 日本2 7
+      - 台湾1 7
+      - 美国纽约 7
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
+      - 日本2 8
+      - 台湾1 8
+      - 美国纽约 8
+      - 香港 01 9
+      - 香港 02 9
       - 马来西亚丨GPT
       - 马来西亚丨GPT 2
+      - 加拿大丨Gemini
+      - 日本丨解GPT
+      - 加拿大丨Gemini 2
+      - 新加坡丨解GPT
+      - 马来西亚丨GPT 3
+      - 加拿大丨Gemini 3
+      - 加拿大丨Gemini 4
+      - 马来西亚丨GPT 4
       - 加拿大Gemini
       - 加拿大Gemini 2
-      - 日本丨解GPT
-      - 新加坡丨解GPT 2
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 马来西亚丨GPT 3
       - 加拿大Gemini 3
       - 加拿大Gemini 4
-      - 马来西亚丨GPT 4
-      - 马来西亚丨GPT 5
-      - 加拿大Gemini 5
-      - 加拿大丨快速
-      - 马来西亚丨GPT 6
-      - 加拿大Gemini 6
-      - 日本丨解GPT 2
-      - 新加坡丨解GPT 3
-      - 加拿大Gemini 7
-      - 马来西亚丨GPT 7
-      - 加拿大丨Gemini
-      - 加拿大Gemini 8
-      - 加拿大Gemini 9
-      - 马来西亚丨GPT 8
-      - 马来西亚丨GPT 9
-      - 加拿大Gemini 10
-      - 马来西亚丨GPT 10
-      - 马来西亚丨GPT 11
-      - 加拿大Gemini 11
-      - 马来西亚Gemini
-      - 马来西亚Gemini 2
-      - 马来西亚Gemini 3
-      - 马来西亚Gemini 4
-      - 马来西亚Gemini 5
-      - 加拿大Gemini 12
-      - 马来西亚Gemini 6
-      - 马来西亚Gemini 7
-      - 马来西亚丨GPT 12
-      - 加拿大Gemini 13
-      - 加拿大Gemini 14
-      - 加拿大丨Gemini 2
-      - 加拿大Gemini 15
-      - 加拿大Gemini 16
-      - 马来西亚丨GPT 13
-      - 马来西亚丨GPT 14
-      - 马来西亚Gemini 8
-      - 马来西亚Gemini 9
-      - 马来西亚Gemini 10
-      - 马来西亚Gemini 11
-      - 加拿大Gemini 17
-      - 马来西亚Gemini 12
-      - 加拿大Gemini 18
-      - 马来西亚Gemini 13
-      - 加拿大Gemini 19
-      - 日本丨解GPT 3
-      - 日本1
-      - 美国纽约
-      - 台湾 7
-      - 韩国 5
-      - 韩国 6
-      - 澳大利亚 4
-      - 马来西亚 5
-      - 美国1 2
-      - 美国2 5
-      - 美国3 2
-      - 美国4 2
-      - 香港 3
-      - 台湾 8
-      - 日本 13
-      - 越南
-      - 台湾 9
-      - 新加坡 6
-      - 澳大利亚 5
-      - 马来西亚 6
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 日本丨解GPT 4
-      - 马来西亚 7
-      - 澳大利亚 6
-      - 菲律宾 5
-      - 日本 14
-      - 台湾 13
-      - 韩国 7
-      - 韩国 8
-      - 台湾 14
-      - 日本 15
-      - 台湾 15
-      - 台湾 16
-      - 澳大利亚 7
-      - 马来西亚 8
-      - 美国1 3
-      - 美国2 6
-      - 美国2 7
-      - 美国3 3
-      - 美国4 3
-      - 台湾 17
-      - 日本 16
-      - 菲律宾 6
-      - 澳大利亚 8
-      - 马来西亚 9
-      - 马来西亚 10
-      - 新加坡 7
-      - 菲律宾 7
-      - 澳大利亚 9
-      - 马来西亚 11
-      - 澳大利亚 10
-      - 美国1 4
-      - 美国2 8
-      - 新加坡 8
-      - 台湾 18
-      - 日本 17
-      - 新加坡 9
-      - 日本 18
-      - 日本 19
-      - 新加坡 10
-      - 美国2 9
-      - 台湾 19
-      - 日本 20
-      - 韩国 9
-      - 澳大利亚 11
-      - 菲律宾 8
-      - 新加坡 11
-      - 韩国 10
-      - 日本 21
-      - 日本 22
-      - 台湾 20
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
   - name: Telegram
     type: select
     proxies:
       - Proxies
       - DIRECT
-      - 8月25日更新
-      - 澳大利亚
-      - 马来西亚
-      - 加拿大
-      - 英国
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 日本
-      - 日本 2
-      - 香港
-      - 日本 3
-      - 日本 4
-      - 菲律宾
-      - 新加坡
-      - 日本 5
-      - 韩国
-      - 日本 6
-      - 日本 7
-      - 日本 8
-      - 澳大利亚 2
-      - 土耳其
-      - 新加坡 2
-      - 日本 9
-      - 韩国 2
-      - 日本 10
-      - 日本 11
-      - 台湾
-      - 菲律宾 2
-      - 土耳其 2
-      - 马来西亚 2
-      - 美国2 2
-      - 马来西亚 3
-      - 菲律宾 3
-      - 新加坡 3
-      - 菲律宾 4
-      - 澳大利亚 3
-      - 加拿大 2
-      - 美国2 3
-      - 英国 2
-      - 美国2 4
-      - 韩国 3
-      - 日本 12
-      - 台湾 2
-      - 韩国 4
-      - 台湾 3
-      - 新加坡 4
-      - 新加坡 5
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 马来西亚 4
-      - 新加坡丨解GPT
+      - 香港 01
+      - 香港 02
+      - 日本1
+      - 日本2
+      - 台湾1
+      - 美国纽约
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
+      - 日本2 2
+      - 台湾1 2
+      - 美国纽约 2
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
+      - 日本2 3
+      - 台湾1 3
+      - 美国纽约 3
+      - 香港 01 4
+      - 香港 02 4
+      - 日本1 4
+      - 日本2 4
+      - 台湾1 4
+      - 美国纽约 4
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
+      - 日本2 5
+      - 台湾1 5
+      - 美国纽约 5
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
+      - 日本2 6
+      - 台湾1 6
+      - 美国纽约 6
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
+      - 日本2 7
+      - 台湾1 7
+      - 美国纽约 7
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
+      - 日本2 8
+      - 台湾1 8
+      - 美国纽约 8
+      - 香港 01 9
+      - 香港 02 9
       - 马来西亚丨GPT
       - 马来西亚丨GPT 2
+      - 加拿大丨Gemini
+      - 日本丨解GPT
+      - 加拿大丨Gemini 2
+      - 新加坡丨解GPT
+      - 马来西亚丨GPT 3
+      - 加拿大丨Gemini 3
+      - 加拿大丨Gemini 4
+      - 马来西亚丨GPT 4
       - 加拿大Gemini
       - 加拿大Gemini 2
-      - 日本丨解GPT
-      - 新加坡丨解GPT 2
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 马来西亚丨GPT 3
       - 加拿大Gemini 3
       - 加拿大Gemini 4
-      - 马来西亚丨GPT 4
-      - 马来西亚丨GPT 5
-      - 加拿大Gemini 5
-      - 加拿大丨快速
-      - 马来西亚丨GPT 6
-      - 加拿大Gemini 6
-      - 日本丨解GPT 2
-      - 新加坡丨解GPT 3
-      - 加拿大Gemini 7
-      - 马来西亚丨GPT 7
-      - 加拿大丨Gemini
-      - 加拿大Gemini 8
-      - 加拿大Gemini 9
-      - 马来西亚丨GPT 8
-      - 马来西亚丨GPT 9
-      - 加拿大Gemini 10
-      - 马来西亚丨GPT 10
-      - 马来西亚丨GPT 11
-      - 加拿大Gemini 11
-      - 马来西亚Gemini
-      - 马来西亚Gemini 2
-      - 马来西亚Gemini 3
-      - 马来西亚Gemini 4
-      - 马来西亚Gemini 5
-      - 加拿大Gemini 12
-      - 马来西亚Gemini 6
-      - 马来西亚Gemini 7
-      - 马来西亚丨GPT 12
-      - 加拿大Gemini 13
-      - 加拿大Gemini 14
-      - 加拿大丨Gemini 2
-      - 加拿大Gemini 15
-      - 加拿大Gemini 16
-      - 马来西亚丨GPT 13
-      - 马来西亚丨GPT 14
-      - 马来西亚Gemini 8
-      - 马来西亚Gemini 9
-      - 马来西亚Gemini 10
-      - 马来西亚Gemini 11
-      - 加拿大Gemini 17
-      - 马来西亚Gemini 12
-      - 加拿大Gemini 18
-      - 马来西亚Gemini 13
-      - 加拿大Gemini 19
-      - 日本丨解GPT 3
-      - 日本1
-      - 美国纽约
-      - 台湾 7
-      - 韩国 5
-      - 韩国 6
-      - 澳大利亚 4
-      - 马来西亚 5
-      - 美国1 2
-      - 美国2 5
-      - 美国3 2
-      - 美国4 2
-      - 香港 3
-      - 台湾 8
-      - 日本 13
-      - 越南
-      - 台湾 9
-      - 新加坡 6
-      - 澳大利亚 5
-      - 马来西亚 6
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 日本丨解GPT 4
-      - 马来西亚 7
-      - 澳大利亚 6
-      - 菲律宾 5
-      - 日本 14
-      - 台湾 13
-      - 韩国 7
-      - 韩国 8
-      - 台湾 14
-      - 日本 15
-      - 台湾 15
-      - 台湾 16
-      - 澳大利亚 7
-      - 马来西亚 8
-      - 美国1 3
-      - 美国2 6
-      - 美国2 7
-      - 美国3 3
-      - 美国4 3
-      - 台湾 17
-      - 日本 16
-      - 菲律宾 6
-      - 澳大利亚 8
-      - 马来西亚 9
-      - 马来西亚 10
-      - 新加坡 7
-      - 菲律宾 7
-      - 澳大利亚 9
-      - 马来西亚 11
-      - 澳大利亚 10
-      - 美国1 4
-      - 美国2 8
-      - 新加坡 8
-      - 台湾 18
-      - 日本 17
-      - 新加坡 9
-      - 日本 18
-      - 日本 19
-      - 新加坡 10
-      - 美国2 9
-      - 台湾 19
-      - 日本 20
-      - 韩国 9
-      - 澳大利亚 11
-      - 菲律宾 8
-      - 新加坡 11
-      - 韩国 10
-      - 日本 21
-      - 日本 22
-      - 台湾 20
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
   - name: Steam
     type: select
     proxies:
@@ -1608,189 +1114,120 @@ proxy-groups:
       - Proxies
       - DIRECT
       - Domestic
-      - 8月25日更新
-      - 澳大利亚
-      - 马来西亚
-      - 加拿大
-      - 英国
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 日本
-      - 日本 2
-      - 香港
-      - 日本 3
-      - 日本 4
-      - 菲律宾
-      - 新加坡
-      - 日本 5
-      - 韩国
-      - 日本 6
-      - 日本 7
-      - 日本 8
-      - 澳大利亚 2
-      - 土耳其
-      - 新加坡 2
-      - 日本 9
-      - 韩国 2
-      - 日本 10
-      - 日本 11
-      - 台湾
-      - 菲律宾 2
-      - 土耳其 2
-      - 马来西亚 2
-      - 美国2 2
-      - 马来西亚 3
-      - 菲律宾 3
-      - 新加坡 3
-      - 菲律宾 4
-      - 澳大利亚 3
-      - 加拿大 2
-      - 美国2 3
-      - 英国 2
-      - 美国2 4
-      - 韩国 3
-      - 日本 12
-      - 台湾 2
-      - 韩国 4
-      - 台湾 3
-      - 新加坡 4
-      - 新加坡 5
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 马来西亚 4
-      - 新加坡丨解GPT
+      - 香港 01
+      - 香港 02
+      - 日本1
+      - 日本2
+      - 台湾1
+      - 美国纽约
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
+      - 日本2 2
+      - 台湾1 2
+      - 美国纽约 2
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
+      - 日本2 3
+      - 台湾1 3
+      - 美国纽约 3
+      - 香港 01 4
+      - 香港 02 4
+      - 日本1 4
+      - 日本2 4
+      - 台湾1 4
+      - 美国纽约 4
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
+      - 日本2 5
+      - 台湾1 5
+      - 美国纽约 5
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
+      - 日本2 6
+      - 台湾1 6
+      - 美国纽约 6
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
+      - 日本2 7
+      - 台湾1 7
+      - 美国纽约 7
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
+      - 日本2 8
+      - 台湾1 8
+      - 美国纽约 8
+      - 香港 01 9
+      - 香港 02 9
       - 马来西亚丨GPT
       - 马来西亚丨GPT 2
+      - 加拿大丨Gemini
+      - 日本丨解GPT
+      - 加拿大丨Gemini 2
+      - 新加坡丨解GPT
+      - 马来西亚丨GPT 3
+      - 加拿大丨Gemini 3
+      - 加拿大丨Gemini 4
+      - 马来西亚丨GPT 4
       - 加拿大Gemini
       - 加拿大Gemini 2
-      - 日本丨解GPT
-      - 新加坡丨解GPT 2
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 马来西亚丨GPT 3
       - 加拿大Gemini 3
       - 加拿大Gemini 4
-      - 马来西亚丨GPT 4
-      - 马来西亚丨GPT 5
-      - 加拿大Gemini 5
-      - 加拿大丨快速
-      - 马来西亚丨GPT 6
-      - 加拿大Gemini 6
-      - 日本丨解GPT 2
-      - 新加坡丨解GPT 3
-      - 加拿大Gemini 7
-      - 马来西亚丨GPT 7
-      - 加拿大丨Gemini
-      - 加拿大Gemini 8
-      - 加拿大Gemini 9
-      - 马来西亚丨GPT 8
-      - 马来西亚丨GPT 9
-      - 加拿大Gemini 10
-      - 马来西亚丨GPT 10
-      - 马来西亚丨GPT 11
-      - 加拿大Gemini 11
-      - 马来西亚Gemini
-      - 马来西亚Gemini 2
-      - 马来西亚Gemini 3
-      - 马来西亚Gemini 4
-      - 马来西亚Gemini 5
-      - 加拿大Gemini 12
-      - 马来西亚Gemini 6
-      - 马来西亚Gemini 7
-      - 马来西亚丨GPT 12
-      - 加拿大Gemini 13
-      - 加拿大Gemini 14
-      - 加拿大丨Gemini 2
-      - 加拿大Gemini 15
-      - 加拿大Gemini 16
-      - 马来西亚丨GPT 13
-      - 马来西亚丨GPT 14
-      - 马来西亚Gemini 8
-      - 马来西亚Gemini 9
-      - 马来西亚Gemini 10
-      - 马来西亚Gemini 11
-      - 加拿大Gemini 17
-      - 马来西亚Gemini 12
-      - 加拿大Gemini 18
-      - 马来西亚Gemini 13
-      - 加拿大Gemini 19
-      - 日本丨解GPT 3
-      - 日本1
-      - 美国纽约
-      - 台湾 7
-      - 韩国 5
-      - 韩国 6
-      - 澳大利亚 4
-      - 马来西亚 5
-      - 美国1 2
-      - 美国2 5
-      - 美国3 2
-      - 美国4 2
-      - 香港 3
-      - 台湾 8
-      - 日本 13
-      - 越南
-      - 台湾 9
-      - 新加坡 6
-      - 澳大利亚 5
-      - 马来西亚 6
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 日本丨解GPT 4
-      - 马来西亚 7
-      - 澳大利亚 6
-      - 菲律宾 5
-      - 日本 14
-      - 台湾 13
-      - 韩国 7
-      - 韩国 8
-      - 台湾 14
-      - 日本 15
-      - 台湾 15
-      - 台湾 16
-      - 澳大利亚 7
-      - 马来西亚 8
-      - 美国1 3
-      - 美国2 6
-      - 美国2 7
-      - 美国3 3
-      - 美国4 3
-      - 台湾 17
-      - 日本 16
-      - 菲律宾 6
-      - 澳大利亚 8
-      - 马来西亚 9
-      - 马来西亚 10
-      - 新加坡 7
-      - 菲律宾 7
-      - 澳大利亚 9
-      - 马来西亚 11
-      - 澳大利亚 10
-      - 美国1 4
-      - 美国2 8
-      - 新加坡 8
-      - 台湾 18
-      - 日本 17
-      - 新加坡 9
-      - 日本 18
-      - 日本 19
-      - 新加坡 10
-      - 美国2 9
-      - 台湾 19
-      - 日本 20
-      - 韩国 9
-      - 澳大利亚 11
-      - 菲律宾 8
-      - 新加坡 11
-      - 韩国 10
-      - 日本 21
-      - 日本 22
-      - 台湾 20
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
   - name: PayPal
     type: select
     proxies:
@@ -1836,189 +1273,120 @@ proxy-groups:
     url: http://cp.cloudflare.com/generate_204
     interval: 1800
     proxies:
-      - 8月25日更新
-      - 澳大利亚
-      - 马来西亚
-      - 加拿大
-      - 英国
-      - 美国1
-      - 美国2
-      - 美国3
-      - 美国4
-      - 日本
-      - 日本 2
-      - 香港
-      - 日本 3
-      - 日本 4
-      - 菲律宾
-      - 新加坡
-      - 日本 5
-      - 韩国
-      - 日本 6
-      - 日本 7
-      - 日本 8
-      - 澳大利亚 2
-      - 土耳其
-      - 新加坡 2
-      - 日本 9
-      - 韩国 2
-      - 日本 10
-      - 日本 11
-      - 台湾
-      - 菲律宾 2
-      - 土耳其 2
-      - 马来西亚 2
-      - 美国2 2
-      - 马来西亚 3
-      - 菲律宾 3
-      - 新加坡 3
-      - 菲律宾 4
-      - 澳大利亚 3
-      - 加拿大 2
-      - 美国2 3
-      - 英国 2
-      - 美国2 4
-      - 韩国 3
-      - 日本 12
-      - 台湾 2
-      - 韩国 4
-      - 台湾 3
-      - 新加坡 4
-      - 新加坡 5
-      - 台湾 4
-      - 香港 2
-      - 台湾 5
-      - 台湾 6
-      - 马来西亚 4
-      - 新加坡丨解GPT
+      - 香港 01
+      - 香港 02
+      - 日本1
+      - 日本2
+      - 台湾1
+      - 美国纽约
+      - 香港 01 2
+      - 香港 02 2
+      - 日本1 2
+      - 日本2 2
+      - 台湾1 2
+      - 美国纽约 2
+      - 香港 01 3
+      - 香港 02 3
+      - 日本1 3
+      - 日本2 3
+      - 台湾1 3
+      - 美国纽约 3
+      - 香港 01 4
+      - 香港 02 4
+      - 日本1 4
+      - 日本2 4
+      - 台湾1 4
+      - 美国纽约 4
+      - 香港 01 5
+      - 香港 02 5
+      - 日本1 5
+      - 日本2 5
+      - 台湾1 5
+      - 美国纽约 5
+      - 香港 01 6
+      - 香港 02 6
+      - 日本1 6
+      - 日本2 6
+      - 台湾1 6
+      - 美国纽约 6
+      - 香港 01 7
+      - 香港 02 7
+      - 日本1 7
+      - 日本2 7
+      - 台湾1 7
+      - 美国纽约 7
+      - 香港 01 8
+      - 香港 02 8
+      - 日本1 8
+      - 日本2 8
+      - 台湾1 8
+      - 美国纽约 8
+      - 香港 01 9
+      - 香港 02 9
       - 马来西亚丨GPT
       - 马来西亚丨GPT 2
+      - 加拿大丨Gemini
+      - 日本丨解GPT
+      - 加拿大丨Gemini 2
+      - 新加坡丨解GPT
+      - 马来西亚丨GPT 3
+      - 加拿大丨Gemini 3
+      - 加拿大丨Gemini 4
+      - 马来西亚丨GPT 4
       - 加拿大Gemini
       - 加拿大Gemini 2
-      - 日本丨解GPT
-      - 新加坡丨解GPT 2
-      - 美国 01【IEPL】
-      - 美国 02【IEPL】
-      - 马来西亚丨GPT 3
       - 加拿大Gemini 3
       - 加拿大Gemini 4
-      - 马来西亚丨GPT 4
-      - 马来西亚丨GPT 5
-      - 加拿大Gemini 5
-      - 加拿大丨快速
-      - 马来西亚丨GPT 6
-      - 加拿大Gemini 6
-      - 日本丨解GPT 2
-      - 新加坡丨解GPT 3
-      - 加拿大Gemini 7
-      - 马来西亚丨GPT 7
-      - 加拿大丨Gemini
-      - 加拿大Gemini 8
-      - 加拿大Gemini 9
-      - 马来西亚丨GPT 8
-      - 马来西亚丨GPT 9
-      - 加拿大Gemini 10
-      - 马来西亚丨GPT 10
-      - 马来西亚丨GPT 11
-      - 加拿大Gemini 11
-      - 马来西亚Gemini
-      - 马来西亚Gemini 2
-      - 马来西亚Gemini 3
-      - 马来西亚Gemini 4
-      - 马来西亚Gemini 5
-      - 加拿大Gemini 12
-      - 马来西亚Gemini 6
-      - 马来西亚Gemini 7
-      - 马来西亚丨GPT 12
-      - 加拿大Gemini 13
-      - 加拿大Gemini 14
-      - 加拿大丨Gemini 2
-      - 加拿大Gemini 15
-      - 加拿大Gemini 16
-      - 马来西亚丨GPT 13
-      - 马来西亚丨GPT 14
-      - 马来西亚Gemini 8
-      - 马来西亚Gemini 9
-      - 马来西亚Gemini 10
-      - 马来西亚Gemini 11
-      - 加拿大Gemini 17
-      - 马来西亚Gemini 12
-      - 加拿大Gemini 18
-      - 马来西亚Gemini 13
-      - 加拿大Gemini 19
-      - 日本丨解GPT 3
-      - 日本1
-      - 美国纽约
-      - 台湾 7
-      - 韩国 5
-      - 韩国 6
-      - 澳大利亚 4
-      - 马来西亚 5
-      - 美国1 2
-      - 美国2 5
-      - 美国3 2
-      - 美国4 2
-      - 香港 3
-      - 台湾 8
-      - 日本 13
-      - 越南
-      - 台湾 9
-      - 新加坡 6
-      - 澳大利亚 5
-      - 马来西亚 6
-      - 台湾 10
-      - 台湾 11
-      - 台湾 12
-      - 日本丨解GPT 4
-      - 马来西亚 7
-      - 澳大利亚 6
-      - 菲律宾 5
-      - 日本 14
-      - 台湾 13
-      - 韩国 7
-      - 韩国 8
-      - 台湾 14
-      - 日本 15
-      - 台湾 15
-      - 台湾 16
-      - 澳大利亚 7
-      - 马来西亚 8
-      - 美国1 3
-      - 美国2 6
-      - 美国2 7
-      - 美国3 3
-      - 美国4 3
-      - 台湾 17
-      - 日本 16
-      - 菲律宾 6
-      - 澳大利亚 8
-      - 马来西亚 9
-      - 马来西亚 10
-      - 新加坡 7
-      - 菲律宾 7
-      - 澳大利亚 9
-      - 马来西亚 11
-      - 澳大利亚 10
-      - 美国1 4
-      - 美国2 8
-      - 新加坡 8
-      - 台湾 18
-      - 日本 17
-      - 新加坡 9
-      - 日本 18
-      - 日本 19
-      - 新加坡 10
-      - 美国2 9
-      - 台湾 19
-      - 日本 20
-      - 韩国 9
-      - 澳大利亚 11
-      - 菲律宾 8
-      - 新加坡 11
-      - 韩国 10
-      - 日本 21
-      - 日本 22
-      - 台湾 20
+      - 香港 01 10
+      - 香港 02 10
+      - 日本1 9
+      - 日本2 9
+      - 台湾1 9
+      - 美国纽约 9
+      - 香港 01 11
+      - 香港 02 11
+      - 日本1 10
+      - 日本2 10
+      - 台湾1 10
+      - 美国纽约 10
+      - 香港 01 12
+      - 香港 02 12
+      - 日本1 11
+      - 日本2 11
+      - 台湾1 11
+      - 美国纽约 11
+      - 香港 01 13
+      - 香港 02 13
+      - 日本1 12
+      - 日本2 12
+      - 台湾1 12
+      - 美国纽约 12
+      - 香港 01 14
+      - 香港 02 14
+      - 日本1 13
+      - 日本2 13
+      - 台湾1 13
+      - 美国纽约 13
+      - 香港 01 15
+      - 香港 02 15
+      - 日本1 14
+      - 日本2 14
+      - 台湾1 14
+      - 美国纽约 14
+      - 香港 01 16
+      - 香港 02 16
+      - 日本1 15
+      - 日本2 15
+      - 台湾1 15
+      - 美国纽约 15
+      - 香港 01 17
+      - 香港 02 17
+      - 日本1 16
+      - 日本2 16
+      - 台湾1 16
+      - 美国纽约 16
+      - 香港 01 18
+      - 香港 02 18
 rules:
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
