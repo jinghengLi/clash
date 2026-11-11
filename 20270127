@@ -1,32 +1,26 @@
-mixed-port: 7890
-allow-lan: true
-mode: Rule
-log-level: info
-external-controller: :9090
 proxies:
-  - {name: 🇸🇬 11月10日更新, server: aiguoyun1.duckdns.org, port: 16041, type: trojan, password: k2ebo0g0coow9z9e, sni: aiguoyun1.duckdns.org}
-  - {name: 🇭🇰 香港 02, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: a455aa3a-376b-444a-a175-3cb9dd4ac1c3, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 2, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: fdc55089-4553-4b6a-ab24-50cdb48b477b, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇸🇬 11月11日更新, server: aiguoyun1.duckdns.org, port: 11198, type: trojan, password: xrdt10uy6pb6is9q, sni: aiguoyun1.duckdns.org}
+  - {name: 🇭🇰 香港 02, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: fdc55089-4553-4b6a-ab24-50cdb48b477b, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本1, server: xiaozhux8.xiaozhu9545515.com, port: 41273, type: trojan, password: d6598340-12eb-40ed-be7c-242a17f26c3d, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本2, server: xiaozhux8.xiaozhu9545515.com, port: 41273, type: trojan, password: e7d50715-f845-4a35-8566-921886adbf0e, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国纽约, server: xiaozhux8.xiaozhu9545515.com, port: 41275, type: trojan, password: dbb9590e-9c04-4f8d-b1d8-64abab1376ab, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国纽约 2, server: xiaozhux8.xiaozhu9545515.com, port: 41275, type: trojan, password: dbb6e5ac-e576-4941-bf5e-29d444333588, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国纽约 3, server: xiaozhux8.xiaozhu9545515.com, port: 41275, type: trojan, password: 39e1f480-3a66-4434-bbe9-3e9e4db5852b, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国纽约 4, server: xiaozhux8.xiaozhu9545515.com, port: 41275, type: trojan, password: d9f7d6d9-b381-4fb0-b135-91febb4ac349, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 3, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 3db8b694-ccbc-459e-8553-37a79842e1dc, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 2, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 3db8b694-ccbc-459e-8553-37a79842e1dc, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: c938430a-00b7-4d65-9df5-97a4716394b9, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 2, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: ae40ee5d-3d21-4942-aef4-25c17c5511ed, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 4, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 838636c8-18b0-4324-b747-99ef748181c5, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 3, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 838636c8-18b0-4324-b747-99ef748181c5, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本1 2, server: xiaozhux8.xiaozhu9545515.com, port: 41273, type: trojan, password: bc80646f-0f73-4091-a85f-ca8e22d3c2d7, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本2 2, server: xiaozhux8.xiaozhu9545515.com, port: 41273, type: trojan, password: 606b05ca-ef0a-4120-b5b0-b819125607df, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 5, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: cd7eea10-6ca3-4588-a0c8-2bc6b5c99c8e, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 4, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: cd7eea10-6ca3-4588-a0c8-2bc6b5c99c8e, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇨🇳 台湾1, server: xiaozhux8.xiaozhu9545515.com, port: 41274, type: trojan, password: cc365d02-eafe-4ab3-b907-a2cf7abed2f9, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国纽约 5, server: xiaozhux8.xiaozhu9545515.com, port: 41275, type: trojan, password: c47d1311-3f39-4cb5-968d-f34c735a8d7b, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本1 3, server: xiaozhux8.xiaozhu9545515.com, port: 41273, type: trojan, password: 89c5d45b-f305-49c6-ac94-d3493c8796c3, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国纽约 6, server: xiaozhux8.xiaozhu9545515.com, port: 41275, type: trojan, password: 2bd2a489-31a5-41b5-ad71-701f5abe52d8, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国西雅图原生, server: xiaozhux8.xiaozhu9545515.com, port: 30210, type: trojan, password: d328a278-737b-43f2-bb2e-3d6fdba744de, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇺🇸 美国洛杉矶原生, server: xiaozhux8.xiaozhu9545515.com, port: 19216, type: trojan, password: f6078398-0883-472d-86ba-019e00c74c30, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 6, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 130b0c4a-1ced-4a3c-8e05-d8919295b3a2, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 5, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 130b0c4a-1ced-4a3c-8e05-d8919295b3a2, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 3, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: 8eed44b1-c389-4901-9dac-2bda3b515239, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本2 3, server: xiaozhux8.xiaozhu9545515.com, port: 41273, type: trojan, password: 8d0957c5-1b16-42f9-a20c-ff50a722a4a2, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本1 4, server: xiaozhux8.xiaozhu9545515.com, port: 41273, type: trojan, password: a73e3fdf-fdbd-45b6-8d3e-d5a26dcdf2ba, sni: www.itunes.com, skip-cert-verify: true}
@@ -70,11 +64,12 @@ proxies:
   - {name: 🇺🇸 美国纽约 18, server: xiaozhux8.xiaozhu9545515.com, port: 41275, type: trojan, password: 64d21bd0-7e43-4748-ba6e-0610b2f1b655, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本1 13, server: xiaozhux8.xiaozhu9545515.com, port: 41273, type: trojan, password: ff3a6776-809e-4931-ad5e-39f543a741b8, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇭🇰 香港 01 5, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: b67395d4-e3ba-4774-987e-d06a175e3a9a, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 7, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: a1cd4f97-d44e-4284-85a0-3c72afb9c1ce, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇭🇰 香港 02 6, server: xiaozhux8.xiaozhu9545515.com, port: 49213, type: trojan, password: a1cd4f97-d44e-4284-85a0-3c72afb9c1ce, sni: www.itunes.com, skip-cert-verify: true}
   - {name: 🇯🇵 日本1 14, server: xiaozhux8.xiaozhu9545515.com, port: 41273, type: trojan, password: a6348668-d04f-4a08-afe0-309e36c28a44, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: gemini专线1, server: aiguoyun.duckdns.org, port: 26364, type: trojan, password: 48a4r9yt7lxr60cs, sni: aiguoyun.duckdns.org}
-  - {name: gemini专线2, server: aiguoyun.duckdns.org, port: 33698, type: trojan, password: 48a4r9yt7lxr60cs, sni: aiguoyun.duckdns.org}
-  - {name: gemini专线3, server: aiguoyun.duckdns.org, port: 35557, type: trojan, password: 48a4r9yt7lxr60cs, sni: aiguoyun.duckdns.org}
+  - {name: Gemini专线1, server: aiguoyun1.duckdns.org, port: 37531, type: trojan, password: xrdt10uy6pb6is9q, sni: aiguoyun1.duckdns.org}
+  - {name: Gemini专线2, server: aiguoyun1.duckdns.org, port: 26360, type: trojan, password: xrdt10uy6pb6is9q, sni: aiguoyun1.duckdns.org}
+  - {name: Gemini专线3, server: aiguoyun1.duckdns.org, port: 20958, type: trojan, password: xrdt10uy6pb6is9q, sni: aiguoyun1.duckdns.org}
+  - {name: clash测试, server: aiguoyun1.duckdns.org, port: 19681, type: trojan, password: xrdt10uy6pb6is9q, sni: aiguoyun1.duckdns.org}
 proxy-groups:
   - name: Proxies
     type: select
@@ -84,29 +79,28 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 🇸🇬 11月10日更新
+      - 🇸🇬 11月11日更新
       - 🇭🇰 香港 02
-      - 🇭🇰 香港 02 2
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇺🇸 美国纽约
       - 🇺🇸 美国纽约 2
       - 🇺🇸 美国纽约 3
       - 🇺🇸 美国纽约 4
-      - 🇭🇰 香港 02 3
+      - 🇭🇰 香港 02 2
       - 🇭🇰 香港 01
       - 🇭🇰 香港 01 2
-      - 🇭🇰 香港 02 4
+      - 🇭🇰 香港 02 3
       - 🇯🇵 日本1 2
       - 🇯🇵 日本2 2
-      - 🇭🇰 香港 02 5
+      - 🇭🇰 香港 02 4
       - 🇨🇳 台湾1
       - 🇺🇸 美国纽约 5
       - 🇯🇵 日本1 3
       - 🇺🇸 美国纽约 6
       - 🇺🇸 美国西雅图原生
       - 🇺🇸 美国洛杉矶原生
-      - 🇭🇰 香港 02 6
+      - 🇭🇰 香港 02 5
       - 🇭🇰 香港 01 3
       - 🇯🇵 日本2 3
       - 🇯🇵 日本1 4
@@ -150,11 +144,12 @@ proxy-groups:
       - 🇺🇸 美国纽约 18
       - 🇯🇵 日本1 13
       - 🇭🇰 香港 01 5
-      - 🇭🇰 香港 02 7
+      - 🇭🇰 香港 02 6
       - 🇯🇵 日本1 14
-      - gemini专线1
-      - gemini专线2
-      - gemini专线3
+      - Gemini专线1
+      - Gemini专线2
+      - Gemini专线3
+      - clash测试
   - name: Apple
     type: select
     proxies:
@@ -204,20 +199,19 @@ proxy-groups:
     proxies:
       - 🇭🇰 香港 02
       - 🇭🇰 香港 02 2
-      - 🇭🇰 香港 02 3
       - 🇭🇰 香港 01
       - 🇭🇰 香港 01 2
+      - 🇭🇰 香港 02 3
       - 🇭🇰 香港 02 4
       - 🇭🇰 香港 02 5
-      - 🇭🇰 香港 02 6
       - 🇭🇰 香港 01 3
       - 🇭🇰 香港 01 4
       - 🇭🇰 香港 01 5
-      - 🇭🇰 香港 02 7
+      - 🇭🇰 香港 02 6
   - name: SG
     type: select
     proxies:
-      - 🇸🇬 11月10日更新
+      - 🇸🇬 11月11日更新
       - 🇸🇬 新加坡1
       - 🇸🇬 新加坡1 2
       - 🇸🇬 新加坡1 3
@@ -233,7 +227,7 @@ proxy-groups:
   - name: JP
     type: select
     proxies:
-      - 🇸🇬 11月10日更新
+      - 🇸🇬 11月11日更新
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本1 2
