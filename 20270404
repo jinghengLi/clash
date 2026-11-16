@@ -68,6 +68,12 @@ proxies:
   - {name: 3Gemini专线1, server: api.systmservice.com, port: 22941, type: vmess, uuid: a280dd94-5e06-4ac5-bb64-68c29351fe9d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: api.systmservice.com}}}
   - {name: 3Gemini专线2, server: api.systmservice.com, port: 18246, type: vmess, uuid: a280dd94-5e06-4ac5-bb64-68c29351fe9d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: api.systmservice.com}}}
   - {name: 3Gemini专线1 2, server: api.systmservice.com, port: 23004, type: vmess, uuid: a280dd94-5e06-4ac5-bb64-68c29351fe9d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: api.systmservice.com}}}
+  - {name: 🇺🇸 3美国🇺🇸1, server: tw.systmservice.com, port: 58139, type: vmess, uuid: 12f23959-2a25-4244-b4eb-d51d073bb789, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw.systmservice.com}}}
+  - {name: 🇺🇸 2美国🇺🇸2 2, server: tw.systmservice.com, port: 17043, type: vmess, uuid: 12f23959-2a25-4244-b4eb-d51d073bb789, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw.systmservice.com}}}
+  - {name: 🇺🇸 2美国🇺🇸3 2, server: tw.systmservice.com, port: 31673, type: vmess, uuid: 12f23959-2a25-4244-b4eb-d51d073bb789, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: tw.systmservice.com}}}
+  - {name: 2Gemini专线1 2, server: tw.systmservice.com, port: 17503, type: trojan, password: 37ero1rzacy81nwf, sni: tw.systmservice.com}
+  - {name: 2 Gemini专线2, server: tw.systmservice.com, port: 39717, type: trojan, password: 37ero1rzacy81nwf, sni: tw.systmservice.com}
+  - {name: 2 Gemini专线3, server: tw.systmservice.com, port: 56655, type: trojan, password: 37ero1rzacy81nwf, sni: tw.systmservice.com}
 proxy-groups:
   - name: Proxies
     type: select
@@ -141,6 +147,12 @@ proxy-groups:
       - 3Gemini专线1
       - 3Gemini专线2
       - 3Gemini专线1 2
+      - 🇺🇸 3美国🇺🇸1
+      - 🇺🇸 2美国🇺🇸2 2
+      - 🇺🇸 2美国🇺🇸3 2
+      - 2Gemini专线1 2
+      - 2 Gemini专线2
+      - 2 Gemini专线3
   - name: Apple
     type: select
     proxies:
@@ -247,6 +259,9 @@ proxy-groups:
       - 🇺🇸 2美国🇺🇸3
       - 🇺🇸 3美国1
       - 🇺🇸 3美国2
+      - 🇺🇸 3美国🇺🇸1
+      - 🇺🇸 2美国🇺🇸2 2
+      - 🇺🇸 2美国🇺🇸3 2
 rules:
   - DOMAIN-SUFFIX,17gouwuba.com,REJECT
   - DOMAIN-SUFFIX,186078.com,REJECT
