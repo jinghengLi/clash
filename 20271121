@@ -4,65 +4,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 🇸🇬 11月18日更新, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: dd5cb6ed-672d-44ed-9e7b-ac6ce1edca88, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 近期墙冷空气来袭, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: e08229a4-3f1b-4d5e-8f55-7a60232c278c, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 维护成本骤增, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41274, type: trojan, password: 4f52e608-ae02-4d33-9fd4-2663b4763895, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 24小时不间断维护, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 691f093c-d0c2-49c7-b02a-dee15f02d767, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇸🇬 使用前点更新, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: 206d3a36-6a32-44d5-9479-916cdaa6454a, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 风雨同行诚信为本, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41274, type: trojan, password: 7db87bea-733b-4f2c-850a-4d9c5b8967ce, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 感谢一路支持厚爱, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 2de8e7ad-fff3-4253-8e86-1c070b108799, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本1, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: a9f007c9-fe7e-4c6d-ba24-25b75a33cf2f, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 6美国1, server: fix.systmservice.com, port: 8443, type: vmess, uuid: 0b9fc08b-04aa-4d7b-ab93-12184c66df4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: fix.systmservice.com}}}
-  - {name: 🇺🇸 6美国2, server: fix.systmservice.com, port: 443, type: vmess, uuid: 0b9fc08b-04aa-4d7b-ab93-12184c66df4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: fix.systmservice.com}}}
-  - {name: 🇺🇸 6美国3, server: fix.systmservice.com, port: 30569, type: vmess, uuid: 0b9fc08b-04aa-4d7b-ab93-12184c66df4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: fix.systmservice.com}}}
-  - {name: 🇺🇸 6美国4, server: fix.systmservice.com, port: 2083, type: vmess, uuid: 0b9fc08b-04aa-4d7b-ab93-12184c66df4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: fix.systmservice.com}}}
-  - {name: 6chatgpt1, server: fix.systmservice.com, port: 8443, type: vmess, uuid: 0b9fc08b-04aa-4d7b-ab93-12184c66df4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: fix.systmservice.com}}}
-  - {name: 6chatgpt2, server: fix.systmservice.com, port: 443, type: vmess, uuid: 0b9fc08b-04aa-4d7b-ab93-12184c66df4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: fix.systmservice.com}}}
-  - {name: 6chatgpt3, server: fix.systmservice.com, port: 30569, type: vmess, uuid: 0b9fc08b-04aa-4d7b-ab93-12184c66df4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: fix.systmservice.com}}}
-  - {name: 6chatgpt4, server: fix.systmservice.com, port: 2083, type: vmess, uuid: 0b9fc08b-04aa-4d7b-ab93-12184c66df4e, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: fix.systmservice.com}}}
-  - {name: 🇭🇰 香港 01, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: dbf5c062-ac75-4858-b6d5-1f3bab27b91e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: f20031bd-d391-492a-9437-15d1b83796a8, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2 2, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: c2508492-2252-49c2-b72d-642a49042e55, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾1, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41274, type: trojan, password: 2ade1e3e-70c8-4889-b301-4c92e41522c4, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 4dfd4b58-91a1-4043-bbfe-f6bf2ebaedd4, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 2, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: 39169bfa-f3bf-469e-ae76-a9aa7ac80e52, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: 26d63bcd-26f1-4435-8b99-541444501cd0, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本1 2, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: acb6c6f8-431a-48f7-99b5-c04c7d606e7e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本1 3, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: 3a3f85b2-d3d9-4e7c-86be-af0e1d325c15, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2 3, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: 0844c4e9-9322-4ad4-855b-43925592daf2, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 2, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: ea602097-ea02-4238-bea3-31c95da9e6bc, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 3, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: cfd29543-1d3d-4ea4-81d1-1ca16141312d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 4, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 027ea121-973c-491d-9b24-daeaa72808e7, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 5, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 4052fcc6-ae67-4074-be7a-a0278582a195, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 6, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 77a08ab2-a32e-4897-9a47-e028931de4dd, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 7, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: c64f13a3-32f1-49f7-b2e7-2d09e6484499, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 8, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: b7e09a3f-443e-4cb3-aadb-69ba63fd4ab3, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2 4, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: 5e3ed649-33b8-481a-8df9-6ee89ccad05b, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 2, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: 0ad6317a-a2e9-43d9-975e-94e4107e7e2d, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 3, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: 1086bb09-5860-40a4-a10e-6bbb24c724b4, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 01 3, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: f8b9346b-8c84-458c-9a4c-37de8bb8cf02, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本1 4, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: 663102c7-8c28-45e3-8dcc-00d83cac311e, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2 5, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: ec9109ce-4786-4ed5-832c-fdbd3df2efbc, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 4, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: 9de797b8-92ba-4695-b349-1d1c2139eff8, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本1 5, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: b6ee5743-40b4-4e34-b065-b19cabdc2bb7, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾1 2, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41274, type: trojan, password: 652b4b79-fbad-4d3f-a36e-dfa104733608, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 9, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 245486f4-a7d0-49b4-b68e-4cd2b2ea5a95, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 10, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 2c4d3b8d-b7e4-4cc5-bc63-c1d5b558cbf9, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇸🇬 新加坡1, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41277, type: trojan, password: 3783aca5-3405-4542-be38-4a60faff6e56, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇬🇧 英国1, server: xiaozhubbbb4.xiaozhu9545515.com, port: 11278, type: trojan, password: 3783aca5-3405-4542-be38-4a60faff6e56, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇰🇷 韩国01, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49214, type: trojan, password: aceac542-0ab3-4d47-a8a2-d597aea40588, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇻🇳 越南1, server: xiaozhubbbb4.xiaozhu9545515.com, port: 11276, type: trojan, password: aceac542-0ab3-4d47-a8a2-d597aea40588, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国西雅图原生, server: xiaozhubbbb4.xiaozhu9545515.com, port: 30210, type: trojan, password: b1857794-8508-4722-8ff4-f6c1efd97cc1, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国洛杉矶原生, server: xiaozhubbbb4.xiaozhu9545515.com, port: 19216, type: trojan, password: c8b1337b-0cae-41cc-92a4-33cdfdd58c78, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 5, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: 06e6f70b-a42e-4acb-a011-cede2207dbf3, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本1 6, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: e9c79387-4ad5-49ae-87bd-78720021bb40, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇨🇳 台湾1 3, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41274, type: trojan, password: c5e4e88b-aca6-46de-aa71-250646fa629b, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 11, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: f44aa050-4500-4d83-b38c-5c1c9f208298, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇭🇰 香港 02 6, server: xiaozhubbbb4.xiaozhu9545515.com, port: 49213, type: trojan, password: 7756180a-3a07-4939-91be-ae7664b311ca, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本2 6, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: d8d21f93-c1e7-4bb8-a2c1-e9081479c9e6, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 12, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 6b803b1b-e9d6-42fb-91ed-b95634fc1dbd, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇯🇵 日本1 7, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41273, type: trojan, password: 4a3f96a1-a5b7-4e06-a769-eed4e66a6040, sni: www.itunes.com, skip-cert-verify: true}
-  - {name: 🇺🇸 美国纽约 13, server: xiaozhubbbb4.xiaozhu9545515.com, port: 41275, type: trojan, password: 4d5878ad-5168-4dfd-8982-209cc00a9694, sni: www.itunes.com, skip-cert-verify: true}
+  - {name: 🇸🇬 11月21日更新, server: core.systmservice.com, port: 443, type: vmess, uuid: be48d66b-0f46-4c05-be8b-2dfd7c7be0a7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: core.systmservice.com}}}
+  - {name: 近期强冷空气来袭, server: edge.systmservice.com, port: 8443, type: vmess, uuid: b20fb9fb-28eb-489d-ad0d-6e23bd54e632, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: edge.systmservice.com}}}
+  - {name: 维护强度骤增, server: sync.systmservice.com, port: 2053, type: vmess, uuid: c43f1541-4b4d-4de1-81d8-399fa37f5fba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sync.systmservice.com}}}
+  - {name: 24小时不间断维护, server: sync.systmservice.com, port: 2083, type: vmess, uuid: c43f1541-4b4d-4de1-81d8-399fa37f5fba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sync.systmservice.com}}}
+  - {name: 🇸🇬 使用前先点更新, server: core.systmservice.com, port: 8443, type: vmess, uuid: be48d66b-0f46-4c05-be8b-2dfd7c7be0a7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: core.systmservice.com}}}
+  - {name: 风雨兼程诚信为本, server: edge.systmservice.com, port: 2053, type: vmess, uuid: b20fb9fb-28eb-489d-ad0d-6e23bd54e632, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: edge.systmservice.com}}}
+  - {name: 感谢一路支持厚爱, server: sync.systmservice.com, port: 443, type: vmess, uuid: c43f1541-4b4d-4de1-81d8-399fa37f5fba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sync.systmservice.com}}}
+  - {name: 🇺🇸 12美国1, server: core.systmservice.com, port: 443, type: vmess, uuid: be48d66b-0f46-4c05-be8b-2dfd7c7be0a7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: core.systmservice.com}}}
+  - {name: 🇺🇸 12美国2, server: core.systmservice.com, port: 8443, type: vmess, uuid: be48d66b-0f46-4c05-be8b-2dfd7c7be0a7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: core.systmservice.com}}}
+  - {name: 🇺🇸 12美国3, server: core.systmservice.com, port: 2053, type: vmess, uuid: be48d66b-0f46-4c05-be8b-2dfd7c7be0a7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: core.systmservice.com}}}
+  - {name: 🇺🇸 12美国4, server: core.systmservice.com, port: 2083, type: vmess, uuid: be48d66b-0f46-4c05-be8b-2dfd7c7be0a7, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: core.systmservice.com}}}
+  - {name: 🇺🇸 13美国1, server: edge.systmservice.com, port: 443, type: vmess, uuid: b20fb9fb-28eb-489d-ad0d-6e23bd54e632, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: edge.systmservice.com}}}
+  - {name: 🇺🇸 13美国2, server: edge.systmservice.com, port: 8443, type: vmess, uuid: b20fb9fb-28eb-489d-ad0d-6e23bd54e632, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: edge.systmservice.com}}}
+  - {name: 🇺🇸 13美国3, server: edge.systmservice.com, port: 2053, type: vmess, uuid: b20fb9fb-28eb-489d-ad0d-6e23bd54e632, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: edge.systmservice.com}}}
+  - {name: 🇺🇸 13美国4, server: edge.systmservice.com, port: 2083, type: vmess, uuid: b20fb9fb-28eb-489d-ad0d-6e23bd54e632, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: edge.systmservice.com}}}
+  - {name: 🇺🇸 14美国1, server: sync.systmservice.com, port: 443, type: vmess, uuid: c43f1541-4b4d-4de1-81d8-399fa37f5fba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sync.systmservice.com}}}
+  - {name: 🇺🇸 14美国2, server: sync.systmservice.com, port: 8443, type: vmess, uuid: c43f1541-4b4d-4de1-81d8-399fa37f5fba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sync.systmservice.com}}}
+  - {name: 🇺🇸 14美国3, server: sync.systmservice.com, port: 2053, type: vmess, uuid: c43f1541-4b4d-4de1-81d8-399fa37f5fba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sync.systmservice.com}}}
+  - {name: 🇺🇸 14美国4, server: sync.systmservice.com, port: 2083, type: vmess, uuid: c43f1541-4b4d-4de1-81d8-399fa37f5fba, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: sync.systmservice.com}}}
+  - {name: 🇯🇵 日本1, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: f61223b3-4742-4249-9307-a1a66e2662f9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本2, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: bf197f17-9a21-4edc-b7b3-34e9c78bf16b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本2 2, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 9fd03a47-469b-4352-9930-0d206c05529f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇨🇳 台湾1, server: xiaozhu4.kumao62654.com, port: 41274, type: trojan, password: 5c2b0c7b-4949-46fc-94cb-ae5349adbcaf, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: f815d618-a346-43c5-a02f-cd23d460a18c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 2, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: c2b6a47f-a9e5-456d-832d-200d42cef17e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 3, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: 90d7a350-ad6d-47af-ae51-5cb043aaff1a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 2, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 339818b1-8540-4931-baab-688d6db0a0af, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 01, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 0c14995f-c250-4923-92a8-542de3c4567b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 7de2f7ee-a1e6-4985-a065-0bb16543f092, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 3, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 95c69d51-a845-42c4-b1f2-669b58eec170, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 4, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 8bd67891-7a4c-40b2-a264-2c93b0d6d469, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 2, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 4424caef-5b85-4839-9795-96ad65cdfc64, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 3, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 89cf1f1f-0b8c-4817-989a-ca6390fe0215, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 5, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: a49b1932-f2e1-483b-8fe7-b840d1aacb37, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇨🇳 台湾1 2, server: xiaozhu4.kumao62654.com, port: 41274, type: trojan, password: 89ff3f77-3a07-4d45-978a-5ddb69a89b6f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 4, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: f905f560-6b79-488a-9055-35c5b77729a1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 5, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: 9bccf0ca-a7aa-4254-8c0d-e1ea678470e8, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国西雅图原生, server: xiaozhu4.kumao62654.com, port: 30210, type: trojan, password: 0476475d-0c82-439f-ae23-5504535fcd72, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本2 3, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: f73588a8-cab6-47a2-a1d9-36981e162dfa, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 6, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 9f022386-df41-4652-a1ad-2a3d9c00bb6c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 7, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: eba46e37-de01-4c94-b923-225fb50063ed, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本2 4, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 58ed61bc-cc4f-44a8-b77e-42ed0cb694c9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 8, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 10807d99-b101-4a85-9c86-0753c2895b2f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 6, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: fc0d20ad-b67c-4321-bed4-b70ac534ebc0, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 4, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 3bcf885d-ef98-4d68-bac9-22d14acf783f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 9, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 7b287fb0-877a-4aa4-990d-6b41058f77aa, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 7, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: e74073e6-a8d4-4670-bf87-82b5b208e8f2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 10, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: e53a25f3-4f66-459e-bfe9-9b0614a4a198, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 11, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 7cabccb2-2559-47ce-87d2-e630a15bc471, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 12, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 1777865d-f8b1-47a9-ad65-f949df69d7c5, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 8, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: 6c801cf6-f42a-46a6-ba8b-1bc161b4534b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 5, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 9ed093c7-0961-4562-99d2-b5392e9b396f, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 6, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: b3f59d73-d8b5-41c1-b41c-0de883aec266, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 7, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 81f7443d-a6d1-4137-a284-ef1b35da6ea2, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 13, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 49f09f37-f234-490f-ad40-6988d0e2e9f1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国西雅图原生 2, server: xiaozhu4.kumao62654.com, port: 30210, type: trojan, password: ef1d7d84-5500-4f70-8e98-ae5d9c3a65f9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国洛杉矶原生, server: xiaozhu4.kumao62654.com, port: 19216, type: trojan, password: 647fbdd3-fb90-441a-9256-0f723b795c37, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 01 2, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: e08229a4-3f1b-4d5e-8f55-7a60232c278c, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 8, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 4f52e608-ae02-4d33-9fd4-2663b4763895, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 14, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 206d3a36-6a32-44d5-9479-916cdaa6454a, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 9, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 7db87bea-733b-4f2c-850a-4d9c5b8967ce, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 15, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 027ea121-973c-491d-9b24-daeaa72808e7, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 16, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 4052fcc6-ae67-4074-be7a-a0278582a195, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 01 3, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 77a08ab2-a32e-4897-9a47-e028931de4dd, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 17, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: c64f13a3-32f1-49f7-b2e7-2d09e6484499, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇨🇳 台湾1 3, server: xiaozhu4.kumao62654.com, port: 41274, type: trojan, password: b7e09a3f-443e-4cb3-aadb-69ba63fd4ab3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 9, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: f8b9346b-8c84-458c-9a4c-37de8bb8cf02, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国西雅图原生 3, server: xiaozhu4.kumao62654.com, port: 30210, type: trojan, password: 663102c7-8c28-45e3-8dcc-00d83cac311e, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国洛杉矶原生 2, server: xiaozhu4.kumao62654.com, port: 19216, type: trojan, password: 9de797b8-92ba-4695-b349-1d1c2139eff8, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 18, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: b6ee5743-40b4-4e34-b065-b19cabdc2bb7, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 19, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 652b4b79-fbad-4d3f-a36e-dfa104733608, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 10, server: xiaozhu4.kumao62654.com, port: 49213, type: trojan, password: 245486f4-a7d0-49b4-b68e-4cd2b2ea5a95, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇨🇳 台湾1 4, server: xiaozhu4.kumao62654.com, port: 41274, type: trojan, password: 2c4d3b8d-b7e4-4cc5-bc63-c1d5b558cbf9, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 10, server: xxz1.kumao62654.com, port: 41275, type: trojan, password: aceac542-0ab3-4d47-a8a2-d597aea40588, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇸🇬 新加坡1, server: xiaozhu4.kumao62654.com, port: 41277, type: trojan, password: b1857794-8508-4722-8ff4-f6c1efd97cc1, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇭🇰 香港 02 11, server: xiaozhuaaaa3.xiaozhu9545515.com, port: 49213, type: trojan, password: c8b1337b-0cae-41cc-92a4-33cdfdd58c78, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 20, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 06e6f70b-a42e-4acb-a011-cede2207dbf3, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 11, server: xxz1.kumao62654.com, port: 41275, type: trojan, password: e9c79387-4ad5-49ae-87bd-78720021bb40, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 12, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: c5e4e88b-aca6-46de-aa71-250646fa629b, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 13, server: xxz1.kumao62654.com, port: 41275, type: trojan, password: f44aa050-4500-4d83-b38c-5c1c9f208298, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 21, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 7756180a-3a07-4939-91be-ae7664b311ca, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇺🇸 美国纽约 14, server: xiaozhu4.kumao62654.com, port: 41275, type: trojan, password: d8d21f93-c1e7-4bb8-a2c1-e9081479c9e6, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本1 22, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 6b803b1b-e9d6-42fb-91ed-b95634fc1dbd, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇸🇬 新加坡1 2, server: xiaozhu4.kumao62654.com, port: 41277, type: trojan, password: 4a3f96a1-a5b7-4e06-a769-eed4e66a6040, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
+  - {name: 🇯🇵 日本2 5, server: xiaozhu4.kumao62654.com, port: 41273, type: trojan, password: 4d5878ad-5168-4dfd-8982-209cc00a9694, sni: www.itunes.com, skip-cert-verify: true, tfo: true}
   - {name: 🇺🇸 3美国1, server: api.systmservice.com, port: 59274, type: vmess, uuid: a280dd94-5e06-4ac5-bb64-68c29351fe9d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: api.systmservice.com}}}
   - {name: 🇺🇸 3美国2, server: api.systmservice.com, port: 16020, type: vmess, uuid: a280dd94-5e06-4ac5-bb64-68c29351fe9d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: api.systmservice.com}}}
   - {name: 3Gemini专线1, server: api.systmservice.com, port: 22941, type: vmess, uuid: a280dd94-5e06-4ac5-bb64-68c29351fe9d, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: {path: /ws, headers: {Host: api.systmservice.com}}}
@@ -77,65 +103,91 @@ proxy-groups:
       - JP
       - US
       - TW
-      - 🇸🇬 11月18日更新
-      - 近期墙冷空气来袭
-      - 维护成本骤增
+      - 🇸🇬 11月21日更新
+      - 近期强冷空气来袭
+      - 维护强度骤增
       - 24小时不间断维护
-      - 🇸🇬 使用前点更新
-      - 风雨同行诚信为本
+      - 🇸🇬 使用前先点更新
+      - 风雨兼程诚信为本
       - 感谢一路支持厚爱
+      - 🇺🇸 12美国1
+      - 🇺🇸 12美国2
+      - 🇺🇸 12美国3
+      - 🇺🇸 12美国4
+      - 🇺🇸 13美国1
+      - 🇺🇸 13美国2
+      - 🇺🇸 13美国3
+      - 🇺🇸 13美国4
+      - 🇺🇸 14美国1
+      - 🇺🇸 14美国2
+      - 🇺🇸 14美国3
+      - 🇺🇸 14美国4
       - 🇯🇵 日本1
-      - 🇺🇸 6美国1
-      - 🇺🇸 6美国2
-      - 🇺🇸 6美国3
-      - 🇺🇸 6美国4
-      - 6chatgpt1
-      - 6chatgpt2
-      - 6chatgpt3
-      - 6chatgpt4
-      - 🇭🇰 香港 01
       - 🇯🇵 日本2
       - 🇯🇵 日本2 2
       - 🇨🇳 台湾1
       - 🇺🇸 美国纽约
-      - 🇭🇰 香港 01 2
-      - 🇭🇰 香港 02
-      - 🇯🇵 日本1 2
-      - 🇯🇵 日本1 3
-      - 🇯🇵 日本2 3
       - 🇺🇸 美国纽约 2
       - 🇺🇸 美国纽约 3
-      - 🇺🇸 美国纽约 4
-      - 🇺🇸 美国纽约 5
-      - 🇺🇸 美国纽约 6
-      - 🇺🇸 美国纽约 7
-      - 🇺🇸 美国纽约 8
-      - 🇯🇵 日本2 4
+      - 🇯🇵 日本1 2
+      - 🇭🇰 香港 01
+      - 🇭🇰 香港 02
+      - 🇯🇵 日本1 3
+      - 🇯🇵 日本1 4
       - 🇭🇰 香港 02 2
       - 🇭🇰 香港 02 3
-      - 🇭🇰 香港 01 3
-      - 🇯🇵 日本1 4
-      - 🇯🇵 日本2 5
-      - 🇭🇰 香港 02 4
       - 🇯🇵 日本1 5
       - 🇨🇳 台湾1 2
+      - 🇺🇸 美国纽约 4
+      - 🇺🇸 美国纽约 5
+      - 🇺🇸 美国西雅图原生
+      - 🇯🇵 日本2 3
+      - 🇯🇵 日本1 6
+      - 🇯🇵 日本1 7
+      - 🇯🇵 日本2 4
+      - 🇯🇵 日本1 8
+      - 🇺🇸 美国纽约 6
+      - 🇭🇰 香港 02 4
+      - 🇯🇵 日本1 9
+      - 🇺🇸 美国纽约 7
+      - 🇯🇵 日本1 10
+      - 🇯🇵 日本1 11
+      - 🇯🇵 日本1 12
+      - 🇺🇸 美国纽约 8
+      - 🇭🇰 香港 02 5
+      - 🇭🇰 香港 02 6
+      - 🇭🇰 香港 02 7
+      - 🇯🇵 日本1 13
+      - 🇺🇸 美国西雅图原生 2
+      - 🇺🇸 美国洛杉矶原生
+      - 🇭🇰 香港 01 2
+      - 🇭🇰 香港 02 8
+      - 🇯🇵 日本1 14
+      - 🇭🇰 香港 02 9
+      - 🇯🇵 日本1 15
+      - 🇯🇵 日本1 16
+      - 🇭🇰 香港 01 3
+      - 🇯🇵 日本1 17
+      - 🇨🇳 台湾1 3
       - 🇺🇸 美国纽约 9
+      - 🇺🇸 美国西雅图原生 3
+      - 🇺🇸 美国洛杉矶原生 2
+      - 🇯🇵 日本1 18
+      - 🇯🇵 日本1 19
+      - 🇭🇰 香港 02 10
+      - 🇨🇳 台湾1 4
       - 🇺🇸 美国纽约 10
       - 🇸🇬 新加坡1
-      - 🇬🇧 英国1
-      - 🇰🇷 韩国01
-      - 🇻🇳 越南1
-      - 🇺🇸 美国西雅图原生
-      - 🇺🇸 美国洛杉矶原生
-      - 🇭🇰 香港 02 5
-      - 🇯🇵 日本1 6
-      - 🇨🇳 台湾1 3
+      - 🇭🇰 香港 02 11
+      - 🇯🇵 日本1 20
       - 🇺🇸 美国纽约 11
-      - 🇭🇰 香港 02 6
-      - 🇯🇵 日本2 6
       - 🇺🇸 美国纽约 12
-      - 🇯🇵 日本1 7
       - 🇺🇸 美国纽约 13
+      - 🇯🇵 日本1 21
+      - 🇺🇸 美国纽约 14
+      - 🇯🇵 日本1 22
+      - 🇸🇬 新加坡1 2
+      - 🇯🇵 日本2 5
       - 🇺🇸 3美国1
       - 🇺🇸 3美国2
       - 3Gemini专线1
@@ -167,7 +219,10 @@ proxy-groups:
       - US
       - TW
       - 🇺🇸 美国西雅图原生
+      - 🇺🇸 美国西雅图原生 2
       - 🇺🇸 美国洛杉矶原生
+      - 🇺🇸 美国西雅图原生 3
+      - 🇺🇸 美国洛杉矶原生 2
   - name: Netease
     type: select
     proxies:
@@ -184,65 +239,98 @@ proxy-groups:
     type: select
     proxies:
       - 🇭🇰 香港 01
-      - 🇭🇰 香港 01 2
       - 🇭🇰 香港 02
       - 🇭🇰 香港 02 2
       - 🇭🇰 香港 02 3
-      - 🇭🇰 香港 01 3
       - 🇭🇰 香港 02 4
       - 🇭🇰 香港 02 5
       - 🇭🇰 香港 02 6
+      - 🇭🇰 香港 02 7
+      - 🇭🇰 香港 01 2
+      - 🇭🇰 香港 02 8
+      - 🇭🇰 香港 02 9
+      - 🇭🇰 香港 01 3
+      - 🇭🇰 香港 02 10
+      - 🇭🇰 香港 02 11
   - name: SG
     type: select
     proxies:
-      - 🇸🇬 11月18日更新
-      - 🇸🇬 使用前点更新
+      - 🇸🇬 11月21日更新
+      - 🇸🇬 使用前先点更新
       - 🇸🇬 新加坡1
+      - 🇸🇬 新加坡1 2
   - name: TW
     type: select
     proxies:
       - 🇨🇳 台湾1
       - 🇨🇳 台湾1 2
       - 🇨🇳 台湾1 3
+      - 🇨🇳 台湾1 4
   - name: JP
     type: select
     proxies:
-      - 🇸🇬 11月18日更新
+      - 🇸🇬 11月21日更新
       - 🇯🇵 日本1
       - 🇯🇵 日本2
       - 🇯🇵 日本2 2
       - 🇯🇵 日本1 2
       - 🇯🇵 日本1 3
-      - 🇯🇵 日本2 3
-      - 🇯🇵 日本2 4
       - 🇯🇵 日本1 4
-      - 🇯🇵 日本2 5
       - 🇯🇵 日本1 5
+      - 🇯🇵 日本2 3
       - 🇯🇵 日本1 6
-      - 🇯🇵 日本2 6
       - 🇯🇵 日本1 7
+      - 🇯🇵 日本2 4
+      - 🇯🇵 日本1 8
+      - 🇯🇵 日本1 9
+      - 🇯🇵 日本1 10
+      - 🇯🇵 日本1 11
+      - 🇯🇵 日本1 12
+      - 🇯🇵 日本1 13
+      - 🇯🇵 日本1 14
+      - 🇯🇵 日本1 15
+      - 🇯🇵 日本1 16
+      - 🇯🇵 日本1 17
+      - 🇯🇵 日本1 18
+      - 🇯🇵 日本1 19
+      - 🇯🇵 日本1 20
+      - 🇯🇵 日本1 21
+      - 🇯🇵 日本1 22
+      - 🇯🇵 日本2 5
   - name: US
     type: select
     proxies:
-      - 🇺🇸 6美国1
-      - 🇺🇸 6美国2
-      - 🇺🇸 6美国3
-      - 🇺🇸 6美国4
+      - 🇺🇸 12美国1
+      - 🇺🇸 12美国2
+      - 🇺🇸 12美国3
+      - 🇺🇸 12美国4
+      - 🇺🇸 13美国1
+      - 🇺🇸 13美国2
+      - 🇺🇸 13美国3
+      - 🇺🇸 13美国4
+      - 🇺🇸 14美国1
+      - 🇺🇸 14美国2
+      - 🇺🇸 14美国3
+      - 🇺🇸 14美国4
       - 🇺🇸 美国纽约
       - 🇺🇸 美国纽约 2
       - 🇺🇸 美国纽约 3
       - 🇺🇸 美国纽约 4
       - 🇺🇸 美国纽约 5
+      - 🇺🇸 美国西雅图原生
       - 🇺🇸 美国纽约 6
       - 🇺🇸 美国纽约 7
       - 🇺🇸 美国纽约 8
-      - 🇺🇸 美国纽约 9
-      - 🇺🇸 美国纽约 10
-      - 🇺🇸 美国西雅图原生
+      - 🇺🇸 美国西雅图原生 2
       - 🇺🇸 美国洛杉矶原生
+      - 🇺🇸 美国纽约 9
+      - 🇺🇸 美国西雅图原生 3
+      - 🇺🇸 美国洛杉矶原生 2
+      - 🇺🇸 美国纽约 10
       - 🇺🇸 美国纽约 11
       - 🇺🇸 美国纽约 12
       - 🇺🇸 美国纽约 13
+      - 🇺🇸 美国纽约 14
       - 🇺🇸 3美国1
       - 🇺🇸 3美国2
 rules:
@@ -460,7 +548,6 @@ rules:
   - DOMAIN-SUFFIX,nicelabel.cc,REJECT
   - DOMAIN-SUFFIX,ntfsformac.cc,REJECT
   - DOMAIN-SUFFIX,ntfsformac.cn,REJECT
-  - DOMAIN-SUFFIX,officesoftcn.com,REJECT
   - DOMAIN-SUFFIX,overturechina.com,REJECT
   - DOMAIN-SUFFIX,passwordrecovery.cn,REJECT
   - DOMAIN-SUFFIX,pdfexpert.cc,REJECT
@@ -524,11 +611,7 @@ rules:
   - DOMAIN-SUFFIX,apple.com,Apple
   - DOMAIN-SUFFIX,apple.com.cn,Apple
   - DOMAIN-SUFFIX,apple-cloudkit.com,Apple
-  - DOMAIN-SUFFIX,apple-livephotoskit.com,Apple
-  - DOMAIN-SUFFIX,apple-mapkit.com,Apple
-  - DOMAIN-SUFFIX,applemusic.com,Apple
   - DOMAIN-SUFFIX,appstore.com,Apple
-  - DOMAIN-SUFFIX,apzones.com,Apple
   - DOMAIN-SUFFIX,cdn-apple.com,Apple
   - DOMAIN-SUFFIX,icloud.com,Apple
   - DOMAIN-SUFFIX,icloud.com.cn,Apple
@@ -536,9 +619,15 @@ rules:
   - DOMAIN-SUFFIX,me.com,Apple
   - DOMAIN-SUFFIX,mzstatic.com,Apple
   - DOMAIN-KEYWORD,apple.com.akadns.net,Apple
-  - DOMAIN-KEYWORD,apple.com.edgekey.net,Apple
-  - DOMAIN-KEYWORD,apple-support.akadns.net,Apple
   - DOMAIN-KEYWORD,icloud.com.akadns.net,Apple
+  - IP-CIDR,17.0.0.0/8,Apple,no-resolve
+  - IP-CIDR,63.92.224.0/19,Apple,no-resolve
+  - IP-CIDR,65.199.22.0/23,Apple,no-resolve
+  - IP-CIDR,139.178.128.0/18,Apple,no-resolve
+  - IP-CIDR,144.178.0.0/19,Apple,no-resolve
+  - IP-CIDR,192.35.50.0/24,Apple,no-resolve
+  - IP-CIDR,198.183.17.0/24,Apple,no-resolve
+  - IP-CIDR,205.180.175.0/24,Apple,no-resolve
   - DOMAIN-KEYWORD,1drv,MicroSoft
   - DOMAIN-KEYWORD,microsoft,MicroSoft
   - DOMAIN-SUFFIX,aadrm.com,MicroSoft
@@ -867,12 +956,12 @@ rules:
   - DOMAIN-SUFFIX,bahamut.com.tw,HKMTMedia
   - DOMAIN-SUFFIX,gamer.com.tw,HKMTMedia
   - DOMAIN-SUFFIX,hinet.net,HKMTMedia
-  - DOMAIN-SUFFIX,ext-twitch.tv,Proxies
   - DOMAIN-SUFFIX,jtvnw.net,Proxies
   - DOMAIN-SUFFIX,ttvnw.net,Proxies
   - DOMAIN-SUFFIX,twitch.tv,Proxies
   - DOMAIN-SUFFIX,twitchcdn.net,Proxies
-  - DOMAIN-SUFFIX,twitch-ext.rootonline.de,Proxies
+  - DOMAIN,radio.itunes.apple.com,Proxies
+  - DOMAIN,tv.applemusic.com,Proxies
   - DOMAIN-SUFFIX,deezer.com,Proxies
   - DOMAIN-SUFFIX,dzcdn.net,Proxies
   - DOMAIN-SUFFIX,joox.com,Proxies
@@ -895,20 +984,16 @@ rules:
   - DOMAIN-SUFFIX,overcast.fm,Proxies
   - DOMAIN-SUFFIX,abema.io,Proxies
   - DOMAIN-SUFFIX,abema.tv,Proxies
-  - DOMAIN-SUFFIX,abema-tv.com,Proxies
   - DOMAIN-SUFFIX,ameba.jp,Proxies
   - DOMAIN-SUFFIX,hayabusa.io,Proxies
-  - DOMAIN-SUFFIX,hayabusa.media,Proxies
-  - DOMAIN,api-abematv.bucketeer.jp,Proxies
   - DOMAIN-KEYWORD,abematv.akamaized.net,Proxies
   - DOMAIN-SUFFIX,c4assets.com,Proxies
   - DOMAIN-SUFFIX,channel4.com,Proxies
   - DOMAIN-SUFFIX,aiv-cdn.net,Proxies
   - DOMAIN-SUFFIX,aiv-delivery.net,Proxies
   - DOMAIN-SUFFIX,amazonvideo.com,Proxies
-  - DOMAIN-SUFFIX,media-amazon.com,Proxies
   - DOMAIN-SUFFIX,primevideo.com,Proxies
-  - DOMAIN-SUFFIX,pv-cdn.net,Proxies
+  - DOMAIN-SUFFIX,media-amazon.com,Proxies
   - DOMAIN,atv-ps.amazon.com,Proxies
   - DOMAIN,fls-na.amazon.com,Proxies
   - DOMAIN,avodmp4s3ww-a.akamaihd.net,Proxies
@@ -919,13 +1004,11 @@ rules:
   - DOMAIN,d1v5ir2lpwr8os.cloudfront.net,Proxies
   - DOMAIN,d27xxe7juh1us6.cloudfront.net,Proxies
   - DOMAIN-KEYWORD,avoddashs,Proxies
-  - DOMAIN,tv.applemusic.com,Proxies
   - DOMAIN,linear.tv.apple.com,Proxies
   - DOMAIN,play-edge.itunes.apple.com,Proxies
   - DOMAIN,uts-api.itunes.apple.com,Proxies
   - DOMAIN-SUFFIX,bahamut.com.tw,Proxies
   - DOMAIN-SUFFIX,gamer.com.tw,Proxies
-  - DOMAIN,bahamut.akamaized.net,Proxies
   - DOMAIN,gamer-cds.cdn.hinet.net,Proxies
   - DOMAIN,gamer2-cds.cdn.hinet.net,Proxies
   - DOMAIN-SUFFIX,bbc.co.uk,Proxies
@@ -949,8 +1032,6 @@ rules:
   - DOMAIN-SUFFIX,discoveryplus.com,Proxies
   - DOMAIN-SUFFIX,discoveryplus.in,Proxies
   - DOMAIN-SUFFIX,dnitv.com,Proxies
-  - DOMAIN,x-default-stgec.uplynk.com,Proxies
-  - DOMAIN-KEYWORD,discovery.uplynk.com,Proxies
   - DOMAIN-SUFFIX,bamgrid.com,Proxies
   - DOMAIN-SUFFIX,disneyplus.com,Proxies
   - DOMAIN-SUFFIX,disney-plus.net,Proxies
@@ -963,10 +1044,6 @@ rules:
   - DOMAIN-SUFFIX,encoretvb.com,Proxies
   - DOMAIN,edge.api.brightcove.com,Proxies
   - DOMAIN,bcbolt446c5271-a.akamaihd.net,Proxies
-  - DOMAIN-SUFFIX,ott.hinet.net,Proxies
-  - DOMAIN-SUFFIX,hamivideo.hinet.net,Proxies
-  - DOMAIN,hls-hichannel.cdn.hinet.net,Proxies
-  - DOMAIN-KEYWORD,hamivideo.cdn.hinet.net,Proxies
   - DOMAIN-SUFFIX,hbo.com,Proxies
   - DOMAIN-SUFFIX,hbogo.com,Proxies
   - DOMAIN-SUFFIX,hbonow.com,Proxies
@@ -1023,11 +1100,12 @@ rules:
   - DOMAIN-SUFFIX,kktv.com.tw,Proxies
   - DOMAIN-SUFFIX,kktv.me,Proxies
   - DOMAIN,kktv-theater.kk.stream,Proxies
-  - DOMAIN,theater-kktv.cdn.hinet.net,Proxies
   - DOMAIN-SUFFIX,linetv.tw,Proxies
   - DOMAIN,d3c7rimkq79yfu.cloudfront.net,Proxies
   - DOMAIN-SUFFIX,litv.tv,Proxies
   - DOMAIN,litvfreemobile-hichannel.cdn.hinet.net,Proxies
+  - DOMAIN-SUFFIX,api.mgtv.com,Proxies
+  - DOMAIN,mobileso.bz.mgtv.com,Proxies
   - DOMAIN-SUFFIX,channel5.com,Proxies
   - DOMAIN-SUFFIX,my5.tv,Proxies
   - DOMAIN,d349g9zuie06uo.cloudfront.net,Proxies
@@ -1042,9 +1120,30 @@ rules:
   - DOMAIN-SUFFIX,nflximg.net,Proxies
   - DOMAIN-SUFFIX,nflxso.net,Proxies
   - DOMAIN-SUFFIX,nflxvideo.net,Proxies
-  - DOMAIN-KEYWORD,netflixdnstest,Proxies
-  - DOMAIN-KEYWORD,apiproxy-device-prod-nlb-,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest0.com,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest1.com,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest2.com,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest3.com,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest4.com,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest5.com,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest6.com,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest7.com,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest8.com,Proxies
+  - DOMAIN-SUFFIX,netflixdnstest9.com,Proxies
   - DOMAIN-KEYWORD,dualstack.apiproxy-,Proxies
+  - DOMAIN-KEYWORD,dualstack.ichnaea-web-,Proxies
+  - IP-CIDR,23.246.0.0/18,Proxies,no-resolve
+  - IP-CIDR,37.77.184.0/21,Proxies,no-resolve
+  - IP-CIDR,45.57.0.0/17,Proxies,no-resolve
+  - IP-CIDR,64.120.128.0/17,Proxies,no-resolve
+  - IP-CIDR,66.197.128.0/17,Proxies,no-resolve
+  - IP-CIDR,108.175.32.0/20,Proxies,no-resolve
+  - IP-CIDR,192.173.64.0/18,Proxies,no-resolve
+  - IP-CIDR,198.38.96.0/19,Proxies,no-resolve
+  - IP-CIDR,198.45.48.0/20,Proxies,no-resolve
+  - IP-CIDR,34.210.42.111/32,Proxies,no-resolve
+  - IP-CIDR,52.89.124.203/32,Proxies,no-resolve
+  - IP-CIDR,54.148.37.5/32,Proxies,no-resolve
   - DOMAIN-SUFFIX,dmc.nico,Proxies
   - DOMAIN-SUFFIX,nicovideo.jp,Proxies
   - DOMAIN-SUFFIX,nimg.jp,Proxies
@@ -1075,7 +1174,7 @@ rules:
   - DOMAIN-SUFFIX,tik-tokapi.com,Proxies
   - DOMAIN-SUFFIX,tiktokcdn.com,Proxies
   - DOMAIN-SUFFIX,tiktokv.com,Proxies
-  - DOMAIN-KEYWORD,tiktokcdn-,Proxies
+  - DOMAIN-KEYWORD,-tiktokcdn-com,Proxies
   - DOMAIN-SUFFIX,tver.jp,Proxies
   - DOMAIN,edge.api.brightcove.com,Proxies
   - DOMAIN-SUFFIX,viu.com,Proxies
@@ -1088,264 +1187,18 @@ rules:
   - DOMAIN-SUFFIX,wetvinfo.com,Proxies
   - IP-CIDR,150.109.28.51/32,Proxies,no-resolve
   - DOMAIN-SUFFIX,googlevideo.com,Proxies
-  - DOMAIN-SUFFIX,withyoutube.com,Proxies
-  - DOMAIN-SUFFIX,youtu.be,Proxies
   - DOMAIN-SUFFIX,youtube.com,Proxies
-  - DOMAIN-SUFFIX,youtubeeducation.com,Proxies
-  - DOMAIN-SUFFIX,youtubegaming.com,Proxies
-  - DOMAIN-SUFFIX,youtubekids.com,Proxies
-  - DOMAIN-SUFFIX,youtube-nocookie.com,Proxies
-  - DOMAIN-SUFFIX,yt.be,Proxies
   - DOMAIN-SUFFIX,ytimg.com,Proxies
   - DOMAIN,youtubei.googleapis.com,Proxies
   - DOMAIN,yt3.ggpht.com,Proxies
-  - DOMAIN-SUFFIX,9cache.com,Proxies
-  - DOMAIN-SUFFIX,9gag.com,Proxies
-  - DOMAIN-SUFFIX,abc.com,Proxies
-  - DOMAIN-SUFFIX,anchor.fm,Proxies
-  - DOMAIN-SUFFIX,archive.fo,Proxies
-  - DOMAIN-SUFFIX,archive.org,Proxies
-  - DOMAIN-SUFFIX,archive.ph,Proxies
-  - DOMAIN-SUFFIX,archiveofourown.org,Proxies
-  - DOMAIN-SUFFIX,artstation.com,Proxies
-  - DOMAIN-SUFFIX,ask.com,Proxies
-  - DOMAIN-SUFFIX,avg.com,Proxies
-  - DOMAIN-SUFFIX,axios.com,Proxies
-  - DOMAIN-SUFFIX,bandcamp.com,Proxies
-  - DOMAIN-SUFFIX,bandwagonhost.com,Proxies
-  - DOMAIN-SUFFIX,bbc.com,Proxies
-  - DOMAIN-SUFFIX,behance.net,Proxies
-  - DOMAIN-SUFFIX,bit.ly,Proxies
-  - DOMAIN-SUFFIX,bloglovin.com,Proxies
-  - DOMAIN-SUFFIX,blubrry.com,Proxies
-  - DOMAIN-SUFFIX,box.com,Proxies
-  - DOMAIN-SUFFIX,brave.com,Proxies
-  - DOMAIN-SUFFIX,bullguard.com,Proxies
-  - DOMAIN-SUFFIX,castbox.fm,Proxies
-  - DOMAIN-SUFFIX,change.org,Proxies
-  - DOMAIN-SUFFIX,cloudcone.com,Proxies
-  - DOMAIN-SUFFIX,clyp.it,Proxies
-  - DOMAIN-SUFFIX,cna.com.tw,Proxies
-  - DOMAIN-SUFFIX,conoha.jp,Proxies
-  - DOMAIN-SUFFIX,coursehero.com,Proxies
-  - DOMAIN-SUFFIX,c-span.org,Proxies
-  - DOMAIN-SUFFIX,dailymotion.com,Proxies
-  - DOMAIN-SUFFIX,daum.net,Proxies
-  - DOMAIN-SUFFIX,deadline.com,Proxies
-  - DOMAIN-SUFFIX,depositphotos.com,Proxies
-  - DOMAIN-SUFFIX,deviantart.com,Proxies
-  - DOMAIN-SUFFIX,deviantart.net,Proxies
-  - DOMAIN-SUFFIX,disconnect.me,Proxies
-  - DOMAIN-SUFFIX,disqus.com,Proxies
-  - DOMAIN-SUFFIX,dlive.tv,Proxies
-  - DOMAIN-SUFFIX,dowjones.com,Proxies
-  - DOMAIN-SUFFIX,duckduckgo.com,Proxies
-  - DOMAIN-SUFFIX,earthcam.com,Proxies
-  - DOMAIN-SUFFIX,edx-cdn.org,Proxies
-  - DOMAIN-SUFFIX,encyclopedia.com,Proxies
-  - DOMAIN-SUFFIX,feeder.co,Proxies
-  - DOMAIN-SUFFIX,feedly.com,Proxies
-  - DOMAIN-SUFFIX,flickr.com,Proxies
-  - DOMAIN-SUFFIX,flipboard.com,Proxies
-  - DOMAIN-SUFFIX,flitto.com,Proxies
-  - DOMAIN-SUFFIX,foreignaffairs.com,Proxies
-  - DOMAIN-SUFFIX,foreignpolicy.com,Proxies
-  - DOMAIN-SUFFIX,ft.com,Proxies
-  - DOMAIN-SUFFIX,ftchinese.com,Proxies
-  - DOMAIN-SUFFIX,ftimg.net,Proxies
-  - DOMAIN-SUFFIX,genius.com,Proxies
-  - DOMAIN-SUFFIX,getsync.com,Proxies
-  - DOMAIN-SUFFIX,gfw.report,Proxies
-  - DOMAIN-SUFFIX,git.io,Proxies
-  - DOMAIN-SUFFIX,githack.com,Proxies
-  - DOMAIN-SUFFIX,graphql.org,Proxies
-  - DOMAIN-SUFFIX,hackmd.io,Proxies
-  - DOMAIN-SUFFIX,heroku.com,Proxies
-  - DOMAIN-SUFFIX,hket.com,Proxies
-  - DOMAIN-SUFFIX,huffpost.com,Proxies
-  - DOMAIN-SUFFIX,i-cable.com,Proxies
-  - DOMAIN-SUFFIX,imgur.com,Proxies
-  - DOMAIN-SUFFIX,independent.co.uk,Proxies
-  - DOMAIN-SUFFIX,inoreader.com,Proxies
-  - DOMAIN-SUFFIX,is.gd,Proxies
-  - DOMAIN-SUFFIX,issuu.com,Proxies
-  - DOMAIN-SUFFIX,istockphoto.com,Proxies
-  - DOMAIN-SUFFIX,justpaste.it,Proxies
-  - DOMAIN-SUFFIX,kakao.com,Proxies
-  - DOMAIN-SUFFIX,kobo.com,Proxies
-  - DOMAIN-SUFFIX,listennotes.com,Proxies
-  - DOMAIN-SUFFIX,livestream.com,Proxies
-  - DOMAIN-SUFFIX,mailchimp.com,Proxies
-  - DOMAIN-SUFFIX,matrix.org,Proxies
-  - DOMAIN-SUFFIX,medibang.com,Proxies
-  - DOMAIN-SUFFIX,medium.com,Proxies
-  - DOMAIN-SUFFIX,mega.co.nz,Proxies
-  - DOMAIN-SUFFIX,mega.io,Proxies
-  - DOMAIN-SUFFIX,mega.nz,Proxies
-  - DOMAIN-SUFFIX,mixlr.com,Proxies
-  - DOMAIN-SUFFIX,moon.fm,Proxies
-  - DOMAIN-SUFFIX,mubi.com,Proxies
-  - DOMAIN-SUFFIX,myspace.com,Proxies
-  - DOMAIN-SUFFIX,myspacecdn.com,Proxies
-  - DOMAIN-SUFFIX,nbcnews.com,Proxies
-  - DOMAIN-SUFFIX,neowin.net,Proxies
-  - DOMAIN-SUFFIX,newstatesman.com,Proxies
-  - DOMAIN-SUFFIX,newsweek.com,Proxies
-  - DOMAIN-SUFFIX,newyorker.com,Proxies
-  - DOMAIN-SUFFIX,now.com,Proxies
-  - DOMAIN-SUFFIX,ok.ru,Proxies
-  - DOMAIN-SUFFIX,omny.fm,Proxies
-  - DOMAIN-SUFFIX,openvpn.net,Proxies
-  - DOMAIN-SUFFIX,owltail.com,Proxies
-  - DOMAIN-SUFFIX,oxfordscholarship.com,Proxies
-  - DOMAIN-SUFFIX,parsevideo.com,Proxies
-  - DOMAIN-SUFFIX,paste.ee,Proxies
-  - DOMAIN-SUFFIX,pastie.org,Proxies
-  - DOMAIN-SUFFIX,pcloud.com,Proxies
-  - DOMAIN-SUFFIX,peing.net,Proxies
-  - DOMAIN-SUFFIX,player.fm,Proxies
-  - DOMAIN-SUFFIX,podbean.com,Proxies
-  - DOMAIN-SUFFIX,prism-break.org,Proxies
-  - DOMAIN-SUFFIX,privoxy.org,Proxies
-  - DOMAIN-SUFFIX,proxifier.com,Proxies
-  - DOMAIN-SUFFIX,quora.com,Proxies
-  - DOMAIN-SUFFIX,quoracdn.net,Proxies
-  - DOMAIN-SUFFIX,qz.com,Proxies
-  - DOMAIN-SUFFIX,radioline.co,Proxies
-  - DOMAIN-SUFFIX,reabble.com,Proxies
-  - DOMAIN-SUFFIX,redditlist.com,Proxies
-  - DOMAIN-SUFFIX,resilio.com,Proxies
-  - DOMAIN-SUFFIX,rsshub.app,Proxies
-  - DOMAIN-SUFFIX,rthk.hk,Proxies
-  - DOMAIN-SUFFIX,scmp.com,Proxies
-  - DOMAIN-SUFFIX,scribd.com,Proxies
-  - DOMAIN-SUFFIX,search.com,Proxies
-  - DOMAIN-SUFFIX,shutterstock.com,Proxies
-  - DOMAIN-SUFFIX,signal.org,Proxies
-  - DOMAIN-SUFFIX,sketchappsources.com,Proxies
-  - DOMAIN-SUFFIX,slideshare.net,Proxies
-  - DOMAIN-SUFFIX,smartmailcloud.com,Proxies
-  - DOMAIN-SUFFIX,smh.com.au,Proxies
-  - DOMAIN-SUFFIX,speakerdeck.com,Proxies
-  - DOMAIN-SUFFIX,spideroak.com,Proxies
-  - DOMAIN-SUFFIX,spiegel.de,Proxies
-  - DOMAIN-SUFFIX,startpage.com,Proxies
-  - DOMAIN-SUFFIX,steemit.com,Proxies
-  - DOMAIN-SUFFIX,straitstimes.com,Proxies
-  - DOMAIN-SUFFIX,streamable.com,Proxies
-  - DOMAIN-SUFFIX,substack.com,Proxies
-  - DOMAIN-SUFFIX,swissinfo.ch,Proxies
-  - DOMAIN-SUFFIX,tapatalk.com,Proxies
-  - DOMAIN-SUFFIX,techspot.com,Proxies
-  - DOMAIN-SUFFIX,textnow.me,Proxies
-  - DOMAIN-SUFFIX,theage.com.au,Proxies
-  - DOMAIN-SUFFIX,theatlantic.com,Proxies
-  - DOMAIN-SUFFIX,theaustralian.com.au,Proxies
-  - DOMAIN-SUFFIX,theconversation.com,Proxies
-  - DOMAIN-SUFFIX,thediplomat.com,Proxies
-  - DOMAIN-SUFFIX,theguardian.com,Proxies
-  - DOMAIN-SUFFIX,theinitium.com,Proxies
-  - DOMAIN-SUFFIX,themoviedb.org,Proxies
-  - DOMAIN-SUFFIX,thetvdb.com,Proxies
-  - DOMAIN-SUFFIX,time.com,Proxies
-  - DOMAIN-SUFFIX,tineye.com,Proxies
-  - DOMAIN-SUFFIX,tiny.cc,Proxies
-  - DOMAIN-SUFFIX,torproject.org,Proxies
-  - DOMAIN-SUFFIX,tradingview.com,Proxies
-  - DOMAIN-SUFFIX,turbobit.net,Proxies
-  - DOMAIN-SUFFIX,tutanota.com,Proxies
-  - DOMAIN-SUFFIX,urbandictionary.com,Proxies
-  - DOMAIN-SUFFIX,ustream.tv,Proxies
-  - DOMAIN-SUFFIX,v2ex.com,Proxies
-  - DOMAIN-SUFFIX,venturebeat.com,Proxies
-  - DOMAIN-SUFFIX,viber.com,Proxies
-  - DOMAIN-SUFFIX,vimeo.com,Proxies
-  - DOMAIN-SUFFIX,voxer.com,Proxies
-  - DOMAIN-SUFFIX,vzw.com,Proxies
-  - DOMAIN-SUFFIX,washingtonpost.com,Proxies
-  - DOMAIN-SUFFIX,wattpad.com,Proxies
-  - DOMAIN-SUFFIX,welt.de,Proxies
-  - DOMAIN-SUFFIX,whoer.net,Proxies
-  - DOMAIN-SUFFIX,wikimapia.org,Proxies
-  - DOMAIN-SUFFIX,wikiwand.com,Proxies
-  - DOMAIN-SUFFIX,wire.com,Proxies
-  - DOMAIN-SUFFIX,wireguard.com,Proxies
-  - DOMAIN-SUFFIX,wn.com,Proxies
-  - DOMAIN-SUFFIX,worldcat.org,Proxies
-  - DOMAIN-SUFFIX,wsj.com,Proxies
-  - DOMAIN-SUFFIX,wsj.net,Proxies
-  - DOMAIN-SUFFIX,x.co,Proxies
-  - DOMAIN-SUFFIX,yandex.ru,Proxies
-  - DOMAIN-SUFFIX,you-get.org,Proxies
-  - DOMAIN-SUFFIX,zaobao.com,Proxies
-  - DOMAIN-SUFFIX,zello.com,Proxies
-  - DOMAIN-SUFFIX,zeronet.io,Proxies
-  - DOMAIN-SUFFIX,z-lib.org,Proxies
-  - DOMAIN-SUFFIX,zophar.net,Proxies
-  - DOMAIN-SUFFIX,zyxel.com,Proxies
-  - DOMAIN,lab.skk.moe,Proxies
-  - DOMAIN,ocsp.int-x3.letsencrypt.org,Proxies
-  - DOMAIN,a248.e.akamai.net,Proxies
-  - DOMAIN,a771.dscq.akamai.net,Proxies
   - DOMAIN-SUFFIX,amazon.co.jp,Proxies
   - DOMAIN,d3c33hcgiwev3.cloudfront.net,Proxies
   - DOMAIN,payments-jp.amazon.com,Proxies
   - DOMAIN,s3-ap-northeast-1.amazonaws.com,Proxies
   - DOMAIN,s3-ap-southeast-2.amazonaws.com,Proxies
-  - DOMAIN-SUFFIX,abc.xyz,Proxies
-  - DOMAIN-SUFFIX,admob.com,Proxies
-  - DOMAIN-SUFFIX,adsense.com,Proxies
-  - DOMAIN-SUFFIX,advertisercommunity.com,Proxies
-  - DOMAIN-SUFFIX,ampproject.org,Proxies
-  - DOMAIN-SUFFIX,android.com,Proxies
-  - DOMAIN-SUFFIX,androidify.com,Proxies
-  - DOMAIN-SUFFIX,androidtv.com,Proxies
-  - DOMAIN-SUFFIX,api.ai,Proxies
-  - DOMAIN-SUFFIX,apigee.com,Proxies
-  - DOMAIN-SUFFIX,appspot.com,Proxies
-  - DOMAIN-SUFFIX,blogblog.com,Proxies
-  - DOMAIN-SUFFIX,blogger.com,Proxies
-  - DOMAIN-SUFFIX,chrome.com,Proxies
-  - DOMAIN-SUFFIX,chromium.org,Proxies
-  - DOMAIN-SUFFIX,debug.com,Proxies
-  - DOMAIN-SUFFIX,dialogflow.com,Proxies
-  - DOMAIN-SUFFIX,feedburner.com,Proxies
-  - DOMAIN-SUFFIX,firebaseio.com,Proxies
-  - DOMAIN-SUFFIX,g.co,Proxies
-  - DOMAIN-SUFFIX,getoutline.org,Proxies
-  - DOMAIN-SUFFIX,ggpht.com,Proxies
-  - DOMAIN-SUFFIX,gmail.com,Proxies
-  - DOMAIN-SUFFIX,gmodules.com,Proxies
-  - DOMAIN-SUFFIX,gvt0.com,Proxies
-  - DOMAIN-SUFFIX,gvt1.com,Proxies
-  - DOMAIN-SUFFIX,gvt3.com,Proxies
-  - DOMAIN-SUFFIX,itasoftware.com,Proxies
-  - DOMAIN-SUFFIX,on2.com,Proxies
-  - DOMAIN-SUFFIX,recaptcha.net,Proxies
-  - DOMAIN-SUFFIX,schema.org,Proxies
-  - DOMAIN-SUFFIX,tensorflow.org,Proxies
-  - DOMAIN-SUFFIX,tenor.com,Proxies
-  - DOMAIN-SUFFIX,tfhub.dev,Proxies
-  - DOMAIN-SUFFIX,tiltbrush.com,Proxies
-  - DOMAIN-SUFFIX,waymo.com,Proxies
-  - DOMAIN-SUFFIX,web.dev,Proxies
-  - DOMAIN-SUFFIX,webmproject.org,Proxies
-  - DOMAIN-SUFFIX,webrtc.org,Proxies
-  - DOMAIN-SUFFIX,widevine.com,Proxies
-  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Proxies
-  - DOMAIN-SUFFIX,zynamics.com,Proxies
-  - DOMAIN-KEYWORD,google,Proxies
-  - DOMAIN-KEYWORD,.blogspot.,Proxies
-  - DOMAIN-SUFFIX,goog,Proxies
+  - DOMAIN,a248.e.akamai.net,Proxies
+  - DOMAIN,a771.dscq.akamai.net,Proxies
   - DOMAIN,testflight.apple.com,Proxies
-  - DOMAIN-SUFFIX,gravatar.com,Proxies
-  - DOMAIN-SUFFIX,tumblr.com,Proxies
-  - DOMAIN-SUFFIX,videopress.com,Proxies
-  - DOMAIN-SUFFIX,wordpress.com,Proxies
-  - DOMAIN-SUFFIX,bloomberg.cn,Proxies
-  - DOMAIN-SUFFIX,bloomberg.com,Proxies
-  - DOMAIN-SUFFIX,bloomberg.de,Proxies
-  - DOMAIN-SUFFIX,bloombergview.com,Proxies
   - DOMAIN-SUFFIX,clubhouseapi.com,Proxies
   - DOMAIN-SUFFIX,joinclubhouse.com,Proxies
   - DOMAIN,clubhouse.pubnubapi.com,Proxies
@@ -1353,7 +1206,6 @@ rules:
   - DOMAIN-SUFFIX,bibox.com,Proxies
   - DOMAIN-SUFFIX,binance.cc,Proxies
   - DOMAIN-SUFFIX,binance.com,Proxies
-  - DOMAIN-SUFFIX,binance.me,Proxies
   - DOMAIN-SUFFIX,binance.us,Proxies
   - DOMAIN-SUFFIX,bitcointalk.org,Proxies
   - DOMAIN-SUFFIX,bitfinex.com,Proxies
@@ -1367,7 +1219,6 @@ rules:
   - DOMAIN-SUFFIX,coingecko.com,Proxies
   - DOMAIN-SUFFIX,coinmarketcap.com,Proxies
   - DOMAIN-SUFFIX,coinone.co.kr,Proxies
-  - DOMAIN-SUFFIX,etherscan.io,Proxies
   - DOMAIN-SUFFIX,ftx.com,Proxies
   - DOMAIN-SUFFIX,gate.io,Proxies
   - DOMAIN-SUFFIX,gemini.com,Proxies
@@ -1377,9 +1228,7 @@ rules:
   - DOMAIN-SUFFIX,kucoin.com,Proxies
   - DOMAIN-SUFFIX,liquid.com,Proxies
   - DOMAIN-SUFFIX,okex.com,Proxies
-  - DOMAIN-SUFFIX,okx.com,Proxies
   - DOMAIN-SUFFIX,poloniex.com,Proxies
-  - DOMAIN-SUFFIX,sushi.com,Proxies
   - DOMAIN-SUFFIX,uniswap.org,Proxies
   - DOMAIN-SUFFIX,zb.com,Proxies
   - DOMAIN-SUFFIX,discord.com,Proxies
@@ -1388,25 +1237,11 @@ rules:
   - DOMAIN-SUFFIX,dropbox.com,Proxies
   - DOMAIN-SUFFIX,dropboxapi.com,Proxies
   - DOMAIN-SUFFIX,dropboxusercontent.com,Proxies
-  - DOMAIN-SUFFIX,freetls.fastly.net,Proxies
-  - DOMAIN,cloud-cdn-digitalocean-com.global.ssl.fastly.net,Proxies
-  - DOMAIN,github.global.ssl.fastly.net,Proxies
-  - DOMAIN,nytimes.map.fastly.net,Proxies
-  - DOMAIN-SUFFIX,line.me,Proxies
-  - DOMAIN-SUFFIX,line-apps.com,Proxies
-  - DOMAIN-SUFFIX,line-scdn.net,Proxies
-  - DOMAIN-SUFFIX,naver.jp,Proxies
-  - IP-CIDR,103.2.30.0/23,Proxies,no-resolve
-  - IP-CIDR,125.209.208.0/20,Proxies,no-resolve
-  - IP-CIDR,147.92.128.0/17,Proxies,no-resolve
-  - IP-CIDR,203.104.144.0/21,Proxies,no-resolve
-  - DOMAIN-SUFFIX,accountkit.com,Proxies
   - DOMAIN-SUFFIX,cdninstagram.com,Proxies
-  - DOMAIN-SUFFIX,f8.com,Proxies
-  - DOMAIN-SUFFIX,facebookmail.com,Proxies
+  - DOMAIN-SUFFIX,facebook.com,Proxies
+  - DOMAIN-SUFFIX,facebook.net,Proxies
   - DOMAIN-SUFFIX,fb.com,Proxies
   - DOMAIN-SUFFIX,fb.me,Proxies
-  - DOMAIN-SUFFIX,fb.watch,Proxies
   - DOMAIN-SUFFIX,fbaddins.com,Proxies
   - DOMAIN-SUFFIX,fbcdn.net,Proxies
   - DOMAIN-SUFFIX,fbsbx.com,Proxies
@@ -1416,42 +1251,61 @@ rules:
   - DOMAIN-SUFFIX,messenger.com,Proxies
   - DOMAIN-SUFFIX,oculus.com,Proxies
   - DOMAIN-SUFFIX,oculuscdn.com,Proxies
-  - DOMAIN-SUFFIX,readyatdawn.com,Proxies
   - DOMAIN-SUFFIX,rocksdb.org,Proxies
   - DOMAIN-SUFFIX,whatsapp.com,Proxies
   - DOMAIN-SUFFIX,whatsapp.net,Proxies
-  - DOMAIN-KEYWORD,.facebook.,Proxies
-  - DOMAIN-SUFFIX,aka.ms,Proxies
-  - DOMAIN-SUFFIX,github.blog,Proxies
   - DOMAIN-SUFFIX,github.com,Proxies
   - DOMAIN-SUFFIX,github.io,Proxies
-  - DOMAIN-SUFFIX,githubassets.com,Proxies
   - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+  - DOMAIN-SUFFIX,appspot.com,Proxies
+  - DOMAIN-SUFFIX,blogger.com,Proxies
+  - DOMAIN-SUFFIX,getoutline.org,Proxies
+  - DOMAIN-SUFFIX,gvt0.com,Proxies
+  - DOMAIN-SUFFIX,gvt1.com,Proxies
+  - DOMAIN-SUFFIX,gvt3.com,Proxies
+  - DOMAIN-SUFFIX,xn--ngstr-lra8j.com,Proxies
+  - DOMAIN-SUFFIX,ytimg.com,Proxies
+  - DOMAIN-KEYWORD,google,Proxies
+  - DOMAIN-KEYWORD,.blogspot.,Proxies
+  - DOMAIN-SUFFIX,line.me,Proxies
+  - DOMAIN-SUFFIX,line-apps.com,Proxies
+  - DOMAIN-SUFFIX,line-scdn.net,Proxies
+  - DOMAIN-SUFFIX,naver.jp,Proxies
+  - IP-CIDR,103.2.30.0/23,Proxies,no-resolve
+  - IP-CIDR,125.209.208.0/20,Proxies,no-resolve
+  - IP-CIDR,147.92.128.0/17,Proxies,no-resolve
+  - IP-CIDR,203.104.144.0/21,Proxies,no-resolve
+  - DOMAIN-SUFFIX,aka.ms,Proxies
   - DOMAIN-SUFFIX,onedrive.live.com,Proxies
   - DOMAIN-SUFFIX,streaming.mediaservices.windows.net,Proxies
   - DOMAIN,assets1.xboxlive.com,Proxies
   - DOMAIN,assets2.xboxlive.com,Proxies
   - DOMAIN,az416426.vo.msecnd.net,Proxies
   - DOMAIN,az668014.vo.msecnd.net,Proxies
-  - DOMAIN-SUFFIX,pinimg.com,Proxies
-  - DOMAIN-KEYWORD,.pinterest.,Proxies
+  - DOMAIN-SUFFIX,nyt.com,Proxies
+  - DOMAIN-SUFFIX,nytchina.com,Proxies
+  - DOMAIN-SUFFIX,nytcn.me,Proxies
+  - DOMAIN-SUFFIX,nytco.com,Proxies
+  - DOMAIN-SUFFIX,nytimes.com,Proxies
+  - DOMAIN-SUFFIX,nytimg.com,Proxies
+  - DOMAIN-SUFFIX,nytlog.com,Proxies
+  - DOMAIN-SUFFIX,nytstyle.com,Proxies
+  - DOMAIN-SUFFIX,pinterest.at,Proxies
+  - DOMAIN-SUFFIX,pinterest.ca,Proxies
+  - DOMAIN-SUFFIX,pinterest.co.uk,Proxies
+  - DOMAIN-SUFFIX,pinterest.com,Proxies
+  - DOMAIN-SUFFIX,pinterest.de,Proxies
+  - DOMAIN-SUFFIX,pinterest.fr,Proxies
+  - DOMAIN-SUFFIX,pinterest.jp,Proxies
+  - DOMAIN-SUFFIX,pinterest.se,Proxies
   - DOMAIN-SUFFIX,pixiv.net,Proxies
   - DOMAIN-SUFFIX,pixiv.org,Proxies
   - DOMAIN-SUFFIX,pximg.net,Proxies
   - DOMAIN-SUFFIX,redd.it,Proxies
   - DOMAIN-SUFFIX,reddit.com,Proxies
   - DOMAIN-SUFFIX,redditmedia.com,Proxies
-  - DOMAIN-SUFFIX,redditstatic.com,Proxies
-  - DOMAIN-SUFFIX,reuters.com,Proxies
-  - DOMAIN-SUFFIX,reutersmedia.net,Proxies
-  - DOMAIN-SUFFIX,steamcommunity.com,Proxies
-  - DOMAIN-SUFFIX,legra.ph,Proxies
-  - DOMAIN-SUFFIX,t.me,Proxies
-  - DOMAIN-SUFFIX,tdesktop.com,Proxies
   - DOMAIN-SUFFIX,telegra.ph,Proxies
-  - DOMAIN-SUFFIX,telegram.me,Proxies
   - DOMAIN-SUFFIX,telegram.org,Proxies
-  - DOMAIN-SUFFIX,telesco.pe,Proxies
   - IP-CIDR,91.108.4.0/22,Proxies,no-resolve
   - IP-CIDR,91.108.8.0/22,Proxies,no-resolve
   - IP-CIDR,91.108.12.0/22,Proxies,no-resolve
@@ -1466,64 +1320,424 @@ rules:
   - IP-CIDR6,2001:67c:4e8::/48,Proxies,no-resolve
   - IP-CIDR6,2001:b28:f23c::/48,Proxies,no-resolve
   - IP-CIDR6,2a0a:f280::/32,Proxies,no-resolve
-  - DOMAIN-SUFFIX,economist.com,Proxies
-  - DOMAIN-SUFFIX,static-economist.com,Proxies
-  - DOMAIN-SUFFIX,newyorktimes.com,Proxies
-  - DOMAIN-SUFFIX,nyt.com,Proxies
-  - DOMAIN-SUFFIX,nytco.com,Proxies
-  - DOMAIN-SUFFIX,nytimes.com,Proxies
-  - DOMAIN-SUFFIX,nytimg.com,Proxies
-  - DOMAIN-SUFFIX,nytlog.com,Proxies
-  - DOMAIN-SUFFIX,nytstyle.com,Proxies
-  - DOMAIN-SUFFIX,tmagazine.com,Proxies
-  - DOMAIN-SUFFIX,periscope.tv,Proxies
   - DOMAIN-SUFFIX,pscp.tv,Proxies
+  - DOMAIN-SUFFIX,periscope.tv,Proxies
   - DOMAIN-SUFFIX,t.co,Proxies
-  - DOMAIN-SUFFIX,tweetdeck.com,Proxies
   - DOMAIN-SUFFIX,twimg.co,Proxies
   - DOMAIN-SUFFIX,twimg.com,Proxies
   - DOMAIN-SUFFIX,twitpic.com,Proxies
   - DOMAIN-SUFFIX,twitter.com,Proxies
-  - DOMAIN-SUFFIX,twitter.jp,Proxies
   - DOMAIN-SUFFIX,vine.co,Proxies
-  - DOMAIN-SUFFIX,mediawiki.org,Proxies
-  - DOMAIN-SUFFIX,wikibooks.org,Proxies
-  - DOMAIN-SUFFIX,wikidata.org,Proxies
   - DOMAIN-SUFFIX,wikileaks.org,Proxies
+  - DOMAIN-SUFFIX,wikimapia.org,Proxies
   - DOMAIN-SUFFIX,wikimedia.org,Proxies
-  - DOMAIN-SUFFIX,wikimediafoundation.org,Proxies
   - DOMAIN-SUFFIX,wikinews.org,Proxies
   - DOMAIN-SUFFIX,wikipedia.org,Proxies
   - DOMAIN-SUFFIX,wikiquote.org,Proxies
-  - DOMAIN-SUFFIX,wikisource.org,Proxies
-  - DOMAIN-SUFFIX,wikiversity.org,Proxies
-  - DOMAIN-SUFFIX,wikivoyage.org,Proxies
-  - DOMAIN-SUFFIX,wiktionary.org,Proxies
-  - DOMAIN-SUFFIX,yahoo.com,Proxies
-  - DOMAIN,search.yahoo.co.jp,Proxies
+  - DOMAIN-SUFFIX,4shared.com,Proxies
+  - DOMAIN-SUFFIX,9cache.com,Proxies
+  - DOMAIN-SUFFIX,9gag.com,Proxies
+  - DOMAIN-SUFFIX,abc.com,Proxies
+  - DOMAIN-SUFFIX,abc.net.au,Proxies
+  - DOMAIN-SUFFIX,abebooks.com,Proxies
+  - DOMAIN-SUFFIX,ao3.org,Proxies
+  - DOMAIN-SUFFIX,apigee.com,Proxies
+  - DOMAIN-SUFFIX,apkcombo.com,Proxies
+  - DOMAIN-SUFFIX,apk-dl.com,Proxies
+  - DOMAIN-SUFFIX,apkfind.com,Proxies
+  - DOMAIN-SUFFIX,apkmirror.com,Proxies
+  - DOMAIN-SUFFIX,apkmonk.com,Proxies
+  - DOMAIN-SUFFIX,apkpure.com,Proxies
+  - DOMAIN-SUFFIX,aptoide.com,Proxies
+  - DOMAIN-SUFFIX,archive.is,Proxies
+  - DOMAIN-SUFFIX,archive.org,Proxies
+  - DOMAIN-SUFFIX,archiveofourown.com,Proxies
+  - DOMAIN-SUFFIX,archiveofourown.org,Proxies
+  - DOMAIN-SUFFIX,arte.tv,Proxies
+  - DOMAIN-SUFFIX,artstation.com,Proxies
+  - DOMAIN-SUFFIX,arukas.io,Proxies
+  - DOMAIN-SUFFIX,ask.com,Proxies
+  - DOMAIN-SUFFIX,avg.com,Proxies
+  - DOMAIN-SUFFIX,avgle.com,Proxies
+  - DOMAIN-SUFFIX,badoo.com,Proxies
+  - DOMAIN-SUFFIX,bandcamp.com,Proxies
+  - DOMAIN-SUFFIX,bandwagonhost.com,Proxies
+  - DOMAIN-SUFFIX,bangkokpost.com,Proxies
+  - DOMAIN-SUFFIX,bbc.com,Proxies
+  - DOMAIN-SUFFIX,behance.net,Proxies
+  - DOMAIN-SUFFIX,biggo.com.tw,Proxies
+  - DOMAIN-SUFFIX,bit.ly,Proxies
+  - DOMAIN-SUFFIX,bloglovin.com,Proxies
+  - DOMAIN-SUFFIX,bloomberg.cn,Proxies
+  - DOMAIN-SUFFIX,bloomberg.com,Proxies
+  - DOMAIN-SUFFIX,blubrry.com,Proxies
+  - DOMAIN-SUFFIX,book.com.tw,Proxies
+  - DOMAIN-SUFFIX,booklive.jp,Proxies
+  - DOMAIN-SUFFIX,books.com.tw,Proxies
+  - DOMAIN-SUFFIX,boslife.net,Proxies
+  - DOMAIN-SUFFIX,box.com,Proxies
+  - DOMAIN-SUFFIX,brave.com,Proxies
+  - DOMAIN-SUFFIX,businessinsider.com,Proxies
+  - DOMAIN-SUFFIX,buzzfeed.com,Proxies
+  - DOMAIN-SUFFIX,bwh1.net,Proxies
+  - DOMAIN-SUFFIX,castbox.fm,Proxies
+  - DOMAIN-SUFFIX,cbc.ca,Proxies
+  - DOMAIN-SUFFIX,cdw.com,Proxies
+  - DOMAIN-SUFFIX,change.org,Proxies
+  - DOMAIN-SUFFIX,channelnewsasia.com,Proxies
+  - DOMAIN-SUFFIX,ck101.com,Proxies
+  - DOMAIN-SUFFIX,clarionproject.org,Proxies
+  - DOMAIN-SUFFIX,cloudcone.com,Proxies
+  - DOMAIN-SUFFIX,clyp.it,Proxies
+  - DOMAIN-SUFFIX,cna.com.tw,Proxies
+  - DOMAIN-SUFFIX,comparitech.com,Proxies
+  - DOMAIN-SUFFIX,conoha.jp,Proxies
+  - DOMAIN-SUFFIX,crucial.com,Proxies
+  - DOMAIN-SUFFIX,cts.com.tw,Proxies
+  - DOMAIN-SUFFIX,cw.com.tw,Proxies
+  - DOMAIN-SUFFIX,cyberctm.com,Proxies
+  - DOMAIN-SUFFIX,cyclingnews.com,Proxies
+  - DOMAIN-SUFFIX,dailymotion.com,Proxies
+  - DOMAIN-SUFFIX,dailyview.tw,Proxies
+  - DOMAIN-SUFFIX,dandanzan.com,Proxies
+  - DOMAIN-SUFFIX,daum.net,Proxies
+  - DOMAIN-SUFFIX,daumcdn.net,Proxies
+  - DOMAIN-SUFFIX,dcard.tw,Proxies
+  - DOMAIN-SUFFIX,deadline.com,Proxies
+  - DOMAIN-SUFFIX,deepdiscount.com,Proxies
+  - DOMAIN-SUFFIX,depositphotos.com,Proxies
+  - DOMAIN-SUFFIX,deviantart.com,Proxies
+  - DOMAIN-SUFFIX,disconnect.me,Proxies
+  - DOMAIN-SUFFIX,disqus.com,Proxies
+  - DOMAIN-SUFFIX,dlercloud.com,Proxies
+  - DOMAIN-SUFFIX,dmhy.org,Proxies
+  - DOMAIN-SUFFIX,dns2go.com,Proxies
+  - DOMAIN-SUFFIX,dowjones.com,Proxies
+  - DOMAIN-SUFFIX,duckduckgo.com,Proxies
+  - DOMAIN-SUFFIX,duyaoss.com,Proxies
+  - DOMAIN-SUFFIX,dw.com,Proxies
+  - DOMAIN-SUFFIX,dynu.com,Proxies
+  - DOMAIN-SUFFIX,earthcam.com,Proxies
+  - DOMAIN-SUFFIX,ebookservice.tw,Proxies
+  - DOMAIN-SUFFIX,economist.com,Proxies
+  - DOMAIN-SUFFIX,edgecastcdn.net,Proxies
+  - DOMAIN-SUFFIX,edx-cdn.org,Proxies
+  - DOMAIN-SUFFIX,elpais.com,Proxies
+  - DOMAIN-SUFFIX,enanyang.my,Proxies
+  - DOMAIN-SUFFIX,encyclopedia.com,Proxies
+  - DOMAIN-SUFFIX,esoir.be,Proxies
+  - DOMAIN-SUFFIX,etherscan.io,Proxies
+  - DOMAIN-SUFFIX,euronews.com,Proxies
+  - DOMAIN-SUFFIX,evozi.com,Proxies
+  - DOMAIN-SUFFIX,exblog.jp,Proxies
+  - DOMAIN-SUFFIX,feeder.co,Proxies
+  - DOMAIN-SUFFIX,feedly.com,Proxies
+  - DOMAIN-SUFFIX,feedx.net,Proxies
+  - DOMAIN-SUFFIX,firech.at,Proxies
+  - DOMAIN-SUFFIX,flickr.com,Proxies
+  - DOMAIN-SUFFIX,flipboard.com,Proxies
+  - DOMAIN-SUFFIX,flitto.com,Proxies
+  - DOMAIN-SUFFIX,foreignpolicy.com,Proxies
+  - DOMAIN-SUFFIX,fortawesome.com,Proxies
+  - DOMAIN-SUFFIX,freetls.fastly.net,Proxies
+  - DOMAIN-SUFFIX,friday.tw,Proxies
+  - DOMAIN-SUFFIX,ft.com,Proxies
+  - DOMAIN-SUFFIX,ftchinese.com,Proxies
+  - DOMAIN-SUFFIX,ftimg.net,Proxies
+  - DOMAIN-SUFFIX,genius.com,Proxies
+  - DOMAIN-SUFFIX,getlantern.org,Proxies
+  - DOMAIN-SUFFIX,getsync.com,Proxies
+  - DOMAIN-SUFFIX,globalvoices.org,Proxies
+  - DOMAIN-SUFFIX,goo.ne.jp,Proxies
+  - DOMAIN-SUFFIX,goodreads.com,Proxies
+  - DOMAIN-SUFFIX,gov.tw,Proxies
+  - DOMAIN-SUFFIX,gravatar.com,Proxies
+  - DOMAIN-SUFFIX,greatfire.org,Proxies
+  - DOMAIN-SUFFIX,gumroad.com,Proxies
+  - DOMAIN-SUFFIX,heroku.com,Proxies
+  - DOMAIN-SUFFIX,hightail.com,Proxies
+  - DOMAIN-SUFFIX,hk01.com,Proxies
+  - DOMAIN-SUFFIX,hkbf.org,Proxies
+  - DOMAIN-SUFFIX,hkbookcity.com,Proxies
+  - DOMAIN-SUFFIX,hkej.com,Proxies
+  - DOMAIN-SUFFIX,hket.com,Proxies
+  - DOMAIN-SUFFIX,hootsuite.com,Proxies
+  - DOMAIN-SUFFIX,hudson.org,Proxies
+  - DOMAIN-SUFFIX,huffpost.com,Proxies
+  - DOMAIN-SUFFIX,hyread.com.tw,Proxies
+  - DOMAIN-SUFFIX,ibtimes.com,Proxies
+  - DOMAIN-SUFFIX,i-cable.com,Proxies
+  - DOMAIN-SUFFIX,icij.org,Proxies
+  - DOMAIN-SUFFIX,icoco.com,Proxies
+  - DOMAIN-SUFFIX,imgur.com,Proxies
+  - DOMAIN-SUFFIX,independent.co.uk,Proxies
+  - DOMAIN-SUFFIX,initiummall.com,Proxies
+  - DOMAIN-SUFFIX,inoreader.com,Proxies
+  - DOMAIN-SUFFIX,insecam.org,Proxies
+  - DOMAIN-SUFFIX,ipfs.io,Proxies
+  - DOMAIN-SUFFIX,issuu.com,Proxies
+  - DOMAIN-SUFFIX,istockphoto.com,Proxies
+  - DOMAIN-SUFFIX,japantimes.co.jp,Proxies
+  - DOMAIN-SUFFIX,jiji.com,Proxies
+  - DOMAIN-SUFFIX,jinx.com,Proxies
+  - DOMAIN-SUFFIX,jkforum.net,Proxies
+  - DOMAIN-SUFFIX,joinmastodon.org,Proxies
+  - DOMAIN-SUFFIX,justmysocks.net,Proxies
+  - DOMAIN-SUFFIX,justpaste.it,Proxies
+  - DOMAIN-SUFFIX,kadokawa.co.jp,Proxies
+  - DOMAIN-SUFFIX,kakao.com,Proxies
+  - DOMAIN-SUFFIX,kakaocorp.com,Proxies
+  - DOMAIN-SUFFIX,kik.com,Proxies
+  - DOMAIN-SUFFIX,kingkong.com.tw,Proxies
+  - DOMAIN-SUFFIX,knowyourmeme.com,Proxies
+  - DOMAIN-SUFFIX,kobo.com,Proxies
+  - DOMAIN-SUFFIX,kobobooks.com,Proxies
+  - DOMAIN-SUFFIX,kodingen.com,Proxies
+  - DOMAIN-SUFFIX,lemonde.fr,Proxies
+  - DOMAIN-SUFFIX,lepoint.fr,Proxies
+  - DOMAIN-SUFFIX,lihkg.com,Proxies
+  - DOMAIN-SUFFIX,limbopro.xyz,Proxies
+  - DOMAIN-SUFFIX,listennotes.com,Proxies
+  - DOMAIN-SUFFIX,livestream.com,Proxies
+  - DOMAIN-SUFFIX,logimg.jp,Proxies
+  - DOMAIN-SUFFIX,logmein.com,Proxies
+  - DOMAIN-SUFFIX,mail.ru,Proxies
+  - DOMAIN-SUFFIX,mailchimp.com,Proxies
+  - DOMAIN-SUFFIX,marc.info,Proxies
+  - DOMAIN-SUFFIX,matters.news,Proxies
+  - DOMAIN-SUFFIX,maying.co,Proxies
+  - DOMAIN-SUFFIX,medibang.com,Proxies
+  - DOMAIN-SUFFIX,medium.com,Proxies
+  - DOMAIN-SUFFIX,mega.nz,Proxies
+  - DOMAIN-SUFFIX,mergersandinquisitions.com,Proxies
+  - DOMAIN-SUFFIX,mingpao.com,Proxies
+  - DOMAIN-SUFFIX,mixi.jp,Proxies
+  - DOMAIN-SUFFIX,mixlr.com,Proxies
+  - DOMAIN-SUFFIX,mobile01.com,Proxies
+  - DOMAIN-SUFFIX,mubi.com,Proxies
+  - DOMAIN-SUFFIX,myspace.com,Proxies
+  - DOMAIN-SUFFIX,myspacecdn.com,Proxies
+  - DOMAIN-SUFFIX,nanyang.com,Proxies
+  - DOMAIN-SUFFIX,nationalinterest.org,Proxies
+  - DOMAIN-SUFFIX,naver.com,Proxies
+  - DOMAIN-SUFFIX,nbcnews.com,Proxies
+  - DOMAIN-SUFFIX,ndr.de,Proxies
+  - DOMAIN-SUFFIX,neowin.net,Proxies
+  - DOMAIN-SUFFIX,newstapa.org,Proxies
+  - DOMAIN-SUFFIX,nexitally.com,Proxies
+  - DOMAIN-SUFFIX,nhk.or.jp,Proxies
+  - DOMAIN-SUFFIX,nii.ac.jp,Proxies
+  - DOMAIN-SUFFIX,nikkei.com,Proxies
+  - DOMAIN-SUFFIX,nitter.net,Proxies
+  - DOMAIN-SUFFIX,nofile.io,Proxies
+  - DOMAIN-SUFFIX,notion.so,Proxies
+  - DOMAIN-SUFFIX,now.com,Proxies
+  - DOMAIN-SUFFIX,nrk.no,Proxies
+  - DOMAIN-SUFFIX,nuget.org,Proxies
+  - DOMAIN-SUFFIX,nyaa.si,Proxies
+  - DOMAIN-SUFFIX,ok.ru,Proxies
+  - DOMAIN-SUFFIX,on.cc,Proxies
+  - DOMAIN-SUFFIX,orientaldaily.com.my,Proxies
+  - DOMAIN-SUFFIX,overcast.fm,Proxies
+  - DOMAIN-SUFFIX,paltalk.com,Proxies
+  - DOMAIN-SUFFIX,parsevideo.com,Proxies
+  - DOMAIN-SUFFIX,pawoo.net,Proxies
+  - DOMAIN-SUFFIX,pbxes.com,Proxies
+  - DOMAIN-SUFFIX,pcdvd.com.tw,Proxies
+  - DOMAIN-SUFFIX,pchome.com.tw,Proxies
+  - DOMAIN-SUFFIX,pcloud.com,Proxies
+  - DOMAIN-SUFFIX,peing.net,Proxies
+  - DOMAIN-SUFFIX,picacomic.com,Proxies
+  - DOMAIN-SUFFIX,pinimg.com,Proxies
+  - DOMAIN-SUFFIX,player.fm,Proxies
+  - DOMAIN-SUFFIX,plurk.com,Proxies
+  - DOMAIN-SUFFIX,po18.tw,Proxies
+  - DOMAIN-SUFFIX,potato.im,Proxies
+  - DOMAIN-SUFFIX,potatso.com,Proxies
+  - DOMAIN-SUFFIX,prism-break.org,Proxies
+  - DOMAIN-SUFFIX,proxifier.com,Proxies
+  - DOMAIN-SUFFIX,pt.im,Proxies
+  - DOMAIN-SUFFIX,pts.org.tw,Proxies
+  - DOMAIN-SUFFIX,pubu.com.tw,Proxies
+  - DOMAIN-SUFFIX,pubu.tw,Proxies
+  - DOMAIN-SUFFIX,pureapk.com,Proxies
+  - DOMAIN-SUFFIX,quora.com,Proxies
+  - DOMAIN-SUFFIX,quoracdn.net,Proxies
+  - DOMAIN-SUFFIX,qz.com,Proxies
+  - DOMAIN-SUFFIX,radio.garden,Proxies
+  - DOMAIN-SUFFIX,rakuten.co.jp,Proxies
+  - DOMAIN-SUFFIX,rarbgprx.org,Proxies
+  - DOMAIN-SUFFIX,reabble.com,Proxies
+  - DOMAIN-SUFFIX,readingtimes.com.tw,Proxies
+  - DOMAIN-SUFFIX,readmoo.com,Proxies
+  - DOMAIN-SUFFIX,redbubble.com,Proxies
+  - DOMAIN-SUFFIX,resilio.com,Proxies
+  - DOMAIN-SUFFIX,reuters.com,Proxies
+  - DOMAIN-SUFFIX,reutersmedia.net,Proxies
+  - DOMAIN-SUFFIX,rfi.fr,Proxies
+  - DOMAIN-SUFFIX,roadshow.hk,Proxies
+  - DOMAIN-SUFFIX,rsshub.app,Proxies
+  - DOMAIN-SUFFIX,scmp.com,Proxies
+  - DOMAIN-SUFFIX,scribd.com,Proxies
+  - DOMAIN-SUFFIX,seatguru.com,Proxies
+  - DOMAIN-SUFFIX,shadowsocks.org,Proxies
+  - DOMAIN-SUFFIX,shindanmaker.com,Proxies
+  - DOMAIN-SUFFIX,shopee.tw,Proxies
+  - DOMAIN-SUFFIX,signal.org,Proxies
+  - DOMAIN-SUFFIX,sina.com.hk,Proxies
+  - DOMAIN-SUFFIX,slideshare.net,Proxies
+  - DOMAIN-SUFFIX,softfamous.com,Proxies
+  - DOMAIN-SUFFIX,spiegel.de,Proxies
+  - DOMAIN-SUFFIX,startpage.com,Proxies
+  - DOMAIN-SUFFIX,steamcommunity.com,Proxies
+  - DOMAIN-SUFFIX,steemit.com,Proxies
+  - DOMAIN-SUFFIX,steemitwallet.com,Proxies
+  - DOMAIN-SUFFIX,straitstimes.com,Proxies
+  - DOMAIN-SUFFIX,streamable.com,Proxies
+  - DOMAIN-SUFFIX,streema.com,Proxies
+  - DOMAIN-SUFFIX,substack.com,Proxies
+  - DOMAIN-SUFFIX,substack.com,Proxies
+  - DOMAIN-SUFFIX,t66y.com,Proxies
+  - DOMAIN-SUFFIX,tapatalk.com,Proxies
+  - DOMAIN-SUFFIX,teco-hk.org,Proxies
+  - DOMAIN-SUFFIX,teco-mo.org,Proxies
+  - DOMAIN-SUFFIX,teddysun.com,Proxies
+  - DOMAIN-SUFFIX,textnow.me,Proxies
+  - DOMAIN-SUFFIX,theguardian.com,Proxies
+  - DOMAIN-SUFFIX,theinitium.com,Proxies
+  - DOMAIN-SUFFIX,themoviedb.org,Proxies
+  - DOMAIN-SUFFIX,thetvdb.com,Proxies
+  - DOMAIN-SUFFIX,time.com,Proxies
+  - DOMAIN-SUFFIX,tineye.com,Proxies
+  - DOMAIN-SUFFIX,tiny.cc,Proxies
+  - DOMAIN-SUFFIX,tinyurl.com,Proxies
+  - DOMAIN-SUFFIX,torproject.org,Proxies
+  - DOMAIN-SUFFIX,tradingview.com,Proxies
+  - DOMAIN-SUFFIX,tumblr.com,Proxies
+  - DOMAIN-SUFFIX,turbobit.net,Proxies
+  - DOMAIN-SUFFIX,tutanota.com,Proxies
+  - DOMAIN-SUFFIX,tvboxnow.com,Proxies
+  - DOMAIN-SUFFIX,udn.com,Proxies
+  - DOMAIN-SUFFIX,unseen.is,Proxies
+  - DOMAIN-SUFFIX,upmedia.mg,Proxies
+  - DOMAIN-SUFFIX,uptodown.com,Proxies
+  - DOMAIN-SUFFIX,urbandictionary.com,Proxies
+  - DOMAIN-SUFFIX,ustream.tv,Proxies
+  - DOMAIN-SUFFIX,uwants.com,Proxies
+  - DOMAIN-SUFFIX,v2ex.com,Proxies
+  - DOMAIN-SUFFIX,v2fly.org,Proxies
+  - DOMAIN-SUFFIX,v2ray.com,Proxies
+  - DOMAIN-SUFFIX,viber.com,Proxies
+  - DOMAIN-SUFFIX,videopress.com,Proxies
+  - DOMAIN-SUFFIX,vimeo.com,Proxies
+  - DOMAIN-SUFFIX,voachinese.com,Proxies
+  - DOMAIN-SUFFIX,voanews.com,Proxies
+  - DOMAIN-SUFFIX,voxer.com,Proxies
+  - DOMAIN-SUFFIX,vzw.com,Proxies
+  - DOMAIN-SUFFIX,w3schools.com,Proxies
+  - DOMAIN-SUFFIX,washingtonpost.com,Proxies
+  - DOMAIN-SUFFIX,wattpad.com,Proxies
+  - DOMAIN-SUFFIX,whoer.net,Proxies
+  - DOMAIN-SUFFIX,wikiwand.com,Proxies
+  - DOMAIN-SUFFIX,winudf.com,Proxies
+  - DOMAIN-SUFFIX,wire.com,Proxies
+  - DOMAIN-SUFFIX,wn.com,Proxies
+  - DOMAIN-SUFFIX,wordpress.com,Proxies
+  - DOMAIN-SUFFIX,worldcat.org,Proxies
+  - DOMAIN-SUFFIX,wsj.com,Proxies
+  - DOMAIN-SUFFIX,wsj.net,Proxies
+  - DOMAIN-SUFFIX,xhamster.com,Proxies
+  - DOMAIN-SUFFIX,xn--90wwvt03e.com,Proxies
+  - DOMAIN-SUFFIX,xn--i2ru8q2qg.com,Proxies
+  - DOMAIN-SUFFIX,xnxx.com,Proxies
+  - DOMAIN-SUFFIX,xvideos.com,Proxies
   - DOMAIN-SUFFIX,yadi.sk,Proxies
-  - DOMAIN,disk.yandex.com,Proxies
-  - DOMAIN-SUFFIX,aicoin.com,Proxies
-  - DOMAIN-SUFFIX,aimoon.com,Proxies
-  - DOMAIN-SUFFIX,engadget.com,Proxies
-  - DOMAIN-SUFFIX,ifixit.com,Proxies
-  - DOMAIN-SUFFIX,terabox.com,Proxies
-  - DOMAIN-SUFFIX,zaobao.com.sg,Proxies
-  - DOMAIN,addons.mozilla.org,Proxies
-  - DOMAIN,wego.here.com,Proxies
-  - DOMAIN-SUFFIX,go.dev,Proxies
-  - DOMAIN-SUFFIX,golang.org,Proxies
+  - DOMAIN-SUFFIX,yahoo.com,Proxies
+  - DOMAIN-SUFFIX,yandex.ru,Proxies
+  - DOMAIN-SUFFIX,ycombinator.com,Proxies
+  - DOMAIN-SUFFIX,yesasia.com,Proxies
+  - DOMAIN-SUFFIX,yes-news.com,Proxies
+  - DOMAIN-SUFFIX,yomiuri.co.jp,Proxies
+  - DOMAIN-SUFFIX,you-get.org,Proxies
+  - DOMAIN-SUFFIX,zaobao.com,Proxies
+  - DOMAIN-SUFFIX,zello.com,Proxies
+  - DOMAIN-SUFFIX,zeronet.io,Proxies
+  - DOMAIN-SUFFIX,z-lib.org,Proxies
+  - DOMAIN-SUFFIX,zoom.us,Proxies
+  - DOMAIN,cc.tvbs.com.tw,Proxies
+  - DOMAIN,ocsp.int-x3.letsencrypt.org,Proxies
+  - DOMAIN,us.weibo.com,Proxies
+  - DOMAIN-SUFFIX,edu,Proxies
+  - DOMAIN-SUFFIX,gov,Proxies
+  - DOMAIN-SUFFIX,mil,Proxies
+  - DOMAIN-SUFFIX,abc.xyz,Proxies
+  - DOMAIN-SUFFIX,advertisercommunity.com,Proxies
+  - DOMAIN-SUFFIX,ampproject.org,Proxies
+  - DOMAIN-SUFFIX,android.com,Proxies
+  - DOMAIN-SUFFIX,androidify.com,Proxies
+  - DOMAIN-SUFFIX,autodraw.com,Proxies
+  - DOMAIN-SUFFIX,capitalg.com,Proxies
+  - DOMAIN-SUFFIX,certificate-transparency.org,Proxies
+  - DOMAIN-SUFFIX,chrome.com,Proxies
+  - DOMAIN-SUFFIX,chromeexperiments.com,Proxies
+  - DOMAIN-SUFFIX,chromestatus.com,Proxies
+  - DOMAIN-SUFFIX,chromium.org,Proxies
+  - DOMAIN-SUFFIX,creativelab5.com,Proxies
+  - DOMAIN-SUFFIX,debug.com,Proxies
+  - DOMAIN-SUFFIX,deepmind.com,Proxies
+  - DOMAIN-SUFFIX,dialogflow.com,Proxies
+  - DOMAIN-SUFFIX,firebaseio.com,Proxies
+  - DOMAIN-SUFFIX,getmdl.io,Proxies
+  - DOMAIN-SUFFIX,ggpht.com,Proxies
+  - DOMAIN-SUFFIX,gmail.com,Proxies
+  - DOMAIN-SUFFIX,gmodules.com,Proxies
+  - DOMAIN-SUFFIX,godoc.org,Proxies
+  - DOMAIN-SUFFIX,gstatic.com,Proxies
+  - DOMAIN-SUFFIX,gv.com,Proxies
+  - DOMAIN-SUFFIX,gwtproject.org,Proxies
+  - DOMAIN-SUFFIX,itasoftware.com,Proxies
+  - DOMAIN-SUFFIX,madewithcode.com,Proxies
+  - DOMAIN-SUFFIX,material.io,Proxies
+  - DOMAIN-SUFFIX,page.link,Proxies
+  - DOMAIN-SUFFIX,polymer-project.org,Proxies
+  - DOMAIN-SUFFIX,recaptcha.net,Proxies
+  - DOMAIN-SUFFIX,shattered.io,Proxies
+  - DOMAIN-SUFFIX,synergyse.com,Proxies
+  - DOMAIN-SUFFIX,telephony.goog,Proxies
+  - DOMAIN-SUFFIX,tensorflow.org,Proxies
+  - DOMAIN-SUFFIX,tfhub.dev,Proxies
+  - DOMAIN-SUFFIX,tiltbrush.com,Proxies
+  - DOMAIN-SUFFIX,waveprotocol.org,Proxies
+  - DOMAIN-SUFFIX,waymo.com,Proxies
+  - DOMAIN-SUFFIX,webmproject.org,Proxies
+  - DOMAIN-SUFFIX,webrtc.org,Proxies
+  - DOMAIN-SUFFIX,whatbrowser.org,Proxies
+  - DOMAIN-SUFFIX,widevine.com,Proxies
+  - DOMAIN-SUFFIX,x.company,Proxies
+  - DOMAIN-SUFFIX,youtu.be,Proxies
+  - DOMAIN-SUFFIX,yt.be,Proxies
+  - DOMAIN-SUFFIX,ytimg.com,Proxies
+  - DOMAIN-SUFFIX,t.me,Proxies
+  - DOMAIN-SUFFIX,tdesktop.com,Proxies
+  - DOMAIN-SUFFIX,telegram.me,Proxies
+  - DOMAIN-SUFFIX,telesco.pe,Proxies
+  - DOMAIN-KEYWORD,.facebook.,Proxies
+  - DOMAIN-SUFFIX,facebookmail.com,Proxies
+  - DOMAIN-SUFFIX,noxinfluencer.com,Proxies
+  - DOMAIN-SUFFIX,smartmailcloud.com,Proxies
+  - DOMAIN-SUFFIX,weebly.com,Proxies
+  - DOMAIN-SUFFIX,twitter.jp,Proxies
   - DOMAIN-SUFFIX,appsto.re,Proxies
-  - DOMAIN-SUFFIX,smoot.apple.com,Proxies
-  - DOMAIN,amp-api.podcasts.apple.com,Proxies
-  - DOMAIN,beta.music.apple.com,Proxies
   - DOMAIN,books.itunes.apple.com,Proxies
+  - DOMAIN-SUFFIX,smoot.apple.com,Proxies
+  - DOMAIN,beta.music.apple.com,Proxies
   - DOMAIN,lookup-api.apple.com,Proxies
-  - DOMAIN,radio.itunes.apple.com,Proxies
   - DOMAIN,apps.apple.com,Proxies
   - DOMAIN,books.apple.com,Proxies
   - DOMAIN,itunes.apple.com,Proxies
   - DOMAIN,tv.apple.com,Proxies
+  - DOMAIN,amp-api.podcasts.apple.com,Proxies
+  - DOMAIN,bookkeeper.itunes.apple.com,Proxies
   - DOMAIN,gateway.icloud.com,Proxies
   - DOMAIN-SUFFIX,apple.news,Proxies
   - DOMAIN,news-assets.apple.com,Proxies
@@ -1532,11 +1746,32 @@ rules:
   - DOMAIN,news-edge.apple.com,Proxies
   - DOMAIN,news-events.apple.com,Proxies
   - DOMAIN,apple.comscoreresearch.com,Proxies
+  - DOMAIN-SUFFIX,go.dev,Proxies
+  - DOMAIN-SUFFIX,golang.org,Proxies
+  - DOMAIN-SUFFIX,aicoin.com,Proxies
+  - DOMAIN-SUFFIX,aimoon.com,Proxies
   - DOMAIN-SUFFIX,bing.com,Proxies
+  - DOMAIN-SUFFIX,cccat.io,Proxies
+  - DOMAIN-SUFFIX,dubox.com,Proxies
+  - DOMAIN-SUFFIX,duboxcdn.com,Proxies
+  - DOMAIN-SUFFIX,ifixit.com,Proxies
   - DOMAIN-SUFFIX,linkedin.com,Proxies
-  - DOMAIN-SUFFIX,licdn.com,Proxies
-  - DOMAIN-SUFFIX,msn.com,Proxies
-  - DOMAIN-SUFFIX,skype.com,Proxies
+  - DOMAIN-SUFFIX,mangakakalot.com,Proxies
+  - DOMAIN-SUFFIX,shopeemobile.com,Proxies
+  - DOMAIN-SUFFIX,sushi.com,Proxies
+  - DOMAIN,appleid.apple.com,Proxies
+  - DOMAIN,developer.apple.com,Proxies
+  - DOMAIN,www.icloud.com,Proxies
+  - DOMAIN,ocsp.apple.com,Proxies
+  - DOMAIN,cacerts.digicert.com,Proxies
+  - DOMAIN,crl3.digicert.com,Proxies
+  - DOMAIN,crl4.digicert.com,Proxies
+  - DOMAIN,ocsp.digicert.com,Proxies
+  - DOMAIN-SUFFIX,inkbunny.net,Proxies
+  - DOMAIN-SUFFIX,metapix.net,Proxies
+  - DOMAIN-SUFFIX,s3.amazonaws.com,Proxies
+  - DOMAIN-SUFFIX,zaobao.com.sg,Proxies
+  - DOMAIN,international-gfe.download.nvidia.com,Proxies
   - DOMAIN-SUFFIX,local,DIRECT
   - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
   - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
@@ -1548,17 +1783,18 @@ rules:
   - IP-CIDR6,fe80::/10,DIRECT,no-resolve
   - IP-CIDR6,fd00::/8,DIRECT,no-resolve
   - DOMAIN,app.adjust.com,DIRECT
-  - DOMAIN,app.appsflyer.com,DIRECT
   - DOMAIN,bdtj.tagtic.cn,DIRECT
   - DOMAIN,log.mmstat.com,DIRECT
   - DOMAIN,sycm.mmstat.com,DIRECT
   - DOMAIN-SUFFIX,blog.google,DIRECT
   - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
   - DOMAIN,clientservices.googleapis.com,DIRECT
-  - DOMAIN,update.googleapis.com,DIRECT
   - DOMAIN,dl.google.com,DIRECT
   - DOMAIN,dl.l.google.com,DIRECT
   - DOMAIN,update.googleapis.com,DIRECT
+  - DOMAIN,translate.googleapis.com,DIRECT
+  - DOMAIN,fonts.googleapis.com,DIRECT
+  - DOMAIN,fonts.gstatic.com,DIRECT
   - DOMAIN,mtalk.google.com,DIRECT
   - DOMAIN,alt1-mtalk.google.com,DIRECT
   - DOMAIN,alt2-mtalk.google.com,DIRECT
@@ -1568,20 +1804,99 @@ rules:
   - DOMAIN,alt6-mtalk.google.com,DIRECT
   - DOMAIN,alt7-mtalk.google.com,DIRECT
   - DOMAIN,alt8-mtalk.google.com,DIRECT
+  - DOMAIN,pubads.g.doubleclick.net,DIRECT
   - DOMAIN,fairplay.l.qq.com,DIRECT
   - DOMAIN,livew.l.qq.com,DIRECT
   - DOMAIN,vd.l.qq.com,DIRECT
-  - DOMAIN,vi.l.qq.com,DIRECT
   - DOMAIN,analytics.strava.com,DIRECT
   - DOMAIN,msg.umeng.com,DIRECT
   - DOMAIN,msg.umengcloud.com,DIRECT
-  - DOMAIN-SUFFIX,flyert.com,DIRECT
-  - DOMAIN-SUFFIX,gandi.net,DIRECT
-  - DOMAIN-SUFFIX,snapdrop.net,DIRECT
-  - DOMAIN,download.jetbrains.com,DIRECT
-  - DOMAIN,origin-a.akamaihd.net,DIRECT
+  - DOMAIN-SUFFIX,qhres.com,DIRECT
+  - DOMAIN-SUFFIX,qhimg.com,DIRECT
+  - DOMAIN-SUFFIX,alibaba.com,DIRECT
+  - DOMAIN-SUFFIX,alibabausercontent.com,DIRECT
+  - DOMAIN-SUFFIX,alicdn.com,DIRECT
+  - DOMAIN-SUFFIX,alikunlun.com,DIRECT
+  - DOMAIN-SUFFIX,alipay.com,DIRECT
+  - DOMAIN-SUFFIX,amap.com,DIRECT
+  - DOMAIN-SUFFIX,autonavi.com,DIRECT
+  - DOMAIN-SUFFIX,dingtalk.com,DIRECT
+  - DOMAIN-SUFFIX,mxhichina.com,DIRECT
+  - DOMAIN-SUFFIX,soku.com,DIRECT
+  - DOMAIN-SUFFIX,taobao.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.com,DIRECT
+  - DOMAIN-SUFFIX,tmall.hk,DIRECT
+  - DOMAIN-SUFFIX,ykimg.com,DIRECT
+  - DOMAIN-SUFFIX,youku.com,DIRECT
+  - DOMAIN-SUFFIX,xiami.com,DIRECT
+  - DOMAIN-SUFFIX,xiami.net,DIRECT
+  - DOMAIN-SUFFIX,aaplimg.com,DIRECT
+  - DOMAIN-SUFFIX,apple.co,DIRECT
+  - DOMAIN-SUFFIX,apple.com,DIRECT
+  - DOMAIN-SUFFIX,apple-cloudkit.com,DIRECT
+  - DOMAIN-SUFFIX,appstore.com,DIRECT
+  - DOMAIN-SUFFIX,cdn-apple.com,DIRECT
+  - DOMAIN-SUFFIX,icloud.com,DIRECT
+  - DOMAIN-SUFFIX,icloud-content.com,DIRECT
+  - DOMAIN-SUFFIX,me.com,DIRECT
+  - DOMAIN-SUFFIX,mzstatic.com,DIRECT
+  - DOMAIN-SUFFIX,baidu.com,DIRECT
+  - DOMAIN-SUFFIX,baidubcr.com,DIRECT
+  - DOMAIN-SUFFIX,baidupan.com,DIRECT
+  - DOMAIN-SUFFIX,baidupcs.com,DIRECT
+  - DOMAIN-SUFFIX,bdimg.com,DIRECT
+  - DOMAIN-SUFFIX,bdstatic.com,DIRECT
+  - DOMAIN-SUFFIX,yunjiasu-cdn.net,DIRECT
+  - DOMAIN-SUFFIX,battle.net,DIRECT
+  - DOMAIN-SUFFIX,blizzard.com,DIRECT
+  - DOMAIN-SUFFIX,acgvideo.com,DIRECT
+  - DOMAIN-SUFFIX,biliapi.com,DIRECT
+  - DOMAIN-SUFFIX,biliapi.net,DIRECT
+  - DOMAIN-SUFFIX,bilibili.com,DIRECT
+  - DOMAIN-SUFFIX,bilibili.tv,DIRECT
+  - DOMAIN-SUFFIX,hdslb.com,DIRECT
+  - DOMAIN-SUFFIX,feiliao.com,DIRECT
+  - DOMAIN-SUFFIX,pstatp.com,DIRECT
+  - DOMAIN-SUFFIX,snssdk.com,DIRECT
+  - DOMAIN-SUFFIX,iesdouyin.com,DIRECT
+  - DOMAIN-SUFFIX,toutiao.com,DIRECT
+  - DOMAIN-SUFFIX,cctv.com,DIRECT
+  - DOMAIN-SUFFIX,cctvpic.com,DIRECT
+  - DOMAIN-SUFFIX,livechina.com,DIRECT
+  - DOMAIN-SUFFIX,21cn.com,DIRECT
+  - DOMAIN-SUFFIX,didialift.com,DIRECT
+  - DOMAIN-SUFFIX,didiglobal.com,DIRECT
+  - DOMAIN-SUFFIX,udache.com,DIRECT
+  - DOMAIN-SUFFIX,hitv.com,DIRECT
+  - DOMAIN-SUFFIX,mgtv.com,DIRECT
+  - DOMAIN-SUFFIX,iqiyi.com,DIRECT
+  - DOMAIN-SUFFIX,iqiyipic.com,DIRECT
+  - DOMAIN-SUFFIX,71.am,DIRECT
+  - DOMAIN-SUFFIX,jd.com,DIRECT
+  - DOMAIN-SUFFIX,jd.hk,DIRECT
+  - DOMAIN-SUFFIX,jdpay.com,DIRECT
+  - DOMAIN-SUFFIX,360buyimg.com,DIRECT
+  - DOMAIN-SUFFIX,iciba.com,DIRECT
+  - DOMAIN-SUFFIX,ksosoft.com,DIRECT
+  - DOMAIN-SUFFIX,meitu.com,DIRECT
+  - DOMAIN-SUFFIX,meitudata.com,DIRECT
+  - DOMAIN-SUFFIX,meitustat.com,DIRECT
+  - DOMAIN-SUFFIX,meipai.com,DIRECT
+  - DOMAIN-SUFFIX,dianping.com,DIRECT
+  - DOMAIN-SUFFIX,dpfile.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.com,DIRECT
+  - DOMAIN-SUFFIX,meituan.net,DIRECT
+  - DOMAIN-SUFFIX,duokan.com,DIRECT
+  - DOMAIN-SUFFIX,mi.com,DIRECT
+  - DOMAIN-SUFFIX,mi-img.com,DIRECT
+  - DOMAIN-SUFFIX,miui.com,DIRECT
+  - DOMAIN-SUFFIX,miwifi.com,DIRECT
+  - DOMAIN-SUFFIX,xiaomi.com,DIRECT
+  - DOMAIN-SUFFIX,xiaomi.net,DIRECT
+  - DOMAIN-SUFFIX,visualstudio.com,DIRECT
+  - DOMAIN-SUFFIX,hotmail.com,DIRECT
+  - DOMAIN-SUFFIX,outlook.com,DIRECT
   - DOMAIN,outlook.office365.com,DIRECT
-  - DOMAIN,smtp-mail.outlook.com,DIRECT
   - DOMAIN,smtp.office365.com,DIRECT
   - DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com,DIRECT
   - DOMAIN-SUFFIX,update.microsoft.com,DIRECT
@@ -1590,15 +1905,62 @@ rules:
   - DOMAIN,download.microsoft.com,DIRECT
   - DOMAIN,wustat.windows.com,DIRECT
   - DOMAIN,ntservicepack.microsoft.com,DIRECT
+  - DOMAIN-SUFFIX,163.com,DIRECT
+  - DOMAIN-SUFFIX,126.com,DIRECT
+  - DOMAIN-SUFFIX,126.net,DIRECT
+  - DOMAIN-SUFFIX,127.net,DIRECT
+  - DOMAIN-SUFFIX,163yun.com,DIRECT
+  - DOMAIN-SUFFIX,lofter.com,DIRECT
+  - DOMAIN-SUFFIX,netease.com,DIRECT
+  - DOMAIN-SUFFIX,ydstatic.com,DIRECT
+  - DOMAIN-SUFFIX,youdao.com,DIRECT
   - DOMAIN-SUFFIX,paypal.com,DIRECT
   - DOMAIN-SUFFIX,paypal.me,DIRECT
-  - DOMAIN-SUFFIX,paypal-mktg.com,DIRECT
   - DOMAIN-SUFFIX,paypalobjects.com,DIRECT
-  - DOMAIN-SUFFIX,cm.steampowered.com,DIRECT
-  - DOMAIN-SUFFIX,steamserver.net,DIRECT
+  - DOMAIN-SUFFIX,sina.com,DIRECT
+  - DOMAIN-SUFFIX,weibo.com,DIRECT
+  - DOMAIN-SUFFIX,weibocdn.com,DIRECT
+  - DOMAIN-SUFFIX,sohu.com,DIRECT
+  - DOMAIN-SUFFIX,sohucs.com,DIRECT
+  - DOMAIN-SUFFIX,sohu-inc.com,DIRECT
+  - DOMAIN-SUFFIX,v-56.com,DIRECT
+  - DOMAIN-SUFFIX,sogo.com,DIRECT
+  - DOMAIN-SUFFIX,sogou.com,DIRECT
+  - DOMAIN-SUFFIX,sogoucdn.com,DIRECT
+  - DOMAIN-SUFFIX,steamcontent.com,DIRECT
+  - DOMAIN-SUFFIX,steampowered.com,DIRECT
+  - DOMAIN-SUFFIX,steamstatic.com,DIRECT
+  - DOMAIN-SUFFIX,gtimg.com,DIRECT
+  - DOMAIN-SUFFIX,idqqimg.com,DIRECT
+  - DOMAIN-SUFFIX,igamecj.com,DIRECT
+  - DOMAIN-SUFFIX,myapp.com,DIRECT
+  - DOMAIN-SUFFIX,myqcloud.com,DIRECT
+  - DOMAIN-SUFFIX,qq.com,DIRECT
+  - DOMAIN-SUFFIX,qqmail.com,DIRECT
+  - DOMAIN-SUFFIX,servicewechat.com,DIRECT
+  - DOMAIN-SUFFIX,tencent.com,DIRECT
+  - DOMAIN-SUFFIX,tencent-cloud.com,DIRECT
+  - DOMAIN-SUFFIX,tencent-cloud.net,DIRECT
+  - DOMAIN-SUFFIX,tenpay.com,DIRECT
+  - DOMAIN-SUFFIX,wechat.com,DIRECT
+  - DOMAIN,file-igamecj.akamaized.net,DIRECT
   - IP-CIDR,182.254.116.0/24,DIRECT,no-resolve
-  - IP-CIDR,203.205.238.0/23,DIRECT,no-resolve
   - IP-CIDR,203.205.254.0/23,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,ccgslb.com,DIRECT
+  - DOMAIN-SUFFIX,ccgslb.net,DIRECT
+  - DOMAIN-SUFFIX,chinanetcenter.com,DIRECT
+  - DOMAIN-SUFFIX,meixincdn.com,DIRECT
+  - DOMAIN-SUFFIX,ourdvs.com,DIRECT
+  - DOMAIN-SUFFIX,staticdn.net,DIRECT
+  - DOMAIN-SUFFIX,wangsu.com,DIRECT
+  - DOMAIN-SUFFIX,ipip.net,DIRECT
+  - DOMAIN-SUFFIX,ip.la,DIRECT
+  - DOMAIN-SUFFIX,ip.sb,DIRECT
+  - DOMAIN-SUFFIX,ip-cdn.com,DIRECT
+  - DOMAIN-SUFFIX,ipv6-test.com,DIRECT
+  - DOMAIN-SUFFIX,myip.la,DIRECT
+  - DOMAIN-SUFFIX,test-ipv6.com,DIRECT
+  - DOMAIN-SUFFIX,whatismyip.com,DIRECT
   - DOMAIN,ip.istatmenus.app,DIRECT
   - DOMAIN,sms.imagetasks.com,DIRECT
   - DOMAIN-SUFFIX,netspeedtestmaster.com,DIRECT
@@ -1635,6 +1997,128 @@ rules:
   - DOMAIN-SUFFIX,springsunday.net,DIRECT
   - DOMAIN-SUFFIX,tjupt.org,DIRECT
   - DOMAIN-SUFFIX,totheglory.im,DIRECT
-  - GEOIP,CN,DIRECT,no-resolve
+  - DOMAIN-SUFFIX,cn,DIRECT
+  - DOMAIN-SUFFIX,115.com,DIRECT
+  - DOMAIN-SUFFIX,360in.com,DIRECT
+  - DOMAIN-SUFFIX,51ym.me,DIRECT
+  - DOMAIN-SUFFIX,8686c.com,DIRECT
+  - DOMAIN-SUFFIX,99.com,DIRECT
+  - DOMAIN-SUFFIX,abchina.com,DIRECT
+  - DOMAIN-SUFFIX,accuweather.com,DIRECT
+  - DOMAIN-SUFFIX,agora.io,DIRECT
+  - DOMAIN-SUFFIX,aicoinstorge.com,DIRECT
+  - DOMAIN-SUFFIX,air-matters.com,DIRECT
+  - DOMAIN-SUFFIX,air-matters.io,DIRECT
+  - DOMAIN-SUFFIX,aixifan.com,DIRECT
+  - DOMAIN-SUFFIX,amd.com,DIRECT
+  - DOMAIN-SUFFIX,b612.net,DIRECT
+  - DOMAIN-SUFFIX,bdatu.com,DIRECT
+  - DOMAIN-SUFFIX,beitaichufang.com,DIRECT
+  - DOMAIN-SUFFIX,booking.com,DIRECT
+  - DOMAIN-SUFFIX,bstatic.com,DIRECT
+  - DOMAIN-SUFFIX,cailianpress.com,DIRECT
+  - DOMAIN-SUFFIX,camera360.com,DIRECT
+  - DOMAIN-SUFFIX,chaoxing.com,DIRECT
+  - DOMAIN-SUFFIX,chaoxing.com,DIRECT
+  - DOMAIN-SUFFIX,chinaso.com,DIRECT
+  - DOMAIN-SUFFIX,chuimg.com,DIRECT
+  - DOMAIN-SUFFIX,chunyu.mobi,DIRECT
+  - DOMAIN-SUFFIX,cibntv.net,DIRECT
+  - DOMAIN-SUFFIX,cmbchina.com,DIRECT
+  - DOMAIN-SUFFIX,cmbimg.com,DIRECT
+  - DOMAIN-SUFFIX,coolapk.com,DIRECT
+  - DOMAIN-SUFFIX,ctrip.com,DIRECT
+  - DOMAIN-SUFFIX,dfcfw.com,DIRECT
+  - DOMAIN-SUFFIX,dji.net,DIRECT
+  - DOMAIN-SUFFIX,docschina.org,DIRECT
+  - DOMAIN-SUFFIX,douban.com,DIRECT
+  - DOMAIN-SUFFIX,doubanio.com,DIRECT
+  - DOMAIN-SUFFIX,douyu.com,DIRECT
+  - DOMAIN-SUFFIX,dxycdn.com,DIRECT
+  - DOMAIN-SUFFIX,dytt8.net,DIRECT
+  - DOMAIN-SUFFIX,eastmoney.com,DIRECT
+  - DOMAIN-SUFFIX,eudic.net,DIRECT
+  - DOMAIN-SUFFIX,feng.com,DIRECT
+  - DOMAIN-SUFFIX,fengkongcloud.com,DIRECT
+  - DOMAIN-SUFFIX,frdic.com,DIRECT
+  - DOMAIN-SUFFIX,futu5.com,DIRECT
+  - DOMAIN-SUFFIX,futunn.com,DIRECT
+  - DOMAIN-SUFFIX,gandi.net,DIRECT
+  - DOMAIN-SUFFIX,gcores.com,DIRECT
+  - DOMAIN-SUFFIX,geilicdn.com,DIRECT
+  - DOMAIN-SUFFIX,getpricetag.com,DIRECT
+  - DOMAIN-SUFFIX,gifshow.com,DIRECT
+  - DOMAIN-SUFFIX,godic.net,DIRECT
+  - DOMAIN-SUFFIX,heweather.net,DIRECT
+  - DOMAIN-SUFFIX,hicloud.com,DIRECT
+  - DOMAIN-SUFFIX,hongxiu.com,DIRECT
+  - DOMAIN-SUFFIX,hostbuf.com,DIRECT
+  - DOMAIN-SUFFIX,huxiucdn.com,DIRECT
+  - DOMAIN-SUFFIX,huya.com,DIRECT
+  - DOMAIN-SUFFIX,ibm.com,DIRECT
+  - DOMAIN-SUFFIX,infinitynewtab.com,DIRECT
+  - DOMAIN-SUFFIX,ithome.com,DIRECT
+  - DOMAIN-SUFFIX,java.com,DIRECT
+  - DOMAIN-SUFFIX,jianguoyun.com,DIRECT
+  - DOMAIN-SUFFIX,jianshu.com,DIRECT
+  - DOMAIN-SUFFIX,jianshu.io,DIRECT
+  - DOMAIN-SUFFIX,jidian.im,DIRECT
+  - DOMAIN-SUFFIX,kaiyanapp.com,DIRECT
+  - DOMAIN-SUFFIX,kaspersky-labs.com,DIRECT
+  - DOMAIN-SUFFIX,keepcdn.com,DIRECT
+  - DOMAIN-SUFFIX,kkmh.com,DIRECT
+  - DOMAIN-SUFFIX,lanzous.com,DIRECT
+  - DOMAIN-SUFFIX,luojilab.com,DIRECT
+  - DOMAIN-SUFFIX,maoyan.com,DIRECT
+  - DOMAIN-SUFFIX,maoyun.tv,DIRECT
+  - DOMAIN-SUFFIX,mls-cdn.com,DIRECT
+  - DOMAIN-SUFFIX,mobike.com,DIRECT
+  - DOMAIN-SUFFIX,moke.com,DIRECT
+  - DOMAIN-SUFFIX,mubu.com,DIRECT
+  - DOMAIN-SUFFIX,myzaker.com,DIRECT
+  - DOMAIN-SUFFIX,nim-lang-cn.org,DIRECT
+  - DOMAIN-SUFFIX,ntp.org,DIRECT
+  - DOMAIN-SUFFIX,nvidia.com,DIRECT
+  - DOMAIN-SUFFIX,oracle.com,DIRECT
+  - DOMAIN-SUFFIX,plex.tv,DIRECT
+  - DOMAIN-SUFFIX,qidian.com,DIRECT
+  - DOMAIN-SUFFIX,qweather.com,DIRECT
+  - DOMAIN-SUFFIX,qyer.com,DIRECT
+  - DOMAIN-SUFFIX,qyerstatic.com,DIRECT
+  - DOMAIN-SUFFIX,raychase.net,DIRECT
+  - DOMAIN-SUFFIX,ronghub.com,DIRECT
+  - DOMAIN-SUFFIX,ruguoapp.com,DIRECT
+  - DOMAIN-SUFFIX,sankuai.com,DIRECT
+  - DOMAIN-SUFFIX,scomper.me,DIRECT
+  - DOMAIN-SUFFIX,shouqianba.com,DIRECT
+  - DOMAIN-SUFFIX,sm.ms,DIRECT
+  - DOMAIN-SUFFIX,smzdm.com,DIRECT
+  - DOMAIN-SUFFIX,snapdrop.net,DIRECT
+  - DOMAIN-SUFFIX,snwx.com,DIRECT
+  - DOMAIN-SUFFIX,s-reader.com,DIRECT
+  - DOMAIN-SUFFIX,sspai.com,DIRECT
+  - DOMAIN-SUFFIX,subhd.tv,DIRECT
+  - DOMAIN-SUFFIX,takungpao.com,DIRECT
+  - DOMAIN-SUFFIX,teamviewer.com,DIRECT
+  - DOMAIN-SUFFIX,tianyancha.com,DIRECT
+  - DOMAIN-SUFFIX,tophub.today,DIRECT
+  - DOMAIN-SUFFIX,uning.com,DIRECT
+  - DOMAIN-SUFFIX,weather.com,DIRECT
+  - DOMAIN-SUFFIX,weico.cc,DIRECT
+  - DOMAIN-SUFFIX,weidian.com,DIRECT
+  - DOMAIN-SUFFIX,xiachufang.com,DIRECT
+  - DOMAIN-SUFFIX,xiaoka.tv,DIRECT
+  - DOMAIN-SUFFIX,ximalaya.com,DIRECT
+  - DOMAIN-SUFFIX,xinhuanet.com,DIRECT
+  - DOMAIN-SUFFIX,xmcdn.com,DIRECT
+  - DOMAIN-SUFFIX,yangkeduo.com,DIRECT
+  - DOMAIN-SUFFIX,yizhibo.com,DIRECT
+  - DOMAIN-SUFFIX,zhangzishi.cc,DIRECT
+  - DOMAIN-SUFFIX,zhihu.com,DIRECT
+  - DOMAIN-SUFFIX,zhihuishu.com,DIRECT
+  - DOMAIN-SUFFIX,zhimg.com,DIRECT
+  - DOMAIN-SUFFIX,zhuihd.com,DIRECT
+  - DOMAIN,download.jetbrains.com,DIRECT
+  - DOMAIN,images-cn.ssl-images-amazon.com,DIRECT
   - GEOIP,CN,DIRECT
   - MATCH,Proxies
